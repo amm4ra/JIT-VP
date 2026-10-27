@@ -1,0 +1,32 @@
+{
+  "source_dataset": "OpenClaw/clawhub-security-signals-live",
+  "source_dataset_revision": "323d4b4bd899884e6726b97d74158654281960e4",
+  "source_dataset_frozen_at": "2026-09-25T09:01:35.555373+00:00",
+  "crawl": {
+    "stage1_version_counts": {
+      "exists": true,
+      "rows": 77873,
+      "size_mb": 5.9,
+      "last_written_utc": "2026-09-24T13:47:18.026682+00:00"
+    },
+    "stage2a_version_lists": {
+      "exists": true,
+      "rows": 33527,
+      "size_mb": 68.2,
+      "last_written_utc": "2026-09-25T06:54:44.257906+00:00"
+    },
+    "stage2b_security": {
+      "exists": true,
+      "rows": 177339,
+      "size_mb": 829.0,
+      "last_written_utc": "2026-09-29T09:42:10.640973+00:00"
+    },
+    "stage3a_content_index": {
+      "exists": true,
+      "rows": 140,
+      "size_mb": 0.0,
+      "last_written_utc": "2026-09-29T09:48:16.711382+00:00"
+    }
+  },
+  "crawl_recorded_utc": "2026-10-01T12:20:35.279224+00:00"
+}
