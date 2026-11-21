@@ -1,0 +1,273 @@
+pair_id,row,old_key_points,new_key_points,codes_changed,note
+romanluoman00007/botlearn-mental-models@1.0.0->1.0.1,4,2,2,no,read in full; codes unchanged
+batxent/rednote-contacts@1.0.0->1.0.1,6,9,10,yes,read in full on retry; kp5 direction removed and evidence fixed; added name and description kp
+nantes/agent-attestation@1.1.1->2.0.0,7,5,5,no,read in full; codes unchanged
+codeblackhole1024/memory-transfer@2.1.0->2.1.1,16,5,5,no,read in full; codes unchanged
+joelsalespossible/self-maturing@1.0.0->1.0.1,17,7,7,no,read in full; codes unchanged
+hookcatch/hookcatch@1.0.0->1.0.1,19,5,5,no,read in full; codes unchanged
+kirorab/12306@1.0.0->1.0.1,28,4,4,no,"read in full; data/stations.json is two minified lines (825k and 708k chars), compared by script; codes unchanged"
+wubinghuang2019-source/sentiment-monitor@0.3.0->0.4.0,35,5,5,no,read in full; codes unchanged
+allenfancy-gan/ima-voice-ai@1.0.11->1.0.12,49,6,6,no,read in full; codes unchanged
+satoshistackalotto/accounting-workflows@0.1.0->0.1.1,50,6,6,no,read in full; codes unchanged
+dcecchino/socialconductor-skill@1.2.2->1.2.3,54,2,2,no,read in full; codes unchanged
+0xzahra/ai-training-specialist@1.0.0->1.1.0,56,3,3,no,read in full; codes unchanged
+crayfish-ai/feishu-relay@3.0.1->3.0.2,60,5,5,no,read in full; codes unchanged
+yamaz49/universal-data-analyst-en@1.0.0->1.0.1,75,4,5,yes,read in full; added license change key point
+fischerlam/faceless-video-zh@1.0.10->1.0.11,83,4,4,no,read in full; codes unchanged
+gizmogremlin/dub-youtube-with-voiceai@0.1.0->0.1.1,86,5,5,no,read in full; codes unchanged
+felixwortmann/whentomeet@1.0.1->1.0.2,89,6,6,no,read in full; codes unchanged
+whh110112/human-writing-skills@0.8.0->0.8.1,93,6,6,no,read in full; codes unchanged
+jeffersonling1217-png/futu-trading-bot@1.0.6->1.0.7,94,5,5,no,read in full; codes unchanged
+dashiming/godot-bridge@1.1.1->1.2.0,97,4,4,no,read in full; codes unchanged
+gyh2556406/factoriago@1.0.1->2.9.5,98,2,2,no,read in full; codes unchanged
+gopinathnelluri/contextkeeper@0.1.2->0.2.0,100,6,6,no,read in full; codes unchanged
+catteres/obsidian-memory-system@1.1.1->1.2.0,107,4,4,no,read in full; codes unchanged
+oboda0/task-specialist@1.2.0->1.2.1,118,4,4,no,read in full; codes unchanged
+irreel/tax-filing@0.1.0->0.1.1,129,5,5,no,read in full; codes unchanged
+clawtrustmolts/clawtrust@1.21.0->1.24.0,130,5,6,yes,read in full; added README_SDK documentation key point
+virtualstechteam/virtuals-protocol-acp@1.0.0->1.0.1,132,9,9,no,"partly read (package-lock.json 3,361 lines, first 1,000 read; all else full); codes confirmed"
+bangyizhang/tg-stickers@0.1.1->0.1.2,135,2,2,no,read in full; no change
+gmickel/gno@0.14.3->1.0.4,146,3,3,no,read in full; no change
+parmasanandgarlic/farmdash-autonomous-operator@1.0.6->1.0.7,147,5,5,no,read in full; no change
+ciklopentan/openclaw-memory-canonical@1.0.2->1.0.3,148,4,4,no,read in full; no change
+daniel-refahi-ikara/dr-context-pipeline@1.2.0->1.3.0,157,2,2,no,read in full (v1 copies verified identical by script); no change
+uynewnas/crud@1.0.0->1.0.1,166,2,2,no,read in full; no change
+thincher/claw-helper@1.0.0->1.0.1,167,3,4,yes,read in full; added removed instruction to run diagnostic commands
+anysearch-ai/anysearch@2.1.0->3.0.1,168,7,10,yes,"read in full; added agent email signup, release-tag pin and redirect guard"
+schbz/modelshow@1.0.0->1.0.1,171,7,7,no,read in full; no change
+kaicianflone/consensus-code-merge-guard@1.1.1->1.1.2,172,3,3,no,read in full; no change
+jordanculver/wiplash-agent@1.0.0->1.1.0,173,8,8,no,read in full; no change
+tinkle-community/claw402@1.0.0->1.0.1,178,2,2,no,read in full; no change
+luischarro/music-craft@1.5.1->1.6.0,183,5,5,no,read in full; no change
+lingmafuture/self-improving-compound@1.0.5->6.0.0,184,8,8,yes,"read in full; test key point corrected (tests modified, not added)"
+larkinjoshuad/cementops-environmental-compliance@1.0.1->1.1.0,186,4,4,no,read in full; no change
+manuelfelipearias/soulprint@1.0.23->1.0.24,190,6,7,yes,read in full; added removed peer-integrity and score-floor docs
+a-i-r/mineru-pdf-extractor@1.0.1->1.0.2,191,4,4,no,read in full; no change
+medstatstar/statdata-transfer@1.7.6->1.7.7,192,6,6,no,read in full (all reader and writer scripts); no change
+jenics/baidu-skill-guard@1.0.4->1.0.5,193,6,6,no,read in full; no change
+tiennv3/exploring-solana-with-solscan@1.0.7->1.0.8,196,5,6,yes,read in full; FAQ files were deleted not rewritten; key point split
+shawnpetros/deaiify@3.0.3->3.4.0,197,7,7,no,read in full (lockfile included); no change
+firef1ie/openclaw-agentpmt-tool-blockchain-scanner-d789e7@1.0.0->1.0.1,199,4,4,no,read in full; no change
+ikana/time@0.3.0->0.3.1,202,4,5,yes,read in full; added symlink refusal for scratch files
+vannelier/deep-validator@2.0.15->2.0.16,205,1,1,no,"partly read (app/services/disposable_domains.txt 5,359 lines, first 1,000 read; all else full); codes confirmed"
+phuc-nt/facebook-group-monitor@1.1.0->1.3.0,208,3,3,no,read in full; no change
+bytesagain3/encode@2.0.1->2.0.2,212,3,3,no,read in full; no change
+linkly-ai/linkly-ai@0.5.0->0.6.0,215,4,4,no,read in full; no change
+unrealbnb/binance-coach@2.0.0->2.1.0,218,5,9,yes,"read in full; added token redaction, openclaw send path, P&L sources and new commands"
+leostehlik/better-every-run@0.5.4->0.5.5,221,6,6,yes,"read in full; kp2 direction set to added (force bypass removed, card mandatory)"
+binance-skills-hub/binance-agentic-wallet@1.3.0->1.4.0,225,4,4,no,read in full; no change
+sammy-spk/igpt-email-intelligence@1.0.0->1.0.1,231,4,4,no,read in full; no change
+d4vinci/scrapling-official@0.4.7->0.4.8,233,3,3,no,read in full; no change
+norrishuang/opensearch-vector-search@1.3.2->1.3.3,240,6,6,no,read in full; no change
+devarogundade/flowfi@1.0.2->1.0.3,248,1,2,yes,read in full; added removed knowledge base section
+encryptshawn/openclaw-recovery-manager@1.0.0->1.0.1,258,3,3,no,read in full; no change
+clawclone-cc/clawclone@0.1.2->0.1.3,259,3,3,no,read in full; no change
+ajitsingh25/placed-resume-builder@1.0.2->1.1.0,261,4,4,yes,read in full; kp3 direction set to removed (declared env requirement dropped)
+clawtrustmolts/clawtrust@1.17.3->1.17.4,267,3,3,no,read in full; no change
+dinstein/openclaw-ops@1.1.0->1.2.0,273,2,2,no,read in full; no change
+toneflix/halloffame@1.0.9->1.0.10,274,2,3,yes,read in full; added README secrets and conduct rules
+sacravenger/nanmesh@2.2.0->2.3.0,279,5,6,yes,read in full; added removed vote/compare/listing features; kp4 evidence extended
+chris/google-review-responder@1.0.0->2.0.0,282,5,5,no,read in full; no change
+laziobird/openclaw-rpa@1.1.0->1.2.0,313,6,10,yes,"read in full; kp1 and kp4 evidence fixed; added pipeline, --from-file, guardrail and removed limitation key points"
+xiongwang11/product-detail-page-generator@3.0.0->2.2.0,314,4,6,yes,read in full; added demo login and browser-driven workflow
+nickvanzo/xena-protocol@0.1.9->0.2.0,323,2,2,no,read in full; no change
+nttylock/citedy-seo-agent@2.5.0->3.0.0,325,4,4,no,read in full; no change
+lifei68801/video-summary@1.2.2->1.3.0,337,4,4,yes,read in full; kp2 corrected (key reuse moved to agent prompt); kp3 evidence extended
+pe-evolver/agent-call@1.0.5->1.0.6,338,4,8,yes,"read in full; added dropped confirmation, privacy notice, frontmatter and input checks"
+mxansari007/cuchd-login@1.0.1->1.0.2,339,4,5,yes,read in full; kp3 set to modified (rules already in old notes); added autonomous post-login actions
+christina-de-martinez/react-email-skills@1.1.0->2.0.0,349,3,3,no,read in full; no change
+wavmson/memory-dream@1.0.2->1.0.3,350,1,1,no,read in full; no change
+extraterrest/auto-rollback@1.0.1->1.1.0,352,5,6,yes,read in full; kp1 and kp2 evidence extended; added dropped macOS-only limitation note
+spideystreet/x-to-notebook@1.0.0->1.1.0,363,3,4,yes,read in full; added tweets pushed as text sources
+azure-vision/caravo@0.4.0->0.4.1,364,3,3,no,read in full; no change
+highnoonoffice/ghost-publishing-pro@1.1.6->1.2.0,365,3,3,no,read in full; no change
+404-unknow/engram-2@0.1.0->0.1.1,369,3,3,no,read in full; no code change (old scan note replaced)
+simonvanlaak/kanban-workflow@0.1.6->0.1.7,371,2,3,yes,read in full; added assigned-only queue filter
+ckchzh/dbeaver@2.0.0->2.0.1,377,2,2,no,read in full; no change
+xueyetianya/clip-history@3.0.0->4.0.0,383,2,2,no,read in full; no change
+cecwxf/wtt-skill@1.0.27->1.0.28,388,2,2,no,read in full; no code change (old scan note replaced)
+china-travel-en/china-attraction-tickets@1.2.0->2.0.0,406,3,3,no,read in full; no change
+starensen/dcg-guard@1.0.1->1.1.0,415,3,4,yes,read in full; added temp/cache path exemption
+crypto-2042/mumuai-novel-skills@1.0.0->1.0.4,417,3,4,yes,read in full; added declared env vars
+noah-ing/goldkey@1.0.8->1.0.9,428,3,3,no,read in full; no change
+leooooooow/shopee-planner@1.0.0->1.1.0,429,1,2,yes,read in full; added removed limitations section
+pondsi/infinitycontext@1.3.0->1.3.1,430,3,4,yes,read in full; kp2 set to added (tag pin and checksum); added data sensitivity notice
+jiyuan/build-working-memory@1.1.0->1.1.1,431,3,3,no,read in full; no change (moved files verified identical by script)
+samonysh/plantuml-skill@1.7.0->1.7.1,432,3,3,no,read in full; no code change (old scan note replaced)
+lordmahakaal/excoder-autonomy@1.1.3->1.2.0,441,2,4,yes,read in full; added pinned install and Anthropic key requirement
+cloudcompile/site-summarizer@3.0.0->3.1.0,442,4,6,yes,"read in full; added narrowed redaction and URL checks, removed security notes"
+snarflakes/openclaw-interaction-bridge@1.5.0->1.6.1,445,3,3,no,read in full; no code change (old scan note replaced)
+sheepxux/sopaper-evidence@0.6.0->0.6.1,452,3,3,no,read in full; kp2 evidence extended (old scan note replaced)
+jasontsaicc/notebooklm-studio@2.1.2->2.1.3,459,1,2,yes,read in full; added ClawHub CLI install step
+claytantor/katbot-trading@0.3.1->0.5.0,462,4,6,yes,read in full; added research/market-intel API and removed Kraken/CoinGecko feeds
+thierrypdamiba/deepcontentskill23223@0.8.0->0.5.3,463,4,9,yes,"read in full; added stealth browser, human-like Reddit agent, env key loader, dependencies, tests"
+bendusy/mlx-local-inference@2.2.0->2.2.1,465,2,3,yes,read in full; added uv requirement
+yasmineliu/book-pdf-to-structured-json@1.0.2->2.0.0,473,3,5,yes,read in full; kp2 replaced (remote rules already present); added Poppler/Tesseract and tests
+kobeee/room-418@1.2.0->1.3.0,478,4,5,yes,read in full; added passive-defeat rule change
+void-57/ranchimall-messenger@1.0.6->1.0.7,485,2,3,yes,read in full; added send exit-code change
+leooooooow/flash-sale-designer@1.0.0->1.1.0,489,1,3,yes,read in full; added removed limitations and name change
+muselinn/fis-architecture@3.1.0-lite->3.1.1-lite,490,1,3,yes,read in full; added security note and version bump
+yepthatsjason/memstate-ai@1.1.1->1.2.2,494,3,3,no,read in full; no change
+pratie/bulktranscripts-youtube@1.0.0->1.0.1,497,3,3,no,read in full; no change
+zero2ai-hub/skill-amazon-ads-reporter@1.0.0->1.1.0,503,4,4,no,read in full; no code change (old scan note replaced)
+lemodigital/discord-project-manager@2.1.3->2.1.4,507,4,5,yes,read in full; added removal of hardcoded Discord IDs and paths
+zurbrick/agent-hardening-zurbrick@1.0.0->1.1.0,508,4,5,yes,read in full; added MCP behavioral rules
+520xiaomumu/html-deploy@1.1.0->1.2.0,513,3,3,no,read in full; no change
+fanyadan/super-router@0.1.2->0.1.3,514,7,9,yes,"partly read (router.py diff 3,531 lines, first 1,000 read; all other files full); added author path and metadata kps"
+bytesagain1/repo-bundler@2.0.0->2.0.1,518,2,2,no,read in full; no code change (old scan note replaced)
+c-narcissus/inspiration-case-figure-guide@1.0.0->2.6.0,520,5,6,yes,read in full; added rule against copying reference figures
+laiye-adp/laiye-ocr@1.10.0->1.10.3,523,3,3,no,read in full; no change
+johnsun4414/openclaw-chat@1.0.3->1.0.4,537,2,2,no,read in full (bundles compared by script); no code change
+zerozlw/figma-plugin-writer@0.1.0->1.0.0,540,2,2,no,read in full; no change
+ledzgio/spoticlaw@1.0.3->1.0.4,542,1,1,no,read in full; no change
+mellowmarshall/purposebot@0.1.0->1.2.0,543,4,5,yes,read in full; added API endpoint and listing discovery
+tomleelive/openclaw-unity-skill@1.6.3->1.7.0,547,4,4,no,read in full; no code change (old scan note replaced)
+haonings/android-armor-breaker@1.1.3->1.1.4,555,1,1,no,read in full; no code change (old scan note replaced)
+zoroposkai/anti-regression@1.0.0->1.0.1,560,1,2,yes,read in full; added version bump
+polyparlay/hyperliquid-trading-place@1.0.17->1.0.18,565,1,1,no,read in full; no change
+cloudcompile/site-summarizer@1.1.0->2.1.0,573,3,3,no,read in full; evidence fixed
+fengci/whisky-search@1.0.3->1.0.4,575,2,2,no,read in full; no change
+daav3/agentic-lending-morpho@0.1.8->0.1.9,579,4,7,yes,"read in full; added preflight checks, removed private key and author paths"
+kamroncorp/propaymun-information-architecture-skill@0.1.1->1.0.0,586,5,8,yes,"read in full (packaged kits identical by script); added removed file-enumeration rule, zip package, old kit removal"
+billybodean/abs-data-api@1.0.0->1.0.1,592,3,5,yes,read in full; kp3 evidence fixed; added metadata generation and chart filename sanitising
+rnwy/rnwy@1.0.1->1.0.2,593,3,5,yes,read in full; added metadata flag removal and description trim
+yhyyz/ourmem@0.1.0->0.2.0,601,3,4,yes,read in full; added security section
+sjt-at-revelata/revelata-deepkpi@1.0.0->1.0.1,607,4,6,yes,read in full; added disclaimers and Excel format change
+juan-oy/local-image-gen-aipc@1.0.2->1.0.3,609,3,5,yes,read in full; added openvino pin and script deployment move
+boy-hack/test123asdzc@1.0.0->1.0.1,610,6,9,yes,"read in full; added removed confirmation guardrails, injection examples cut, resilience rules"
+bonniegeng-max/free-course-share@1.1.4->1.1.5,615,3,8,yes,"read in full; added privacy, dependency, evasion-tips and verification kps"
+whitetowerai/video-add-captions@1.0.4->1.0.5,617,3,4,yes,read in full; kp3 evidence fixed; added plan validation
+fenghaozhe-git/invoice-verification-service@0.2.0->0.4.0,618,3,4,yes,"read in full; added image-only verify, terms agreed by default"
+alightttt/play-chess@1.0.13->1.0.14,626,3,4,yes,"partly read (SKILL.md diff 3,047 lines: first 1,000 lines plus all SKILL.md hunks); kp1 and kp3 direction fixed; added removed browser-harness install"
+kadbbz/develop-and-deploy-web-app@1.0.0->1.0.1,632,3,5,yes,read in full; added instance/token guards and .ai.md notes
+sciminer/protein-design@1.0.7->1.0.8,633,2,2,no,read in full; kp2 evidence extended
+632657122/comic@0.1.0->0.1.1,657,2,3,yes,read in full (deleted vendor files read); added removed key-persistence code
+chinasilva/skill-hub-gateway@2.3.3->2.4.0,659,4,5,yes,read in full; added public upload of local files
+techtanush/claw-bond@2.1.0->1.0.5,660,4,6,yes,read in full; kp1 recoded; added relay host change and env var docs
+gigolab/gigo-lobster-doctor@1.2.2->1.2.3,665,1,1,no,read in full; no code change
+leostehlik/brief-master@0.1.0->0.2.0,669,2,3,yes,read in full; kp1 recoded; added template rewrite
+appback/predictclash@2.3.0->3.0.0,673,2,4,yes,read in full; added removed input sanitising and removed debate step
+zeuslabsllc/theta-edgecloud-skill@0.1.27->0.1.28,679,3,7,yes,"read in full (dist checked against src by script); added removed wallet RPC, new commands, removed personal notes, removed key setup script"
+docsor1212/academic-figures@2.0.1->2.1.0,680,3,4,yes,read in full; kp2 evidence fixed; added removed automatic pip install
+vintlin/usage-visualizer@1.0.2->1.0.3,690,2,4,yes,read in full; added removed privacy notes and dropped image dependencies; kp2 evidence extended
+globalcaos/agent-superpowers@1.1.1->1.1.2,692,2,3,yes,read in full; added removal of the section on extracting another tools prompts
+harrylabsj/doc-weaver@1.0.0->1.0.1,697,1,4,yes,"read in full; added real docx/pdf generation, new dependencies and skill.json kps"
+wisdomsword/code-security-audit@2.0.1->2.1.0,702,3,4,yes,"read in full; kp3 fixed (CI templates existed, only edited); added secret-scan rewrite kp"
+shekel-xyz/shekel-arena@1.0.6->1.0.7,707,2,3,yes,read in full; kp1 direction fixed (disclosure table already existed and was moved up and shortened); added setup guide rewrite kp
+harrylabsj/vip@1.0.0->1.1.0,717,2,5,yes,"read in full (deleted scripts read); kp1 evidence extended; added removed privacy controls, dependencies and new frontmatter kps"
+gizmogremlin/openclaw-skill-voice-ai-voices@1.1.0->1.1.1,725,2,4,yes,"read in full; kp1 evidence extended (voice cloning upload, public by default); added key-file loader and metadata kps"
+nevo-david/postiz@1.0.6->1.0.7,747,2,2,no,read in full; codes unchanged
+ivaavimusic/x402-compute@1.0.3->1.0.4,748,4,5,yes,read in full; kp1 evidence extended; added solders dependency kp
+huangrichao2020/a-share-decision-desk@0.1.7->0.1.8,760,2,5,yes,"read in full; kp1 evidence fixed (news_iterator and launchd installer already existed, only key check added); added endpoint, methodology and test kps"
+dobrinalexandru/dual-memory@1.0.2->1.0.4,762,2,2,no,"partly read (package-lock.json 7778 lines: first 1000 read, no script hunks); codes unchanged"
+shepsci/kaggle@1.0.0->1.0.1,768,3,4,yes,read in full; kp2 direction modified -> removed (scheduler auto-install removed); added template kp
+jononovo/sendclaw@1.7.5->1.7.6,769,1,3,yes,read in full (renamed files compared line by line); added SKILL.md credential metadata removal and description kps
+whyischen/local-context-bridge@1.0.3->1.0.4,778,2,5,yes,"read in full; kp1 evidence extended (setup now delegates to core); added removed security guidance, rename and permission kps"
+up2itnow/agentwallet-sdk@1.0.0->1.0.1,785,3,6,yes,"read in full; kp1 split (tests separate); added test removal, package rename and security guidance kps"
+matthiasbeckmann987-spec/beckmann-knowledge-graph@1.4.0->2.0.0,789,1,1,no,"partly read (""graph old.json"" 8526 lines: first 1000 read); codes unchanged"
+gl0di/clawseccheck@3.55.0->3.56.0,790,2,5,yes,"read in full; kp1 evidence extended; added vet judge, safety checks and guidance kps"
+asif2bd/xcloud@4.3.2->4.4.2,793,2,3,yes,read in full; added agent guardrails kp
+yqxu/custom-gift-leewow@1.0.1->1.0.3,802,2,3,yes,read in full; added link-signing change kp
+davieshuang/clawworld@0.0.7->0.0.8,805,1,2,yes,read in full; added api-spec rewrite kp
+jimliu/baoyu-comic@1.60.1->1.91.0,808,2,2,yes,read in full; kp2 replaced (no pdf-lib dependency in this diff); character-sheet requirement removed
+franklu0819-lang/feishu-file@1.1.0->1.0.1,809,2,4,yes,read in full; added hardcoded credential removal and receiver type kps
+fretelli/cognitive-behavior-evaluator@1.0.0->1.0.1,810,2,4,yes,read in full; added metadata and containment kps
+seanding1998/bazi-analysis-power@1.0.5->1.0.6,811,1,2,yes,"read in full (all deleted files read, incl. references); added removed external API kp"
+vieiradiego/openclaw-aws-sre-report@1.0.0->1.0.1,820,1,1,no,partly read (package-lock.json 5523 lines: first 1000 read); codes unchanged
+jehg814/ve-exchange-rates@1.0.3->1.0.4,822,2,2,yes,full; kp2 recoded (old shell script already scraped bcv.org.ve with the same fallbacks; only SKILL.md source text changed)
+skylinehk/travel-planner-notion-ai-obsidian-kontour-integration@2.0.12->2.0.15,827,3,5,yes,full except scanner snapshot pages (kept blind); kp2 direction modified -> added and evidence fixed; kp3 evidence split; added link removal and pre-publish check kps
+luiseduardoaugusto/plane-so-cli@1.0.1->1.1.0,828,2,3,yes,full; added security and privacy section kp
+muselinn/fis-architecture@3.2.11->3.2.1,829,2,6,yes,"full; kp1 recoded to added (delegation and sub-agent spawning); added badge removal, dependency, metadata and config kps"
+tianzhiceng297-boop/patent-gap-supply-chain@0.1.0->0.1.1,831,1,3,yes,full; added disable flag and documentation kps
+cp3d1455926-svg/openclaw-memory-master@4.1.0->3.0.0-dev,836,3,8,yes,"full (dist/ deletions identical to src/ deletions by script; one copy read); kp1 split into removed/added; kp2 direction added; added sensitive-data filter removal, dependency, naming and disclosure kps"
+yinjianheng/smart-procurement-navigator-international@0.1.0->2.0.0,843,1,2,yes,full; added agent guardrails kp
+fredpsantos33/iteratools-api@1.0.0->1.1.0,846,1,4,yes,"full; added metadata, MCP install and removed agent cautions kps"
+clarezoe/research-to-wechat@0.1.1->0.4.0,848,2,5,yes,"full; kp1 evidence extended; added honesty guardrails, installer and credential config kps"
+kuns9/trading-upbit-skill@1.0.5->1.0.6,849,3,4,yes,full; kp2 direction modified -> added (aggressive mode is a new trading capability); added run-lock and position-cap kp
+suifei/lang-migration@1.2.1->1.3.1,851,2,2,no,full; kp1 evidence extended; codes otherwise unchanged
+therohitdas/video-transcript@1.4.0->1.4.1,859,1,3,yes,full; added metadata narrowing and password-login removal kps
+cchacons/openjobs@3.12.0->1.5.0,891,3,6,yes,"partly read (single-file rule: SKILL.md diff 3,127 lines; first 1,000 lines plus all its added lines read); kp1 direction added; added encryption removal, CLI install and heartbeat guardrail kps"
+kaisersong/report-creator@1.17.1->1.19.0,896,1,4,yes,"read in full; kp1 kept; added docs examples, test file swap and version bump kps"
+wangm-a3/travel-skill@1.0.0->1.0.1,898,1,3,yes,read in full; added metadata and removed plugin suggestions kps
+leogoat2004/tech-tutor@0.1.0->0.1.1,899,1,1,no,read in full; unchanged
+paulieb14/subgraph-registry@0.9.0->0.9.1,906,2,3,yes,read in full; kp2 evidence extended; added tests kp
+yewubin-jpg/productivity-skill@2.9.1->2.9.2,919,2,5,yes,"read in full; added confirmation guardrail, disclaimer and README kps"
+spyfree/us-value-investing-framework@1.0.0->1.1.0,921,1,3,yes,read in full; added script rewrite and monitoring removal kps
+dataify-server/dataify-review-intelligence@1.0.1->1.0.2,934,1,3,yes,read in full; added endpoint and token removal kps
+pcs-bot/pcs-swap-planner@1.2.1->1.3.0,952,2,6,yes,"read in full; added cross-chain feature, Solana endpoint and token check kps"
+magicscape/mofang-records@1.0.0->1.1.0,956,2,4,yes,read in full; added workflow condensing and package script kps
+lixiabupt/skill-analyst@1.0.3->1.1.0,958,1,4,yes,"read in full; added validation removal, config removal and CLI requirement kps"
+koatora20/guard-scanner@2.0.1->2.1.0,959,2,5,yes,"read in full; added PII detection feature, token-gated strict mode and SARIF kps"
+haiyangchenbj/invassistant@2.3.6->2.3.7,962,2,7,yes,"read in full; added push endpoints, data source, webhook secrets, risk warning and version kps"
+trustmemory-admin/trust-memory@2.0.0->2.1.0,964,1,4,yes,"read in full; added input-validation guidance, guideline condensing and version kps"
+jwestburg/youtube-transcript-native-node@1.1.5->1.1.27,972,2,4,yes,"read in full; kp1 evidence extended; kp2 description fixed (tests expanded, not new file); added approval guardrails and version kps"
+mrsirg97-rgb/pyreworld@10.1.1->10.1.2,977,1,2,yes,read in full; kp1 evidence extended; added version kp
+znsyhandao/sleep-rabbit-plugin@1.0.5->1.0.6,978,2,4,yes,read in full; added docs translation and version kps
+kaudata/youtube-podcaster@1.0.2->2.0.0,987,2,5,yes,"read in full (package-lock.json 2,343 lines read as package and source list, all from registry.npmjs.org); added safety, dependency and key-handling kps"
+yinwuzhe/code-scan-test2@1.0.0->1.0.1,994,1,3,yes,read in full; added MCP/OAuth removal and placeholder file kps
+jordaneparis/desktop-automation-100per100-local@2.0.0->2.0.1,997,3,7,yes,"read in full; added logging of typed text, dependency pin, new dependencies and rename kps"
+mrcerq/agentcanary@1.0.2->1.0.3,1001,2,3,yes,read in full; kp1 evidence extended; added naming kp
+achals-iglu/remember-me@0.1.0->0.1.1,1008,1,2,yes,"read in full; kp1 recoded: SKILL.md content is identical to the deleted skill.md (checked by script), so only a file rename plus a new templates file"
+docsor1212/pubmed-verifier@2.1.4->2.2.0,1014,2,7,yes,"read in full; kp1 recoded as stray temp-folder copies; added network hardening, new endpoint, key, escaping, tests and metadata kps"
+ggettert/structured-pr-review@0.1.0->0.1.1,1015,1,3,yes,read in full; added optional pipeline dependency and description kps
+apiclaw/amazon-opportunity-discoverer@1.0.1->1.0.4,1018,3,7,yes,"partly read (single-file rule: scripts/zoodata.py diff 3,165 lines); SKILL.md, README, reference read in full; deleted apiclaw.py compared to new zoodata.py by script and all 1,186 differing lines read; added keyword/review features, key lookup, stop-on-error guardrails and input validation kps"
+mailnike/erpclaw@3.0.0->3.1.0,1020,1,5,yes,"read in full; added setup defaults, module source rename, module scan and version kps"
+tt-bltn/linkmind-capture@0.1.1->0.1.2,1023,2,5,yes,"read in full; added stats endpoint, cookie, and tests kps"
+tooled-app/data-guardian@1.0.0->1.1.0,1027,2,4,yes,read in full; kp1 recoded to removed (low-risk auto-approve and JIT override relax backup checks); added dry-run manifest guardrail and metadata kps
+daaab/basename-agent@1.6.0->2.0.0,1029,2,6,yes,"read in full; added third-party API, token, audit-log removal and description kps"
+stanistolberg/openclaw-memory-max@3.0.3->3.0.4,1034,1,3,yes,read in full; kp1 recoded: rule pinning existed already; change removes the background writer into global config and injects rules via the hook
+netkr/mini-hids@1.2.0->1.2.5,1036,3,7,yes,"read in full; added webshell scan tool, MCP argument checks, IP extraction change and docs kps"
+kurosh87/aerobase-travel-concierge@3.0.13->3.0.14,1045,1,6,yes,"read in full; kp1 evidence extended; added scraping service removal, Gmail scan removal, privacy notes removal, guardrail and version kps"
+dexpertmx/volkern-skill@1.1.0->1.1.1,1047,1,4,yes,"read in full (dist/index.js checked against src/index.ts by script: same tool list and the only URL is volkern.app/api; package-lock.json entries all from registry.npmjs.org); added WhatsApp send, API key, and dependency kps"
+luischarro/google-stitch-workflow@1.0.0->1.1.0,1049,1,3,yes,read in full; added reference docs and release kps
+patello/avanza-investment-tracker@2.8.0->2.9.0,1055,1,2,yes,read in full; kp1 direction added kept; added tests kp
+andyxcg/medical-record-structurer@1.0.1->1.0.2,1056,1,3,yes,read in full; kp1 direction added (simulated payment replaced by real per-user charging); added billing endpoint and version kps
+1kalin/afrexai-performance-review@1.0.0->1.1.0,1060,1,5,yes,"read in full; added feature scope, legal guidance, upsell and rename kps"
+fooying/zaohua@0.1.0->0.2.0,1063,2,7,yes,"read in full; kp1 evidence extended; added removed confirmation checkpoint, live chat, local tooling, templates and implicit-invocation metadata kps"
+thearchitectit/a2a-register@1.0.0->1.1.0,1070,1,4,yes,"read in full; added hardcoded key removal, config-file credential and setup script kps"
+skoppert/wayve@1.0.11->1.0.12,1072,2,5,yes,"read in full; kp1 direction removed (version range ^1.2.5 dropped for @latest); added credential storage change, credential-consent guardrail and cached analysis data kps"
+voyageragent/voyager-travel-agent@1.0.4->1.0.5,1077,1,3,yes,"read in full; kp1 description fixed (reference condensed, not trimmed only); added ask-for-city guardrail and branding kps"
+lurenha/chainup-spot-trading@1.0.0->1.0.1,1087,1,1,no,read in full; unchanged (translation only)
+anysearch-ai/anysearch@1.0.2->1.0.3,1094,2,5,yes,"read in full; kp2 evidence fixed; added download pin removal, key loading and key page URL kps"
+mariusfit/infra-watchdog@1.0.0->1.0.1,1095,2,5,yes,"read in full; kp1 evidence fixed; added removed checks, TLS verification and skill.json kps"
+bonniegeng-max/skill-summary-rewriter@2.0.0->2.0.1,1098,1,5,yes,"read in full; kp1 narrowed to untrusted-input rules; added dependency removal, allowed-tools, translation and version kps"
+gilesdawe/tokei-agent@0.3.5->0.3.6,1099,2,5,yes,"read in full; kp1 description fixed (upload flow change); added media host, entry id rule and version kps"
+mailnike/erpclaw@3.2.0->3.2.1,1100,2,6,yes,"read in full (largest single file 1,407 lines); kp evidence fixed; added ERP features, bank data, safety checks and endpoint kps"
+neuhanli/version-master@1.0.5->1.0.6,1109,1,5,yes,"read in full; kp1 narrowed; added confirmation removal, security docs removal, dev deps and version kps"
+terrycarter1985/workday-music-greeting@1.1.0->1.2.0,1110,2,6,yes,"read in full; added weekday-check removal, remote GIFs, own SMTP and command setting, metadata kps"
+anatoli-iliev/open-ga4@0.1.0->0.2.0,1115,2,7,yes,"read in full (largest single file 895 lines); added motives; added dependency floor, key rotation, description, setup wording and version kps"
+zephyrchen0754/humanclaw-made-openclaw-manager@0.3.1->0.3.2,1120,3,5,yes,read in full; kp evidence extended with motives; added smoke test and version kps
+morvanzhou/google-analytics-and-search-improve@1.0.0->1.0.1,1121,1,1,no,read in full; unchanged (translation only)
+mdx2025/brainx@5.2.0->0.1.1,1128,3,6,yes,"read in full (largest single file 1,475 lines); kp1 and kp2 evidence fixed; added hardcoded paths, personal data docs and version kps"
+gigolab/gigo-lobster-taster@1.1.1->1.1.2,1141,2,5,yes,"read in full; kp evidence refined; added execution rules, entry/trigger metadata and version kps"
+hhjsnsnsk/nba-today-pulse@1.0.14->1.0.15,1150,2,5,yes,"read in full; kp2 recoded as feature removal; added env overrides, output rule and version kps"
+ofoxai/ofox-video-core@1.27.1->1.30.0,1154,3,6,yes,read in full; tests split out; added install-handoff guardrail and version kps
+jeffli2002/jeffli-content-factory@1.0.0->1.0.1,1158,1,6,yes,"read in full; added key reading, search provider, fallback wrapper, shared-memory step and path kps"
+leftysplat/splatworld@1.7.3->1.7.5,1159,2,6,yes,"read in full (renamed copies compared by script, all differing lines read, one full copy read); kp2 recoded; added self-update, social loop, skill.json removal and version kps"
+bruce-shi/massive-skill@1.0.2->1.0.3,1164,1,1,no,"partly read (over-20,000 rule, 20,932 changed lines); kp1 evidence and note updated with what was read"
+apiclaw/amazon-daily-market-radar@1.0.7->1.0.8,1166,1,4,yes,"read in full; added caller contract guardrails, key order and version kps"
+aisadocs/openclaw-twitter-post-engage@2.0.1->2.0.2,1171,1,5,yes,"read in full; kp1 recoded as relocation; added media upload, key echo, relay base URL and posting guardrail kps"
+xiaoyu-157/self-improving-1-2-16-1@1.0.1->2.0.0,1172,1,5,yes,"read in full; added storage boundaries, workspace steering edits, companion install and metadata kps"
+openclaw-consensus-bot/x402janus@1.0.2->3.0.0,1176,1,4,yes,"read in full; kp1 recoded (pricing unchanged, docs reorganised); added metadata, rating claim and version kps"
+deepseekoracle/lygo-external-lattice-anchor@1.1.0->1.1.1,1184,1,4,yes,"read in full; kp1 evidence extended; added subprocess change, capability metadata and version kps"
+eason-tien/jarvis-monitor@2.0.0->3.0.0,1185,1,2,yes,read in full; added live-status removal kp
+ugurinanc12/codex-profile-orchestrator@1.0.5->2.1.0,1193,1,8,yes,"read in full; kp1 refined; added outage protection, redaction, removed helper files, tests, starter script, metadata, removed heartbeat kps"
+saltorioussig/among-traitors-game@1.0.0->1.0.1,1201,1,5,yes,"read in full; kp1 refined; added webhook generalization, new endpoints, fee row kps"
+24601/surrealdb@1.5.1->1.5.3,1203,1,3,yes,read in full; kp1 refined; added new reference sections and version kps
+canihojr/bee-push-email-skill@1.4.1->1.5.3,1207,2,8,yes,"read in full; kp1 narrowed to mode switching, kp2 evidence fixed; added confirmation, metadata, gateway token, frontmatter, deliver test, version kps"
+autogame-17/capability-evolver@1.53.2->1.88.4,1213,6,18,yes,"partly read under over-20,000 rule; kp1 evidence updated, kp3 corrected (auto-spend default on), kp4 direction added; added obfuscation, bridge default, security fixes, force update, hooks, data sharing, validator, proxy relay, credentials, license, version, removed files kps"
+kevin0818-lxd/essay-humanizer@1.0.0->1.0.1,1214,1,4,yes,"read in full; kp1 refined; added listing description, duplicate skill file, version kps"
+genortg/genor-comfy-gate@2.1.0->2.1.1,1215,3,6,yes,"read in full; kp1 and kp2 evidence refined; added key prefix removal, prompt reference and workspace rules kps"
+risheea/fairscale-solana-skill@0.1.2->0.1.3,1221,1,4,yes,"read in full; kp1 evidence refined; added endpoint, key requirement, pricing kps"
+camopel/finviz-crawler@2.0.0->3.0.0,1237,1,4,yes,"read in full; kp1 refined; added persistence service, data dir, chat command and dashboard kps"
+sebbysoup/skill-reviews@1.0.0->1.0.1,1239,1,6,yes,"read in full; kp1 narrowed; added credential, heartbeat, guardrail, metadata, changelog kps"
+chenkuansun/bullybuddy@0.6.4->0.7.0,1242,1,5,yes,"read in full; kp1 narrowed; added always-load removal, metadata, token discovery, security notice, docs kps"
+johnsmithfan/barefoot-doctor@1.0.0-en2->2.0.0,1257,1,6,yes,"read in full; kp1 refined; added prompt templates, safety checklists, metadata, accuracy claim, changelog kps"
+anboias/saved-markdown@1.0.2->1.0.3,1258,1,4,yes,"read in full; 9 moved reference files compared by script (byte-identical, one copy read); kp1 narrowed; added html templates, number format rule, html preference kps"
+gl0di/clawseccheck@4.0.1->4.1.0,1259,3,8,yes,"read in full (12,406 lines, no file over 3,000); kp1 evidence and note updated; added new audit checks, path redaction, verdict integrity checks, SKILL.md agent rules, version kps"
+0xvespertine/chart-mpl@1.0.0->1.1.0,1262,1,3,yes,read in full; kp1 evidence extended; added setup instructions and version kps
+linux2010/github-contribution@1.1.0->1.2.0,1269,2,5,yes,"read in full; kp1 note fixed, kp2 evidence extended; added SKILL.md rewrite, safety section and skill.json kps"
+extraterrest/agentrelay@1.0.1-alpha.2->1.0.1-alpha.3,1277,1,2,yes,read in full; kp1 evidence detailed; added version kp
+eddieluong/rag-accuracy-optimizer@1.2.0->1.3.0,1282,1,1,yes,read in full (largest single file 486 lines); translation only; changelog_mismatch set to yes (claims of expanded guides and added scripts not in diff)
+seanblanchfield/jentic-whatsapp-qr@1.2.0->1.3.0,1288,2,5,yes,"read in full; kp2 recoded (Mattermost delivery is a SKILL.md curl call, not in the script); added token read, capture script and timing kps"
+jd2005l/opencortex@3.1.1->3.1.2,1300,2,5,yes,"read in full; 9 renamed files compared by script (identical except version string, one copy read); kp2 recoded: the `--model default` cron fix was already in the old update code (stored in old verify.sh), so changelog_mismatch set to yes; added SKILL.md and README content, metadata, security notes and version kps"

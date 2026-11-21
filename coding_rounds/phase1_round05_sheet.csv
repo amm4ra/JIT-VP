@@ -1,0 +1,162 @@
+﻿"pair_id","skill_slug","prev_version","version","changelog_source","changelog_text","coder1_code","coder2_code","agreed_code","notes"
+"maay/brighty@1.0.2->1.1.0","maay/brighty","1.0.2","1.1.0","user","Add config/mcporter.json for automatic MCP server registration","","","",""
+"yumyumtum/yumfu@1.7.8->1.7.9","yumyumtum/yumfu","1.7.8","1.7.9","user","Fix daily evolution delivery-state collision so cron updates send image + TTS again","","","",""
+"parkertoddbrooks/wip-ai-devops-toolbox@1.9.39->1.9.40","parkertoddbrooks/wip-ai-devops-toolbox","1.9.39","1.9.40","user","# Auto-sync product docs version/date on release
+
+**Date:** 2026-03-16
+**Closes:** #202
+
+## What changed
+
+wip-release now auto-updates version and date lines in product docs before the release commit. No more stale ""Current version: v1.9.1"" when you're shipping v1.9.39.
+
+Files updated automatically:
+- `ai/product/plans-prds/roadmap.md`: ""Current version"" and ""Last updated""
+- `ai/product/readme-first-product.md`: ""Last updated"" and ""What's Built (as of vX.Y.Z)""
+
+Runs between changelog update and git commit (step 3.75). Only touches files that exist. Only updates lines that match the expected patterns.
+
+## Why
+
+These files were stale from v1.9.1 through v1.9.39 (8 days, 38 releases). Nobody remembered to update them. The existing product docs gate warned about it but couldn't fix it. Now it fixes itself.","","","",""
+"ykforerlang/data-charts-visualization@1.0.4->1.0.5","ykforerlang/data-charts-visualization","1.0.4","1.0.5","user","- Showcase section updated: now features a single composite image displaying supported chart types instead of a multi-image table.
+- No functional or behavioral changes; all routing, operating model, execution rules, and chart type guidance remain unchanged.
+- Documentation is now more concise and visually streamlined for easier skill discovery.","","","",""
+"simmer/polymarket-signal-sniper@1.4.3->1.4.4","simmer/polymarket-signal-sniper","1.4.3","1.4.4","user","Add auto_redeem() call at start of each cycle for external wallet support","","","",""
+"vnbochkarev-netizen/vibo-memory@2.1.1->2.1.2","vnbochkarev-netizen/vibo-memory","2.1.1","2.1.2","user","Новая команда ask: память -> если нет, СРАЗУ интернет (Perplexity API, ключ локальный, не передаётся третьим лицам) -> ответ сохраняется в память (следующий раз из памяти). find --web — авто-фолбэк при пустом результате. Тест: 1-й ask из веба, 2-й из памяти.","","","",""
+"kostja94/pricing-page-generator@1.2.0->1.2.1","kostja94/pricing-page-generator","1.2.0","1.2.1","user","Batch: pricing through feedback","","","",""
+"assix/earnings-financials-agent@1.0.0->1.0.1","assix/earnings-financials-agent","1.0.0","1.0.1","auto","- Switched data backend to yfinance for financial data retrieval.
+- Simplified setup instructions; removed API key requirement.
+- Updated dependencies to require pip and yfinance.
+- Revised tool descriptions to match the new data source and capabilities.
+- Cleaned up documentation and removed transcript sentiment analysis references.","","","",""
+"zgjq/context-compactor-zero-dep@1.1.0->1.1.1","zgjq/context-compactor-zero-dep","1.1.0","1.1.1","user","Security hardening: write restricted to memory/compacts/ only (path assertion), read restricted to workspace, explicit 'must not' lists, pre-write redaction checklist","","","",""
+"agents365-ai/drawio-pro-skill@1.3.0->1.4.0","agents365-ai/drawio-pro-skill","1.3.0","1.4.0","user","feat(#5): workflow honors user-specified output directory — export to any path the user mentions (e.g. ./artifacts/, docs/images/), mkdir -p handled automatically. Ideal for CI/CD artifact pipelines. fix(#4): browser fallback URL encoding — raw deflate (no zlib header) + standard base64 (atob rejects url-safe -/_). Verified via round-trip. docs: CI-style example in Commands; Clarify checklist gained 'Output location'. Full changelog: https://github.com/Agents365-ai/drawio-skill/releases/tag/v1.4.0","","","",""
+"deciqai/scenario-planning@1.0.0->1.0.1","deciqai/scenario-planning","1.0.0","1.0.1","user","Add catalog categories and topics","","","",""
+"devinchen2014/socialdatax-xhs-comments@0.1.11->0.1.12","devinchen2014/socialdatax-xhs-comments","0.1.11","0.1.12","user","Expose XHS comment sort guidance in generated marketplace skill.","","","",""
+"zw008/vmware-debug@1.6.1->1.8.0","zw008/vmware-debug","1.6.1","1.8.0","user","Read-only mode verified at start-up (2/2 tools read), declared environments; RELEASE_NOTES no longer claims a config.yaml switch this package lacks","","","",""
+"zw008/vmware-log-insight@1.8.16->1.8.17","zw008/vmware-log-insight","1.8.16","1.8.17","user","CLI reads are audited under their MCP tool names; every CLI command declares what it reaches (needs vmware-policy 1.15.0)","","","",""
+"karmanverma/markitdown-skill@1.0.0->1.0.1","karmanverma/markitdown-skill","1.0.0","1.0.1","user","Fixed metadata: added requires.bins, clarified skill provides docs + batch script (converter is Microsoft's pip package)","","","",""
+"asif2bd/openclaw-token-optimizer@1.4.0->1.4.1","asif2bd/openclaw-token-optimizer","1.4.0","1.4.1","user","v1.4.1: Fix public visibility — added .clawhubignore to exclude PR-DESCRIPTION.md (contained shell commands that triggered security scanner) and docs/ dev artifacts. All v1.4.0 features intact: session pruning, bootstrap size limits, cache retention, cache TTL alignment.","","","",""
+"twinsgeeks/qwen-qwen3-5@1.0.0->1.0.1","twinsgeeks/qwen-qwen3-5","1.0.0","1.0.1","user","Cross-platform support: macOS, Linux, and Windows. Updated OS metadata, descriptions, and hardware recommendations.","","","",""
+"just-forever/just-test-skill@1.0.1->1.0.2","just-forever/just-test-skill","1.0.1","1.0.2","user","- Added two new files: a.md and b.md
+- No changes made to SKILL.md","","","",""
+"yoborlon-alpha/planit@2.0.2->2.0.0","yoborlon-alpha/planit","2.0.2","2.0.0","auto","PlanIt 2.0.0 — 架构重构，本地仅留薄客户端，核心全面迁移至后端 AI 服务
+
+- 完全重构为“后端 AI Agent + Thin Skill Client”架构
+- Skill 不再包含数据抓取与编排，仅负责转发请求和遥测
+- 需本地启动 planit-server 后端 (含意图解析、行程生成、数据获取)
+- 新增后端遥测与贡献系统
+- 个性化酒店排序及多轮对话能力移至服务端
+- 运行/测试需手动配置与对接后端 API","","","",""
+"dizaztuh/molt-market-worker@1.0.0->2.0.0","dizaztuh/molt-market-worker","1.0.0","2.0.0","user","v2: Chat support, poll command, email/webhook notifications, profile updates, compatible with Molt Market v3 features","","","",""
+"dlazyai/dlazy-search-video@1.3.1->1.3.2","dlazyai/dlazy-search-video","1.3.1","1.3.2","user","set Chinese display name for CN search","","","",""
+"seiriosplus/miaoda-app-builder@1.0.3->1.0.4","seiriosplus/miaoda-app-builder","1.0.3","1.0.4","user","- Documentation now recommends running the CLI from scripts/miaoda_api.py (was skills/miaoda-app-builder/scripts/)
+- Added command usage examples and full options for all CLI commands in the documentation
+- Clarified use of the --wait flag for publish for automatic deployment polling
+- Withdrew repeated and low-relevance details for improved conciseness
+- Added requirement to export MIAODA_API_KEY before running commands
+- No code or functional changes; documentation and workflow clarifications only","","","",""
+"imnotriv3r/rocom@1.4.6->1.4.7","imnotriv3r/rocom","1.4.6","1.4.7","auto","- Refreshed documentation for clarity and readability in SKILL.md, adopting a more concise and consistent style.
+- Updated command reference and feature descriptions with simplified formatting.
+- Removed emojis and markdown styling for a cleaner presentation.
+- No changes to core functionality or features.","","","",""
+"junyij/housing-scout-pro@1.0.1->1.0.2","junyij/housing-scout-pro","1.0.1","1.0.2","user","Version 1.0.2
+
+- Expanded documentation on security, notifications, and data egress, including important guidance on third-party fetch proxies and safe URL usage.
+- Added details on Telegram notification setup and credentials management.
+- Now documents how to unsubscribe from notifications by both query and subscription ID.
+- Includes instructions for state directory management and guidance on cleaning up local data.
+- Updated privacy and safety checklist with stronger recommendations for data protection and regular subscription review.","","","",""
+"paulieb14/subgraph-registry@0.8.4->0.8.5","paulieb14/subgraph-registry","0.8.4","0.8.5","auto","- Expanded domain and network coverage, including updates to charts, stats files, and documentation.
+- Refreshed registry metadata, domains, and protocol-type overviews.
+- Updated documentation for new and existing networks and domains.
+- Removed deprecated skill card file.
+- Minor updates to OpenAPI definitions and package configuration.","","","",""
+"xmanrui/openclaw-bot-dashboard@1.0.4->1.0.5","xmanrui/openclaw-bot-dashboard","1.0.4","1.0.5","user","Enforce returning both localhost and LAN URLs; report LAN detection failure explicitly instead of omitting it.","","","",""
+"openlark/xhs-suggest-keywords@1.0.1->1.0.2","openlark/xhs-suggest-keywords","1.0.1","1.0.2","user","- Major update: The skill documentation and output are now in English with greater technical depth.
+- Added a comprehensive sample script using Playwright for collecting Xiaohongshu search suggestions.
+- Expanded selector documentation and usage instructions, including a new reference to selectors.md.
+- Previous Chinese usage scenarios and manual steps were removed in favor of code-based automation workflow.
+- Outdated file skill-card.md was removed; new reference documentation references/selectors.md was added.","","","",""
+"jamesfincher/browserbase-sessions@1.2.2->2.4.0","jamesfincher/browserbase-sessions","1.2.2","2.4.0","user","**Adds prompt-optimized response patterns and improves human handoff for browser sessions.**
+
+- Adds clear, short response templates for missing credentials, session openings, workspace reconnections, and temporary URL issues.
+- Specifies to always share the human remote-control link immediately after browser/session startup, with a preferred order of fields.
+- Recommends using interactive browser tab/page controls before falling back to raw JavaScript execution.
+- Clarifies recommended agent behaviors for sharing session details and handling browser commands.
+- Updates version to 2.4.0.","","","",""
+"diankourenxia/wodeapp-ai@1.0.8->1.0.9","diankourenxia/wodeapp-ai","1.0.8","1.0.9","user","No file changes detected; only documentation updates.
+
+- Updated documentation with new architecture overview, clearer feature mapping, and detailed trigger scenarios for each tool.
+- Added comprehensive lists of intent patterns, production-ready templates (with template IDs), and available page builder UI components.
+- Improved guidance for agent developers, including parameter design principles and instant-deploy workflows.
+- Streamlined descriptions and terminology to better communicate WodeApp’s unified AI execution and orchestration capabilities.","","","",""
+"titus-choi/trunkate-ai@0.18.0->0.19.0","titus-choi/trunkate-ai","0.18.0","0.19.0","auto","trunkate-ai 0.19.0
+
+- Updated scripts/activator.py and scripts/trunkate.py, likely with improvements or bug fixes.
+- Updated CHANGELOG.md and version.txt for version tracking.
+- No changes to user-facing skill description or operation; primary focus is internal maintenance and version update.","","","",""
+"aaigotchi/aavegotchi-svg-custom@1.1.2->1.1.3","aaigotchi/aavegotchi-svg-custom","1.1.2","1.1.3","user","Reduce false-positive moderation noise without changing SVG runtime behavior: safer wearable build helper, clearer install/env declarations, and a tighter published bundle.","","","",""
+"cmyang-it/uiverse-design@2.1.0->2.1.1","cmyang-it/uiverse-design","2.1.0","2.1.1","user","v2.1.1: Removed hardcoded proxy address from SKILL.md and setup.sh. Users should use their own proxy with --proxy flag.","","","",""
+"g9pedro/clawvault@1.11.4->1.11.5","g9pedro/clawvault","1.11.4","1.11.5","user","Added website and ClawHub links to Links section","","","",""
+"icepopma/linkedin-post-generator@1.0.6->1.0.7","icepopma/linkedin-post-generator","1.0.6","1.0.7","user","Security fix: Move merchant_key to code, remove from SKILL.md to avoid false positive","","","",""
+"cellcog/creative-writing-cellcog@1.0.1->1.0.2","cellcog/creative-writing-cellcog","1.0.1","1.0.2","auto","**Expanded documentation and metadata improvements for broader creative writing support.**
+
+- Updated description to highlight fiction, poetry, world building, and genre coverage.
+- Added metadata for OS compatibility and project homepage.
+- Improved discoverability with more keywords (e.g., poetry, literary fiction, writing assistant).
+- No changes to code or skill usage; this is a documentation update only.","","","",""
+"vince-winkintel/gitlab-cli-skills@1.13.8->1.13.8+merged.1","vince-winkintel/gitlab-cli-skills","1.13.8","1.13.8+merged.1","user","Corrective ClawHub packaging for v1.13.8: publish the merged single-SKILL.md artifact used by claude-skill.zip, with stack infer, repo remote add, built-in --jq guidance, ci status --live behavior, work item URL compatibility, install-aware update nudges, and no per-skill release-version phrasing.","","","",""
+"chenglin97/agent-hansa-merchant@0.1.0->0.1.1","chenglin97/agent-hansa-merchant","0.1.0","0.1.1","user","Clean publish: SKILL.md only","","","",""
+"oomol/oo-brevo@1.0.1->1.0.3","oomol/oo-brevo","1.0.1","1.0.3","user","- Operate Brevo through the OOMOL-connected `oo` CLI without handling raw API credentials.
+- Inspect live action schemas before constructing requests and payloads.
+- Manage contacts, contact lists, folders, account details, and list memberships.
+- Support contact creation, retrieval, updates, additions, removals, and deletion.
+- Apply confirmation requirements for state-changing and destructive operations.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"medstatstar/statsoft-cli@2.6.7->2.6.8","medstatstar/statsoft-cli","2.6.7","2.6.8","user","v2.6.8: resolve 25 SkillSpector findings — remove environment_variable_modification capability, remove Prism prismWriter .pzfx rec, remove trust-and-safety MEMORY.md row, remove Modeler remote server-run example, declare NCSS/Origin in manifest, centralized --consent gate replacing self-set STATSOFT_AUTO_WRITE in 10 setup scripts","","","",""
+"googleworkspace-bot/recipe-generate-report-from-sheet@1.0.5->1.0.6","googleworkspace-bot/recipe-generate-report-from-sheet","1.0.5","1.0.6","auto","- Updated skill version from 0.20.1 to 0.21.1 in metadata.
+- No changes to recipe steps or functionality.","","","",""
+"crawlora-org/ats-job-boards-research@1.0.3->1.0.4","crawlora-org/ats-job-boards-research","1.0.3","1.0.4","user","Sync via scripts/sync-directories.sh","","","",""
+"googleworkspace-bot/gws-script-push@1.0.1->1.0.2","googleworkspace-bot/gws-script-push","1.0.1","1.0.2","auto","- Updated version number in SKILL.md from 0.22.4 to 0.22.5.  
+- No changes to functionality or documentation content.","","","",""
+"dedene/irail@1.0.0->1.0.1","dedene/irail","1.0.0","1.0.1","auto","- Added license, homepage, and author metadata to SKILL.md.
+- Introduced explicit version (""1.1.0"") in the metadata block.
+- Declared OpenClaw requirements for binaries and installation methods (brew and go).
+- Appended an Installation section with brew instructions at the end of SKILL.md.
+- No changes made to CLI usage, workflows, or command documentation.","","","",""
+"simmer/polymarket-weather-trader@1.23.21->1.23.22","simmer/polymarket-weather-trader","1.23.21","1.23.22","user","SIM-5499: per-market position cap (max_buys_per_market, default 1) checked against held positions before entry; run summary prints a per-location skip-reason breakdown. Risk-reducing by default; set 0 for the old unbounded DCA.","","","",""
+"oomol/oo-magileads@1.0.0->1.0.2","oomol/oo-magileads","1.0.0","1.0.2","user","- Operate Magileads through the OOMOL `oo` CLI without handling raw credentials.
+- Inspect live action schemas before constructing requests.
+- Create, update, retrieve, list, and delete Magileads contact lists.
+- Supports contact-list metadata including tags, folders, language, and country.
+- Applies confirmation requirements for write and destructive actions, with setup guidance for authentication and connection issues.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"zke-exchange/zke-trading@1.0.9->1.0.10","zke-exchange/zke-trading","1.0.9","1.0.10","user","- **Metadata & Provenance Aligned:** Completely resolved ""Registry Mismatch"" warnings. Unified `skill.json`, `openclaw.plugin.json`, and `package.json` to explicitly declare `ZKE_API_KEY` and `ZKE_SECRET_KEY` requirements, and added the official ZKE Exchange homepage.
+- **Zero Plaintext Storage:** Eliminated local credential storage risks. Completely purged `config.json` generation and read-logic from the installer, `main.py`, and `mcp_server.py`. The plugin now strictly enforces standard MCP environment variables for all authentication.
+- **Supply-Chain & Installer Secured:** Removed remote `git clone` commands and hardcoded absolute paths from the install script. The installer is now a purely local, verifiable build tool that does not alter global host permissions.","","","",""
+"mbojer/claw-list@1.2.1->1.2.2","mbojer/claw-list","1.2.1","1.2.2","auto","ClawList 1.2.2
+
+- Added explicit documentation of required environment variables for PostgreSQL connection in SKILL.md.
+- Clarified cross-agent access: all data is visible across agents sharing a database (no isolation).
+- Docs now warn that the `migrate --action import-delete` command will permanently delete source files after importing.
+- Minor improvements to documentation for database access logging.","","","",""
+"oomol/oo-teable@1.0.0->1.0.2","oomol/oo-teable","1.0.0","1.0.2","user","- Operates Teable through the OOMOL-connected `oo` CLI without exposing credentials.
+- Supports reading users, spaces, bases, tables, records, and record details.
+- Supports creating and updating records with provider-defined field values.
+- Supports permanent record deletion with explicit safety confirmation.
+- Fetches live action schemas before constructing JSON payloads.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"mirni/gh-securitysuite@0.1.0->1.0.0","mirni/gh-securitysuite","0.1.0","1.0.0","auto","- Updated description for greater clarity on endpoints and features.
+- Improved metadata and installation instructions; added emoji and standardized package management.
+- Condensed usage examples and enhanced curl command syntax using jq for better readability.
+- Clarified endpoint outputs, especially for security reports and batch operations.
+- Streamlined document structure for faster onboarding and reference.","","","",""
+"bonniegeng-max/md-out-of-chat@1.5.0->1.5.1","bonniegeng-max/md-out-of-chat","1.5.0","1.5.1","auto","- Improved HTML escaping for security: all Markdown text, code content, and code-fence language labels are now fully escaped to prevent injection of untrusted scripts into generated pages.
+- Language labels in code blocks are further restricted to a safe character set.
+- Updated privacy section to clarify HTML escaping and script-injection mitigation.
+- Removed obsolete skill-card.md file.","","","",""

@@ -1,0 +1,8 @@
+﻿motive_group,introduced,fixed,no change
+Accurate or honest description,0,1,0
+Consistency of formatting,2,0,0
+Discoverability and traffic tracking,1,0,0
+Fix a defect or improve reliability/compatibility/performance,9,2,3
+Respond to registry scanner or audit findings (incl. reducing false positives),3,6,2
+Security hardening / prevent harm,10,30,9
+other,53,69,41

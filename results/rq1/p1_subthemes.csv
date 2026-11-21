@@ -1,0 +1,17 @@
+﻿subtheme,pairs,theme,share,key_points
+Metadata declarations,80,Configuration and declared requirements,0.23054755043227665,90
+Credentials and configuration values,46,Configuration and declared requirements,0.13256484149855907,50
+Installation and dependencies,39,Dependencies and external reach,0.11239193083573487,47
+External services and endpoints,23,Dependencies and external reach,0.06628242074927954,24
+Feature and capability scope,82,Functional behavior,0.23631123919308358,98
+Code implementation changes,39,Functional behavior,0.11239193083573487,55
+Payments and monetization,14,Monetization,0.040345821325648415,15
+Package file housekeeping,43,Package composition,0.1239193083573487,60
+Testing assets,13,Package composition,0.037463976945244955,13
+Safety and transparency guidance,40,Safety controls and risk communication,0.11527377521613832,50
+Agent behavior guardrails,24,Safety controls and risk communication,0.069164265129683,32
+Code-level safety checks,18,Safety controls and risk communication,0.05187319884726225,22
+Personal data handling,6,Safety controls and risk communication,0.01729106628242075,7
+Documentation content,111,Upkeep and presentation,0.31988472622478387,123
+Description and naming,77,Upkeep and presentation,0.2219020172910663,79
+Release status and bookkeeping,44,Upkeep and presentation,0.12680115273775217,44

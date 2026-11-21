@@ -1,0 +1,51 @@
+﻿row,pair_id,diff_status,files_changed,lines_added,lines_removed,changed_files
+1,oomol/oo-callrail@1.0.0->1.0.2,ok,1.0,1.0,1.0,SKILL.md
+2,talkstream/ru-text@1.6.0->1.8.0,ok,6.0,293.0,20.0,SKILL.md; references/addenda.md; references/anti-patterns.md; references/scoring.md; references/sources.md; references/typography.md
+3,dylanfeltus/gui-new@1.0.0->1.0.1,ok,1.0,6.0,2.0,SKILL.md
+4,gilesdawe/tokei-agent@0.3.1->0.3.2,ok,8.0,86.0,15.0,SKILL.md; package.json; README.md; server.json; src/__tests__/commands.test.ts; src/__tests__/mcp.test.ts; src/index.ts; src/mcp.ts
+5,waydelyle/swarmdock@2.5.3->2.6.0,ok,1.0,23.0,2.0,SKILL.md
+6,loonghao/fpt-cli@1.0.1->1.0.2,ok,1.0,10.0,9.0,references/install-and-auth.md
+7,wjllance/standx-cli@0.4.7->0.4.8,ok,0.0,0.0,0.0,
+8,shalinda-j/llmcom-token-optimizer@1.0.0->1.0.1,ok,3.0,380.0,435.0,SKILL.md; optimizer.py; README.md
+9,raydoomed/daily-introspection@1.0.2->1.0.3,ok,1.0,47.0,6.0,scripts/weekly-promote.py
+10,ciklopentan/ai-orchestrator@3.3.1->3.3.2,ok,2.0,12.0,741.0,SKILL.md; package.json
+11,piccolo123/url-manager@1.0.3->2.0.1,ok,0.0,0.0,0.0,
+12,justoneapi/justoneapi-douyin-ec@1.0.0->1.0.1,ok,1.0,2.0,2.0,SKILL.md
+13,sfkislev/flue@1.0.9->1.0.10,ok,1.0,49.0,49.0,SKILL.md
+14,marcelo-rowship/rwagenthub@1.5.8->1.5.9,ok,1.0,3.0,3.0,SKILL.md
+15,simonvanlaak/kanban-workflow@0.1.9->0.1.10,ok,6.0,9.0,6.0,SKILL.md; CHANGELOG.md; package.json; README.md; references/ARCH_REVIEW.md; references/TECH_PLAN.md
+16,googleworkspace-bot/recipe-create-feedback-form@1.0.0->1.0.1,ok,1.0,5.0,2.0,SKILL.md
+17,djc00p/rails-ci-fixer@1.1.4->1.2.0,ok,3.0,12.0,5.0,SKILL.md; references/common-failures.md; references/security.md
+18,pruna-ai/pruna@1.0.12->1.0.13,ok,1.0,5.0,3.0,SKILL.md
+19,wxt-ai/export-confirmation-style-workbench@1.0.0->1.0.2,"previous version: not found, this version: not found",,,,
+20,notasign/notasign@1.0.0->1.0.1,ok,3.0,765.0,221.0,SKILL.md; README.md; scripts/send_envelope.ts
+21,parinll/openweather-cli@1.1.2->1.1.3,ok,1.0,2.0,2.0,SKILL.md
+22,terrycarter1985/financial-report-automator@1.1.1->1.2.0,ok,4.0,136.0,173.0,SKILL.md; references/csv-format.md; scripts/publish_report.py; scripts/stock_analyzer.py
+23,evanfoglia/wikipedia@1.1.0->1.0.2,ok,3.0,0.0,202.0,LICENSE; README.md; tests/test_server.py
+24,bytesagain-lab/arbitrage-finder@2.0.1->3.0.0,ok,4.0,270.0,507.0,SKILL.md; scripts/arbitrage.sh; scripts/script.sh; tips.md
+25,okki-op/okki-go@1.3.3->1.3.4,ok,24.0,202.0,399.0,SKILL.md; references/api-reference.md; references/authentication.md; references/context-firewall.md; references/expansion-playbook.md; references/output-contracts.md; references/paid-actions.md; references/sales-mentor-playbook.md; references/search-strategy.md; references/workflows.md; scripts/check-update.sh; scripts/email-status.js; scripts/enable-notifications.sh; scripts/lib/runtime-attribution.js; scripts/okki-envelope.js; scripts/post-install.sh; scripts/README.md; scripts/resolve-api-key.sh; scripts/search-contacts.js; scripts/test-installer.sh; scripts/test/paid-wrapper-contracts.test.js; scripts/test/prompt-ownership.test.js; scripts/test/runtime-attribution.test.js; scripts/test/skill-metadata.test.js
+26,dennisrongo/write-a-skill@1.0.1->1.0.2,ok,1.0,29.0,8.0,SKILL.md
+27,luiscosio/agentmetal@0.2.0->0.3.0,ok,1.0,6.0,6.0,SKILL.md
+28,senazeng/prism-gen-demo@1.3.0->2.0.1,ok,63.0,1437.0,15909.0,SKILL.md; .ipynb_checkpoints/README-checkpoint.md; assets/icon_placeholder.txt; assets/README.md; CHANGELOG.md; config/python_config.sh; core/run_pipeline.py; core/step1_vae.py; core/step2_surrogate.py; core/step2b_train_herg_model.py; core/step3a_optimizer.py; core/step3b_run_dft.py; core/step3c_dft_refine.py; core/step4a_admet.py; core/step4b_final_pyscf.py; core/step4c_utils_merge_results.py; core/step5a_docking.py; core/step5b_utils_merge.py; data/example_step4a.csv; data/step3a_optimized_molecules_raw.csv; data/step5b_master_summary.csv; docs/DETAILED_README.md; README.md; README_UNPACKED.md; requirements.txt; scripts/_check_env_bash.sh; scripts/_check_env_simple.py; scripts/_ensure_env.py; scripts/_env_cache.sh; scripts/_fix_python_bool.sh; scripts/_python_wrapper.sh; scripts/_run_python.sh; scripts/_simple_env.sh; scripts/_update_python_calls.sh; scripts/demo_filter.sh; scripts/demo_list_sources.sh; scripts/demo_plot_distribution.sh; scripts/demo_plot_scatter.sh; scripts/demo_preview.sh; scripts/demo_simple_preview.sh; scripts/demo_source_info.sh; scripts/demo_source_info_simple.sh; scripts/demo_top.sh; scripts/env_setup.sh; scripts/filter.py; scripts/list_scripts_info.sh; scripts/merge.py; scripts/paper_ready_test.sh; scripts/plot.py; scripts/pre_package_check.sh; scripts/retrieve.py; scripts/score.py; scripts/sort.py; scripts/summary.py; scripts/test_basic.sh; scripts/test_fixed.sh; scripts/test_full_functionality.sh; scripts/test_visualization.sh; scripts/utils.py; scripts/verify_skill.sh; setup.sh; skill.json; TUTORIAL.md
+29,oomol/oo-revenuecat@1.0.0->1.0.2,ok,1.0,1.0,1.0,SKILL.md
+30,diagnostikon/polymarket-legal-regulatory-trader@1.0.3->0.0.2,ok,2.0,4.0,1.0,clawhub.json; trader.py
+31,lbtsm/mapulse-korea@1.0.0->1.0.1,ok,1.0,10.0,3.0,SKILL.md
+32,liangmoyuttc/moltoffer-candidate@1.0.2->1.0.3,ok,4.0,95.0,7.0,SKILL.md; credentials.local.json; persona.md; references/onboarding.md
+33,zbc0315/retrospect@1.1.0->1.2.0,ok,1.0,0.0,138.0,README.md
+34,apiguru-app/apiguru-amazon-data@1.1.27->1.1.28,ok,2.0,38.0,9.0,SKILL.md; scripts/probe.py
+35,nextaltair/soul-in-sapphire@0.1.2->0.1.3,ok,2.0,192.0,0.0,scripts/bootstrap_config.py; scripts/ltm_search.py
+36,yequanzheng/fdksafs3@1.0.0->1.0.1,ok,2.0,46.0,46.0,SKILL.md; skill.md
+37,athola/nm-tome-code-search@1.0.2->1.9.12,ok,1.0,3.0,5.0,SKILL.md
+38,thomas-smets/arcadia-finance@1.1.3->1.2.0,ok,1.0,3.0,3.0,SKILL.md
+39,fr0zen80/derek-bitcoin-intel@2.0.1->1.0.1,ok,1.0,54.0,65.0,SKILL.md
+40,maay/brighty@1.0.1->1.0.2,ok,1.0,1.0,1.0,SKILL.md
+41,dlazyai/dlazy-kling-v3-omni@1.1.2->1.2.0,ok,2.0,59.0,25.0,SKILL.md; SKILL-cn.md
+42,chenglin97/agent-hansa-merchant@0.1.1->0.2.0,ok,7.0,2323.0,66.0,skill.md; SKILL.md; index.js; package-lock.json; package.json; README.md; test.js
+43,netanel-abergel/monday-for-agents@1.0.0->1.1.0,ok,1.0,129.0,122.0,SKILL.md
+44,oomol/oo-polar@1.0.0->1.0.2,ok,1.0,1.0,1.0,SKILL.md
+45,davidwachs/handwrytten@1.2.0->1.2.1,ok,1.0,1.0,14.0,SKILL.md
+46,vannelier/deep-validator@2.0.1->2.0.2,ok,1.0,11.0,14.0,SKILL.md
+47,kennethrajsimon/spacetime-memory@1.1.4->1.1.5,ok,3.0,24.0,13.0,SKILL.md; legacy-import.js; package.json
+48,billylui/temporal-cortex-datetime@0.7.0->0.7.1,ok,1.0,9.0,9.0,SKILL.md
+49,coinglass-official/coinglass-api-skills@1.0.3->1.1.0,ok,27.0,0.0,27.0,SKILL.md; account/API.md; etf/bitcoin-etf/API.md; etf/ethereum-etf/API.md; etf/grayscale/API.md; etf/solana-etf/API.md; etf/xrp-etf/API.md; futures/funding-rate/API.md; futures/hyperliquid-positions/API.md; futures/liquidation/API.md; futures/long-short-ratio/API.md; futures/open-interest/API.md; futures/order-book-l2/API.md; futures/taker-buy-sell/API.md; futures/trading-market/API.md; indic/futures/API.md; indic/other/API.md; indic/spots/API.md; on-chain/exchange-data/API.md; on-chain/token/API.md; on-chain/transactions/API.md; options/API.md; other/financial-calendar/API.md; other/news/API.md; spots/order-book/API.md; spots/taker-buy-sell/API.md; spots/trading-market/API.md
+50,mbordash/dradis-tactical-command@1.2.0->1.3.0,ok,1.0,15.0,7.0,SKILL.md

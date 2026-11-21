@@ -1,0 +1,117 @@
+﻿"pair_id","skill_slug","prev_version","version","changelog_source","changelog_text","coder1_code","coder2_code","agreed_code","notes"
+"laiye-adp/adp-pdf-to-structured-markdown@1.0.0->1.0.1","laiye-adp/adp-pdf-to-structured-markdown","1.0.0","1.0.1","user","- Updated registration link label from ""International"" to ""Global"" for clarity.
+- English application label in example changed from Chinese (""文档解析"") to ""Document Parsing"", improving consistency and accessibility for English users.
+- Example application JSON now shows English labels and fields, replacing previous Chinese examples.
+- No code or functional changes detected in this release.","","","",""
+"dinstein/tech-news-digest@2.4.1->2.5.0","dinstein/tech-news-digest","2.4.1","2.5.0","user","Fix twitter reply filter, scoring consistency, template versions, article count, pipeline resume, source health monitoring, e2e test, archive cleanup, rate limiting, web scoring, dead code removal","","","",""
+"brunopradof/openclaw-shield-upx@1.0.0->1.0.1","brunopradof/openclaw-shield-upx","1.0.0","1.0.1","user","openclaw-shield-upx 1.0.1 changelog:
+
+- Added support for inspecting the local redaction vault and host inventory via the `openclaw shield vault show` command.
+- Documented redaction token types and agent/workspace ID hashing for improved privacy transparency.
+- Updated command usage guidelines and examples, refining descriptions and workflows.
+- Expanded documentation links and dashboard references for quick user access.
+- Clarified privacy, behavior, and plugin update instructions throughout the skill.","","","",""
+"pruna-ai/p-video-replace@1.0.0->0.0.2","pruna-ai/p-video-replace","1.0.0","0.0.2","auto","p-video-replace 0.0.2 changelog
+
+- Updated documentation with improved clarity, including fixes to links and reference patterns.
+- Enhanced cross-referencing to other models and reference materials, especially for prompt best practices.
+- Removed outdated files (pspm.json, skill-card.md) to streamline the codebase.
+- Added detailed operational guidance on batch runs, multi-reference use, and input preparation.
+- Improved instructional examples and quality checklists in the documentation.","","","",""
+"mirni/greenhelix-agent-commerce-discovery@1.2.0->1.3.0","mirni/greenhelix-agent-commerce-discovery","1.2.0","1.3.0","auto","greenhelix-agent-commerce-discovery 1.3.0
+
+- All code examples now use the GreenHelix sandbox (https://sandbox.greenhelix.net) with 500 free credits; no API key required to get started.
+- Updated credential guidance to clarify sandbox usage and paid API tooling.
+- API usage instructions updated to reference per-tool REST endpoint (`POST /v1/{tool}`).
+- Minor clarifications and wording improvements throughout the guide.","","","",""
+"halfmoon82/brand-marketing-workflow@3.0.0->3.0.1","halfmoon82/brand-marketing-workflow","3.0.0","3.0.1","user","Full runnable version on ClawDex","","","",""
+"mr-muddle/invoice-scan@1.0.0->1.1.0","mr-muddle/invoice-scan","1.0.0","1.1.0","user","v1.1.0: Dual-mode support. Agent-native mode uses built-in vision (no API key needed). CLI mode for standalone automation. Rewritten SKILL.md with full extraction guide, validation rules inline, and locale handling.","","","",""
+"charlie-morrison/error-budget-tracker@1.0.0->1.0.1","charlie-morrison/error-budget-tracker","1.0.0","1.0.1","auto","## error-budget-tracker 1.0.1
+
+- No user-facing changes; internal or metadata-only version bump.
+- No updates to functionality or documentation.","","","",""
+"wangjipeng977/ai-image-to-code@3.0.0->4.0.0","wangjipeng977/ai-image-to-code","3.0.0","4.0.0","user","Initial release","","","",""
+"hexavi8/daily-stock-analysis@1.0.1->1.0.2","hexavi8/daily-stock-analysis","1.0.1","1.0.2","auto","Version 1.0.2 – Major update with new file structure, deterministic output rules, and Python script integration.
+
+- Enforces working directory and canonical report/output location for better file management.
+- Integrates required Python scripts for report planning and accuracy calculation.
+- Adds compatibility/minimal modes for environments without Python or with limited resources.
+- Introduces stricter overwrite/versioning logic for daily report files.
+- Adds new reference documents: minimal_mode.md, security.md, sources.md.
+- Streamlines required and optional output fields; mandates actionable self-improvement in every run.","","","",""
+"24601/agent-deep-research@2.0.0->2.0.1","24601/agent-deep-research","2.0.0","2.0.1","user","Security metadata: declared all env vars, binaries, credentials, file upload behavior, and network access in SKILL.md frontmatter. Added Security & Transparency section. Addresses OpenClaw suspicious classification.","","","",""
+"dlazyai/dlazy-gpt-image-2@1.3.6->1.3.7","dlazyai/dlazy-gpt-image-2","1.3.6","1.3.7","user","Restore Chinese display name","","","",""
+"jaredforreal/glm-master-skill@1.0.0->1.0.1","jaredforreal/glm-master-skill","1.0.0","1.0.1","user","- Clarified that the skill is documentation-only and does not execute local scripts.
+- Removed ""does not run any local scripts"" and ""does not use subprocess"" from the feature list for brevity.
+- No functional changes; guide and catalog content remains the same.
+- Security notice and guidance remain unchanged.
+- No files were changed besides minor documentation simplification.","","","",""
+"arberx/canonry@4.134.0+46e3bd6->4.134.1+6820d11","arberx/canonry","4.134.0+46e3bd6","4.134.1+6820d11","user","Sync with canonry v4.134.1 (6820d11)","","","",""
+"cyrushuang1995-cmyk/gws-google-workspace@2.1.4->2.1.5","cyrushuang1995-cmyk/gws-google-workspace","2.1.4","2.1.5","user","Fix suspicious flag: declare python3 bin, env vars (GOOGLE_WORKSPACE_PROJECT_ID, GOOGLE_WORKSPACE_CLI_KEYRING_BACKEND), config path (~/.config/gws/client_secret.json). Remove evals/ and gws-workspace/ test data from package.","","","",""
+"kuberwastaken/litmus@1.1.0->1.1.1","kuberwastaken/litmus","1.1.0","1.1.1","user","add stagnation, confidence tracking, compass reset, clawxriv and updated docs","","","",""
+"tmchow/illo@0.31.1->0.31.2","tmchow/illo","0.31.1","0.31.2","user","## [0.31.2](https://github.com/tmchow/illo-skill/compare/v0.31.1...v0.31.2) (2026-07-13)
+
+
+### Bug Fixes
+
+* **codex:** sharpen plugin starter prompts ([74baf9b](https://github.com/tmchow/illo-skill/commit/74baf9b2860fe1a833711623d2b8209f6de13155))
+* **codex:** sharpen plugin starter prompts ([4104465](https://github.com/tmchow/illo-skill/commit/4104465075f8f5a833f6994df1f76614d42367f7))","","","",""
+"keke-skills/video-learner@1.0.3->1.0.4","keke-skills/video-learner","1.0.3","1.0.4","user","添加环境要求声明","","","",""
+"bytesagain1/mealplan@1.0.1->1.0.2","bytesagain1/mealplan","1.0.1","1.0.2","user","Quality upgrade","","","",""
+"cellcog/coding-agent-cellcog@1.0.5->1.0.6","cellcog/coding-agent-cellcog","1.0.5","1.0.6","auto","- Updated SDK usage examples: replaced agent_name with agent_provider in all code snippets.
+- No functional or feature changes; documentation update only.","","","",""
+"ciklopentan/dual-thinking@7.9.7->7.9.8","ciklopentan/dual-thinking","7.9.7","7.9.8","user","Add reference-freeze policy, required reference scenarios, release-discipline docs, validator alignment, and reference-grade checklist without changing core runtime architecture.","","","",""
+"crawlora-org/nike-research@1.0.10->1.0.11","crawlora-org/nike-research","1.0.10","1.0.11","user","Reject curl local-file query syntax","","","",""
+"chrischall/redfin-fpx@0.10.4->0.10.5","chrischall/redfin-fpx","0.10.4","0.10.5","auto","- Removed the skill-card.md file.
+- No user-facing functionality changes; documentation and core usage remain the same.","","","",""
+"isdyh01/shortapi-ai-video-generation@1.0.1->1.0.2","isdyh01/shortapi-ai-video-generation","1.0.1","1.0.2","user","- Added explicit Security & Privacy Compliance section detailing endpoint usage, callback restrictions, and credential safety.
+- Improved formatting of metadata for consistency.
+- No functional or API changes; documentation and compliance clarifications only.","","","",""
+"stoner-byte/github-release-analyzer@0.0.3->0.0.4","stoner-byte/github-release-analyzer","0.0.3","0.0.4","user","Fix state storage to survive skill upgrades: state now resolves with priority (1) env var, (2) legacy workspace path if existing state found, (3) persistent ~/.openclaw/state/ path.","","","",""
+"hith3sh/amplitude-analytics@1.0.4->1.0.5","hith3sh/amplitude-analytics","1.0.4","1.0.5","user","Add UTM attribution tags (utm_source=clawhub) to ClawLink branding links so visits from this skill page are tracked as a distinct traffic source.","","","",""
+"oloapiu/airshell@1.1.0->1.1.1","oloapiu/airshell","1.1.0","1.1.1","user","Fix: vesync credentials via environment variables, never hardcoded","","","",""
+"rockets-cn/unihiker-k10-arduino@1.0.2->1.0.3","rockets-cn/unihiker-k10-arduino","1.0.2","1.0.3","user","Refresh K10 skill onboarding guidance and remove unsupported skill frontmatter version field.","","","",""
+"northcap-group/crypto-drt-scalping@1.0.9->1.0.10","northcap-group/crypto-drt-scalping","1.0.9","1.0.10","user","Fix: engelsk displayName (Crypto DRT Scalping)","","","",""
+"heyixuan2/bambu-studio-ai@0.23.4->0.23.5","heyixuan2/bambu-studio-ai","0.23.4","0.23.5","user","Multi-color report template, auto-detect colors, black preview background","","","",""
+"ivangdavila/people@1.0.0->1.0.1","ivangdavila/people","1.0.0","1.0.1","user","Rename to Contacts","","","",""
+"gnuchev/openresearch-club@1.0.1->1.0.2","gnuchev/openresearch-club","1.0.1","1.0.2","auto","openresearch-club 1.0.2
+
+- Documentation update: SKILL.md revised for clarity and detail; content expanded and reformatted.
+- Removed legacy/deprecated file: skill-card.md no longer included.
+- No changes to functionality or API.","","","",""
+"riffkit/riffkit@1.1.3->1.1.4","riffkit/riffkit","1.1.3","1.1.4","user","Update to v1.1.4","","","",""
+"chrischall/onehome-fpx@0.14.0->0.15.0","chrischall/onehome-fpx","0.14.0","0.15.0","auto","- Dropped the redundant skill-card.md file for a leaner repo.
+- No user-facing or behavioral changes. The CLI usage and documentation remain the same.
+- All OneHome functionality and instructions are unchanged.","","","",""
+"nazchedz/coinversaa-pulse@0.6.1->0.7.0","nazchedz/coinversaa-pulse","0.6.1","0.7.0","user","**Major update: HIP-4 market and API-key requirements, new tools, access tiers.**
+
+- Added full support for HIP-4 outcome contracts and prediction markets, including question discovery, settlement data, and outcome/perp context tools.
+- Expanded from 43 to 55 API-key-authenticated analytics tools, covering all features (no more free tools without API key).
+- All features now require a Coinversa API key; setup documentation updated to reflect this change.
+- Introduced detailed API access tiers (Free/Starter/Pro/Enterprise) with new rate limits and request caps.
+- Updated tool documentation for builder dex and HIP-4 discovery, rate-limited headers, and remote/local MCP options.","","","",""
+"northcap-group/crypto-sentiment-pulse@1.0.13->1.0.14","northcap-group/crypto-sentiment-pulse","1.0.13","1.0.14","user","21/8: Ren version — 100% lokal, ingen x402, skill-card tilføjet","","","",""
+"devinchen2014/douyin-video-copy-extract@0.1.6->0.1.7","devinchen2014/douyin-video-copy-extract","0.1.6","0.1.7","user","同步当前 SocialDataX 使用说明与参数文案。","","","",""
+"kaicianflone/consensus-guard-core@1.1.6->1.1.7","kaicianflone/consensus-guard-core","1.1.6","1.1.7","user","Updated skill metadata: explicit required bins/env and npm install spec for clearer registry/install behavior.","","","",""
+"scottcjn/clawskill@1.2.0->1.2.1","scottcjn/clawskill","1.2.0","1.2.1","user","RTC miner wrapper with verification and consent","","","",""
+"oomol/oo-taxjar@1.0.3->1.0.4","oomol/oo-taxjar","1.0.3","1.0.4","user","- Operate TaxJar through the OOMOL `oo` CLI with server-side credential handling.
+- Inspect live action schemas and execute JSON-based connector actions.
+- Calculate sales tax, retrieve rates, validate VAT numbers, and browse tax categories and nexus regions.
+- Manage customers, order transactions, and refund transactions, including create, update, retrieve, list, and delete operations.
+- Apply confirmation requirements for state-changing and destructive actions, with guided setup for authentication, connections, and billing errors.
+
+Source: `oomol-lab/skills@792ad44`","","","",""
+"nissan/notion-content-pipeline@1.0.0->1.0.1","nissan/notion-content-pipeline","1.0.0","1.0.1","user","Added metadata with network disclosure (Notion API only)","","","",""
+"deadlysilent/codex-profiler@1.0.23->1.0.24","deadlysilent/codex-profiler","1.0.23","1.0.24","user","Wire delete mutation into strict off-host apply flow: requires explicit gateway-restart acknowledgement, queues detached stop/write/start runner (systemd-run preferred, nohup fallback), and adds unsafe-direct escape hatch only by explicit flag. Updated skill UX guidance to require restart warning + permission before mutation.","","","",""
+"ciklopentan/super-memori@4.0.0-candidate.4->4.0.0-candidate.5","ciklopentan/super-memori","4.0.0-candidate.4","4.0.0-candidate.5","user","Adds agent-change-memory for structured local history of applied, dry-run, failed, reverted, and unverified system changes with recall and audit helpers.","","","",""
+"capachow/lens@1.0.1->1.1.0","capachow/lens","1.0.1","1.1.0","user","Release v1.1.0: Migration to YAML Trinity Nodes, enhanced distillation logic, and refined bootstrap orchestration.","","","",""
+"drbaher/youos@0.1.14->0.1.15","drbaher/youos","0.1.14","0.1.15","user","Trust cleanup: removed screenshot/demo metadata not present in strict bundle; clarified manual install/source-review note; metadata parity improvements.","","","",""
+"revupai/revsec-shield@1.0.1->1.0.2","revupai/revsec-shield","1.0.1","1.0.2","user","Improved data transparency: explicit table of data transmitted, API key check without echo, WhatsApp credential clarification, privacy policy link, company identity.","","","",""
+"tinadu-ai/deck-pipeline@2.1.0->2.1.1","tinadu-ai/deck-pipeline","2.1.0","2.1.1","user","Add requires field declaring python-pptx and lxml dependencies. Explicitly state all translation is performed by the Claude model — no external translation APIs are called and document content does not leave the session.","","","",""
+"jimliu/baoyu-post-to-weibo@1.76.2->1.76.3","jimliu/baoyu-post-to-weibo","1.76.2","1.76.3","auto","- Removes all test files from vendor submodules (`baoyu-chrome-cdp` and `baoyu-md`), reducing codebase size.
+- Updates troubleshooting instructions: now only CDP Chrome instances with the baoyu-skills profile are killed, avoiding termination of unrelated browser sessions.
+- Adds automatic post type selection logic: Markdown files trigger headline article publishing; plain text or text with images posts as a regular Weibo post.
+- No changes to existing script usage instructions or main feature set.","","","",""
+"ok-james-01/okx-audit-log@2.4.0->2.6.0","ok-james-01/okx-audit-log","2.4.0","2.6.0","user","- Version updated from 2.4.0 to 2.6.0 in metadata.
+- No functional or content changes detected in this version.","","","",""
+"dlazyai/dlazy-wan2-6-r2v@1.0.3->1.0.4","dlazyai/dlazy-wan2-6-r2v","1.0.3","1.0.4","user","Reduce false-positive scanner alerts: drop 'plaintext' wording from API key storage docs; remove persistsApiKey/network metadata flags in favour of neutral configLocation/apiEndpoints; rewrite Data & Privacy section as factual How-It-Works description without alarming warnings; emphasise that keys can be rotated/revoked at any time from the dLazy dashboard.","","","",""

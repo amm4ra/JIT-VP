@@ -1,0 +1,168 @@
+pair_id,skill_slug,prev_version,version,changelog_source,changelog_text,coder1_code,coder2_code,agreed_code,notes
+christianteohx/apple-calctl@1.0.7->1.0.8,christianteohx/apple-calctl,1.0.7,1.0.8,auto,"- Revised installation instructions: now labels Homebrew as ""(recommended)"" and shortens headings for clarity.
+- No functional or trigger changes; documentation only.",,,,
+youngpietro/beatclaw@1.46.0->1.47.0,youngpietro/beatclaw,1.46.0,1.47.0,auto,"- Default generation model updated from V5 to V6 (Suno’s latest flagship); V5 remains available by explicit request.
+- On apiframe.pro, V6 requests are served as V5 and a `model_override` is included in the response; V5_5 is retired.
+- Skill version header updated to `1.47.0` (send this value in all authenticated requests).
+- All instructions referencing model selection, provider capabilities, and upgrade flow have been revised to reflect these changes.
+- Removed obsolete file: `skill-card.md`.",,,,
+oomol/oo-ticketmaster@1.0.3->1.0.4,oomol/oo-ticketmaster,1.0.3,1.0.4,user,"- Operate Ticketmaster through an OOMOL-connected account without handling raw credentials.
+- Search and retrieve events, attractions, venues, classifications, genres, and sub-genres.
+- Fetch event details, images, venue information, suggestions, and section-map images.
+- Execute Season Ticketing commands, with optional polling for completion.
+- Uses live action schemas and confirmation safeguards for state-changing operations.
+
+Source: `oomol-lab/skills@792ad44`",,,,
+zmtucker/drivethru-operations@0.4.0->0.5.0,zmtucker/drivethru-operations,0.4.0,0.5.0,auto,"Version 0.5.0
+
+- Updated documentation in SKILL.md for clarity and alignment with the operations query surface.
+- references/field_reference.md updated to match current model and field guidance.
+- Removed skill-card.md to streamline skill documentation files.",,,,
+znsyhandao/mathematical-audit-skills@3.5.2->3.5.3,znsyhandao/mathematical-audit-skills,3.5.2,3.5.3,user,"- Added BANDIT_REPORT.md and VERIFICATION_GUIDE.md documentation files.
+- Included bandit_report.json for automated static security analysis results.
+- Added verify_security.py to support security verification of the codebase.",,,,
+drodecker/dcc-docker-container-control@0.1.0->1.0.1,drodecker/dcc-docker-container-control,0.1.0,1.0.1,user,"- Major simplification and clarification of usage, focusing on the core manual deployment workflow.
+- Consolidated and streamlined operating instructions; removed detailed implementation perimeter and extraneous rules.
+- Updated installation instructions for the controller script, including guidance for legacy paths and explicit handle for mismatched versions.
+- All command mappings and deployment actions are now summarized with direct, clear explanations.
+- Emphasized fast, manual CI usage and made success/failure reporting requirements explicit.",,,,
+lrningslo/arithym-io-arithym@1.0.1->1.0.2,lrningslo/arithym-io-arithym,1.0.1,1.0.2,user,"- Added clear environment variable metadata for ARITHYM_API_KEY, including instructions and indication that a free key is available.
+- Significantly expanded and clarified usage guidelines, with more detailed examples for financial math, unit conversions, calculus, and physical constants.
+- Introduced structured tool recommendations and best practices for using the skill, including recommended workflow order.
+- Added a dedicated privacy section outlining data handling and privacy considerations.
+- Improved documentation for workspace and calculus features, and provided usage rule-of-thumb for when to use Arithym.",,,,
+thierrypdamiba/content-claw@3.3.0->3.3.1,thierrypdamiba/content-claw,3.3.0,3.3.1,user,"remove all dead code: no cookies, no driver.dev, no publishing, no crontab, no tracking",,,,
+officialdelta/gmail-secretary@1.0.9->1.0.10,officialdelta/gmail-secretary,1.0.9,1.0.10,auto,"- Updated the voice reference file (`references/voice.md`) for improved style guidance in replies and drafts.
+- No functional or workflow changes.",,,,
+yanzhanglee/personal-genomics-analysis@1.0.0->1.0.1,yanzhanglee/personal-genomics-analysis,1.0.0,1.0.1,user,Refine ClawHub description,,,,
+xllgreen/chinese-medicine-10edition@1.0.0->1.0.1,xllgreen/chinese-medicine-10edition,1.0.0,1.0.1,user,"- Major reorganization of skill content and file structure: 111 files added, 109 files removed.
+- Significant updates to SKILL.md: category names, descriptions, usage sections, and warnings revised and expanded in English.
+- Added new skill categories and updated category details.
+- Enhanced reference material structure for many skills.
+- License file and project metadata updated.",,,,
+xerg/xerg@0.31.0->0.32.0,xerg/xerg,0.31.0,0.32.0,user,"Publish Xerg 0.32.0 with optional observed parent-to-child agent delegation paths, latest-measurement source economics, clearer measurement decision summaries, and compatibility for earlier Push v7 and v6 payloads.",,,,
+securityqq/vargai@2.0.2->2.0.3,securityqq/vargai,2.0.2,2.0.3,user,Auto-published from vargHQ/skills@35a5fc51,,,,
+russidan-nadee/gmail-daily-briefing@1.0.0->1.1.0,russidan-nadee/gmail-daily-briefing,1.0.0,1.1.0,user,"- Added agent instructions in a new file: agent/instructions.md
+- SKILL.md updated with installation steps, clearer setup instructions, and metadata section
+- Improved documentation for user onboarding and agent configuration",,,,
+cinience/alicloud-ai-recommend-airec@1.0.2->1.0.3,cinience/alicloud-ai-recommend-airec,1.0.2,1.0.3,user,batch publish from alicloud-skills on 2026-03-11,,,,
+ayakolin/agent-autonomy-kit-zh@1.0.1->1.0.2,ayakolin/agent-autonomy-kit-zh,1.0.1,1.0.2,auto,"agent-autonomy-kit-zh 1.0.2
+
+- Updated metadata in _meta.json; no user-facing changes.
+- No changes to documentation or functionality.",,,,
+kaicianflone/consensus-publish-guard@1.1.8->1.1.9,kaicianflone/consensus-publish-guard,1.1.8,1.1.9,user,Clarified install/runtime metadata and dependency-source behavior; regenerated lockfile.,,,,
+alex-tradequo/whatsapp-automation-a2a@2.16.0->2.16.1,alex-tradequo/whatsapp-automation-a2a,2.16.0,2.16.1,user,"v2.16.1: Marketing rewrite — new title, preview text, channels content, 97+ endpoints, version sync across all modules",,,,
+zw008/vmware-privateai@1.0.2->1.0.3,zw008/vmware-privateai,1.0.2,1.0.3,user,Second-round fixes from the 2026-08-30 VCF 9.1 re-test; vmware-policy floor raised to 1.11.0 (the engine no longer fails open when rules.yaml cannot be read).,,,,
+gladego/index1@2.0.1->2.0.3,gladego/index1,2.0.1,2.0.3,user,"v2.0.3: Built-in ONNX embedding, 6 MCP tools, dual database (corpus + cognition)",,,,
+oomol/oo-paymo@1.0.0->1.0.2,oomol/oo-paymo,1.0.0,1.0.2,user,"- Operates Paymo through an OOMOL-connected account using the `oo` CLI and server-side credential injection.
+- Supports client, project, and task workflows across list, get, create, update, and delete actions.
+- Includes current-user lookup for the Paymo API key context.
+- Directs agents to inspect live connector schemas before building action payloads.
+- Defines clear safety rules for read, write, and destructive Paymo operations.
+
+Source: `oomol-lab/skills@75bac03`",,,,
+bytesagain1/quickfind@2.0.0->2.0.1,bytesagain1/quickfind,2.0.0,2.0.1,user,Clean package with matching SKILL.md,,,,
+mirni/greenhelix-bundle-api-tutorials@1.2.0->1.3.0,mirni/greenhelix-bundle-api-tutorials,1.2.0,1.3.0,auto,"- Bumped version number from 1.2.0 to 1.3.0 in SKILL.md.
+- No other content or documentation changes were made.",,,,
+getlighty/getlighty-clawroam@2.0.0->2.1.0,getlighty/getlighty-clawroam,2.0.0,2.1.0,auto,"**ClawRoam 2.1.0 introduces file sync rules design documentation and system updates.**
+
+- Added design documents for upcoming file sync rules (docs/plans/2026-02-23-file-sync-rules-design.md and docs/plans/2026-02-23-file-sync-rules.md).
+- Updated schema, provider scripts, dashboard, and core sync logic to prepare for new file sync rule features.
+- Version incremented to 2.1.0 for visibility of planned enhancements.
+- Minor metadata update in SKILL.md.",,,,
+chrischall/gogcli-mcp-gmail@2.0.11->2.0.12,chrischall/gogcli-mcp-gmail,2.0.11,2.0.12,auto,"- No file changes detected in this version.
+- Documentation and tool list remain the same as previous version. No new features, fixes, or updates introduced.",,,,
+carochen112233-commits/ekyc-suite-ai-guardian@1.0.3->1.0.4,carochen112233-commits/ekyc-suite-ai-guardian,1.0.3,1.0.4,user,"Added focused face-liveness, KYC liveness-detection, replay-risk, and deepfake answer citations.",,,,
+jojocrystal/freeguard-setup@0.7.0->0.8.0,jojocrystal/freeguard-setup,0.7.0,0.8.0,user,"Step 6: Connect — added smart node selection (v0.8.0+)
+  - Added examples for alias-based connect (connect la2), country code connect (connect US), alias + protocol (connect la2 anytls), and auto-reconnect to last node
+  - Added guidance: use node list --json to find aliases when user says ""connect to LA"", use country codes when user says ""connect to US""
+  - Noted that connect with no args auto-reconnects to last-used node
+
+  Step 7: Verify — updated user onboarding tips
+  - Changed ""Reconnect"" tip to reference freeguard reconnect command
+  - Added ""Quick reconnect"" tip: freeguard connect remembers last server
+  - Changed ""Switch server"" to mention short aliases
+  - Added ""See all servers"" tip with freeguard node list
+  - Added ""Shell completion"" tip with freeguard completion bash
+
+  Daily Usage Commands — updated table + added alias reference
+  - connect now notes ""auto-reconnects to last-used node, or auto-selects best""
+  - connect US changed from --country US flag to direct country code arg
+  - Added new row: connect la2 for alias-based connect
+  - reconnect added as new command (full disconnect + reconnect cycle)
+  - node list now notes ""with short aliases""
+  - node switch updated to use alias form (to1 instead of ""Tokyo"")
+  - Added new row: completion for enabling tab completion
+  - Added new Short Aliases (v0.8.0+) subsection explaining:
+    - Alias format rules (multi-word: first letters, single-word: first 2 letters, + number)
+    - Collision handling (3-letter extension)
+    - Case distinction: lowercase = alias, uppercase = country code
+    - Best practice: always look up alias via node list --json before connecting
+
+  Language Guide — added 3 new terms
+  - node alias (la2, to1) → ""short server name / shortcut""
+  - reconnect → ""restart VPN connection""
+  - completion → ""tab completion / auto-complete""
+  - Levenshtein / fuzzy match → ""smart suggestions when you mistype""",,,,
+cheminem/pharmaclaw-chemistry-query@1.0.2->1.0.3,cheminem/pharmaclaw-chemistry-query,1.0.2,1.0.3,user,"- Initial public release of the skill as a code module (v1.0.3).
+- Added all source scripts and resources required for PubChem querying and RDKit-based chemistry analysis.
+- Included sample scripts for compound lookup, property calculation, molecular visualization, and retrosynthesis.
+- OPSIN auto-download and checksum verification for IUPAC name conversion now documented.
+- Expanded install and dependency documentation for Python, Java, and third-party APIs.
+- Removed legacy virtual environment configuration file (venv/pyvenv.cfg).",,,,
+abstrct/structs-economy@1.1.1->1.2.0,abstrct/structs-economy,1.1.1,1.2.0,user,"Sync with structs-ai upstream: v0.15 combat overhaul, 24-bit permissions, guild rank system, controller=PlayerId, guild-rank-set commands",,,,
+deciqai/herzberg-two-factor@1.0.2->1.0.3,deciqai/herzberg-two-factor,1.0.2,1.0.3,user,Footer now uses /c/<slug> short link (fixes UTM truncation when SKILL.md is read in a terminal),,,,
+dlazyai/dlazy-search-audio@1.3.14->1.3.15,dlazyai/dlazy-search-audio,1.3.14,1.3.15,user,例行版本更新 2026-09-08,,,,
+schchit/judgment-event-protocol@1.0.0->1.0.1,schchit/judgment-event-protocol,1.0.0,1.0.1,user,"- Added a new ""Security Considerations"" section with best practices for private key management, package integrity, and environment isolation.
+- Clarified that code examples assume secure key handling.
+- Updated the protocol documentation link to point to the GitHub organization instead of a repo subpage.
+- No functional or API changes.",,,,
+1bcmax/clawrouter@0.12.163->0.12.165,1bcmax/clawrouter,0.12.163,0.12.165,user,"Kimi tool-call planning suppression (thanks @0xCheetah1, #161) + OpenClaw plugin restart loop fix + dedup/response-cache isolation between streaming and non-streaming requests",,,,
+dlazyai/dlazy-seedream-5-0-lite@1.1.2->1.2.0,dlazyai/dlazy-seedream-5-0-lite,1.1.2,1.2.0,auto,"- Updated CLI install instructions to use the latest version of @dlazy/cli instead of a pinned version.
+- Changed the output format's ""modelId"" field value from ""doubao-seedream-5-0-lite"" to ""seedream-5.0-lite"".
+- Updated metadata to install and use @dlazy/cli@latest.
+- Removed the deprecated skill-card.md file.",,,,
+paulieb14/subgraph-registry@0.8.24->0.8.25,paulieb14/subgraph-registry,0.8.24,0.8.25,auto,"- Updated the registry database: subgraph count is now 15,252 (was 15,256).
+- Changed expected SHA-256 hash for the bundled registry.db.
+- Updated version references and documentation to 0.8.25.
+- Removed the obsolete skill-card.md file.",,,,
+mineru-extract/mineru-document-extractor@0.1.19->0.1.20,mineru-extract/mineru-document-extractor,0.1.19,0.1.20,user,"No functional changes detected in version 0.1.20.  
+- No code or documentation changes in this release.
+- Skill content and capabilities remain unchanged.",,,,
+apiclaw/amazon-listing-audit-pro@1.0.7->1.0.8,apiclaw/amazon-listing-audit-pro,1.0.7,1.0.8,user,Composite resolved_category_path metadata + ABA out-of-window date guidance; per-skill CLI command allowlists (COMMAND_NOT_ALLOWED enforcement); credential-source hardening; SKILL.md description trims. See CHANGELOG.,,,,
+phy041/phy-proto-break-check@1.0.0->1.0.1,phy041/phy-proto-break-check,1.0.0,1.0.1,auto,"- Updated metadata: author changed to Canlah AI and homepage added.
+- Version bumped from 1.0.0 to 1.0.1.",,,,
+googlarz/proactive-claw@1.2.17->1.2.18,googlarz/proactive-claw,1.2.17,1.2.18,auto,"- Refreshed skill documentation for clarity and transparency: install steps, credential handling, and side effects are now fully explicit in the SKILL.md.
+- Improved section on required/optional credentials, with clear tables and descriptions of both Google and Nextcloud backends.
+- Detailed all install actions, including Python dependency sources (PyPI only) and background daemon setup, with full steps shown.
+- Enhanced security and privacy disclosures, reinforcing that no credentials are uploaded and all actions are local and inspectable.
+- No changes to functionality or APIs—documentation only.",,,,
+xueyetianya/server-dashboard@1.0.0->2.0.0,xueyetianya/server-dashboard,1.0.0,2.0.0,user,Clean package with matching SKILL.md,,,,
+stevenho1394/hk-weather-info@1.0.0->1.0.1,stevenho1394/hk-weather-info,1.0.0,1.0.1,user,"**Added 1-minute average temperature CSV support, improved language handling, and clarified output formats.**
+
+- Now fetches and displays the latest 1-minute average temperature from HKO CSV, with retry and parsing logic.
+- Language preference defaults to Traditional Chinese (`tc`); user override supported.
+- Output format clarified for each language, with consistent label usage and additional one-minute temp appended.
+- Updated handling and mapping of regional names for temperature extraction.
+- Skill no longer relies on removed file `skill-card.md`; added `references/1min-temp-csv.md` for CSV documentation.",,,,
+heygen-com/hyperframes-animation@1.0.0->1.0.1,heygen-com/hyperframes-animation,1.0.0,1.0.1,user,Synced from a7c3cc7 (main),,,,
+keylimesoda/familysearch@1.0.2->1.0.3,keylimesoda/familysearch,1.0.2,1.0.3,auto,"- Improved parsing in scripts/gedcom_query.py for increased reliability with GEDCOM files.
+- No user-facing command or feature changes.",,,,
+viratkumar123/model-troubleshooter@1.0.0->1.0.1,viratkumar123/model-troubleshooter,1.0.0,1.0.1,user,"**Major update: Automated, expert-level troubleshooting and permanent auto-fixes for any OpenClaw model issues.**
+
+- Completely overhauled methodology: The skill now performs a full, automatic scan and technical analysis of all OpenClaw models, providers, keys, and configurations—no user input needed.
+- Expanded scope: Deep log forensics, provider health checks, and error pattern recognition to find exact root causes, not just fix symptoms.
+- Permanent, tiered fixes: Applies the most robust solution for each issue—provider migration, API key rotation, chunk validation, rate limit prevention, or endpoint replacement—and future-proofs by adding monitoring and escalation rules.
+- Clear, expert-style reporting: Gives users a detailed, actionable summary and education on what was fixed and why it's permanent.
+- Removes documentation file (skill-card.md); all instructions and explanations integrated into the single SKILL.md for improved clarity and ease of maintenance.",,,,
+byungkyu/fastmail@1.2.3->1.2.4,byungkyu/fastmail,1.2.3,1.2.4,user,"Bring the skill to the current api-gateway baseline and tell the connection-to-function-to-trigger story: the shared Functions and Triggers sections open with an example for this app (a hosted function that performs one action for it through the Maton SDK, and the trigger that runs it - its own event source where it has one, otherwise a time schedule), the description says these constructs turn the connection into automation and add no capability of their own, the passthrough is described by its enforced boundary, CLI and SDK installs are pinned to 0.3.1, absolute API URLs are placeholders, and multipart uploads use mktemp.",,,,
+hjianfeng/seedance-2-ai-video-generator@1.0.1->1.0.2,hjianfeng/seedance-2-ai-video-generator,1.0.1,1.0.2,user,"- Added a credentials section to declare LOOVA_API_KEY as the primary credential.
+- No behavioral or functionality changes. 
+- This update improves credential management and documentation clarity.",,,,
+cellcog/nano-banana-image-cellcog@1.0.8->1.0.9,cellcog/nano-banana-image-cellcog,1.0.8,1.0.9,auto,"- Added explicit system requirements in metadata: Python 3 and the CELLCOG_API_KEY environment variable are now specified as dependencies.
+- No changes to functionality or usage instructions. Documentation metadata is updated for improved clarity and environment setup.",,,,
+nowloady/agent-commerce-engine@1.6.2->1.6.3,nowloady/agent-commerce-engine,1.6.2,1.6.3,user,Protocol standardization enhancements,,,,
+kurosh87/aerobase-travel-concierge@3.0.8->3.0.9,kurosh87/aerobase-travel-concierge,3.0.8,3.0.9,auto,"- Updated metadata format to explicitly list required environment variables for deployment.
+- No user-facing features or functionality changed. 
+- Documentation and config improvements only; overall skill behavior remains the same.",,,,
+athola/nm-conserve-context-optimization@1.0.0->1.0.1,athola/nm-conserve-context-optimization,1.0.0,1.0.1,user,Release v1.9.4,,,,

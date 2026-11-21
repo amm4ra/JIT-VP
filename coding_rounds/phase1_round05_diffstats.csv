@@ -1,0 +1,51 @@
+﻿row,pair_id,diff_status,files_changed,lines_added,lines_removed,changed_files
+1,maay/brighty@1.0.2->1.1.0,ok,2,26,1,SKILL.md; config/mcporter.json
+2,yumyumtum/yumfu@1.7.8->1.7.9,ok,4,77,56,package.json; RELEASE_NOTES_v1.7.9.md; scripts/prepare_daily_evolution_delivery.py; scripts/run_daily_evolution_job.py
+3,parkertoddbrooks/wip-ai-devops-toolbox@1.9.39->1.9.40,ok,25,467,304,SKILL.md; ai/dev-updates/2026-03-16--cc-mini--product-docs-auto-sync.md; ai/product/plans-prds/archive-complete/2026-03-10--cc-mini--license-guard-hooks.md; ai/product/plans-prds/archive-complete/2026-03-14--cc-mini--skill-ldm-install.md; ai/product/plans-prds/archive-complete/bootstrap-ldm-os.md; ai/product/plans-prds/current/2026-03-10--cc-mini--license-guard-hooks.md; ai/product/plans-prds/current/2026-03-14--cc-mini--skill-ldm-install.md; ai/product/plans-prds/current/bootstrap-ldm-os.md; ai/product/plans-prds/roadmap.md; ai/product/readme-first-product.md; CHANGELOG.md; package.json; tools/deploy-public/package.json; tools/post-merge-rename/package.json; tools/wip-branch-guard/package.json; tools/wip-file-guard/package.json; tools/wip-license-guard/package.json; tools/wip-license-hook/package.json; tools/wip-readme-format/package.json; tools/wip-release/core.mjs; tools/wip-release/package.json; tools/wip-repo-init/package.json; tools/wip-repo-permissions-hook/package.json; tools/wip-repos/package.json; tools/wip-universal-installer/package.json
+4,ykforerlang/data-charts-visualization@1.0.4->1.0.5,ok,1,1,7,SKILL.md
+5,simmer/polymarket-signal-sniper@1.4.3->1.4.4,ok,3,21,6,config.json; signal_sniper.py; state/processed.json
+6,vnbochkarev-netizen/vibo-memory@2.1.1->2.1.2,ok,2,3,3,SKILL.md; VERSION
+7,kostja94/pricing-page-generator@1.2.0->1.2.1,ok,1,2,2,SKILL.md
+8,assix/earnings-financials-agent@1.0.0->1.0.1,ok,2,35,23,SKILL.md; logic.py
+9,zgjq/context-compactor-zero-dep@1.1.0->1.1.1,ok,2,52,2,SKILL.md; scripts/compact_session.py
+10,agents365-ai/drawio-pro-skill@1.3.0->1.4.0,ok,3,24,5,SKILL.md; README.md; README_CN.md
+11,deciqai/scenario-planning@1.0.0->1.0.1,ok,0,0,0,
+12,devinchen2014/socialdatax-xhs-comments@0.1.11->0.1.12,ok,1,15,5,SKILL.md
+13,zw008/vmware-debug@1.6.1->1.8.0,ok,3,21,4,SKILL.md; references/capabilities.md; references/setup-guide.md
+14,zw008/vmware-log-insight@1.8.16->1.8.17,ok,2,3,3,SKILL.md; references/setup-guide.md
+15,karmanverma/markitdown-skill@1.0.0->1.0.1,ok,3,52,59,SKILL.md; package.json; README.md
+16,asif2bd/openclaw-token-optimizer@1.4.0->1.4.1,ok,3,1,224,SKILL.md; docs/RESEARCH-NOTES.md; PR-DESCRIPTION.md
+17,twinsgeeks/qwen-qwen3-5@1.0.0->1.0.1,ok,1,6,4,SKILL.md
+18,just-forever/just-test-skill@1.0.1->1.0.2,ok,2,6,0,a.md; b.md
+19,yoborlon-alpha/planit@2.0.2->2.0.0,ok,1,6,1,package.json
+20,dizaztuh/molt-market-worker@1.0.0->2.0.0,ok,0,0,0,
+21,dlazyai/dlazy-search-video@1.3.1->1.3.2,ok,0,0,0,
+22,seiriosplus/miaoda-app-builder@1.0.3->1.0.4,ok,1,423,73,SKILL.md
+23,imnotriv3r/rocom@1.4.6->1.4.7,ok,1,35,37,SKILL.md
+24,junyij/housing-scout-pro@1.0.1->1.0.2,ok,6,78,19,SKILL.md; scripts/housing_scout/data/queries.json; scripts/housing_scout/housing_scout.mjs; scripts/housing_scout/providers/realtor.mjs; scripts/housing_scout/providers/redfin.mjs; scripts/housing_scout/providers/zillow.mjs
+25,paulieb14/subgraph-registry@0.8.4->0.8.5,ok,33,101,101,data/openapi.json; docs/charts/domains.svg; docs/charts/networks.svg; docs/charts/protocol-types.svg; docs/charts/reliability-dist.svg; docs/DOMAINS.md; docs/domains/analytics.md; docs/domains/dao.md; docs/domains/defi.md; docs/domains/gaming.md; docs/domains/identity.md; docs/domains/infrastructure.md; docs/domains/nfts.md; docs/domains/social.md; docs/domains/unknown.md; docs/NETWORKS.md; docs/networks/arbitrum-one.md; docs/networks/avalanche.md; docs/networks/base-sepolia.md; docs/networks/base.md; docs/networks/bsc.md; docs/networks/gnosis.md; docs/networks/linea.md; docs/networks/mainnet.md; docs/networks/matic.md; docs/networks/optimism.md; docs/networks/sepolia.md; docs/networks/zksync-era.md; openapi.yaml; package.json; python/data/sync-state.json; server.json; src/index.js
+26,xmanrui/openclaw-bot-dashboard@1.0.4->1.0.5,ok,2,42,15,SKILL.md; skill.json
+27,openlark/xhs-suggest-keywords@1.0.1->1.0.2,ok,2,180,82,SKILL.md; references/selectors.md
+28,jamesfincher/browserbase-sessions@1.2.2->2.4.0,ok,3,1215,42,SKILL.md; README.md; scripts/browserbase_manager.py
+29,diankourenxia/wodeapp-ai@1.0.8->1.0.9,ok,1,283,158,SKILL.md
+30,titus-choi/trunkate-ai@0.18.0->0.19.0,ok,4,59,5,CHANGELOG.md; scripts/activator.py; scripts/trunkate.py; version.txt
+31,aaigotchi/aavegotchi-svg-custom@1.1.2->1.1.3,ok,5,20,47,SKILL.md; package-lock.json; package.json; README.md; scripts/build-wearables-reference.mjs
+32,cmyang-it/uiverse-design@2.1.0->2.1.1,ok,2,3,3,SKILL.md; scripts/setup.sh
+33,g9pedro/clawvault@1.11.4->1.11.5,ok,1,3,1,SKILL.md
+34,icepopma/linkedin-post-generator@1.0.6->1.0.7,ok,2,3,6,SKILL.md; index.js
+35,cellcog/creative-writing-cellcog@1.0.1->1.0.2,ok,1,3,1,SKILL.md
+36,vince-winkintel/gitlab-cli-skills@1.13.8->1.13.8+merged.1,ok,90,4611,13634,glab-alias/SKILL.md; glab-api/SKILL.md; glab-attestation/SKILL.md; glab-auth/SKILL.md; glab-changelog/SKILL.md; glab-check-update/SKILL.md; glab-ci/SKILL.md; glab-cluster/SKILL.md; glab-completion/SKILL.md; glab-config/SKILL.md; glab-deploy-key/SKILL.md; glab-duo/SKILL.md; glab-gpg-key/SKILL.md; glab-help/SKILL.md; glab-incident/SKILL.md; glab-issue/SKILL.md; glab-iteration/SKILL.md; glab-job/SKILL.md; glab-label/SKILL.md; glab-mcp/SKILL.md; glab-milestone/SKILL.md; glab-mr/SKILL.md; glab-opentofu/SKILL.md; glab-orbit/SKILL.md; glab-quick-actions/SKILL.md; glab-release/SKILL.md; glab-repo/SKILL.md; glab-runner-controller/SKILL.md; glab-runner/SKILL.md; glab-schedule/SKILL.md; glab-securefile/SKILL.md; glab-skills/SKILL.md; glab-snippet/SKILL.md; glab-ssh-key/SKILL.md; glab-stack/SKILL.md; glab-todo/SKILL.md; glab-token/SKILL.md; glab-user/SKILL.md; glab-variable/SKILL.md; glab-version/SKILL.md; glab-workitems/SKILL.md; SKILL.md; glab-alias/references/commands.md; glab-attestation/references/commands.md; glab-auth/references/commands.md; glab-changelog/references/commands.md; glab-ci/references/commands.md; glab-ci/references/pipeline-best-practices.md; glab-ci/templates/docker-build.yml; glab-ci/templates/nodejs-basic.yml; glab-ci/templates/nodejs-multistage.yml; glab-ci/templates/README.md; glab-cluster/references/commands.md; glab-config/references/commands.md; glab-deploy-key/references/commands.md; glab-duo/references/commands.md; glab-gpg-key/references/commands.md; glab-incident/references/commands.md; glab-issue/references/commands.md; glab-iteration/references/commands.md; glab-job/references/commands.md; glab-label/references/commands.md; glab-mcp/references/commands.md; glab-milestone/references/commands.md; glab-mr/references/commands.md; glab-opentofu/references/commands.md; glab-release/references/commands.md; glab-repo/references/commands.md; glab-runner-controller/references/commands.md; glab-schedule/references/commands.md; glab-securefile/references/commands.md; glab-snippet/references/commands.md; glab-ssh-key/references/commands.md; glab-stack/references/commands.md; glab-todo/references/commands.md; glab-token/references/commands.md; glab-user/references/commands.md; glab-variable/references/commands.md; README.md; scripts/add-inline-comment.sh; scripts/batch-label-issues.sh; scripts/build-claude-skill.sh; scripts/ci-debug.sh; scripts/create-mr-from-issue.sh; scripts/mr-review-workflow.sh; scripts/post-inline-comment.py; scripts/README-inline-comments.md; scripts/README.md; scripts/sync-fork.sh; SECURITY.md
+37,chenglin97/agent-hansa-merchant@0.1.0->0.1.1,ok,6,66,1764,skill.md; SKILL.md; index.js; package-lock.json; package.json; README.md
+38,oomol/oo-brevo@1.0.1->1.0.3,ok,1,1,1,SKILL.md
+39,medstatstar/statsoft-cli@2.6.7->2.6.8,ok,16,56,42,SKILL.md; ADDITIONAL_SOFTWARE.md; CHANGELOG.md; references/command-examples.md; references/trust-and-safety.md; scripts/common/write_config.py; scripts/windows-only/AMOS/setup_amos.ps1; scripts/windows-only/Limdep/setup_limdep.ps1; scripts/windows-only/Mathematica/setup_mathematica.ps1; scripts/windows-only/Microfit/setup_microfit.ps1; scripts/windows-only/Mplus/setup_mplus.ps1; scripts/windows-only/NCSS/setup_ncss.ps1; scripts/windows-only/NLOGIT/setup_nlogit.ps1; scripts/windows-only/Origin/setup_origin.ps1; scripts/windows-only/Q_MRKS/setup_q.ps1; scripts/windows-only/SPSS/setup_modeler.ps1
+40,googleworkspace-bot/recipe-generate-report-from-sheet@1.0.5->1.0.6,ok,1,1,1,SKILL.md
+41,crawlora-org/ats-job-boards-research@1.0.3->1.0.4,ok,0,0,0,
+42,googleworkspace-bot/gws-script-push@1.0.1->1.0.2,ok,1,1,1,SKILL.md
+43,dedene/irail@1.0.0->1.0.1,ok,1,26,0,SKILL.md
+44,simmer/polymarket-weather-trader@1.23.21->1.23.22,ok,3,119,15,SKILL.md; CHANGELOG.md; weather_trader.py
+45,oomol/oo-magileads@1.0.0->1.0.2,ok,1,1,1,SKILL.md
+46,zke-exchange/zke-trading@1.0.9->1.0.10,ok,3,20,12,openclaw-plugin/openclaw.plugin.json; openclaw-plugin/package.json; skill.json
+47,mbojer/claw-list@1.2.1->1.2.2,ok,2,32,1,SKILL.md; CHANGELOG.md
+48,oomol/oo-teable@1.0.0->1.0.2,ok,1,1,1,SKILL.md
+49,mirni/gh-securitysuite@0.1.0->1.0.0,ok,1,27,51,SKILL.md
+50,bonniegeng-max/md-out-of-chat@1.5.0->1.5.1,ok,2,9,5,SKILL.md; md2share.py

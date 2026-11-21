@@ -1,0 +1,22 @@
+﻿theme,direction,introduced,fixed,no change
+Configuration and declared requirements,added,50,93,52
+Configuration and declared requirements,modified,35,50,26
+Configuration and declared requirements,removed,19,29,12
+Dependencies and external reach,added,43,25,28
+Dependencies and external reach,modified,48,29,26
+Dependencies and external reach,removed,11,17,11
+Functional behavior,added,109,50,79
+Functional behavior,modified,63,37,60
+Functional behavior,removed,22,30,18
+Monetization,added,11,7,8
+Monetization,modified,3,5,11
+Monetization,removed,0,3,0
+Package composition,added,21,12,25
+Package composition,modified,15,6,5
+Package composition,removed,15,22,19
+Safety controls and risk communication,added,78,113,88
+Safety controls and risk communication,modified,33,31,29
+Safety controls and risk communication,removed,31,27,24
+Upkeep and presentation,added,58,27,60
+Upkeep and presentation,modified,161,150,176
+Upkeep and presentation,removed,8,10,5

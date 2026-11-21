@@ -1,0 +1,175 @@
+﻿"pair_id","skill_slug","prev_version","version","changelog_source","changelog_text","coder1_code","coder2_code","agreed_code","notes"
+"probebuilders/rydberg-agent-node@2.5.0->2.5.1","probebuilders/rydberg-agent-node","2.5.0","2.5.1","user","No file changes detected; this is a version bump only.
+
+- Version updated from 2.5.0 to 2.5.1
+- No changes to code, documentation, or behavior","","","",""
+"xueyetianya/slack-automator@2.3.7->2.0.0","xueyetianya/slack-automator","2.3.7","2.0.0","user","v2.5 standard: Use-when desc, homepage, source, security fix","","","",""
+"chrischall/ofw-fpx@2.13.0->2.14.0","chrischall/ofw-fpx","2.13.0","2.14.0","auto","- Removed the skill-card.md file.
+- No user-facing or behavioral changes; documentation and usage remain unchanged.","","","",""
+"globalcaos/chatgpt-exporter-ultimate@1.9.1->1.9.2","globalcaos/chatgpt-exporter-ultimate","1.9.1","1.9.2","user","Kept from round 1; writePrivate now opens O_CREAT|O_EXCL first to know whether it created the file; §3, the manifest paragraph, the expiry bullet and the export; The card now describes the relay (confirmed:true throws with destination and scope, index-only default, no ove; Every claim is now scoped to the path that does it; Added node to requires; _meta; Staged /tmp/clawscan-fix/stage/chatgpt-exporter","","","",""
+"ericlooi504/ericlooi504-seo-audit@1.0.0->1.0.1","ericlooi504/ericlooi504-seo-audit","1.0.0","1.0.1","auto","- Metadata in SKILL.md updated: removed the homepage URL field.
+- Version updated to 1.0.1.
+- Minor content or formatting adjustments in documentation files.
+- No functional or CLI changes to audit, check, or report scripts.","","","",""
+"oomol/oo-deepseek@1.0.0->1.0.1","oomol/oo-deepseek","1.0.0","1.0.1","user","- Provides OOMOL-backed access to DeepSeek through the `oo` CLI, with credentials injected server-side.
+- Supports DeepSeek chat completions via the OpenAI-compatible API.
+- Supports DeepSeek messages through the Anthropic-compatible API.
+- Includes read actions for listing available models and checking account balance.
+- Documents schema-first execution, JSON payload handling, safety rules, and first-time setup fallbacks.
+
+Source: `oomol-lab/skills@146ef20`","","","",""
+"mcdoolz/openclaw-sulcus-skill@1.3.0->1.4.0","mcdoolz/openclaw-sulcus-skill","1.3.0","1.4.0","user","Remove all cloud sync and webhook references — fully local, zero network. Cloud sync and webhooks are paid features in a separate skill.","","","",""
+"fudanjx/notebooklm-pdf-cleaner@1.0.0->1.0.1","fudanjx/notebooklm-pdf-cleaner","1.0.0","1.0.1","user","Narrowed scope to NotebookLM slide-deck footer-badge masking, replaced machine-specific paths with portable skill paths, and added safer defaults: no metadata/annotation stripping unless explicitly requested, no source overwrite, and no output overwrite without --force.","","","",""
+"oomol/oo-googleforms@1.0.3->1.0.4","oomol/oo-googleforms","1.0.3","1.0.4","user","- Adds Google Forms support through the OOMOL connector and `oo` CLI.
+- Creates new forms with title, description, and unpublished-state options.
+- Retrieves form structure, settings, publish state, items, and individual responses.
+- Lists form responses with filtering and pagination support.
+- Manages form publishing and response-acceptance settings.
+- Supports advanced batch updates with optional revision controls.
+
+Source: `oomol-lab/skills@e4c868f`","","","",""
+"mazzzystar/ccclub@1.0.1->1.0.2","mazzzystar/ccclub","1.0.1","1.0.2","user","Leaderboard counts coding agents only; non-coding assistant usage excluded server-side","","","",""
+"titus-choi/trunkate-ai@0.16.0->0.17.0","titus-choi/trunkate-ai","0.16.0","0.17.0","auto","trunkate-ai v0.17.0
+
+- Documentation updates in SKILL.md to clarify usage, integration, and best practices.
+- No changes to feature set, logic, or dependencies.
+- Version number updated in version.txt.","","","",""
+"parkertoddbrooks/wip-repo-init@1.9.46->1.9.47","parkertoddbrooks/wip-repo-init","1.9.46","1.9.47","user","# Release Notes: wip-ai-devops-toolbox v1.9.47
+
+**New: `wip-repos claude` command + CLAUDE.md templates.**
+
+## What changed
+
+### `wip-repos claude` (Phases 1-3 of the CLAUDE.md plan)
+
+New subcommand that generates cross-repo ecosystem sections in CLAUDE.md files. When an agent opens repo-A, it can't read repo-B. This command pre-generates the context.
+
+```bash
+wip-repos claude              # regenerate all repos
+wip-repos claude my-repo      # regenerate one repo
+wip-repos claude --init       # create CLAUDE.md for repos missing one
+wip-repos claude --dry-run    # preview changes
+```
+
+Features:
+- Reads all repos from manifest, extracts metadata (package.json, SKILL.md, directory structure)
+- Generates `## Ecosystem` sections with delimiter comments (`<!-- wip-repos:start/end -->`)
+- Hand-written sections are never overwritten
+- Relevance filtering: only related repos shown (same category + core repos)
+- `--init` creates starter CLAUDE.md from template for repos missing one
+
+### Templates
+
+- `templates/global-claude-md.md` ... universal CLAUDE.md for ~/.claude/CLAUDE.md
+- `templates/repo-claude-md.template` ... per-repo starter with ecosystem placeholder
+
+## Why
+
+Agents lose context across repos. They can't read sibling repos at runtime. Pre-generating cross-repo maps into CLAUDE.md solves this without requiring runtime access.
+
+## Issues closed
+
+- #212 (partial: Phases 1-3 of 6)
+
+## How to verify
+
+```bash
+wip-repos claude --dry-run
+```","","","",""
+"luduoxin/ai-leaderboard@1.2.0->1.3.0","luduoxin/ai-leaderboard","1.2.0","1.3.0","auto","Version 1.3.0 – Adds Python script support for leaderboard queries
+
+- Introduced the query_leaderboard.py script for direct API access to OpenRouter model data (listing, searching, and filtering).
+- Updated SKILL.md with new Python-based instructions and clarified recommended/alternate data retrieval methods.
+- Improved guidance for fetching model catalog and free model lists using the Python script or API.
+- Web-fetch fallback now recommended only when script/API unavailable.
+- No changes to trigger words, output formats, or core features.","","","",""
+"capachow/lens@0.7.1->0.7.2","capachow/lens","0.7.1","0.7.2","user","- No visible changes were detected in this version.
+- The skill's documentation and implementation remain unchanged from the previous release.","","","",""
+"bythecult/shop-culture@1.0.6->1.0.7","bythecult/shop-culture","1.0.6","1.0.7","auto","- Added detailed API references: CHECKOUT-FIELDS.md, ERRORS.md, and API.md for better integration and troubleshooting.
+- Updated SKILL.md documentation to clarify use cases, search options (`source` support for store/marketplace), and item identification for checkout (productId vs. asin).
+- Expanded product and agent compatibility details.
+- Improved guidance on marketplace product support and updated when-to-use criteria.
+- No functional API changes; documentation and reference improvement release.","","","",""
+"oomol/oo-ongage@1.0.0->1.0.2","oomol/oo-ongage","1.0.0","1.0.2","user","- Operates Ongage through the OOMOL `oo` CLI using server-side managed credentials.
+- Provides read actions for lists and contacts, including lookup by list ID, contact ID, or email.
+- Supports paginated listing of sending and suppression lists.
+- Adds write actions for updating and upserting contacts in Ongage lists.
+- Includes safety guidance requiring confirmation before running state-changing actions.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"mentholmike/wagmios@1.0.0->1.0.1","mentholmike/wagmios","1.0.0","1.0.1","user","- Clarified that the X-API-Key is provided by the user at runtime and must not be stored by the agent.
+- Added guidance on credential handling: API keys are user-scoped, not stored, and should not be logged or exposed.
+- Updated the authentication section to emphasize user-supplied, ephemeral credentials.
+- No functional or API changes. Documentation improvements only.","","","",""
+"kai-tw/tc-dict@1.0.0->1.0.1","kai-tw/tc-dict","1.0.0","1.0.1","user","Security hardening: Fix TLS verification and add zip-slip protection. All HTTPS connections now use proper certificate validation. Dictionary zip files validated against path traversal attacks before extraction.","","","",""
+"sanguineseal/aegis-audit@0.1.8->0.1.9","sanguineseal/aegis-audit","0.1.8","0.1.9","auto","- Major SKILL.md rewrite for clarity and conciseness.
+- Added explicit privacy notice and documentation for LLM-powered analysis.
+- Documented required environment variables for API key configuration.
+- Clarified offline, no-LLM, and security-first workflow as the default.
+- Improved sections on CLI commands, lockfile generation/verification, and MCP server usage.","","","",""
+"noambens/agent-changelog@1.2.1->1.2.2","noambens/agent-changelog","1.2.1","1.2.2","user","No code or documentation changes detected in this version.
+
+- Cron job now done through a guard that checks for anything to commit - does not spawn a new agent to handle commit if there is nothing to commit. Saves significantly on token usage.","","","",""
+"8co/opentangl@0.1.9->0.1.10","8co/opentangl","0.1.9","0.1.10","user","Add searchable tags and category. Expand description for vector search discoverability. Add step-by-step flow guardrail.","","","",""
+"claytantor/katbot-trading@0.1.4->0.1.5","claytantor/katbot-trading","0.1.4","0.1.5","auto","- Removed dependency on the ""uv"" Python package manager; now uses standard Python and pip.
+- Updated installation instructions to use pip for setting up dependencies.
+- Adjusted environment requirements to only mention ""python3"" for binaries.
+- Documentation and metadata updated to reflect these changes for simpler setup.","","","",""
+"waldyrious/workflowy@1.0.5->1.0.6","waldyrious/workflowy","1.0.5","1.0.6","auto","- Updated SKILL.md to remove the ""openclaw"" metadata section and align metadata formatting.
+- Removed the outdated SKILL-v1.0.3.md file.
+- No command or usage changes; documentation and metadata cleanup only.","","","",""
+"tommot2/cross-check@2.0.1->2.1.0","tommot2/cross-check","2.0.1","2.1.0","user","Auto-invocation now opt-in via HEARTBEAT.md. Declared sessions_spawn capability and HEARTBEAT.md config path in metadata. Suggest-don't-auto-run by default.","","","",""
+"ckchzh/wireframe@3.0.0->3.0.1","ckchzh/wireframe","3.0.0","3.0.1","user","Fix: add Requirements, fix description","","","",""
+"james-southendsolutions/camino-safety-checker@0.1.0->2.0.1","james-southendsolutions/camino-safety-checker","0.1.0","2.0.1","user","Sync from camino-skills@2.0.1","","","",""
+"msaad00/agent-bom-discover-azure@0.103.2->0.104.0","msaad00/agent-bom-discover-azure","0.103.2","0.104.0","user","Release v0.104.0","","","",""
+"diagnostikon/polymarket-ladder-social-posts-trader@1.0.1->0.0.2","diagnostikon/polymarket-ladder-social-posts-trader","1.0.1","0.0.2","user","fix: add _client.live=True so --live actually routes to polymarket-venue for real USDC trades","","","",""
+"yuanzhian-patsnap/rd-initiation-review@1.0.0->1.0.1","yuanzhian-patsnap/rd-initiation-review","1.0.0","1.0.1","auto","- Updated copyright statement in SKILL.md.
+- Minor formatting and wording changes in SKILL.md for clarity and completeness.
+- No changes to core functionality or review logic.
+- Removed obsolete skill-card.md file.","","","",""
+"nollio/normieclaw-dashboard-builder@1.0.0->1.0.2","nollio/normieclaw-dashboard-builder","1.0.0","1.0.2","user","v1.0.2: MIT license, cleaned descriptions, removed cross-sell","","","",""
+"billylui/temporal-cortex-datetime@0.7.2->0.7.3","billylui/temporal-cortex-datetime","0.7.2","0.7.3","user","Release v0.7.3","","","",""
+"crawlora-org/crawlora-datasets@1.0.6->1.0.7","crawlora-org/crawlora-datasets","1.0.6","1.0.7","user","Sync via scripts/sync-directories.sh","","","",""
+"sora-mury/openclaw-memory-kit@0.2.0->0.2.1","sora-mury/openclaw-memory-kit","0.2.0","0.2.1","user","Refresh the memory kit for OpenClaw 2026.3.23-2 compatibility and update the official Feishu plugin guidance.","","","",""
+"adspower/adspower-browser@1.0.1->1.0.2","adspower/adspower-browser","1.0.1","1.0.2","user","No significant changes detected in this version.
+
+- No file changes or functional updates were made.
+- Documentation content was minimally adjusted, with minor removals related to share-profile command references and text formatting.","","","",""
+"stephenredmond-straiteis/edge-tts-voice-system@2.0.0->2.1.0","stephenredmond-straiteis/edge-tts-voice-system","2.0.0","2.1.0","user","Full cleanup to Edge TTS outbound replies; refreshed reinstall flow and docs","","","",""
+"cole-z/govee-api-assist@1.0.1->1.0.2","cole-z/govee-api-assist","1.0.1","1.0.2","user","Deprecate this skill and redirect users to @Cole-Z/govee-control as the canonical maintained version.","","","",""
+"xueyetianya/task-planner@3.0.3->3.0.4","xueyetianya/task-planner","3.0.3","3.0.4","user","Final Quality & Bilingual Polishing","","","",""
+"sahilaujla/alchemy-official@1.1.1->1.1.2","sahilaujla/alchemy-official","1.1.1","1.1.2","user","Re-publish with clean metadata to fix search indexing","","","",""
+"kyro-ma/work-productivity-skillscan-security-workflow-helper@0.20260727.30443->0.20260727.80339","kyro-ma/work-productivity-skillscan-security-workflow-helper","0.20260727.30443","0.20260727.80339","auto","- Updated documentation in README.md and README.zh-CN.md for clarity and completeness.
+- Revised references/requirement-plan.md to better align with current workflow needs.
+- Removed outdated skill-card.md file to declutter the repository.","","","",""
+"sheetaa/create-agent-with-telegram-group@0.1.2->0.1.3","sheetaa/create-agent-with-telegram-group","0.1.2","0.1.3","user","Resolve credential handling contradiction: explicitly remove all guidance about copying auth files between agents, add Access Scope section declaring exact file read/write targets, and clarify that new agents inherit auth from gateway context automatically.","","","",""
+"chrischall/untappd-mcp@1.9.1->1.9.2","chrischall/untappd-mcp","1.9.1","1.9.2","auto","untappd-mcp 1.9.2
+
+- No code or documentation changes detected in this release.
+- No new features, fixes, or updates are included.","","","",""
+"skylar-north/skylar-serper@1.0.0->1.0.1","skylar-north/skylar-serper","1.0.0","1.0.1","user","Add required credential metadata for SERPER_API_KEY","","","",""
+"iamjameskeane/moltimon@0.1.0->0.1.1","iamjameskeane/moltimon","0.1.0","0.1.1","user","- Improved security guidance: users are now instructed to use environment variables for their Moltbook API key instead of command line flags.
+- Clarified API key handling and verification, with added emphasis on never storing API keys and security best practices.
+- Added ""compatibility,"" ""version,"" ""author,"" and ""repository"" fields to metadata for improved documentation and transparency.
+- Provided direct links to website, source code, and NPM package.
+- Streamlined CLI and library use examples, eliminating --api-key flag and standardizing environment variable usage.
+- Updated authentication and installation instructions to reflect these security and usability improvements.","","","",""
+"mozz0/josh-learns@3.1.1->3.1.2","mozz0/josh-learns","3.1.1","3.1.2","user","Fix display name to MeshMorize","","","",""
+"jarar21/g-tts@1.0.1->1.0.2","jarar21/g-tts","1.0.1","1.0.2","user","- Removed legacy dependency management files: scripts/package.json and scripts/package-lock.json.
+- Simplified project by eliminating unneeded Node.js package files from the scripts directory.
+- No user-facing functionality changes.","","","",""
+"zw008/vmware-nsx@1.8.7->1.8.8","zw008/vmware-nsx","1.8.7","1.8.8","user","CLI writes now route through the shared guard()+audit_call() core via @guarded, exactly like the MCP tools (HLD I-1/I-8). Requires vmware-policy>=1.8.8.","","","",""
+"chrischall/apple-swift-mcp@1.1.8->1.2.0","chrischall/apple-swift-mcp","1.1.8","1.2.0","auto","- Added full Photos app support: list/search assets and albums, get/photo details, organize, export/import, edit metadata, and perform free-text searches.
+- Updated description and triggers to include Photos-related actions.
+- Removed skill-card.md (no longer needed).
+- General documentation improvements in SKILL.md for new features and structure.","","","",""
+"civilainominee/personality-backup@1.0.1->1.0.2","civilainominee/personality-backup","1.0.1","1.0.2","user","Re-publish with latest changes","","","",""
+"byungkyu/google-tasks-api@1.0.2->1.0.3","byungkyu/google-tasks-api","1.0.2","1.0.3","user","- Added new metadata section under `metadata.clawdbot` specifying required environment variable (`MATON_API_KEY`) and an emoji indicator.
+- No changes to functionality or API; documentation metadata only.","","","",""
+"oomol/oo-appdrag@1.0.3->1.0.4","oomol/oo-appdrag","1.0.3","1.0.4","user","- Operate AppDrag through the OOMOL-connected `oo` CLI.
+- Inspect live action schemas before constructing requests.
+- Execute AppDrag Cloud Backend API functions with folder, function name, HTTP method, and optional parameters.
+- Support JSON payloads from inline data or files, with execution IDs available in responses.
+- Provide guidance for authentication, connection setup, CLI installation, and billing errors.
+
+Source: `oomol-lab/skills@792ad44`","","","",""

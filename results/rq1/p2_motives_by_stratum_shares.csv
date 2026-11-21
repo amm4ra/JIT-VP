@@ -1,0 +1,8 @@
+﻿motive_group,introduced,fixed,no change
+Accurate or honest description,0.0,0.002577319587628866,0.0
+Consistency of formatting,0.00510204081632653,0.0,0.0
+Discoverability and traffic tracking,0.002551020408163265,0.0,0.0
+Fix a defect or improve reliability/compatibility/performance,0.02295918367346939,0.005154639175257732,0.0078125
+Respond to registry scanner or audit findings (incl. reducing false positives),0.007653061224489796,0.015463917525773196,0.005208333333333333
+Security hardening / prevent harm,0.025510204081632654,0.07731958762886598,0.0234375
+other,0.13520408163265307,0.17783505154639176,0.10677083333333333

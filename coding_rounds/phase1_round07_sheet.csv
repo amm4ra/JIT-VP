@@ -1,0 +1,112 @@
+pair_id,skill_slug,prev_version,version,changelog_source,changelog_text,coder1_code,coder2_code,agreed_code,notes
+athola/nm-hookify-rule-catalog@1.9.14->1.9.16,athola/nm-hookify-rule-catalog,1.9.14,1.9.16,user,Release v1.9.16,,,,
+vassiliylakhonin/nonprofit-rbm-logic-model@1.0.13->1.0.14,vassiliylakhonin/nonprofit-rbm-logic-model,1.0.13,1.0.14,user,"Refine summary for donor-ready outcomes, submission readiness, and trigger coverage.",,,,
+jeminay/demo-slap@0.1.2->0.1.3,jeminay/demo-slap,0.1.2,0.1.3,user,"Security wording cleanup: made Leetify truly optional in metadata, removed hardcoded watchdog job id and absolute paths, and reframed watchdog guidance as deployment-specific.",,,,
+oomol/oo-opsgenie@1.0.2->1.0.3,oomol/oo-opsgenie,1.0.2,1.0.3,user,"- Provides Opsgenie access through the OOMOL-connected `opsgenie` connector and `oo` CLI.
+- Supports alert lifecycle operations: create, acknowledge, close, fetch, and list alerts.
+- Includes account validation via `get_current_account`.
+- Supports async alert workflows with `get_request_status`.
+- Documents safety expectations for read, write, and destructive actions.
+
+Source: `oomol-lab/skills@792ad44`",,,,
+aaigotchi/pet-me-master@2.0.2->2.1.0,aaigotchi/pet-me-master,2.0.2,2.1.0,auto,"- Added dynamic scheduling script for cooldown checks (`scripts/schedule-dynamic-check.sh`)
+- Introduced Clawhub metadata file (`clawhub.json`)
+- Updated auto-pet fallback and reminder scripts for improved reminder handling
+- Enhanced reminders and status checking logic for daily petting rituals",,,,
+openagentar/agentar@1.0.3->1.0.4,openagentar/agentar,1.0.3,1.0.4,user,Clarify Agentar task delegation triggers and built-in agent capabilities.,,,,
+scavio-ai/walmart-product-data@1.0.0->1.0.1,scavio-ai/walmart-product-data,1.0.0,1.0.1,user,"Agent onboarding: signup URL, auto-created key, free-credit budget and the 402 top-up path. Attribution links refreshed.",,,,
+g9pedro/clawvault@1.11.3->1.11.4,g9pedro/clawvault,1.11.3,1.11.4,user,"Security audit fix: metadata now declares env vars, hook events, hook capabilities and limitations. Added Hook Behavior section documenting exact handler.js behavior. Addresses ClawHub MEDIUM confidence security concern.",,,,
+heygen-com/hyperframes-creative@1.0.8->1.0.9,heygen-com/hyperframes-creative,1.0.8,1.0.9,user,Synced from 7d21cc9 (main),,,,
+zgissing/vibbit-skills@1.0.7->1.0.8,zgissing/vibbit-skills,1.0.7,1.0.8,user,"vibbit-skills 1.0.8
+
+- No functional or code changes; behavior remains the same.
+- Clarified and polished capability explanations, usage examples, and error handling instructions in English.
+- Skill triggers and command formats are unchanged, just now presented in English.",,,,
+oomol/oo-googlemeet@1.0.0->1.0.2,oomol/oo-googlemeet,1.0.0,1.0.2,user,"- Supports Google Meet through the OOMOL `googlemeet` connector and `oo` CLI.
+- Creates Meet spaces and returns join URLs.
+- Retrieves and updates Meet spaces, including ending active conferences.
+- Lists and fetches conference records, participants, sessions, recordings, transcripts, transcript entries, and smart notes.
+- Includes safety guidance for read, write, and destructive actions plus first-time setup recovery steps.
+
+Source: `oomol-lab/skills@75bac03`",,,,
+hellojixian/agent4-io@1.0.27->1.0.28,hellojixian/agent4-io,1.0.27,1.0.28,user,Skill-authoring paradigm: mandatory tool-call triggers must live in description (instructions are gated behind load_skill); never script tool return values that don't exist. create_skill/update_skill now return lint warnings.,,,,
+dlazyai/dlazy-ppt-to-video@1.0.16->1.0.17,dlazyai/dlazy-ppt-to-video,1.0.16,1.0.17,user,例行版本更新 2026-09-24,,,,
+floogles/ai-travel-agent@1.0.1->1.0.2,floogles/ai-travel-agent,1.0.1,1.0.2,user,"Mode C now detects any installed calendar skill (google-calendar, outlook-calendar, etc.) instead of being hardcoded to Google Calendar. Falls back to asking user for dates if no calendar skill is found.",,,,
+jonathanjing/glass2claw@1.2.0->1.3.0,jonathanjing/glass2claw,1.2.0,1.3.0,user,"glass2claw 1.3.0 changelog:
+
+- Refactored as a logic-only protocol, removing WhatsApp and Discord as formal requirements—works with any OpenClaw messenger integration.
+- Updated setup instructions to focus on local configuration and privacy, simplifying and clarifying the process.
+- Security guardrails streamlined: emphasized API-only communications and strict local context binding.
+- Outdated implementation steps were replaced with configuration and template guidance for broader compatibility.
+- Metadata updated: WhatsApp and Discord no longer explicitly required, only NOTION_API_KEY is needed.",,,,
+0x7466/bw-cli@1.9.0->1.1.1,0x7466/bw-cli,1.9.0,1.1.1,user,"feat: unlock-first workflow for better performance. Try unlock first (fast path), fall back to login only when vault not initialized. Reduces unnecessary API calls.",,,,
+hayespeter/preflyte@1.2.1->1.2.2,hayespeter/preflyte,1.2.1,1.2.2,user,"Description aligned to operator-reassurance framing across MCP Registry, ClawHub, MPPScan, and OpenAPI surfaces.",,,,
+cyberforexblockchain/nexus-summarize@1.1.0->2.1.0,cyberforexblockchain/nexus-summarize,1.1.0,2.1.0,user,v2.1.0 - Added AP2 (Google Agent Payments Protocol) + XRPL settlement support. Now accepts XRP and RLUSD alongside Cardano + Stellar currencies. XLS-56 Batch atomic multi-mandate settlement enabled via nexus-ap2-batched-settle skill.,,,,
+giorgallidis/clawcrm@1.0.6->1.0.7,giorgallidis/clawcrm,1.0.6,1.0.7,user,Resubmission to fix stuck VirusTotal scan (v1.0.6 pending for 2 days),,,,
+peturgeorgievv/postfast@1.12.1->1.13.0,peturgeorgievv/postfast,1.12.1,1.13.0,user,Instagram saveRate + reelsSkipRate analytics on latestMetric; version + Hermes Agent (agentskills.io) frontmatter metadata; synced to postfast-mcp 0.1.24 API surface,,,,
+zai-org/glmv-pdf-to-web@1.0.0->1.0.1,zai-org/glmv-pdf-to-web,1.0.0,1.0.1,user,"- Removed the requirement for specific system binaries in metadata.
+- No changes to features or functionality; behavior remains the same.
+- Internal metadata was streamlined for clarity.",,,,
+zyom45/moldium@1.0.0->1.0.1,zyom45/moldium,1.0.0,1.0.1,user,"- Clarified that each device_public_key can only be registered once; added guidance to use PATCH /api/me for profile changes.
+- Added documentation about DUPLICATE_DEVICE_KEY error on re-registering with the same key.
+- Updated the agent registration and authentication sections to highlight the uniqueness requirement for Ed25519 public keys.",,,,
+depinhq/proposal@1.0.0->2.0.0,depinhq/proposal,1.0.0,2.0.0,auto,"Version 2.0.0 – Major update with documentation and examples
+
+- Added README.md, examples.md, and skill.json files for improved documentation and usage guidance.
+- No changes to core skill logic; functionality remains consistent with the previous version.
+- New files make it easier for users to understand, implement, and demonstrate the skill.",,,,
+ckchzh/budgetly@1.0.4->1.0.5,ckchzh/budgetly,1.0.4,1.0.5,user,retry-fix-token,,,,
+byungkyu/whatsapp-business@1.2.2->1.2.3,byungkyu/whatsapp-business,1.2.2,1.2.3,user,"Harden every multipart upload example: the assembled request body now goes to an owner-only file created with umask 077 and mktemp, removed by a trap on any exit, instead of a predictable shared /tmp path that could be pre-created by another user and left behind holding a copy of the uploaded file",,,,
+adamludwin/here-now@1.4.0->1.5.0,adamludwin/here-now,1.4.0,1.5.0,user,v1.5: Subdirectory publish support. Sites with files in a single subfolder now serve correctly at the root URL with working relative links. Added file structure guidance for agents calling the API directly. Finalize now verifies uploads completed before going live.,,,,
+muselinn/discord-interactive@1.0.0->1.1.0,muselinn/discord-interactive,1.0.0,1.1.0,user,"Refactored with skill-creator best practices: progressive disclosure, separated references, added comprehensive examples",,,,
+agentpmt/minecraft-custom-mod-builder@1.0.1->1.0.2,agentpmt/minecraft-custom-mod-builder,1.0.1,1.0.2,user,Publish minecraft-custom-mod-builder v1.0.2,,,,
+surlebeat/conference-intern@1.0.0->1.1.0,surlebeat/conference-intern,1.0.0,1.1.0,user,"CLI browser extraction for Luma discovery, hybrid CLI+agent registration, workspace-based data paths, isolated session IDs, 15s delay between events, tab cleanup, skip slow URL validation, 300s curate timeout",,,,
+ssidharhubble/openclaw-listing-bot@1.0.5->1.0.6,ssidharhubble/openclaw-listing-bot,1.0.5,1.0.6,auto,"Version 1.0.6
+
+- Updated SKILL.md documentation.
+- No functional or code changes; documentation only.",,,,
+haiyangchenbj/tcms-planner@1.1.5->1.1.6,haiyangchenbj/tcms-planner,1.1.5,1.1.6,user,Narrow read_when trigger phrases to specific multi-word expressions,,,,
+googlarz/proactive-claw@1.2.16->1.2.17,googlarz/proactive-claw,1.2.16,1.2.17,auto,"- Clarified credential requirements in a new summary table at the top (frontmatter and documentation).
+- Updated environment variable from GOOGLE_OAUTH_CREDENTIALS_JSON to GOOGLE_CREDENTIALS_JSON.
+- Streamlined and shortened the description and requirements for easier onboarding.
+- Improved separation of required vs optional credentials for Google and Nextcloud backends.
+- No functional or code changes; documentation and metadata only.",,,,
+ranasalalali/daily-strava-roast@0.1.3->0.2.0,ranasalalali/daily-strava-roast,0.1.3,0.2.0,user,"Add V2 context/prompt flow, local-day targeting, lightweight roast memory hints, and improved runtime guidance.",,,,
+zhaoxiasan/nvidia-sdxl@1.0.0->1.0.1,zhaoxiasan/nvidia-sdxl,1.0.0,1.0.1,auto,"- Added tools.yaml file for structured tool definition.
+- No changes to user-facing features or documentation.",,,,
+liquiditytech/ltp-rapidx-config@1.0.6->1.0.7,liquiditytech/ltp-rapidx-config,1.0.6,1.0.7,user,Add skill version metadata and upgrade guidance,,,,
+xor777/magicpay@0.4.43->0.4.55,xor777/magicpay,0.4.43,0.4.55,user,Release magicpay-v0.4.55,,,,
+stayingapi/booking-com-hotels@1.0.0->1.1.0,stayingapi/booking-com-hotels,1.0.0,1.1.0,auto,"- Expanded documentation for cross-platform and endpoint support, including a detailed platform × endpoint support matrix.
+- Clarified required and optional parameters for API endpoints.
+- Added new section on known limitations and platform gaps.
+- Improved async and error handling guidance, specifying more detailed polling, job, and error behaviors.
+- Updated category metadata from ""travel"" to ""integrations"".
+- Removed outdated file (skill-card.md).",,,,
+ant-1984/create-task@0.1.0->0.1.1,ant-1984/create-task,0.1.0,0.1.1,auto,"- Added support for creating and funding tasks on Base (EVM) with ETH and USDC, in addition to Solana.
+- Updated `--token` option syntax to specify chain and token (e.g. `ETH`, `ETH:USDC`, `BASE:USDC`, `SOL:USDC`).
+- Revised sample CLI outputs to show both Solana and Base transaction responses.
+- Replaced `AI_AUTO` and `PLATFORM` verification types with `THIRD_PARTY`.
+- Expanded instructions and warnings to clarify handling of balances and deadlines on multiple chains.",,,,
+dlazyai/dlazy-image-replicate@1.3.18->1.3.19,dlazyai/dlazy-image-replicate,1.3.18,1.3.19,user,例行版本更新 2026-09-20,,,,
+terry3838/sprintx-openclaw-handoff@0.1.2->0.1.3,terry3838/sprintx-openclaw-handoff,0.1.2,0.1.3,user,Add localized READMEs and tighten metadata to match real requirements,,,,
+vmining/kiro-creator-monitor-daily-brief@1.0.0->1.0.1,vmining/kiro-creator-monitor-daily-brief,1.0.0,1.0.1,user,"1.1.0：
+- Added support for persistent user-added sources using user_sources.json.
+- Introduced fixed_sources.json for managing fixed index sources.
+- Updated documentation to clarify runtime source merge order: config base, fixed, then user-added.
+- Added example command for adding a new source via CLI.
+- Refined required environment variables in metadata; channel-specific credentials are now optional.",,,,
+rockbenben/md-web@1.0.0->1.0.1,rockbenben/md-web,1.0.0,1.0.1,auto,"- Credentials are now read from MD_WEB_ACCESS_KEY and MD_WEB_SECRET_KEY environment variables; secrets are no longer stored on disk.
+- Setup and configuration instructions updated in all docs to reflect new environment variable usage.
+- config.example.json has been removed; configuration now requires only non-secret fields.
+- Minor clarifications and improvements to README and SKILL.md documentation.",,,,
+dlazyai/dlazy-vidu-audio-clone@1.3.5->1.3.6,dlazyai/dlazy-vidu-audio-clone,1.3.5,1.3.6,user,Restore Chinese display name,,,,
+lean-zhouchao/cli-anything-zc@0.1.1->0.1.2,lean-zhouchao/cli-anything-zc,0.1.1,0.1.2,user,Daily auto-update,,,,
+luigi08001/lead-scoring@1.1.0->1.2.0,luigi08001/lead-scoring,1.1.0,1.2.0,user,Fix: declared required credentials in metadata,,,,
+xueyetianya/devops-bash-tools@2.0.3->2.0.4,xueyetianya/devops-bash-tools,2.0.3,2.0.4,user,Fix description,,,,
+davida-ps/clawsec-suite@0.1.5->0.1.6,davida-ps/clawsec-suite,0.1.5,0.1.6,user,Release 0.1.6 via CI,,,,
+athola/nm-attune-project-specification@1.9.17->1.9.19,athola/nm-attune-project-specification,1.9.17,1.9.19,user,Release v1.9.19,,,,
+xueyetianya/keyvault@2.0.0->2.0.1,xueyetianya/keyvault,2.0.0,2.0.1,user,Clean package with matching SKILL.md,,,,
+byungkyu/github-api@1.0.5->1.0.6,byungkyu/github-api,1.0.5,1.0.6,user,"- Enhanced security & permissions section with stricter requirements for user confirmation before write operations.
+- Clarified steps for confirming the target, connection ID, and risk notice for irreversible or destructive actions.
+- Added explicit boundaries for repository scope and organization-level actions.
+- Documentation and usage remain unchanged otherwise; no code changes in this release.",,,,

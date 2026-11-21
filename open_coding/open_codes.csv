@@ -1,0 +1,863 @@
+pair_id,round,key_point_no,open_code,direction,evidence,stated_motive,changelog_mismatch,no_author_change
+sherrihidalgolt/og-image-skill@1.0.2->2.0.0,phase1_round01,1,external service dependency disclosed,added,"README.md: ""Powered by the Neta AI image generation API""; requires a Neta API token",,no,no
+ucsdzehualiu/smart-web-search@3.2.0->3.2.1,phase1_round01,1,dependency import changed to lazy loading,modified,scripts/search.js: static `import { chromium }` replaced by `await import('playwright')` in getBrowser(),to avoid static import failure,no,no
+13681882136/kami-image-search@1.0.4->1.0.5,phase1_round01,1,documentation content expanded,added,README.md: multi-camera config example and per-device commands,,no,no
+xueyetianya/discord-toolkit@2.0.1->3.0.0,phase1_round01,1,description rewritten,modified,"SKILL.md: description replaced with ""Powered by BytesAgain""; command list removed",,generic,no
+xueyetianya/discord-toolkit@2.0.1->3.0.0,phase1_round01,2,main script rewritten,modified,scripts/script.sh (+250/-327): Discord command tool replaced by generic reference tool (trimmed),,generic,no
+xueyetianya/discord-toolkit@2.0.1->3.0.0,phase1_round01,3,local logging removed,removed,scripts/script.sh: removed DATA_DIR history.log `_log()`,,generic,no
+dlazyai/dlazy-elevenlabs-dialogue@1.3.7->1.3.8,phase1_round01,1,no author change,,no files changed; changelog claims display name restored,,yes,yes
+harrylabsj/household-airflow-comfort-map@1.0.1->1.0.2,phase1_round01,1,documentation content expanded,added,"SKILL.md: ""## Usage Scenarios"" with 4 scenarios incl. Chinese example",,no,no
+harrylabsj/household-airflow-comfort-map@1.0.1->1.0.2,phase1_round01,2,tags changed,modified,"SKILL.md: tags replaced with airflow-optimization, energy-efficiency, smart-home",for improved discoverability,no,no
+harrylabsj/household-airflow-comfort-map@1.0.1->1.0.2,phase1_round01,3,documentation files added,added,README.md (+22): new bilingual README,,no,no
+zypher-agent/corespeed-nanobanana@0.0.1->0.0.2,phase1_round01,1,no author change,,no files changed; changelog says no file changes,,no,yes
+almiashev/aidex@1.0.4->1.0.5,phase1_round01,1,bundled data file updated,modified,scripts/data/tokens.json (+694/-8): new token entries (trimmed),,no,no
+sullivangu/eva-ui-skill@1.0.0->1.0.1,phase1_round01,1,version field added to metadata,added,"SKILL.md: `+version: 1.0.1`, ""Current version"" line; changelog-claimed VERSION file not in diff",,yes,no
+sullivangu/eva-ui-skill@1.0.0->1.0.1,phase1_round01,2,documentation content expanded,added,"references/typography.md: ""EVA-Specific Note"" on Matisse EB title font",,yes,no
+jjmaxwell4/doorstep@1.0.1->1.0.2,phase1_round01,1,setup instructions changed,modified,SKILL.md: hosted URL `https://trydoorstep.app/mcp` replaced by npx bridge as default; HTTP kept as alternative,,no,no
+jjmaxwell4/doorstep@1.0.1->1.0.2,phase1_round01,2,remote code run via npx,added,SKILL.md/README.md: `npx -y tsx https://raw.githubusercontent.com/.../mcp-stdio.ts`,,no,no
+jjmaxwell4/doorstep@1.0.1->1.0.2,phase1_round01,3,authentication method changed,modified,SKILL.md: browser login replaced by DOORSTEP_API_KEY for default option,,no,no
+jjmaxwell4/doorstep@1.0.1->1.0.2,phase1_round01,4,requirements declared in metadata,added,"SKILL.md + claw.json: `requires.env: DOORSTEP_API_KEY`, bins: node, primaryEnv",,no,no
+jjmaxwell4/doorstep@1.0.1->1.0.2,phase1_round01,5,user choice prompt added,added,"SKILL.md: ""Before first use, ask the user how they want to connect""",,no,no
+tu-zhenzhao/agentpress@1.0.1->1.0.2,phase1_round01,1,description rewritten,modified,"SKILL.md: description now says routes to local `press` binary, no direct Hub API calls",,no,no
+tu-zhenzhao/agentpress@1.0.1->1.0.2,phase1_round01,2,user confirmation required before actions,added,"SKILL.md: ""Never publish with --public unless the user explicitly said...""; delete needs exact phrase",,no,no
+tu-zhenzhao/agentpress@1.0.1->1.0.2,phase1_round01,3,preflight check steps added,added,"SKILL.md: run `press status`, `press whoami` before first publish",,no,no
+mirni/greenhelix-agent-threat-intel-exchange@1.1.0->1.2.0,phase1_round01,1,version number bump only,modified,SKILL.md: version 1.1.0 -> 1.2.0; install line moved,,no,no
+fulcra/fulcra-dashboard@0.1.8->0.1.9,phase1_round01,1,names or identifiers renamed,modified,SKILL.md: `fulcra-onboarding` -> `fulcra-get-started`; changelog-claimed skill-card.md removal not in diff,,no,no
+rnwy/rnwy@1.0.6->1.0.7,phase1_round01,1,new capability added,added,"SKILL.md: ""Flow 8: Marketplace (ERC-8183 Jobs)"" post/find/hire jobs (trimmed)",,no,no
+rnwy/rnwy@1.0.6->1.0.7,phase1_round01,2,API endpoint or service URL changed,modified,SKILL.md: `/api/trust-stats` -> `/api/population-stats`,,no,no
+rnwy/rnwy@1.0.6->1.0.7,phase1_round01,3,description rewritten,modified,"SKILL.md: description now ""identity, trust scores, and marketplace""",,no,no
+rnwy/rnwy@1.0.6->1.0.7,phase1_round01,4,doc link or path format changed,modified,FAQ.md: `./skill.md` -> `https://rnwy.com/skill.md`,,no,no
+0xarkstar/notion-cli-mcp@1.0.0->1.1.0,phase1_round01,1,requirements declared in metadata,added,SKILL.md: `env: [NOTION_TOKEN]`,,no,no
+0xarkstar/notion-cli-mcp@1.0.0->1.1.0,phase1_round01,2,piped shell installer removed,removed,SKILL.md: removed `curl -LsSf .../notion-cli-installer.sh | sh`,,no,no
+0xarkstar/notion-cli-mcp@1.0.0->1.1.0,phase1_round01,3,least-privilege guidance added,added,"SKILL.md: ""Use the least-privilege scopes the workflow actually needs""; checksums referenced",,no,no
+terellison/reddit-archive@1.2.0->1.3.0,phase1_round01,1,main script rewritten,modified,scripts/reddit_archive.py (+289/-346): unified script (trimmed); changelog-claimed diagram not in diff,,yes,no
+terellison/reddit-archive@1.2.0->1.3.0,phase1_round01,2,rate limiting added,added,scripts/reddit_archive.py: `API_DELAY = 0.8  # seconds between API calls to avoid 403s`,to avoid 403s,yes,no
+terellison/reddit-archive@1.2.0->1.3.0,phase1_round01,3,runtime dependency auto-install removed,removed,"scripts/reddit_archive.py: removed `check_dependencies()` ""Check and install required dependencies""",,yes,no
+terellison/reddit-archive@1.2.0->1.3.0,phase1_round01,4,dependency removed,removed,scripts/requirements.txt deleted lines,,yes,no
+msaad00/agent-bom-registry@0.88.3->0.88.4,phase1_round01,1,version number bump only,modified,SKILL.md: version 0.88.3 -> 0.88.4,,generic,no
+ubgb/moltmemory@1.5.3->1.5.4,phase1_round01,1,file write made atomic,modified,moltbook.py: temp file + `os.replace()`,no more torn JSON on concurrent access or power loss,no,no
+ubgb/moltmemory@1.5.3->1.5.4,phase1_round01,2,error handling added,added,moltbook.py: try/except JSONDecodeError returns defaults,corrupt state file now recovers instead of crashing,no,no
+byungkyu/firecrawl-api@1.2.0->1.2.1,phase1_round01,1,access scope disclosure expanded,added,"SKILL.md: ""The `maton api` passthrough can additionally reach any endpoint""",address security-audit findings,no,no
+byungkyu/firecrawl-api@1.2.0->1.2.1,phase1_round01,2,irreversible action warning added,added,"SKILL.md: ""Deleting a connection is irreversible... Confirm the exact connection""",address security-audit findings,no,no
+byungkyu/firecrawl-api@1.2.0->1.2.1,phase1_round01,3,data minimization guidance added,added,"SKILL.md: ""Responses can carry personal data... extract just the fields""",address security-audit findings,no,no
+byungkyu/firecrawl-api@1.2.0->1.2.1,phase1_round01,4,example URLs redacted,modified,SKILL.md: `https://api.firecrawl.dev/...` -> `.../v1/crawl/...`,,no,no
+byungkyu/active-campaign@1.0.3->1.0.4,phase1_round01,1,API endpoint or service URL changed,modified,SKILL.md: `/active-campaign/api/3/{resource}` -> `/active-campaign/{native-api-path}`,,no,no
+infra403/opentwitter-mcp@1.0.0->1.0.1,phase1_round01,1,credential env var renamed,modified,SKILL.md: TWITTER_TOKEN -> OPENNEWS_TOKEN throughout,,yes,no
+infra403/opentwitter-mcp@1.0.0->1.0.1,phase1_round01,2,API endpoint or service URL changed,modified,SKILL.md: token URL `https://6551.io/mcp` -> `http://app.newsliquid.com/mcp`,,yes,no
+infra403/opentwitter-mcp@1.0.0->1.0.1,phase1_round01,3,new API endpoints documented,added,"SKILL.md: raw `query` search param, article/tweet-by-ID endpoints (trimmed)",,yes,no
+infra403/opentwitter-mcp@1.0.0->1.0.1,phase1_round01,4,package manifest added,added,package.json (+6) new file; changelog-claimed old doc file removal not in diff,,yes,no
+asif2bd/xcloud-docker-deploy@1.2.1->1.3.0,phase1_round01,1,operational rules added,added,"SKILL.md: ""Never bind host port 80 or 443""; rewrite 80:80 to 3080:80",,no,no
+asif2bd/xcloud-docker-deploy@1.2.1->1.3.0,phase1_round01,2,documentation content expanded,added,"SKILL.md: ""Current xCloud API + Agent Skills Context"" table",,no,no
+asif2bd/xcloud-docker-deploy@1.2.1->1.3.0,phase1_round01,3,safety manifest file removed,removed,".clawhubsafe deleted: ""no_executables: true, no_network_calls: true""",,no,no
+asif2bd/xcloud-docker-deploy@1.2.1->1.3.0,phase1_round01,4,config files removed,removed,.github/FUNDING.yml and .github/skillsmp.yml deleted,,no,no
+asif2bd/xcloud-docker-deploy@1.2.1->1.3.0,phase1_round01,5,example or template files removed,removed,dockerfiles/*.Dockerfile (5 files) deleted,,no,no
+asif2bd/xcloud-docker-deploy@1.2.1->1.3.0,phase1_round01,6,default or config value changed,modified,"compose-templates/laravel-mysql.yml: ""8080:80"" -> ""3080:80""",,no,no
+seenfinity/solana-connect@2.0.4->2.0.5,phase1_round01,1,install spec removed from metadata,removed,"SKILL.md: removed npm install entries @solana/kit, tweetnacl, bs58",,no,no
+seenfinity/solana-connect@2.0.4->2.0.5,phase1_round01,2,warning notice removed,removed,"SKILL.md: removed ""READ-ONLY... Do not use with real funds"" status block",,no,no
+byungkyu/quickbooks@1.0.5->1.0.6,phase1_round01,1,least-privilege guidance added,added,"SKILL.md: ""Connect with a least-privileged QuickBooks account""",,no,no
+byungkyu/quickbooks@1.0.5->1.0.6,phase1_round01,2,read-only default instructed,added,"SKILL.md: ""Default to read-only operations""",,no,no
+byungkyu/quickbooks@1.0.5->1.0.6,phase1_round01,3,user confirmation required before actions,added,"SKILL.md: write approval now requires showing target resource and effect, then waiting",,no,no
+byungkyu/quickbooks@1.0.5->1.0.6,phase1_round01,4,endpoint use restricted to documented ones,added,"SKILL.md: ""Only the endpoints documented in the API Reference...""",,no,no
+byungkyu/quickbooks@1.0.5->1.0.6,phase1_round01,5,description rewritten,modified,"SKILL.md: description stresses install only if needed, least privilege",,no,no
+athola/nm-egregore-quality-gate@1.9.12->1.9.13,phase1_round01,1,no author change,,no files changed,,generic,yes
+daniel-refahi-ikara/dr-context-pipeline@1.8.0->1.9.0,phase1_round01,1,operating modes added,added,SKILL.md: runtime modes normal/debug/audit,keeps everyday operation lightweight,no,no
+daniel-refahi-ikara/dr-context-pipeline@1.8.0->1.9.0,phase1_round01,2,default output verbosity reduced,modified,SKILL.md: normal mode does not dump full Retrieval Bundle JSON,keeps everyday operation lightweight,no,no
+shengbinxu/wechat-formatter@1.0.0->1.0.1,phase1_round01,1,hardcoded local paths or addresses removed,removed,SKILL.md: removed `/Users/xushengbin/.workbuddy/...python3` paths,,no,no
+dlazyai/dlazy-pdf-to-video@1.0.6->1.0.7,phase1_round01,1,no author change,,no files changed; changelog claims display name restored,,yes,yes
+ameshalexk/reeltalk@1.1.1->1.2.0,phase1_round01,1,new capability added,added,SKILL.md: X/Twitter video URLs supported,,no,no
+ameshalexk/reeltalk@1.1.1->1.2.0,phase1_round01,2,new external service integrated,added,SKILL.md: fxtwitter API `https://api.fxtwitter.com/` + curl download,,no,no
+zack-schrag/treeline-money@26.2.1601->26.2.2101,phase1_round01,1,no author change,,no files changed,,generic,yes
+no-github/redc@1.0.1->1.0.2,phase1_round01,1,requirements removed from metadata,removed,SKILL.md: removed `env:` list of 10 cloud keys and primaryEnv,cleaner setup experience,no,no
+no-github/redc@1.0.1->1.0.2,phase1_round01,2,credential marked optional,removed,"SKILL.md: ""No credentials are globally required""; ""Optional environment variables per provider""",,no,no
+no-github/redc@1.0.1->1.0.2,phase1_round01,3,credential safety guidance added,added,"SKILL.md: ""Prefer scoped IAM roles or temporary security tokens""",,no,no
+no-github/redc@1.0.1->1.0.2,phase1_round01,4,binary verification guidance added,added,"SKILL.md: ""Verify checksums/signatures when available""",,no,no
+rokkiezeng/mamp-memory@1.2.0->1.2.1,phase1_round01,1,versioned script copies replaced,modified,ai_memory_protocol_v1.1.6.py and v1.2.0.py deleted; v1.1.7.py and v1.2.1.py added (trimmed),,no,no
+rokkiezeng/mamp-memory@1.2.0->1.2.1,phase1_round01,2,automatic message capture added,added,ai_memory_protocol_v1.1.8.py: auto_record scans sys.modules and wraps agent send methods,,no,no
+rokkiezeng/mamp-memory@1.2.0->1.2.1,phase1_round01,3,idle session auto-close added,added,ai_memory_protocol_v1.1.8.py: heartbeat() closes sessions idle >30 min,,no,no
+rokkiezeng/mamp-memory@1.2.0->1.2.1,phase1_round01,4,documentation files added,added,"iteration_guide.md, launch_post.md, CHANGELOG_v1.1.5.md, CHANGELOG_v1.1.7.md",,no,no
+oomol/oo-tinybird@1.0.0->1.0.2,phase1_round01,1,version number bump only,modified,SKILL.md: version 1.0.0 -> 1.0.2; changelog lists features with no matching diff,,generic,no
+xiaxia01-1/brain-system@0.1.4->0.1.5,phase1_round01,1,description rewritten,modified,SKILL.md: Chinese description expanded with positioning and boundaries,,no,no
+sunrisesillneversee/moses-governance@0.5.3->0.5.4,phase1_round01,1,new sub-skill added,added,skills/stamp/SKILL.md (+78): governance stamp sub-skill,,generic,no
+sunrisesillneversee/moses-governance@0.5.3->0.5.4,phase1_round01,2,new scripts added,added,"scripts/adversarial_review.py, commitment.py, meta.py (trimmed)",,generic,no
+sunrisesillneversee/moses-governance@0.5.3->0.5.4,phase1_round01,3,external result posting added,added,scripts/adversarial_review.py: post-review to external witness via REFEREE_URL/REFEREE_KEY,,generic,no
+sunrisesillneversee/moses-governance@0.5.3->0.5.4,phase1_round01,4,new env vars introduced,added,"SKILL.md: REFEREE_URL, REFEREE_KEY, REFEREE_ENABLED, MOSES_WITNESS_ENABLED",,generic,no
+sunrisesillneversee/moses-governance@0.5.3->0.5.4,phase1_round01,5,description rewritten,modified,"SKILL.md: new description listing modes, audit chain, signing gate",,generic,no
+oldeucryptoboi/lemonsuk@2.0.2->2.0.3,phase1_round01,1,content moved to reference files,modified,SKILL.md (-213): command/auth examples moved to references/agent-api.md,,no,no
+oldeucryptoboi/lemonsuk@2.0.2->2.0.3,phase1_round01,2,new API endpoints documented,added,references/agent-api.md: `/api/v1/dashboard` discovery endpoint,,no,no
+oldeucryptoboi/lemonsuk@2.0.2->2.0.3,phase1_round01,3,description rewritten,modified,SKILL.md: description rewritten as use-case list,,no,no
+alvisdunlop/alvis-ai-daily-briefing@1.0.0->2.0.0,phase1_round01,1,example or template files removed,removed,"assets/PREFERENCES-template.md, examples/*.md deleted; changelog-claimed API fix not in diff",,yes,no
+mrocker/cardzero@1.2.0->1.3.0,phase1_round01,1,new capability added,added,"SKILL.md: ""Agent-to-agent payments — Pay another CardZero agent""",,no,no
+mrocker/cardzero@1.2.0->1.3.0,phase1_round01,2,tags changed,modified,SKILL.md: tag `a2a` added,,no,no
+kurosh87/aerobase-travel-flights@3.0.8->3.1.6,phase1_round01,1,product promotion added,added,"SKILL.md: ""Pro Superpowers... Download Pro skills at https://aerobase.app/...""",,generic,no
+rajkiranvs/remote-job-hunter@1.0.2->1.0.3,phase1_round01,1,dependency removed,removed,requirements.txt: playwright commented out,,no,no
+rajkiranvs/remote-job-hunter@1.0.2->1.0.3,phase1_round01,2,capability claims corrected,modified,"SKILL.md: WhatsApp ""not built into skill""; auto-apply ""not in current release"" table",,no,no
+devinchen2014/socialdatax-kuaishou-creator-profile@0.1.11->0.1.12,phase1_round01,1,troubleshooting guidance added,added,"SKILL.md: ""## Troubleshooting"" insufficient_balance -> show recharge URL",,no,no
+devinchen2014/socialdatax-kuaishou-creator-profile@0.1.11->0.1.12,phase1_round01,2,formatting-only changes,modified,SKILL.md: long npx commands split over lines,,no,no
+four-meme-community/four-meme-ai@1.0.5->1.0.6,phase1_round01,1,env var usage removed,removed,SKILL.md: TAX_* env vars dropped,,no,no
+four-meme-community/four-meme-ai@1.0.5->1.0.6,phase1_round01,2,CLI commands or arguments changed,modified,SKILL.md: positional args -> `--key=value` flags,,no,no
+utkarshthedev/lg-thinq-universal@0.1.2->0.1.3,phase1_round01,1,API key value shipped in package,added,"scripts/generate_control_script.py: `os.getenv(""LG_API_KEY"", ""v6GFvkwe..."")` replaces ""No longer hardcoded for security""",to simplify configuration,no,no
+utkarshthedev/lg-thinq-universal@0.1.2->0.1.3,phase1_round01,2,setup instructions changed,modified,SKILL.md: security section replaced; explicit curl steps with fixed headers,,no,no
+utkarshthedev/lg-thinq-universal@0.1.2->0.1.3,phase1_round01,3,documentation condensed,removed,references/api-reference.md: region table and AC payload examples removed,,no,no
+northcap-group/krypto-drt-scalping@1.0.6->1.0.11,phase1_round01,1,permissions declared in metadata,added,"SKILL.md: metadata `""permissions"": {""exec"": [""python3""], ""network"": [...], ""env"": [...]}`",,no,no
+northcap-group/krypto-drt-scalping@1.0.6->1.0.11,phase1_round01,2,description rewritten,modified,"SKILL.md: ""Core skill is FREE and..."" optional premium",honest description (free core + optional paid premium),no,no
+northcap-group/krypto-drt-scalping@1.0.6->1.0.11,phase1_round01,3,paid feature section removed,removed,"SKILL.md: removed ""Premium: Live DRT signals (x402 pay-per-call)"" with wallet address",duplicate premium section removed,no,no
+ckchzh/file-converter@1.0.2->2.2.0,phase1_round01,1,metadata field removed,removed,SKILL.md: `-runtime: python3`; changelog-claimed description changes not in diff,,yes,no
+wistars593/lobstermatch@1.0.9->1.0.10,phase1_round01,1,names or identifiers renamed,modified,SKILL.md: `openclaw-agent-self-avatar-public-ui-v1` -> `openclaw-self-avatar-clohub-v1`,,generic,no
+wistars593/lobstermatch@1.0.9->1.0.10,phase1_round01,2,example files added,added,examples/openclaw-self-avatar-output.json (+17),,generic,no
+wistars593/lobstermatch@1.0.9->1.0.10,phase1_round01,3,changelog file updated,modified,CHANGELOG.md: v1.0.10 entry,,generic,no
+cyberforexblockchain/nexus-data-validation@1.1.0->2.1.0,phase1_round01,1,new payment method support added,added,"SKILL.md: XRP, RLUSD currencies and xrpl chain, AP2 mandates",,no,no
+cyberforexblockchain/nexus-data-validation@1.1.0->2.1.0,phase1_round01,2,new external service integrated,added,SKILL.md: `ap2_config`/`xrpl_config` at ai-service-hub-15.emergent.host,,no,no
+diagnostikon/polymarket-macro-weather-commodity-trader@0.0.2->0.0.3,phase1_round01,1,no author change,,no files changed; changelog claims SDK try/except added,,yes,yes
+rijoyai/necessity-pain-point-selection@0.1.1->0.1.2,phase1_round01,1,workflow instructions expanded,added,"SKILL.md (+171/-39): merchant questions, output sections, action layers (trimmed)",,no,no
+rijoyai/necessity-pain-point-selection@0.1.1->0.1.2,phase1_round01,2,documentation files added,added,"references/pain_point_framework.md, review_mining_guide.md",,no,no
+rijoyai/necessity-pain-point-selection@0.1.1->0.1.2,phase1_round01,3,new scripts added,added,scripts/pain_point_extractor.py (+166): keyword-based review classifier,,no,no
+rijoyai/necessity-pain-point-selection@0.1.1->0.1.2,phase1_round01,4,tests or eval cases added,added,evals/evals.json (+26),,no,no
+twinsgeeks/adopt-a-null-creature@1.0.0->1.0.2,phase1_round01,1,description rewritten,modified,"SKILL.md: name/description now ""Not undefined. Not nullable...""",,no,no
+twinsgeeks/adopt-a-null-creature@1.0.0->1.0.2,phase1_round01,2,example content changed,modified,"SKILL.md: feed item ""raw data"" -> ""silence"" and other example values",,no,no
+oomol/oo-callrail@1.0.0->1.0.2,phase1_round02,1,version number bump only,modified,"SKILL.md: version ""1.0.0"" -> ""1.0.2""; changelog lists features with no matching diff",,generic,no
+talkstream/ru-text@1.6.0->1.8.0,phase1_round02,1,doc link or path format changed,modified,SKILL.md: `${CLAUDE_PLUGIN_ROOT}/skills/ru-text/references/...` -> `references/...`,simplifying future integrations,no,no
+talkstream/ru-text@1.6.0->1.8.0,phase1_round02,2,documentation content expanded,added,references/addenda.md (+270): new style rules AD-2 etc.; changelog-claimed skill-card.md removal not in diff,,no,no
+dylanfeltus/gui-new@1.0.0->1.0.1,phase1_round02,1,external service dependency disclosed,added,"SKILL.md: ""## Security Note: This skill sends HTML content to https://gui.new, a third-party hosted service... Do not send sensitive""",,no,no
+dylanfeltus/gui-new@1.0.0->1.0.1,phase1_round02,2,credential marked optional,removed,"SKILL.md: ""Pro API Key (optional)... No API key is needed for free tier""",,no,no
+gilesdawe/tokei-agent@0.3.1->0.3.2,phase1_round02,1,new capability added,added,"src/index.ts, src/mcp.ts: `referrals:top` CLI command and MCP tool (trimmed)",,no,no
+gilesdawe/tokei-agent@0.3.1->0.3.2,phase1_round02,2,tests or eval cases added,added,"src/__tests__/commands.test.ts, mcp.test.ts: referrals:top tests",,no,no
+gilesdawe/tokei-agent@0.3.1->0.3.2,phase1_round02,3,documentation content expanded,added,SKILL.md: referrals:top docs and output notes; changelog-claimed skill-card.md removal not in diff,,no,no
+waydelyle/swarmdock@2.5.3->2.6.0,phase1_round02,1,remote code run via npx,added,"SKILL.md: ""MCP server: `npx -y swarmdock-mcp`"" recommended for MCP clients",,no,no
+waydelyle/swarmdock@2.5.3->2.6.0,phase1_round02,2,new env vars introduced,added,SKILL.md: `SWARMDOCK_AGENT_PRIVATE_KEY=<base64-secret>` in mcp add example,,no,no
+waydelyle/swarmdock@2.5.3->2.6.0,phase1_round02,3,tags changed,modified,SKILL.md: tag `mcp-server` added,,no,no
+loonghao/fpt-cli@1.0.1->1.0.2,phase1_round02,1,setup instructions changed,modified,references/install-and-auth.md: release archive names versioned; `self-update` -> `self update`,,no,no
+wjllance/standx-cli@0.4.7->0.4.8,phase1_round02,1,no author change,,no files changed; changelog claims display name fix,,yes,yes
+shalinda-j/llmcom-token-optimizer@1.0.0->1.0.1,phase1_round02,1,description rewritten,modified,SKILL.md: slug/name OpenClaw Token Optimizer -> LLMCOM Token Optimizer; new description,,no,no
+shalinda-j/llmcom-token-optimizer@1.0.0->1.0.1,phase1_round02,2,main script rewritten,modified,optimizer.py (+262/-355): classifier/router replaced by LLMCOM converter (trimmed),,no,no
+shalinda-j/llmcom-token-optimizer@1.0.0->1.0.1,phase1_round02,3,dependency removed,removed,"optimizer.py: removed `from classifier.router import...`, `from skills.router import...`",,no,no
+raydoomed/daily-introspection@1.0.2->1.0.3,phase1_round02,1,script logic extended,added,scripts/weekly-promote.py: new `get_last_week_pending_promotions()` reads last week's report; changelog says no changes,,no,no
+ciklopentan/ai-orchestrator@3.3.1->3.3.2,phase1_round02,1,documentation condensed,removed,SKILL.md (-740): full Russian operator manual replaced by short quick start,,no,no
+ciklopentan/ai-orchestrator@3.3.1->3.3.2,phase1_round02,2,description rewritten,modified,"SKILL.md: description reworded as ""lightweight wrapper""",,no,no
+piccolo123/url-manager@1.0.3->2.0.1,phase1_round02,1,no author change,,no files changed; changelog claims MCP reference removed,,yes,yes
+justoneapi/justoneapi-douyin-ec@1.0.0->1.0.1,phase1_round02,1,tracking parameters added to links,modified,SKILL.md: links get `?utm_source=clawhub.ai&utm_medium=referral...`,,no,no
+sfkislev/flue@1.0.9->1.0.10,phase1_round02,1,frontmatter metadata added,added,SKILL.md: new YAML front matter with name and description,,no,no
+sfkislev/flue@1.0.9->1.0.10,phase1_round02,2,documentation restructured,modified,SKILL.md: headings and adapter list replaced by plain text (+49/-49),,no,no
+marcelo-rowship/rwagenthub@1.5.8->1.5.9,phase1_round02,1,dependency version or source changed,added,SKILL.md: `rwagenthub-sdk` -> `rwagenthub-sdk@1.0.2` in install commands,for improved reliability,no,no
+simonvanlaak/kanban-workflow@0.1.9->0.1.10,phase1_round02,1,access scope disclosure expanded,added,"SKILL.md/README: wrapper ""calls Linear GraphQL over HTTPS using LINEAR_API_KEY""; ARCH_REVIEW auth boundary text","fix security-scan ""inconsistencies""",no,no
+simonvanlaak/kanban-workflow@0.1.9->0.1.10,phase1_round02,2,changelog file updated,modified,CHANGELOG.md: 0.1.10 entry,,no,no
+googleworkspace-bot/recipe-create-feedback-form@1.0.0->1.0.1,phase1_round02,1,formatting-only changes,modified,"SKILL.md: `bins: [""gws""]` -> YAML list style",for consistency,no,no
+djc00p/rails-ci-fixer@1.1.4->1.2.0,phase1_round02,1,user confirmation required before actions,added,"SKILL.md: ""NEVER auto-commit without human approval — pause and present changes""",security,no,no
+djc00p/rails-ci-fixer@1.1.4->1.2.0,phase1_round02,2,description rewritten,modified,"SKILL.md: ""Autonomously fix failing CI"" -> ""Fix failing CI... All commits require human approval""",security,no,no
+pruna-ai/pruna@1.0.12->1.0.13,phase1_round02,1,dependency added,added,SKILL.md: dependency `p-video-2-pro` added to list,,no,no
+pruna-ai/pruna@1.0.12->1.0.13,phase1_round02,2,documentation content expanded,modified,"SKILL.md: tool table rows for p-video-2-pro, p-video-2, p-video reworded; changelog-claimed skill-card.md removal not in diff",,no,no
+wxt-ai/export-confirmation-style-workbench@1.0.0->1.0.2,phase1_round02,1,diff unavailable,,"diff_status not ok (previous and this version not found); changelog only: ""Initial formal paired-probe measurement artifact.""",,generic,no
+notasign/notasign@1.0.0->1.0.1,phase1_round02,1,description rewritten,modified,"SKILL.md: description now covers sending files, credentials setup, env switching",,no,no
+notasign/notasign@1.0.0->1.0.1,phase1_round02,2,input validation added,added,scripts/send_envelope.ts: SUPPORTED_FILE_EXTENSIONS set and MAX_FILE_SIZE_BYTES 100MB (trimmed),,no,no
+notasign/notasign@1.0.0->1.0.1,phase1_round02,3,runtime dependency auto-install added,added,"README.md: ""can temporarily bootstrap node@20 when the local node version is below 18"" via npx",ensuring compatibility,no,no
+notasign/notasign@1.0.0->1.0.1,phase1_round02,4,credential handling instructions changed,modified,"SKILL.md/README: credentials in ~/.notasign/config.json, separate per PROD/UAT",,no,no
+notasign/notasign@1.0.0->1.0.1,phase1_round02,5,workflow instructions expanded,modified,SKILL.md (+122/-37): internal flow replaced by task workflow (trimmed),,no,no
+notasign/notasign@1.0.0->1.0.1,phase1_round02,6,documentation translated,modified,"SKILL.md/README.md: Chinese headings and internal flow (""内部执行流程"") rewritten in English",,no,no
+parinll/openweather-cli@1.1.2->1.1.3,phase1_round02,1,metadata key renamed,modified,SKILL.md: `requires.binaries` -> `requires.bins`,so registry parses required binaries correctly,no,no
+terrycarter1985/financial-report-automator@1.1.1->1.2.0,phase1_round02,1,bug fix in script logic,modified,scripts/stock_analyzer.py: adjusted close computed for dividend stocks,previous versions understated returns for dividend-paying stocks,no,no
+terrycarter1985/financial-report-automator@1.1.1->1.2.0,phase1_round02,2,script file removed,removed,scripts/publish_report.py deleted (Feishu wiki publisher with app_id/app_secret),,no,no
+terrycarter1985/financial-report-automator@1.1.1->1.2.0,phase1_round02,3,external service integration removed,removed,scripts/publish_report.py: `lark_oapi` Feishu Wiki publishing removed,,no,no
+terrycarter1985/financial-report-automator@1.1.1->1.2.0,phase1_round02,4,documentation files removed,removed,references/csv-format.md deleted,,no,no
+terrycarter1985/financial-report-automator@1.1.1->1.2.0,phase1_round02,5,description rewritten,modified,SKILL.md: description now about dividend-adjusted total return,,no,no
+evanfoglia/wikipedia@1.1.0->1.0.2,phase1_round02,1,documentation files removed,removed,README.md deleted,,no,no
+evanfoglia/wikipedia@1.1.0->1.0.2,phase1_round02,2,license file removed,removed,LICENSE deleted,,no,no
+evanfoglia/wikipedia@1.1.0->1.0.2,phase1_round02,3,tests removed,removed,tests/test_server.py deleted,,no,no
+bytesagain-lab/arbitrage-finder@2.0.1->3.0.0,phase1_round02,1,description rewritten,modified,"SKILL.md: description -> ""Powered by BytesAgain""; command table removed",,generic,no
+bytesagain-lab/arbitrage-finder@2.0.1->3.0.0,phase1_round02,2,main script rewritten,modified,scripts/script.sh: finance tracker replaced by reference tool (trimmed),,generic,no
+bytesagain-lab/arbitrage-finder@2.0.1->3.0.0,phase1_round02,3,script file removed,removed,scripts/arbitrage.sh deleted (CoinGecko price scan),,generic,no
+bytesagain-lab/arbitrage-finder@2.0.1->3.0.0,phase1_round02,4,external service integration removed,removed,scripts/arbitrage.sh: CoinGecko free API price calls removed,,generic,no
+bytesagain-lab/arbitrage-finder@2.0.1->3.0.0,phase1_round02,5,local logging removed,removed,scripts/script.sh: removed DATA_DIR data.log,,generic,no
+bytesagain-lab/arbitrage-finder@2.0.1->3.0.0,phase1_round02,6,documentation files removed,removed,tips.md deleted,,generic,no
+okki-op/okki-go@1.3.3->1.3.4,phase1_round02,1,capability removed,removed,"SKILL.md: ""Cross-company contact search is retired""; scripts/search-contacts.js (-167)",,no,no
+okki-op/okki-go@1.3.3->1.3.4,phase1_round02,2,description rewritten,modified,"SKILL.md: description reworded ""OKKI Go is a B2B prospecting engine...""",,no,no
+okki-op/okki-go@1.3.3->1.3.4,phase1_round02,3,tests or eval cases added,modified,scripts/test/*.test.js updated (trimmed); changelog-claimed skill-card.md removal not in diff,,no,no
+dennisrongo/write-a-skill@1.0.1->1.0.2,phase1_round02,1,workflow instructions expanded,added,"SKILL.md: baseline-the-failure step, form-vs-failure table, prove-it-works step",,generic,no
+luiscosio/agentmetal@0.2.0->0.3.0,phase1_round02,1,pricing changed,modified,"SKILL.md: nano $0.40 -> $1.20/h, small $0.80 -> $2.20, medium $1.60 -> $4.20",,no,no
+senazeng/prism-gen-demo@1.3.0->2.0.1,phase1_round02,1,script file removed,removed,"scripts/*.sh (25+ bash scripts), core/*.py pipeline, setup.sh deleted (trimmed)",security and portability improved,no,no
+senazeng/prism-gen-demo@1.3.0->2.0.1,phase1_round02,2,new scripts added,added,"scripts/filter.py, merge.py, plot.py, retrieve.py, score.py, sort.py, summary.py, utils.py",,no,no
+senazeng/prism-gen-demo@1.3.0->2.0.1,phase1_round02,3,hardcoded local paths or addresses removed,removed,"config/python_config.sh `/home/may/miniforge3/...`, core/run_pipeline.py LD_PRELOAD path deleted",,no,no
+senazeng/prism-gen-demo@1.3.0->2.0.1,phase1_round02,4,bundled data file updated,modified,"data/step3a_*.csv, example_step4a.csv removed; data/step5b_master_summary.csv added",,no,no
+senazeng/prism-gen-demo@1.3.0->2.0.1,phase1_round02,5,documentation files removed,removed,"TUTORIAL.md, docs/DETAILED_README.md, README_UNPACKED.md deleted",,no,no
+senazeng/prism-gen-demo@1.3.0->2.0.1,phase1_round02,6,description rewritten,modified,SKILL.md (+102/-152): new frontmatter and description (trimmed),,no,no
+oomol/oo-revenuecat@1.0.0->1.0.2,phase1_round02,1,version number bump only,modified,"SKILL.md: version ""1.0.0"" -> ""1.0.2""; changelog lists features with no matching diff",,generic,no
+diagnostikon/polymarket-legal-regulatory-trader@1.0.3->0.0.2,phase1_round02,1,bug fix in script logic,modified,trader.py: `if live: _client.live = True`,so --live actually routes to polymarket-venue for real USDC trades,no,no
+diagnostikon/polymarket-legal-regulatory-trader@1.0.3->0.0.2,phase1_round02,2,version field added to metadata,added,"clawhub.json: `""version"": ""0.0.2""`",,no,no
+lbtsm/mapulse-korea@1.0.0->1.0.1,phase1_round02,1,credential marked optional,removed,SKILL.md: TELEGRAM_BOT_TOKEN `required: true` -> `required: false`,,no,no
+lbtsm/mapulse-korea@1.0.0->1.0.1,phase1_round02,2,documentation content expanded,added,SKILL.md: Korean feature explanation,,no,no
+liangmoyuttc/moltoffer-candidate@1.0.2->1.0.3,phase1_round02,1,API key value shipped in package,added,"credentials.local.json: `""api_key"": ""molt_615c8ca4_...""`",,no,no
+liangmoyuttc/moltoffer-candidate@1.0.2->1.0.3,phase1_round02,2,personal data file added,added,"persona.md: candidate name, email, phone number",,no,no
+liangmoyuttc/moltoffer-candidate@1.0.2->1.0.3,phase1_round02,3,workflow instructions reduced,removed,"SKILL.md: ""Proactive workflow guidance"" section removed",,no,no
+liangmoyuttc/moltoffer-candidate@1.0.2->1.0.3,phase1_round02,4,personal data collection reduced,removed,references/onboarding.md: no longer extract location and nationality,,no,no
+zbc0315/retrospect@1.1.0->1.2.0,phase1_round02,1,documentation files removed,removed,README.md deleted (-138); changelog-claimed plugin restructure not in diff,,yes,no
+apiguru-app/apiguru-amazon-data@1.1.27->1.1.28,phase1_round02,1,dependency version or source changed,modified,SKILL.md: `apiguru-mcp==1.1.27` -> `==1.1.28`,,generic,no
+apiguru-app/apiguru-amazon-data@1.1.27->1.1.28,phase1_round02,2,error handling added,added,scripts/probe.py: `emit()` falls back to ensure_ascii on UnicodeEncodeError,printing on Windows console raised UnicodeEncodeError,generic,no
+nextaltair/soul-in-sapphire@0.1.2->0.1.3,phase1_round02,1,new scripts added,added,"scripts/bootstrap_config.py (Notion search, writes config), scripts/ltm_search.py",,no,no
+yequanzheng/fdksafs3@1.0.0->1.0.1,phase1_round02,1,files renamed or moved,modified,"skill.md deleted, SKILL.md added with same content and edited name",,no,no
+athola/nm-tome-code-search@1.0.2->1.9.12,phase1_round02,1,description rewritten,modified,SKILL.md: description and trigger list reworded,,generic,no
+thomas-smets/arcadia-finance@1.1.3->1.2.0,phase1_round02,1,CLI commands or arguments changed,modified,"SKILL.md: `write_asset_manager_rebalancer` -> `read_asset_manager_intents`, `write_account_automations`; changelog-claimed skill-card.md removal not in diff",,no,no
+fr0zen80/derek-bitcoin-intel@2.0.1->1.0.1,phase1_round02,1,frontmatter metadata added,added,SKILL.md: front matter name/description added,,generic,no
+fr0zen80/derek-bitcoin-intel@2.0.1->1.0.1,phase1_round02,2,description rewritten,modified,"SKILL.md: rewritten as ""Derek Bitcoin Intelligence API"" with marketing text (trimmed)",,generic,no
+maay/brighty@1.0.1->1.0.2,phase1_round02,1,requirements declared in metadata,added,"SKILL.md: `""bins"":[""mcporter""]` added",fix security warnings,no,no
+maay/brighty@1.0.1->1.0.2,phase1_round02,2,metadata field added,added,"SKILL.md: `""homepage"":""https://github.com/Maay/brighty_mcp""`",fix security warnings,no,no
+dlazyai/dlazy-kling-v3-omni@1.1.2->1.2.0,phase1_round02,1,dependency version unpinned to latest,removed,SKILL.md/SKILL-cn.md: `@dlazy/cli@1.0.9` -> `@dlazy/cli@latest`,,no,no
+dlazyai/dlazy-kling-v3-omni@1.1.2->1.2.0,phase1_round02,2,metadata field added,added,"SKILL.md: `apiEndpoints`, `configLocation`, `systemPrompt` added; changelog-claimed skill-card.md removal not in diff",,no,no
+chenglin97/agent-hansa-merchant@0.1.1->0.2.0,phase1_round02,1,new scripts added,added,index.js (+686): CLI + MCP server calling agenthansa.com,,no,no
+chenglin97/agent-hansa-merchant@0.1.1->0.2.0,phase1_round02,2,package manifest added,added,"package.json, package-lock.json added",,no,no
+chenglin97/agent-hansa-merchant@0.1.1->0.2.0,phase1_round02,3,tests or eval cases added,added,test.js (+314) mock-server tests,,no,no
+chenglin97/agent-hansa-merchant@0.1.1->0.2.0,phase1_round02,4,files renamed or moved,modified,"SKILL.md removed, skill.md added",,no,no
+chenglin97/agent-hansa-merchant@0.1.1->0.2.0,phase1_round02,5,new capability added,added,"skill.md: refunds, early-close, ban/unban, campaigns etc. (trimmed)",,no,no
+netanel-abergel/monday-for-agents@1.0.0->1.1.0,phase1_round02,1,plaintext credential storage removed,removed,"SKILL.md: removed `echo ""TOKEN_HERE"" > ~/.credentials/monday-token.txt` and .bashrc export",remove plaintext token storage,no,no
+netanel-abergel/monday-for-agents@1.0.0->1.1.0,phase1_round02,2,credential safety guidance added,added,"SKILL.md: ""Do not write the token to a plaintext file... Do not commit tokens""",,no,no
+netanel-abergel/monday-for-agents@1.0.0->1.1.0,phase1_round02,3,requirements declared in metadata,added,"SKILL.md: `requires.env: [""MONDAY_API_TOKEN""]`",align metadata with actual requirements,no,no
+oomol/oo-polar@1.0.0->1.0.2,phase1_round02,1,version number bump only,modified,"SKILL.md: version ""1.0.0"" -> ""1.0.2""; changelog lists features with no matching diff",,generic,no
+davidwachs/handwrytten@1.2.0->1.2.1,phase1_round02,1,formatting-only changes,modified,SKILL.md: metadata YAML collapsed to inline JSON,for consistency,no,no
+davidwachs/handwrytten@1.2.0->1.2.1,phase1_round02,2,metadata field removed,removed,SKILL.md: root `version: 1.2.0` removed,,no,no
+vannelier/deep-validator@2.0.1->2.0.2,phase1_round02,1,authentication method changed,modified,"SKILL.md: Bearer token -> x402 payment protocol, ""no API key to configure""",,no,no
+vannelier/deep-validator@2.0.1->2.0.2,phase1_round02,2,requirements removed from metadata,removed,SKILL.md: `requires.env: DEEP_VALIDATOR_NVM_TOKEN` removed,,no,no
+vannelier/deep-validator@2.0.1->2.0.2,phase1_round02,3,autonomous payment flow added,added,"SKILL.md: ""Agent pays automatically from its Nevermined wallet and retries""",,no,no
+kennethrajsimon/spacetime-memory@1.1.4->1.1.5,phase1_round02,1,confirmation flag enforced in script,added,legacy-import.js: exits unless `--confirm` and explicit path given,prevent accidental execution,no,no
+kennethrajsimon/spacetime-memory@1.1.4->1.1.5,phase1_round02,2,env var usage removed,removed,legacy-import.js/package.json: OPENCLAW_WORKSPACE env and default `/root/.openclaw/workspace` removed,resolve sensitive path warnings,no,no
+billylui/temporal-cortex-datetime@0.7.0->0.7.1,phase1_round02,1,dependency version or source changed,modified,"SKILL.md: `@temporal-cortex/cortex-mcp@0.7.0` -> 0.7.1 in metadata, unversioned in text",,generic,no
+coinglass-official/coinglass-api-skills@1.0.3->1.1.0,phase1_round02,1,requirements removed from metadata,removed,SKILL.md + 26 API.md files: `- CG-APl-KEY` env line removed; changelog-claimed routing docs not in diff,,yes,no
+mbordash/dradis-tactical-command@1.2.0->1.3.0,phase1_round02,1,scanner findings response note added,added,"SKILL.md: ""Publisher Note (Addressing ClawScan Findings)""",addressing ClawScan's two Medium findings,no,no
+mbordash/dradis-tactical-command@1.2.0->1.3.0,phase1_round02,2,least-privilege guidance added,added,"SKILL.md: ""using a dedicated, least-privilege API key""",addressing ClawScan's two Medium findings,no,no
+mbordash/dradis-tactical-command@1.2.0->1.3.0,phase1_round02,3,description rewritten,modified,"SKILL.md: ""PolyMarket high-frequency trading engine"" -> ""prediction market execution engine""",,no,no
+probebuilders/rydberg-agent-node@2.5.0->2.5.1,phase1_round03,1,description rewritten,modified,"SKILL.md: description reworded ""Deploy a ProbeChain Rydberg testnet Agent node with one command...""",,no,no
+xueyetianya/slack-automator@2.3.7->2.0.0,phase1_round03,1,metadata field added,added,SKILL.md: `homepage:` and `source:` added; changelog-claimed description and security fix not in diff,,yes,no
+chrischall/ofw-fpx@2.13.0->2.14.0,phase1_round03,1,no author change,,no files changed; changelog claims skill-card.md removed,,no,yes
+globalcaos/chatgpt-exporter-ultimate@1.9.1->1.9.2,phase1_round03,1,filesystem safety checks added,added,"SKILL.md/scripts/export-conversations.ts: O_CREAT/O_EXCL, O_NOFOLLOW, symlink/hard link refusal (trimmed)",,no,no
+globalcaos/chatgpt-exporter-ultimate@1.9.1->1.9.2,phase1_round03,2,confirmation flag enforced in script,added,"SKILL.md: ""the relay throws unless called with confirmed: true""",,no,no
+globalcaos/chatgpt-exporter-ultimate@1.9.1->1.9.2,phase1_round03,3,requirements declared in metadata,added,SKILL.md: `- node` added to requires,,no,no
+globalcaos/chatgpt-exporter-ultimate@1.9.1->1.9.2,phase1_round03,4,access scope disclosure expanded,added,"SKILL.md: ""Every claim is now scoped to the path that does it""; bookmarklet ""CREDENTIALS: cookie only""",,no,no
+globalcaos/chatgpt-exporter-ultimate@1.9.1->1.9.2,phase1_round03,5,description rewritten,modified,"SKILL.md: ""Export all your ChatGPT conversations instantly"" -> ""to local files... if you ask for it, full message text""",,no,no
+ericlooi504/ericlooi504-seo-audit@1.0.0->1.0.1,phase1_round03,1,script logic removed,removed,"scripts/audit.py (-195), check.py (-81), report.py (-99): logic replaced by HELP text only",,no,no
+ericlooi504/ericlooi504-seo-audit@1.0.0->1.0.1,phase1_round03,2,metadata field removed,removed,SKILL.md: `homepage: https://clawhub.ai/p/...` removed,,no,no
+oomol/oo-deepseek@1.0.0->1.0.1,phase1_round03,1,documentation files removed,removed,actions/*.md (4 files) deleted; descriptions inlined in SKILL.md,,generic,no
+oomol/oo-deepseek@1.0.0->1.0.1,phase1_round03,2,action risk tags changed,added,SKILL.md: actions carry `[write]` or `[destructive]` tags,,generic,no
+oomol/oo-deepseek@1.0.0->1.0.1,phase1_round03,3,user confirmation required before actions,modified,SKILL.md: confirm rules now keyed on `[write]`/`[destructive]` tags,,generic,no
+oomol/oo-deepseek@1.0.0->1.0.1,phase1_round03,4,metadata field removed,removed,"SKILL.md: `categories`, `homepage` removed; `service` -> `services`",,generic,no
+mcdoolz/openclaw-sulcus-skill@1.3.0->1.4.0,phase1_round03,1,capability removed,removed,"SKILL.md: ""Cloud Sync (Optional — Paid Add-on)"" section and `webhook` action removed",cloud sync and webhooks are paid features in a separate skill,no,no
+mcdoolz/openclaw-sulcus-skill@1.3.0->1.4.0,phase1_round03,2,safety or privacy claims added,added,"SKILL.md: ""No cloud, no network, no data leaves your machine""",,no,no
+fudanjx/notebooklm-pdf-cleaner@1.0.0->1.0.1,phase1_round03,1,description rewritten,modified,SKILL.md: scope narrowed to NotebookLM footer-badge masking,,no,no
+fudanjx/notebooklm-pdf-cleaner@1.0.0->1.0.1,phase1_round03,2,hardcoded local paths or addresses removed,removed,SKILL.md: machine-specific paths replaced with portable skill paths (trimmed),,no,no
+fudanjx/notebooklm-pdf-cleaner@1.0.0->1.0.1,phase1_round03,3,default behavior narrowed,modified,SKILL.md: no metadata/annotation stripping unless requested; keep original unchanged,,no,no
+fudanjx/notebooklm-pdf-cleaner@1.0.0->1.0.1,phase1_round03,4,confirmation flag enforced in script,added,scripts/clean_notebooklm_pdf.py: no output overwrite without `--force` (trimmed),,no,no
+oomol/oo-googleforms@1.0.3->1.0.4,phase1_round03,1,version number bump only,modified,"SKILL.md: version 1.0.3 -> 1.0.4, icon URL case change; changelog lists features with no matching diff",,generic,no
+mazzzystar/ccclub@1.0.1->1.0.2,phase1_round03,1,capability removed,removed,SKILL.md: `ccclub sources enable|disable openclaw` opt-in removed,,no,no
+mazzzystar/ccclub@1.0.1->1.0.2,phase1_round03,2,description rewritten,modified,"SKILL.md: ""(OpenClaw available opt-in)"" removed from description",,no,no
+titus-choi/trunkate-ai@0.16.0->0.17.0,phase1_round03,1,formatting-only changes,modified,SKILL.md: table separator `|---|` -> `| --- |`,,no,no
+titus-choi/trunkate-ai@0.16.0->0.17.0,phase1_round03,2,changelog file updated,modified,CHANGELOG.md 0.17.0 entry; version.txt 0.16.0 -> 0.17.0,,no,no
+parkertoddbrooks/wip-repo-init@1.9.46->1.9.47,phase1_round03,1,version number bump only,modified,package.json: 1.9.46 -> 1.9.47; changelog describes new `wip-repos claude` command not in diff,,yes,no
+luduoxin/ai-leaderboard@1.2.0->1.3.0,phase1_round03,1,new scripts added,added,query_leaderboard.py (+222): queries OpenRouter API,,no,no
+luduoxin/ai-leaderboard@1.2.0->1.3.0,phase1_round03,2,API endpoint or service URL changed,modified,SKILL.md: web_fetch of openrouter.ai pages -> `https://openrouter.ai/api/v1/models` via script,,no,no
+capachow/lens@0.7.1->0.7.2,phase1_round03,1,code refactored without behavior change,modified,"scripts/*.js: CommonJS `require` -> ES `import`; package.json `""type"": ""module""`",,no,no
+capachow/lens@0.7.1->0.7.2,phase1_round03,2,subprocess call removed,removed,scripts/distillation.js: `execSync('node ' + ... 'bootstrap.js')` -> `await bootstrap()`,,no,no
+bythecult/shop-culture@1.0.6->1.0.7,phase1_round03,1,documentation files added,added,"references/API.md (+677), CHECKOUT-FIELDS.md, ERRORS.md",,no,no
+bythecult/shop-culture@1.0.6->1.0.7,phase1_round03,2,new API endpoints documented,added,"SKILL.md: `source` param, `/products/store/search`, marketplace `asin` items",,no,no
+bythecult/shop-culture@1.0.6->1.0.7,phase1_round03,3,description rewritten,modified,SKILL.md: description reworded,,no,no
+oomol/oo-ongage@1.0.0->1.0.2,phase1_round03,1,version number bump only,modified,SKILL.md: version 1.0.0 -> 1.0.2; changelog lists features with no matching diff,,generic,no
+mentholmike/wagmios@1.0.0->1.0.1,phase1_round03,1,credential safety guidance added,added,"SKILL.md: ""Keys are provided by the user at runtime, not stored... Do not log or expose""",,no,no
+mentholmike/wagmios@1.0.0->1.0.1,phase1_round03,2,access scope disclosure expanded,added,"references/safeguards.md: agent can reduce own scopes, cannot add",,no,no
+kai-tw/tc-dict@1.0.0->1.0.1,phase1_round03,1,TLS verification enabled,added,"scripts/check_updates.py, download_dictionary.py: removed `ssl_context.verify_mode = ssl.CERT_NONE`",security hardening,no,no
+kai-tw/tc-dict@1.0.0->1.0.1,phase1_round03,2,filesystem safety checks added,added,scripts/download_dictionary.py: `validate_zip_path()` prevents zip-slip,security hardening,no,no
+kai-tw/tc-dict@1.0.0->1.0.1,phase1_round03,3,safety or privacy claims added,added,"SKILL.md/README.md: ""## Security"" list of TLS, zip-slip, isolated storage",,no,no
+sanguineseal/aegis-audit@0.1.8->0.1.9,phase1_round03,1,requirements declared in metadata,added,"SKILL.md: `requires.env: GEMINI_API_KEY, OPENAI_API_KEY, ANTHROPIC_API_KEY`",,no,no
+sanguineseal/aegis-audit@0.1.8->0.1.9,phase1_round03,2,external service dependency disclosed,added,CHANGELOG.md/SKILL.md: privacy notice for LLM mode data transmission (trimmed),,no,no
+sanguineseal/aegis-audit@0.1.8->0.1.9,phase1_round03,3,documentation condensed,modified,SKILL.md (+180/-417): rewrite for conciseness (trimmed),,no,no
+sanguineseal/aegis-audit@0.1.8->0.1.9,phase1_round03,4,changelog file updated,modified,CHANGELOG.md: [1.9.0] entry,,no,no
+noambens/agent-changelog@1.2.1->1.2.2,phase1_round03,1,requirements removed from metadata,removed,SKILL.md: `PROMPTLAYER_API_KEY` removed from requires.env; changelog-claimed cron guard not in diff,,yes,no
+8co/opentangl@0.1.9->0.1.10,phase1_round03,1,no author change,,"no files changed; changelog claims tags, description, guardrail added",,yes,yes
+claytantor/katbot-trading@0.1.4->0.1.5,phase1_round03,1,setup instructions changed,modified,SKILL.md: `uv pip install` -> `pip install`,for simpler setup,no,no
+claytantor/katbot-trading@0.1.4->0.1.5,phase1_round03,2,requirements removed from metadata,removed,SKILL.md: `uv` removed from requires.bins,for simpler setup,no,no
+waldyrious/workflowy@1.0.5->1.0.6,phase1_round03,1,formatting-only changes,modified,SKILL.md: metadata quotes and install entry reformatted,,no,no
+waldyrious/workflowy@1.0.5->1.0.6,phase1_round03,2,documentation files removed,removed,SKILL-v1.0.3.md (-157) old copy deleted,,no,no
+tommot2/cross-check@2.0.1->2.1.0,phase1_round03,1,default behavior narrowed,modified,"SKILL.md: ""Default: Suggest, Don't Auto-Run""; auto-invocation opt-in via HEARTBEAT.md",,no,no
+tommot2/cross-check@2.0.1->2.1.0,phase1_round03,2,permissions declared in metadata,added,"SKILL.md: `capabilities: [sessions_spawn]`, `configPaths: [HEARTBEAT.md]`",,no,no
+tommot2/cross-check@2.0.1->2.1.0,phase1_round03,3,description rewritten,modified,"SKILL.md: ""Automatically detects"" -> ""Detects""; ""Opt-in""",,no,no
+ckchzh/wireframe@3.0.0->3.0.1,phase1_round03,1,documentation content expanded,added,"SKILL.md: ""## Requirements - bash 4+""",,no,no
+ckchzh/wireframe@3.0.0->3.0.1,phase1_round03,2,formatting-only changes,modified,SKILL.md: description and version quoted,,no,no
+james-southendsolutions/camino-safety-checker@0.1.0->2.0.1,phase1_round03,1,names or identifiers renamed,modified,SKILL.md: `safety-checker` -> `camino-safety-checker` in name and install commands,,generic,no
+james-southendsolutions/camino-safety-checker@0.1.0->2.0.1,phase1_round03,2,requirements declared in metadata,added,"SKILL.md: `""binaries"":[""curl"",""jq""]`",,generic,no
+james-southendsolutions/camino-safety-checker@0.1.0->2.0.1,phase1_round03,3,setup instructions changed,removed,"SKILL.md: ""Instant Trial"" curl signup to api.getcamino.ai/trial/start removed",,generic,no
+msaad00/agent-bom-discover-azure@0.103.2->0.104.0,phase1_round03,1,version number bump only,modified,SKILL.md: version 0.103.2 -> 0.104.0,,generic,no
+diagnostikon/polymarket-ladder-social-posts-trader@1.0.1->0.0.2,phase1_round03,1,bug fix in script logic,modified,trader.py: `if live: _client.live = True`,so --live actually routes to polymarket-venue for real USDC trades,no,no
+diagnostikon/polymarket-ladder-social-posts-trader@1.0.1->0.0.2,phase1_round03,2,formatting-only changes,modified,clawhub.json: inline arrays expanded to multi-line,,no,no
+yuanzhian-patsnap/rd-initiation-review@1.0.0->1.0.1,phase1_round03,1,metadata field added,added,"SKILL.md: `copyright: ""Copyright © PatSnap...""`; changelog-claimed skill-card.md removal not in diff",,no,no
+nollio/normieclaw-dashboard-builder@1.0.0->1.0.2,phase1_round03,1,license changed,modified,LICENSE.md: single-user NormieClaw license -> MIT,,no,no
+nollio/normieclaw-dashboard-builder@1.0.0->1.0.2,phase1_round03,2,product promotion removed,removed,"SKILL.md: list of other paid skills (Expense Report Pro, Budget Buddy Pro...) removed",,no,no
+nollio/normieclaw-dashboard-builder@1.0.0->1.0.2,phase1_round03,3,frontmatter metadata removed,removed,SKILL.md: frontmatter name/description block removed,,no,no
+billylui/temporal-cortex-datetime@0.7.2->0.7.3,phase1_round03,1,dependency version or source changed,modified,SKILL.md: `@temporal-cortex/cortex-mcp@0.7.2` -> `@0.7.3`,,generic,no
+crawlora-org/crawlora-datasets@1.0.6->1.0.7,phase1_round03,1,no author change,,no files changed,,generic,yes
+sora-mury/openclaw-memory-kit@0.2.0->0.2.1,phase1_round03,1,script file removed,removed,"scripts/bootstrap.py (-714), bootstrap.sh (-531), install.sh, roles.py deleted",,no,no
+sora-mury/openclaw-memory-kit@0.2.0->0.2.1,phase1_round03,2,workflow instructions expanded,modified,SKILL.md: new Quick Start and Workflow steps for isolated target root and plugins,,no,no
+sora-mury/openclaw-memory-kit@0.2.0->0.2.1,phase1_round03,3,data minimization guidance added,added,"SKILL.md: ""Never copy the source user's raw env file, live app IDs... private LAN addresses... Use placeholders only""",,no,no
+sora-mury/openclaw-memory-kit@0.2.0->0.2.1,phase1_round03,4,metadata field removed,removed,"SKILL.md: `version`, `tags` removed from frontmatter",,no,no
+adspower/adspower-browser@1.0.1->1.0.2,phase1_round03,1,capability removed,removed,SKILL.md + references: `share-profile` and `get-profile-cookies` commands removed,,no,no
+stephenredmond-straiteis/edge-tts-voice-system@2.0.0->2.1.0,phase1_round03,1,underlying engine or library replaced,modified,scripts/piper_tts.py etc.: Piper TTS (`from piper import PiperVoice`) -> Edge TTS wrapper,,no,no
+stephenredmond-straiteis/edge-tts-voice-system@2.0.0->2.1.0,phase1_round03,2,names or identifiers renamed,modified,SKILL.md: `edge_tts_voice_system` -> `edge-tts-voice-system`,,no,no
+stephenredmond-straiteis/edge-tts-voice-system@2.0.0->2.1.0,phase1_round03,3,new env vars introduced,added,SKILL.md: `OPENCLAW_EDGE_TTS_VOICE` to choose voice,,no,no
+stephenredmond-straiteis/edge-tts-voice-system@2.0.0->2.1.0,phase1_round03,4,tests or eval cases added,modified,scripts/test_skill.py: checks edge-tts instead of piper,,no,no
+cole-z/govee-api-assist@1.0.1->1.0.2,phase1_round03,1,deprecation notice added,added,"SKILL.md: ""DEPRECATED. Use @Cole-Z/govee-control""",redirect users to the canonical maintained version,no,no
+cole-z/govee-api-assist@1.0.1->1.0.2,phase1_round03,2,documentation condensed,removed,SKILL.md (-134): setup and control guide removed,,no,no
+cole-z/govee-api-assist@1.0.1->1.0.2,phase1_round03,3,names or identifiers renamed,modified,SKILL.md: name `govee-control` -> `govee-api-assist`,,no,no
+xueyetianya/task-planner@3.0.3->3.0.4,phase1_round03,1,version number bump only,modified,SKILL.md and scripts/script.sh: 3.0.2 -> 3.0.3; changelog-claimed polishing not in diff,,generic,no
+sahilaujla/alchemy-official@1.1.1->1.1.2,phase1_round03,1,no author change,,no files changed; changelog claims metadata cleaned,,no,yes
+kyro-ma/work-productivity-skillscan-security-workflow-helper@0.20260727.30443->0.20260727.80339,phase1_round03,1,auto-generated content refreshed,modified,"README.md, README.zh-CN.md, references/requirement-plan.md: download counts and issue links refreshed; changelog-claimed skill-card.md removal not in diff",,no,no
+sheetaa/create-agent-with-telegram-group@0.1.2->0.1.3,phase1_round03,1,access scope disclosure expanded,added,"SKILL.md: ""## Access Scope"" listing files read/written",resolve credential handling contradiction,no,no
+sheetaa/create-agent-with-telegram-group@0.1.2->0.1.3,phase1_round03,2,credential handling instructions changed,removed,"SKILL.md: removed ""copy from main agent if missing: auth.json...""; ""do NOT copy any auth files""",prevents credential/API key propagation,no,no
+chrischall/untappd-mcp@1.9.1->1.9.2,phase1_round03,1,no author change,,no files changed,,no,yes
+skylar-north/skylar-serper@1.0.0->1.0.1,phase1_round03,1,requirements declared in metadata,added,SKILL.md: requires env `SERPER_API_KEY`,,no,no
+iamjameskeane/moltimon@0.1.0->0.1.1,phase1_round03,1,credential handling instructions changed,modified,SKILL.md: `--api-key` flag removed; `export MOLTBOOK_API_KEY` env var used,,no,no
+iamjameskeane/moltimon@0.1.0->0.1.1,phase1_round03,2,metadata field added,added,"SKILL.md: `compatibility`, `version`, `author`, `repository` fields",,no,no
+iamjameskeane/moltimon@0.1.0->0.1.1,phase1_round03,3,documentation content expanded,added,"SKILL.md: ""## Links"" website, source, NPM",,no,no
+mozz0/josh-learns@3.1.1->3.1.2,phase1_round03,1,no author change,,no files changed; changelog claims display name fix,,yes,yes
+jarar21/g-tts@1.0.1->1.0.2,phase1_round03,1,package manifest removed,removed,scripts/package.json and package-lock.json deleted (listed @google-cloud/text-to-speech),,no,no
+zw008/vmware-nsx@1.8.7->1.8.8,phase1_round03,1,no author change,,no files changed; changelog claims CLI writes routed through guard,,yes,yes
+chrischall/apple-swift-mcp@1.1.8->1.2.0,phase1_round03,1,new capability added,added,"SKILL.md: ""### Photos (PhotoKit + AppleScript)""",,no,no
+chrischall/apple-swift-mcp@1.1.8->1.2.0,phase1_round03,2,description rewritten,modified,SKILL.md: description adds Photos; changelog-claimed skill-card.md removal not in diff,,no,no
+civilainominee/personality-backup@1.0.1->1.0.2,phase1_round03,1,no author change,,no files changed,,generic,yes
+byungkyu/google-tasks-api@1.0.2->1.0.3,phase1_round03,1,requirements declared in metadata,added,SKILL.md: clawdbot requires env `MATON_API_KEY`,,no,no
+oomol/oo-appdrag@1.0.3->1.0.4,phase1_round03,1,description rewritten,modified,"SKILL.md: ""searching and reading data"" -> ""reading, creating, and updating data""",,generic,no
+oomol/oo-appdrag@1.0.3->1.0.4,phase1_round03,2,action risk tags changed,added,SKILL.md: `execute_function` tagged `[write]`,,generic,no
+laiye-adp/adp-pdf-to-structured-markdown@1.0.0->1.0.1,phase1_round04,1,example content changed,modified,"SKILL.md: link label ""International"" -> ""Global""; example app_label Chinese -> English",,no,no
+dinstein/tech-news-digest@2.4.1->2.5.0,phase1_round04,1,script logic extended,added,"scripts/fetch-*.py: resume support skips fetch if cached output < 1 hour old, `--force` flag",,no,no
+dinstein/tech-news-digest@2.4.1->2.5.0,phase1_round04,2,bug fix in script logic,modified,scripts/fetch-twitter.py: reply filter uses `referenced_tweets` instead of `text.startswith('@')`,,no,no
+dinstein/tech-news-digest@2.4.1->2.5.0,phase1_round04,3,rate limiting added,added,"scripts/fetch-twitter.py: `time.sleep(0.3)` ""Rate limit: space out API calls""",,no,no
+dinstein/tech-news-digest@2.4.1->2.5.0,phase1_round04,4,new scripts added,added,scripts/source-health.py (+110),,no,no
+dinstein/tech-news-digest@2.4.1->2.5.0,phase1_round04,5,tests or eval cases added,added,scripts/test-pipeline.sh (+85) e2e test,,no,no
+dinstein/tech-news-digest@2.4.1->2.5.0,phase1_round04,6,code refactored without behavior change,removed,scripts/config_loader.py: backward compatibility wrappers removed (dead code),,no,no
+brunopradof/openclaw-shield-upx@1.0.0->1.0.1,phase1_round04,1,new capability added,added,SKILL.md: `openclaw shield vault show` host inventory command,,no,no
+brunopradof/openclaw-shield-upx@1.0.0->1.0.1,phase1_round04,2,documentation content expanded,added,"SKILL.md/README.md: links to npm, ClawHub, dashboard; vault output explanation",,no,no
+pruna-ai/p-video-replace@1.0.0->0.0.2,phase1_round04,1,doc link or path format changed,modified,SKILL.md: `../p-video-animate/SKILL.md` -> `https://github.com/PrunaAI/pruna-skills/...`,,no,no
+pruna-ai/p-video-replace@1.0.0->0.0.2,phase1_round04,2,package manifest removed,removed,pspm.json deleted,,no,no
+mirni/greenhelix-agent-commerce-discovery@1.2.0->1.3.0,phase1_round04,1,API endpoint or service URL changed,modified,"SKILL.md: `https://api.greenhelix.net/v1` -> sandbox `https://sandbox.greenhelix.net`, `/execute` -> `/v1`",,no,no
+mirni/greenhelix-agent-commerce-discovery@1.2.0->1.3.0,phase1_round04,2,new env vars introduced,added,"SKILL.md: `os.environ.get(""GREENHELIX_API_URL"", ...)`",,no,no
+halfmoon82/brand-marketing-workflow@3.0.0->3.0.1,phase1_round04,1,new scripts added,added,"run.py, install.sh, scripts/*.py (14 files, trimmed): runnable workflow, browser execution, LLM client",,no,no
+halfmoon82/brand-marketing-workflow@3.0.0->3.0.1,phase1_round04,2,config files added,added,"clawhub.yaml, autoresearch.config.json, config/competitor_targets.json (trimmed)",,no,no
+halfmoon82/brand-marketing-workflow@3.0.0->3.0.1,phase1_round04,3,tests or eval cases added,added,"scripts/integration_test.py, smoke_test.py, autoresearch.sh benchmark",,no,no
+halfmoon82/brand-marketing-workflow@3.0.0->3.0.1,phase1_round04,4,example files added,added,"evidence/*.json, examples/*.md, templates/*.md",,no,no
+halfmoon82/brand-marketing-workflow@3.0.0->3.0.1,phase1_round04,5,description rewritten,modified,"SKILL.md: ""Structural documentation... without exposing implementation code""",,no,no
+halfmoon82/brand-marketing-workflow@3.0.0->3.0.1,phase1_round04,6,safety or privacy claims added,added,"SKILL.md: ""A documentation-only description... contains no executable code"" while code files are added",,no,no
+mr-muddle/invoice-scan@1.0.0->1.1.0,phase1_round04,1,operating modes added,added,"SKILL.md: ""Mode 1: Agent-Native"" (built-in vision) and ""Mode 2: CLI Standalone""",,no,no
+mr-muddle/invoice-scan@1.0.0->1.1.0,phase1_round04,2,credential marked optional,removed,"SKILL.md: agent-native mode ""no API key""; ANTHROPIC_API_KEY only for CLI mode",,no,no
+mr-muddle/invoice-scan@1.0.0->1.1.0,phase1_round04,3,workflow instructions expanded,modified,SKILL.md: Agent-Native Extraction Guide (trimmed),,no,no
+charlie-morrison/error-budget-tracker@1.0.0->1.0.1,phase1_round04,1,no author change,,no files changed,,no,yes
+wangjipeng977/ai-image-to-code@3.0.0->4.0.0,phase1_round04,1,no author change,,no files changed,,generic,yes
+hexavi8/daily-stock-analysis@1.0.1->1.0.2,phase1_round04,1,operational rules added,added,"SKILL.md: ""Hard Rules: Read and write files only under working_directory""; fixed report filename",,no,no
+hexavi8/daily-stock-analysis@1.0.1->1.0.2,phase1_round04,2,user confirmation required before actions,added,"SKILL.md: ""If same ticker/day file exists, ask user: overwrite or new_version""",,no,no
+hexavi8/daily-stock-analysis@1.0.1->1.0.2,phase1_round04,3,new scripts added,added,"scripts/_report_utils.py, calc_accuracy.py, report_manager.py",,no,no
+hexavi8/daily-stock-analysis@1.0.1->1.0.2,phase1_round04,4,documentation files added,added,"references/minimal_mode.md, security.md, sources.md",,no,no
+hexavi8/daily-stock-analysis@1.0.1->1.0.2,phase1_round04,5,operating modes added,added,references/minimal_mode.md: compatibility mode without Python,,no,no
+24601/agent-deep-research@2.0.0->2.0.1,phase1_round04,1,requirements declared in metadata,added,"SKILL.md: `required_env`, `required_binaries: ""uv""`, compatibility line",addresses OpenClaw suspicious classification,no,no
+24601/agent-deep-research@2.0.0->2.0.1,phase1_round04,2,permissions declared in metadata,added,"SKILL.md: `allowed-tools: Bash(uv:*) Bash(python3:*) Read`, `network_access`",addresses OpenClaw suspicious classification,no,no
+24601/agent-deep-research@2.0.0->2.0.1,phase1_round04,3,access scope disclosure expanded,added,"SKILL.md: ""Security & Transparency"": file uploads to Google, non-interactive mode skips prompts",addresses OpenClaw suspicious classification,no,no
+24601/agent-deep-research@2.0.0->2.0.1,phase1_round04,4,safety or privacy claims added,added,"SKILL.md: `no_obfuscation: ""true""`, `no_telemetry: ""true""`",addresses OpenClaw suspicious classification,no,no
+dlazyai/dlazy-gpt-image-2@1.3.6->1.3.7,phase1_round04,1,names or identifiers renamed,modified,"SKILL.md, SKILL-cn.md: heading `dlazy-gpt-image-2` -> `图像生成 GPT Image 2`",,no,no
+jaredforreal/glm-master-skill@1.0.0->1.0.1,phase1_round04,1,safety claims or disclosures removed,removed,"SKILL.md: removed ""does not run any local scripts"", ""does not use subprocess"" and review rationale",for brevity,no,no
+arberx/canonry@4.134.0+46e3bd6->4.134.1+6820d11,phase1_round04,1,CLI commands or arguments changed,added,references/canonry-cli.md: new `cnry ga ai-referral-daily`; history redefined as raw detail,,generic,no
+cyrushuang1995-cmyk/gws-google-workspace@2.1.4->2.1.5,phase1_round04,1,requirements declared in metadata,added,"SKILL.md: bins `python3`, env GOOGLE_WORKSPACE_PROJECT_ID etc., config path",fix suspicious flag,no,no
+cyrushuang1995-cmyk/gws-google-workspace@2.1.4->2.1.5,phase1_round04,2,tests removed,removed,evals/evals.json and gws-workspace/iteration-1/* deleted,fix suspicious flag,no,no
+kuberwastaken/litmus@1.1.0->1.1.1,phase1_round04,1,new external service integrated,added,"references/clawrxiv.md: optional auto-publishing to clawrxiv.io, registers via curl",,no,no
+kuberwastaken/litmus@1.1.0->1.1.1,phase1_round04,2,requirements declared in metadata,added,SKILL.md: optional env `CLAWRXIV_API_KEY`,,no,no
+kuberwastaken/litmus@1.1.0->1.1.1,phase1_round04,3,credential safety guidance added,added,"references/clawrxiv.md: ""NEVER send the API key to any domain other than clawrxiv.io""",,no,no
+kuberwastaken/litmus@1.1.0->1.1.1,phase1_round04,4,workflow instructions expanded,modified,"references/director.md: Compass Reset at >= 6 experiments, open-questions check",,no,no
+kuberwastaken/litmus@1.1.0->1.1.1,phase1_round04,5,script logic extended,added,"scripts/setup.sh: creates notes subfolders, _connections.md, _open-questions.md",,no,no
+tmchow/illo@0.31.1->0.31.2,phase1_round04,1,version number bump only,modified,SKILL.md: version 0.31.1 -> 0.31.2; changelog-claimed starter prompt fixes not in diff,,yes,no
+keke-skills/video-learner@1.0.3->1.0.4,phase1_round04,1,setup instructions changed,added,"SKILL.md: ""## 环境要求"" yt-dlp, ffmpeg, whisper; `npx clawhub install douyin-download`",,no,no
+bytesagain1/mealplan@1.0.1->1.0.2,phase1_round04,1,no author change,,"no files changed; changelog claims ""Quality upgrade""",,generic,yes
+cellcog/coding-agent-cellcog@1.0.5->1.0.6,phase1_round04,1,example content changed,modified,SKILL.md: `CellCogClient(agent_name=...)` -> `agent_provider=...`,,no,no
+ciklopentan/dual-thinking@7.9.7->7.9.8,phase1_round04,1,documentation files added,added,"references/reference-freeze.md, change-policy.md, reference-scenarios.md, reference-release-checklist.md",,no,no
+ciklopentan/dual-thinking@7.9.7->7.9.8,phase1_round04,2,workflow instructions expanded,added,SKILL.md (+148): reference freeze policy and release discipline (trimmed),,no,no
+crawlora-org/nike-research@1.0.10->1.0.11,phase1_round04,1,input validation added,added,scripts/crawlora.sh: reject `@` in query args,so query arguments cannot disclose local files to the Crawlora API,no,no
+chrischall/redfin-fpx@0.10.4->0.10.5,phase1_round04,1,no author change,,no files changed; changelog claims skill-card.md removed,,no,yes
+isdyh01/shortapi-ai-video-generation@1.0.1->1.0.2,phase1_round04,1,access scope disclosure expanded,added,SKILL.md: Security & Privacy Compliance section on endpoints and callbacks (trimmed),,no,no
+isdyh01/shortapi-ai-video-generation@1.0.1->1.0.2,phase1_round04,2,formatting-only changes,modified,SKILL.md: metadata and JSON example reformatted,,no,no
+stoner-byte/github-release-analyzer@0.0.3->0.0.4,phase1_round04,1,data storage location changed,modified,"scripts/state_store.py: `_resolve_state_root()` prefers env, legacy, then `~/.openclaw/state/`",to survive skill upgrades,no,no
+stoner-byte/github-release-analyzer@0.0.3->0.0.4,phase1_round04,2,new env vars introduced,added,scripts/state_store.py: `GITHUB_RELEASE_ANALYZER_STATE_ROOT`,,no,no
+stoner-byte/github-release-analyzer@0.0.3->0.0.4,phase1_round04,3,version field added to metadata,added,SKILL.md: `version: 0.0.4`,,no,no
+hith3sh/amplitude-analytics@1.0.4->1.0.5,phase1_round04,1,tracking parameters added to links,modified,SKILL.md: claw-link.dev links get `?utm_source=clawhub&utm_medium=referral`,so visits from this skill page are tracked as a distinct traffic source,no,no
+oloapiu/airshell@1.1.0->1.1.1,phase1_round04,1,credential handling instructions changed,modified,"scripts/vesync_example.py: `VESYNC_EMAIL = os.environ[""VESYNC_EMAIL""]` replaces fill-in placeholders",credentials never hardcoded,no,no
+oloapiu/airshell@1.1.0->1.1.1,phase1_round04,2,new env vars introduced,added,"scripts/vesync_example.py: VESYNC_EMAIL, VESYNC_PASSWORD, VESYNC_DEVICE, VESYNC_TIMEZONE",,no,no
+rockets-cn/unihiker-k10-arduino@1.0.2->1.0.3,phase1_round04,1,script file removed,removed,"scripts/compile-ota.ps1, upload-arduino.ps1 deleted",,yes,no
+rockets-cn/unihiker-k10-arduino@1.0.2->1.0.3,phase1_round04,2,metadata field removed,removed,SKILL.md: `version: 0.9.4` removed; changelog-claimed onboarding refresh not in diff,unsupported skill frontmatter version field,yes,no
+northcap-group/crypto-drt-scalping@1.0.9->1.0.10,phase1_round04,1,no author change,,no files changed; changelog claims display name fix,,yes,yes
+heyixuan2/bambu-studio-ai@0.23.4->0.23.5,phase1_round04,1,workflow instructions reduced,modified,"SKILL.md: ""Do NOT ask user to specify colors upfront""; confirm dimensions only",,no,no
+heyixuan2/bambu-studio-ai@0.23.4->0.23.5,phase1_round04,2,default or config value changed,modified,"scripts/preview.py: background colour (0.12,0.12,0.15) -> (0,0,0)",,no,no
+ivangdavila/people@1.0.0->1.0.1,phase1_round04,1,names or identifiers renamed,modified,SKILL.md: name People -> Contacts,,no,no
+gnuchev/openresearch-club@1.0.1->1.0.2,phase1_round04,1,documentation content expanded,modified,"SKILL.md: lock rule explained ""locked by a global maintainer, with a public reason""; changelog-claimed skill-card.md removal not in diff",,no,no
+riffkit/riffkit@1.1.3->1.1.4,phase1_round04,1,documentation content expanded,added,SKILL.md: `formula_slots` output field documented; updated_at changed,,generic,no
+chrischall/onehome-fpx@0.14.0->0.15.0,phase1_round04,1,no author change,,no files changed; changelog claims skill-card.md removed,,no,yes
+nazchedz/coinversaa-pulse@0.6.1->0.7.0,phase1_round04,1,credential made required,added,SKILL.md: API key `required: false` -> `required: true`; free tier without key removed,,no,no
+nazchedz/coinversaa-pulse@0.6.1->0.7.0,phase1_round04,2,new capability added,added,"SKILL.md: HIP-4 outcome contract tools, 43 -> 55 tools",,no,no
+nazchedz/coinversaa-pulse@0.6.1->0.7.0,phase1_round04,3,pricing changed,modified,SKILL.md: access tiers Free/Starter/Pro/Enterprise (trimmed),,no,no
+nazchedz/coinversaa-pulse@0.6.1->0.7.0,phase1_round04,4,documentation condensed,removed,SKILL.md (+205/-825) (trimmed),,no,no
+northcap-group/crypto-sentiment-pulse@1.0.13->1.0.14,phase1_round04,1,capability removed,removed,scripts/sentiment.py deleted: paid x402 Fear & Greed call; SKILL.md usage line removed; changelog-claimed skill-card.md addition not in diff,,no,no
+northcap-group/crypto-sentiment-pulse@1.0.13->1.0.14,phase1_round04,2,external service integration removed,removed,scripts/sentiment.py: x402 pay-per-call API `/v1/sentiment` no longer called,,no,no
+devinchen2014/douyin-video-copy-extract@0.1.6->0.1.7,phase1_round04,1,troubleshooting guidance added,added,SKILL.md: treat SDK/npm/network errors as local runtime issues,,no,no
+kaicianflone/consensus-guard-core@1.1.6->1.1.7,phase1_round04,1,install spec added to metadata,added,"SKILL.md: `""install"": [{""kind"": ""node"", ""package"": ""consensus-guard-core""}]`",for clearer registry/install behavior,no,no
+scottcjn/clawskill@1.2.0->1.2.1,phase1_round04,1,package manifest added,added,package.json (+32): miner wrapper manifest; changelog-claimed verification and consent not in diff,,yes,no
+oomol/oo-taxjar@1.0.3->1.0.4,phase1_round04,1,action risk tags changed,modified,SKILL.md: `[write]` removed from reads; refund actions `[write]` -> `[destructive]`,,generic,no
+nissan/notion-content-pipeline@1.0.0->1.0.1,phase1_round04,1,requirements declared in metadata,added,"SKILL.md: requires bins python3, env NOTION_API_KEY",,no,no
+nissan/notion-content-pipeline@1.0.0->1.0.1,phase1_round04,2,permissions declared in metadata,added,"SKILL.md: `""network"": {""outbound"": true, ""reason"": ""Syncs... Notion API. No other external calls.""}`",,no,no
+deadlysilent/codex-profiler@1.0.23->1.0.24,phase1_round04,1,confirmation flag enforced in script,added,scripts/codex_usage.py: delete requires `--ack-gateway-restart`; direct write only with `--allow-unsafe-direct`,,no,no
+deadlysilent/codex-profiler@1.0.23->1.0.24,phase1_round04,2,user confirmation required before actions,added,"SKILL.md: ""Before any mutation, explicitly warn the user that gateway will be stopped... request permission""",,no,no
+deadlysilent/codex-profiler@1.0.23->1.0.24,phase1_round04,3,script logic extended,added,"scripts/codex_usage.py: off-host runner via `systemd-run`, nohup fallback (trimmed)",,no,no
+deadlysilent/codex-profiler@1.0.23->1.0.24,phase1_round04,4,file write made atomic,added,scripts/codex_usage.py: `write_json_atomic()` with tempfile + os.replace,,no,no
+ciklopentan/super-memori@4.0.0-candidate.4->4.0.0-candidate.5,phase1_round04,1,new scripts added,added,scripts/agent_change_memory.py (+347),,no,no
+ciklopentan/super-memori@4.0.0-candidate.4->4.0.0-candidate.5,phase1_round04,2,new capability added,added,"index-memory.sh, health-check.sh: record and audit agent system changes; scan roots include home dir",,no,no
+capachow/lens@1.0.1->1.1.0,phase1_round04,1,data file format changed,modified,scripts/templates/*.md -> *.yaml; SKILL.md file list updated,,no,no
+capachow/lens@1.0.1->1.1.0,phase1_round04,2,script writes directive for agent,added,"scripts/bootstrap.js: writes `SYSTEM_ALERT: ""CRITICAL INSTRUCTION... you MUST read the legacy...""` into YAML",,no,no
+capachow/lens@1.0.1->1.1.0,phase1_round04,3,prompt templates changed,modified,"prompts/distillation.md, interview.md: mission and filtering rules reworded",,no,no
+drbaher/youos@0.1.14->0.1.15,phase1_round04,1,description rewritten,modified,"clawhub.json: description adds ""review source before running pip install -e .""",trust cleanup,no,no
+drbaher/youos@0.1.14->0.1.15,phase1_round04,2,metadata field removed,removed,clawhub.json: screenshot/demo metadata removed (trimmed),trust cleanup,no,no
+drbaher/youos@0.1.14->0.1.15,phase1_round04,3,formatting-only changes,modified,clawhub.json: arrays expanded,,no,no
+revupai/revsec-shield@1.0.1->1.0.2,phase1_round04,1,no author change,,no files changed; changelog claims data transparency table added,,yes,yes
+tinadu-ai/deck-pipeline@2.1.0->2.1.1,phase1_round04,1,requirements declared in metadata,added,"SKILL.md: `requires.packages: python-pptx, lxml`",,no,no
+tinadu-ai/deck-pipeline@2.1.0->2.1.1,phase1_round04,2,safety or privacy claims added,added,"SKILL.md: ""does not call external translation APIs... content never leaves the current session""",,no,no
+jimliu/baoyu-post-to-weibo@1.76.2->1.76.3,phase1_round04,1,tests removed,removed,scripts/vendor/*/src/*.test.ts (6 files) deleted,,no,no
+jimliu/baoyu-post-to-weibo@1.76.2->1.76.3,phase1_round04,2,operational rules added,added,"SKILL.md: ""Never kill all Chrome processes""; pkill only baoyu-skills profile",the user may have regular Chrome windows open,no,no
+jimliu/baoyu-post-to-weibo@1.76.2->1.76.3,phase1_round04,3,workflow instructions expanded,added,"SKILL.md: ""## Post Type Selection"" markdown -> headline article",,no,no
+jimliu/baoyu-post-to-weibo@1.76.2->1.76.3,phase1_round04,4,script logic extended,added,scripts/vendor/baoyu-chrome-cdp/src/index.ts: `gracefulKillChrome()`,,no,no
+ok-james-01/okx-audit-log@2.4.0->2.6.0,phase1_round04,1,version number bump only,modified,SKILL.md: version 2.4.0 -> 2.6.0,,no,no
+dlazyai/dlazy-wan2-6-r2v@1.0.3->1.0.4,phase1_round04,1,risk warnings softened,modified,"SKILL.md/SKILL-cn.md: ""stored locally in plaintext"" -> ""saved in your user config directory""; ""Data & Privacy... data leaves your machine"" -> ""How It Works""",reduce false-positive scanner alerts,no,no
+dlazyai/dlazy-wan2-6-r2v@1.0.3->1.0.4,phase1_round04,2,least-privilege guidance removed,removed,"SKILL.md: ""We recommend using a least-privilege / per-project key"" replaced by ""can be rotated or revoked""",reduce false-positive scanner alerts,no,no
+maay/brighty@1.0.2->1.1.0,phase1_round05,1,remote code run via npx,added,"config/mcporter.json: `""command"": ""npx"", ""args"": [""-y"", ""github:Maay/brighty_mcp""]` auto-registers MCP server",,no,no
+maay/brighty@1.0.2->1.1.0,phase1_round05,2,config files added,added,config/mcporter.json (+12): MCP server registration config,,no,no
+maay/brighty@1.0.2->1.1.0,phase1_round05,3,setup instructions changed,modified,SKILL.md: set BRIGHTY_API_KEY in environment; manual `mcporter config add` alternative,,no,no
+maay/brighty@1.0.2->1.1.0,phase1_round05,4,credential safety guidance added,added,"SKILL.md: ""Never store API key in SKILL.md, memory files, or chat history""",,no,no
+yumyumtum/yumfu@1.7.8->1.7.9,phase1_round05,1,bug fix in script logic,modified,scripts/prepare_daily_evolution_delivery.py: turn_id now includes per-day stamp,delivery-state guard wrongly treated image/TTS as already sent on later days,no,no
+yumyumtum/yumfu@1.7.8->1.7.9,phase1_round05,2,documentation files added,added,RELEASE_NOTES_v1.7.9.md (+35),,no,no
+parkertoddbrooks/wip-ai-devops-toolbox@1.9.39->1.9.40,phase1_round05,1,script logic extended,added,tools/wip-release/core.mjs: `syncProductDocs()` auto-updates version/date lines,product docs were stale for 38 releases; nobody remembered to update them,no,no
+parkertoddbrooks/wip-ai-devops-toolbox@1.9.39->1.9.40,phase1_round05,2,documentation files added,added,ai/dev-updates/2026-03-16--cc-mini--product-docs-auto-sync.md,,no,no
+parkertoddbrooks/wip-ai-devops-toolbox@1.9.39->1.9.40,phase1_round05,3,files renamed or moved,modified,ai/product/plans-prds/current/*.md moved to archive-complete/,,no,no
+ykforerlang/data-charts-visualization@1.0.4->1.0.5,phase1_round05,1,documentation condensed,modified,SKILL.md: showcase image table replaced by one composite image,,no,no
+simmer/polymarket-signal-sniper@1.4.3->1.4.4,phase1_round05,1,script logic extended,added,signal_sniper.py: `client.auto_redeem()` at start of each cycle,for external wallet support,no,no
+simmer/polymarket-signal-sniper@1.4.3->1.4.4,phase1_round05,2,config files removed,removed,"config.json deleted (RSS feed list, thresholds)",,no,no
+vnbochkarev-netizen/vibo-memory@2.1.1->2.1.2,phase1_round05,1,version number bump only,modified,"SKILL.md, VERSION: 2.1.1 -> 2.1.2; changelog-claimed `ask` command with Perplexity not in diff",,yes,no
+kostja94/pricing-page-generator@1.2.0->1.2.1,phase1_round05,1,description rewritten,modified,SKILL.md: description trigger list edited (trimmed),,generic,no
+assix/earnings-financials-agent@1.0.0->1.0.1,phase1_round05,1,requirements removed from metadata,removed,SKILL.md: `env: FINANCIAL_API_KEY` removed,,no,no
+assix/earnings-financials-agent@1.0.0->1.0.1,phase1_round05,2,requirements declared in metadata,added,SKILL.md: `pip` added to requires,,no,no
+assix/earnings-financials-agent@1.0.0->1.0.1,phase1_round05,3,error handling added,added,logic.py: try/except on yfinance import and calls,,no,no
+assix/earnings-financials-agent@1.0.0->1.0.1,phase1_round05,4,capability claims corrected,modified,SKILL.md: transcript sentiment and analyst-estimate comparison removed from description,,no,no
+zgjq/context-compactor-zero-dep@1.1.0->1.1.1,phase1_round05,1,filesystem safety checks added,added,scripts/compact_session.py: `assert_safe_path()` rejects writes outside memory/compacts/,security hardening,no,no
+zgjq/context-compactor-zero-dep@1.1.0->1.1.1,phase1_round05,2,operational rules added,added,"SKILL.md: ""The agent MUST NOT write to... ~/.ssh, ~/.aws""; read restrictions",security hardening,no,no
+agents365-ai/drawio-pro-skill@1.3.0->1.4.0,phase1_round05,1,workflow instructions expanded,added,"SKILL.md: honor user-specified output directory, `mkdir -p`",,no,no
+agents365-ai/drawio-pro-skill@1.3.0->1.4.0,phase1_round05,2,bug fix in script logic,modified,SKILL.md snippet: raw deflate + standard base64 instead of zlib + urlsafe,,no,no
+agents365-ai/drawio-pro-skill@1.3.0->1.4.0,phase1_round05,3,donation request added,added,"README.md/README_CN.md: ""Give a Reward"" / 打赏 image",,no,no
+deciqai/scenario-planning@1.0.0->1.0.1,phase1_round05,1,no author change,,no files changed; changelog claims catalog categories added,,yes,yes
+devinchen2014/socialdatax-xhs-comments@0.1.11->0.1.12,phase1_round05,1,new API endpoints documented,added,SKILL.md: `--sort-type` option for XHS comments,,no,no
+devinchen2014/socialdatax-xhs-comments@0.1.11->0.1.12,phase1_round05,2,formatting-only changes,modified,SKILL.md: npx commands split over lines,,no,no
+zw008/vmware-debug@1.6.1->1.8.0,phase1_round05,1,requirements declared in metadata,added,"SKILL.md: optional env VMWARE_READ_ONLY etc., optional bin vmware-policy",,yes,no
+zw008/vmware-debug@1.6.1->1.8.0,phase1_round05,2,access scope disclosure expanded,added,"SKILL.md: ""nothing here touches a remote VMware estate""; setup-guide environment scoping",,yes,no
+zw008/vmware-debug@1.6.1->1.8.0,phase1_round05,3,documentation content expanded,added,references/capabilities.md: list envelope explained; changelog-claimed start-up read-only check not in diff,,yes,no
+zw008/vmware-log-insight@1.8.16->1.8.17,phase1_round05,1,dependency version or source changed,modified,"SKILL.md, setup-guide.md: `vmware-log-insight==1.8.16` -> `==1.8.17`; changelog-claimed CLI audit change not in diff",,yes,no
+karmanverma/markitdown-skill@1.0.0->1.0.1,phase1_round05,1,requirements declared in metadata,added,SKILL.md: bins `markitdown` added,,no,no
+karmanverma/markitdown-skill@1.0.0->1.0.1,phase1_round05,2,capability claims corrected,modified,"SKILL.md/README: ""This skill provides documentation and a batch script. The actual conversion is done by the markitdown CLI""",,no,no
+karmanverma/markitdown-skill@1.0.0->1.0.1,phase1_round05,3,names or identifiers renamed,modified,SKILL.md: name `markitdown` -> `markitdown-skill`,,no,no
+asif2bd/openclaw-token-optimizer@1.4.0->1.4.1,phase1_round05,1,documentation files removed,removed,"PR-DESCRIPTION.md, docs/RESEARCH-NOTES.md deleted; changelog-claimed .clawhubignore not in diff",PR-DESCRIPTION.md contained shell commands that triggered security scanner,yes,no
+twinsgeeks/qwen-qwen3-5@1.0.0->1.0.1,phase1_round05,1,names or identifiers renamed,modified,SKILL.md: `qwen-qwen3.5` -> `qwen-qwen3-5`,,no,no
+twinsgeeks/qwen-qwen3-5@1.0.0->1.0.1,phase1_round05,2,metadata field added,modified,SKILL.md: `os` list adds Windows,,no,no
+twinsgeeks/qwen-qwen3-5@1.0.0->1.0.1,phase1_round05,3,documentation content expanded,added,"SKILL.md: ""Cross-platform"" note",,no,no
+just-forever/just-test-skill@1.0.1->1.0.2,phase1_round05,1,documentation files added,added,"a.md, b.md: ""这是一个测试 SKILL"" test files",,no,no
+yoborlon-alpha/planit@2.0.2->2.0.0,phase1_round05,1,formatting-only changes,modified,package.json: keywords array reformatted; changelog-claimed backend architecture refactor not in diff,,yes,no
+dizaztuh/molt-market-worker@1.0.0->2.0.0,phase1_round05,1,no author change,,"no files changed; changelog claims chat, poll, notifications",,yes,yes
+dlazyai/dlazy-search-video@1.3.1->1.3.2,phase1_round05,1,no author change,,no files changed; changelog claims Chinese display name,,yes,yes
+seiriosplus/miaoda-app-builder@1.0.3->1.0.4,phase1_round05,1,documentation content expanded,added,SKILL.md (+423/-73): full command usage and options (trimmed),,no,no
+seiriosplus/miaoda-app-builder@1.0.3->1.0.4,phase1_round05,2,doc link or path format changed,modified,SKILL.md: `skills/miaoda-app-builder/scripts/miaoda_api.py` -> `scripts/miaoda_api.py`,,no,no
+seiriosplus/miaoda-app-builder@1.0.3->1.0.4,phase1_round05,3,credential handling instructions changed,added,SKILL.md: export MIAODA_API_KEY before running (trimmed),,no,no
+imnotriv3r/rocom@1.4.6->1.4.7,phase1_round05,1,formatting-only changes,modified,SKILL.md: emojis and markdown styling removed,,no,no
+junyij/housing-scout-pro@1.0.1->1.0.2,phase1_round05,1,external service dependency disclosed,added,"SKILL.md: ""Redfin fetch path uses https://r.jina.ai/http/... a third-party fetch proxy""",,no,no
+junyij/housing-scout-pro@1.0.1->1.0.2,phase1_round05,2,operational rules added,added,"SKILL.md: ""Never pass private/internal URLs (localhost, 127.0.0.1, 10.x...)""",,no,no
+junyij/housing-scout-pro@1.0.1->1.0.2,phase1_round05,3,new capability added,added,housing_scout.mjs: `unsubscribe` command,,no,no
+junyij/housing-scout-pro@1.0.1->1.0.2,phase1_round05,4,hardcoded local paths or addresses removed,modified,"housing_scout.mjs, providers/*.mjs: `/app/workspace/tools/...` -> path relative to script",,no,no
+junyij/housing-scout-pro@1.0.1->1.0.2,phase1_round05,5,credential safety guidance added,added,"SKILL.md: ""This skill does not store bot tokens in skill files""",,no,no
+paulieb14/subgraph-registry@0.8.4->0.8.5,phase1_round05,1,auto-generated content refreshed,modified,"docs/charts/*.svg, docs/domains/*.md, docs/networks/*.md: counts refreshed",,no,no
+paulieb14/subgraph-registry@0.8.4->0.8.5,phase1_round05,2,bundled data file updated,modified,"python/data/sync-state.json, src/index.js hash; changelog-claimed skill card removal not in diff",,no,no
+xmanrui/openclaw-bot-dashboard@1.0.4->1.0.5,phase1_round05,1,operational rules added,added,"SKILL.md: ""You MUST execute an IP detection command... Do NOT guess or fabricate the LAN IP""",,no,no
+xmanrui/openclaw-bot-dashboard@1.0.4->1.0.5,phase1_round05,2,formatting-only changes,modified,skill.json: platforms array expanded,,no,no
+openlark/xhs-suggest-keywords@1.0.1->1.0.2,phase1_round05,1,documentation translated,modified,SKILL.md: Chinese description and docs -> English (trimmed),,no,no
+openlark/xhs-suggest-keywords@1.0.1->1.0.2,phase1_round05,2,workflow instructions expanded,modified,SKILL.md: Playwright-based workflow replaces manual steps (trimmed),,no,no
+openlark/xhs-suggest-keywords@1.0.1->1.0.2,phase1_round05,3,documentation files added,added,references/selectors.md (+86); changelog-claimed skill-card.md removal not in diff,,no,no
+jamesfincher/browserbase-sessions@1.2.2->2.4.0,phase1_round05,1,new capability added,added,"scripts/browserbase_manager.py (+1115): tab, click, type, press, wait-for, read-page commands (trimmed)",,no,no
+jamesfincher/browserbase-sessions@1.2.2->2.4.0,phase1_round05,2,workflow instructions expanded,added,SKILL.md: share human remote-control link; response templates,,no,no
+jamesfincher/browserbase-sessions@1.2.2->2.4.0,phase1_round05,3,runtime dependency auto-install added,added,"scripts/browserbase_manager.py: outside venv install into interpreter ""with break-system-packages semantics""",,no,no
+diankourenxia/wodeapp-ai@1.0.8->1.0.9,phase1_round05,1,description rewritten,modified,"SKILL.md: new description ""Unified AI execution engine... 343+ models""",,no,no
+diankourenxia/wodeapp-ai@1.0.8->1.0.9,phase1_round05,2,metadata field added,added,"SKILL.md: `license: Commercial`, `category`, `capabilities` list",,no,no
+diankourenxia/wodeapp-ai@1.0.8->1.0.9,phase1_round05,3,documentation content expanded,modified,SKILL.md (+283/-158) (trimmed),,no,no
+titus-choi/trunkate-ai@0.18.0->0.19.0,phase1_round05,1,sensitive content redaction added,added,"scripts/activator.py: `_filter_sensitive_content()` replaces system prompts, env file blocks with placeholders",to prevent data exfiltration,no,no
+titus-choi/trunkate-ai@0.18.0->0.19.0,phase1_round05,2,changelog file updated,modified,"CHANGELOG.md 0.19.0, version.txt",,no,no
+aaigotchi/aavegotchi-svg-custom@1.1.2->1.1.3,phase1_round05,1,script file removed,removed,scripts/build-wearables-reference.mjs deleted (used `Function(...)` to evaluate source),reduce false-positive moderation noise,no,no
+aaigotchi/aavegotchi-svg-custom@1.1.2->1.1.3,phase1_round05,2,dependency added,added,package.json: `json5`,,no,no
+aaigotchi/aavegotchi-svg-custom@1.1.2->1.1.3,phase1_round05,3,setup instructions changed,modified,SKILL.md/README: `npm install` for bundled rasterizer; AAVEGOTCHI_RPC_URL optional,,no,no
+cmyang-it/uiverse-design@2.1.0->2.1.1,phase1_round05,1,hardcoded local paths or addresses removed,removed,"SKILL.md, scripts/setup.sh: proxy `http://10.0.4.4:10801` -> `http://your-proxy:port`",,no,no
+g9pedro/clawvault@1.11.4->1.11.5,phase1_round05,1,documentation content expanded,added,SKILL.md: website and ClawHub links,,no,no
+icepopma/linkedin-post-generator@1.0.6->1.0.7,phase1_round05,1,API key value shipped in package,added,index.js: `process.env.SKILLPAY_MERCHANT_KEY || 'sk_91fff75a...'` replaces throw when missing,to avoid false positive,no,no
+icepopma/linkedin-post-generator@1.0.6->1.0.7,phase1_round05,2,safety claims or disclosures removed,removed,"SKILL.md: merchant_key line and ""Payments go to the skill publisher's account"" note removed",to avoid false positive,no,no
+cellcog/creative-writing-cellcog@1.0.1->1.0.2,phase1_round05,1,description rewritten,modified,"SKILL.md: description adds poetry, genres",,no,no
+cellcog/creative-writing-cellcog@1.0.1->1.0.2,phase1_round05,2,metadata field added,added,"SKILL.md: `os`, `homepage`",,no,no
+vince-winkintel/gitlab-cli-skills@1.13.8->1.13.8+merged.1,phase1_round05,1,sub-skills consolidated into one SKILL.md,modified,40 glab-*/SKILL.md removed; SKILL.md (+4611) (trimmed),,no,no
+vince-winkintel/gitlab-cli-skills@1.13.8->1.13.8+merged.1,phase1_round05,2,script file removed,removed,"scripts/*.sh, post-inline-comment.py deleted",,no,no
+vince-winkintel/gitlab-cli-skills@1.13.8->1.13.8+merged.1,phase1_round05,3,documentation files removed,removed,"SECURITY.md, README.md, references/*.md deleted",,no,no
+vince-winkintel/gitlab-cli-skills@1.13.8->1.13.8+merged.1,phase1_round05,4,example or template files removed,removed,glab-ci/templates/*.yml deleted,,no,no
+chenglin97/agent-hansa-merchant@0.1.0->0.1.1,phase1_round05,1,files renamed or moved,modified,skill.md -> SKILL.md,,no,no
+chenglin97/agent-hansa-merchant@0.1.0->0.1.1,phase1_round05,2,script file removed,removed,index.js (-473) deleted,,no,no
+chenglin97/agent-hansa-merchant@0.1.0->0.1.1,phase1_round05,3,package manifest removed,removed,"package.json, package-lock.json deleted",,no,no
+chenglin97/agent-hansa-merchant@0.1.0->0.1.1,phase1_round05,4,documentation files removed,removed,README.md deleted,,no,no
+oomol/oo-brevo@1.0.1->1.0.3,phase1_round05,1,version number bump only,modified,"SKILL.md: version ""1.0.1"" -> ""1.0.3""; changelog lists features with no matching diff",,generic,no
+medstatstar/statsoft-cli@2.6.7->2.6.8,phase1_round05,1,permissions declared in metadata,removed,SKILL.md: `environment_variable_modification` removed from capabilities,resolve 25 SkillSpector findings,no,no
+medstatstar/statsoft-cli@2.6.7->2.6.8,phase1_round05,2,confirmation flag enforced in script,added,scripts/common/write_config.py + 10 setup_*.ps1: `--consent` flag replaces self-set `STATSOFT_AUTO_WRITE`,resolve 25 SkillSpector findings,no,no
+medstatstar/statsoft-cli@2.6.7->2.6.8,phase1_round05,3,documentation condensed,removed,references/command-examples.md: remote server-run example removed; trust-and-safety row removed,resolve 25 SkillSpector findings,no,no
+googleworkspace-bot/recipe-generate-report-from-sheet@1.0.5->1.0.6,phase1_round05,1,version number bump only,modified,SKILL.md: version 0.20.1 -> 0.21.1,,no,no
+crawlora-org/ats-job-boards-research@1.0.3->1.0.4,phase1_round05,1,no author change,,no files changed,,no,yes
+googleworkspace-bot/gws-script-push@1.0.1->1.0.2,phase1_round05,1,version number bump only,modified,SKILL.md: version 0.22.4 -> 0.22.5,,no,no
+dedene/irail@1.0.0->1.0.1,phase1_round05,1,metadata field added,added,"SKILL.md: license, homepage, author, version",,no,no
+dedene/irail@1.0.0->1.0.1,phase1_round05,2,requirements declared in metadata,added,"SKILL.md: bins irail, anyBins jq",,no,no
+dedene/irail@1.0.0->1.0.1,phase1_round05,3,install spec added to metadata,added,SKILL.md: brew and go install entries,,no,no
+dedene/irail@1.0.0->1.0.1,phase1_round05,4,setup instructions changed,added,"SKILL.md: ""## Installation"" section",,no,no
+simmer/polymarket-weather-trader@1.23.21->1.23.22,phase1_round05,1,script logic extended,added,weather_trader.py: `max_buys_per_market` cap checked against held positions,risk-reducing by default,no,no
+simmer/polymarket-weather-trader@1.23.21->1.23.22,phase1_round05,2,new env vars introduced,added,SKILL.md: `SIMMER_WEATHER_MAX_BUYS_PER_MARKET`,,no,no
+simmer/polymarket-weather-trader@1.23.21->1.23.22,phase1_round05,3,bug fix in script logic,modified,weather_trader.py: skip reasons now printed,skip reasons were collected but never surfaced,no,no
+simmer/polymarket-weather-trader@1.23.21->1.23.22,phase1_round05,4,changelog file updated,modified,CHANGELOG.md 1.23.22 entry,,no,no
+oomol/oo-magileads@1.0.0->1.0.2,phase1_round05,1,version number bump only,modified,"SKILL.md: version ""1.0.0"" -> ""1.0.2""; changelog lists features with no matching diff",,generic,no
+zke-exchange/zke-trading@1.0.9->1.0.10,phase1_round05,1,requirements declared in metadata,added,"openclaw.plugin.json/skill.json: `env_vars`, `credentials` ZKE_API_KEY, ZKE_SECRET_KEY","resolve ""Registry Mismatch"" warnings",yes,no
+zke-exchange/zke-trading@1.0.9->1.0.10,phase1_round05,2,metadata field added,added,"openclaw.plugin.json/package.json: homepage, author",,yes,no
+zke-exchange/zke-trading@1.0.9->1.0.10,phase1_round05,3,names or identifiers renamed,modified,"openclaw.plugin.json: ""ZKE Trading"" -> ""ZKE AI Master Trader (Official)""",,yes,no
+zke-exchange/zke-trading@1.0.9->1.0.10,phase1_round05,4,hardcoded local paths or addresses removed,modified,"openclaw.plugin.json: default `/Users/openclaw/.zke-trading` -> """"; changelog-claimed config.json and git clone removal not in diff",,yes,no
+mbojer/claw-list@1.2.1->1.2.2,phase1_round05,1,requirements declared in metadata,added,"SKILL.md: TODO_DB_HOST, TODO_DB_NAME, TODO_DB_USER, TODO_DB_PASSWORD",,no,no
+mbojer/claw-list@1.2.1->1.2.2,phase1_round05,2,access scope disclosure expanded,added,"CHANGELOG/SKILL.md: cross-agent access ""no enforcement, logged only"" (trimmed)",,no,no
+mbojer/claw-list@1.2.1->1.2.2,phase1_round05,3,irreversible action warning added,added,CHANGELOG/SKILL.md: `migrate --action import-delete` permanently deletes source files (trimmed),,no,no
+mbojer/claw-list@1.2.1->1.2.2,phase1_round05,4,least-privilege guidance added,added,"SKILL.md: ""use a dedicated user with minimal privileges""",,no,no
+oomol/oo-teable@1.0.0->1.0.2,phase1_round05,1,version number bump only,modified,"SKILL.md: version ""1.0.0"" -> ""1.0.2""; changelog lists features with no matching diff",,generic,no
+mirni/gh-securitysuite@0.1.0->1.0.0,phase1_round05,1,description rewritten,modified,SKILL.md: description lists 7 endpoints,,no,no
+mirni/gh-securitysuite@0.1.0->1.0.0,phase1_round05,2,formatting-only changes,modified,SKILL.md: metadata YAML -> inline JSON,,no,no
+mirni/gh-securitysuite@0.1.0->1.0.0,phase1_round05,3,documentation condensed,removed,SKILL.md (+27/-51): endpoint table and examples condensed,,no,no
+bonniegeng-max/md-out-of-chat@1.5.0->1.5.1,phase1_round05,1,output escaping added,added,md2share.py: code-fence lang label restricted to safe charset and `html.escape()`,to prevent injection of untrusted scripts into generated pages,no,no
+bonniegeng-max/md-out-of-chat@1.5.0->1.5.1,phase1_round05,2,safety or privacy claims added,added,"SKILL.md: ""Generated HTML is fully escaped""; changelog-claimed skill-card.md removal not in diff",,no,no
+barbaraledbettergq/blog-image-claw-skill@1.2.0->1.3.0,phase1_round06,1,API endpoint or service URL changed,modified,blogimageclaw.js: base URL env `NETA_API_URL` -> `NETA_API_BASE_URL`,,no,no
+barbaraledbettergq/blog-image-claw-skill@1.2.0->1.3.0,phase1_round06,2,credential handling instructions changed,removed,README.md: removed token lookup from `~/.openclaw/workspace/.env` and `~/developer/clawhouse/.env`,,no,no
+barbaraledbettergq/blog-image-claw-skill@1.2.0->1.3.0,phase1_round06,3,documentation content expanded,added,README.md: example output image,,no,no
+hmyaoyuan/anima@1.0.2->1.1.0,phase1_round06,1,underlying engine or library replaced,modified,SKILL.md/src/director.js: canvas -> sharp,no ABI issues,no,no
+hmyaoyuan/anima@1.0.2->1.1.0,phase1_round06,2,new scripts added,added,"run.js, send_debug_frame.js, src/batch_director.js",,no,no
+hmyaoyuan/anima@1.0.2->1.1.0,phase1_round06,3,hardcoded local paths or addresses added,added,"send_debug_frame.js: `dotenv ... path: '/Users/runchen/.openclaw/workspace/.env'`, fixed Feishu `receiveId`",,no,no
+hmyaoyuan/anima@1.0.2->1.1.0,phase1_round06,4,bundled data file updated,added,"temp/script_*.json, test_script.json committed",,no,no
+hmyaoyuan/anima@1.0.2->1.1.0,phase1_round06,5,documentation content expanded,added,"SKILL.md: external dependency docs (Fish Audio, Nano Banana, Feishu) (trimmed)",,no,no
+dlazyai/dlazy-qwen-audio-clone@1.3.4->1.3.5,phase1_round06,1,formatting-only changes,modified,"SKILL.md, SKILL-cn.md: description quoted; changelog-claimed display name restore not in diff",,yes,no
+capuzr/moltbank@0.1.1->0.1.2,phase1_round06,1,install spec added to metadata,added,"SKILL.md: `install: kind: node, package: ""@moltbankhq/cli""`",,no,no
+capuzr/moltbank@0.1.1->0.1.2,phase1_round06,2,metadata key renamed,modified,SKILL.md: `homepage` moved under `metadata.openclaw`,,no,no
+capuzr/moltbank@0.1.1->0.1.2,phase1_round06,3,setup instructions changed,modified,README.md: `npm install -g @megalinker/mbcli` -> `@moltbankhq/cli`,,no,no
+oomol/oo-files-com@1.0.0->1.0.1,phase1_round06,1,new capability added,added,SKILL.md: `download_file` action listed,,generic,no
+peteremiljensen/goodwallet@1.4.3->1.5.3,phase1_round06,1,documentation files removed,removed,"references/advanced-signing.md, chains.md, config.md deleted",,no,no
+peteremiljensen/goodwallet@1.4.3->1.5.3,phase1_round06,2,warning notice removed,removed,"references/advanced-signing.md: ""Security Warning... Pre-Sign Checklist"" for raw hash signing deleted",,no,no
+peteremiljensen/goodwallet@1.4.3->1.5.3,phase1_round06,3,description rewritten,modified,"SKILL.md: description covers Solana, Bitcoin, Doge, XRP, perps, DeFi yield",,no,no
+peteremiljensen/goodwallet@1.4.3->1.5.3,phase1_round06,4,operational rules added,added,"SKILL.md: confirm before moving funds, never fabricate data (trimmed)",,no,no
+peteremiljensen/goodwallet@1.4.3->1.5.3,phase1_round06,5,dependency version or source changed,modified,SKILL.md: `npx goodwallet@0.4.3` -> `goodwallet@^0.5` (trimmed),,no,no
+pondsi/infinitycontext@1.6.4->1.6.5,phase1_round06,1,input validation added,added,scripts/session_to_sqlite.py: `_check_limits()` ingestion limits must be 1..hard ceiling,reviewer-driven hardening; negative byte limit could reach file.read(-1),no,no
+pondsi/infinitycontext@1.6.4->1.6.5,phase1_round06,2,filesystem safety checks added,added,scripts/secure_fs.py: every path component checked for symlink/junction,reviewer-driven hardening,no,no
+pondsi/infinitycontext@1.6.4->1.6.5,phase1_round06,3,changelog file updated,modified,"CHANGELOG.md, checksums.txt updated",,no,no
+marcindudekdev/wp-multi-tool@1.4.1->1.5.1,phase1_round06,1,no author change,,no files changed; changelog claims skill-card.md removed,,no,yes
+iret77/palaia@2.0.11->2.0.12,phase1_round06,1,setup instructions changed,modified,README.md: install by pasting a prompt telling the agent to install from ClawHub and follow SKILL.md,,yes,no
+iret77/palaia@2.0.11->2.0.12,phase1_round06,2,dependency version unpinned to latest,added,README.md: `npm install -g @byte5ai/palaia@latest`,,yes,no
+iret77/palaia@2.0.11->2.0.12,phase1_round06,3,changelog file updated,modified,CHANGELOG.md 2.0.11; changelog-claimed plugin-bundled SKILL.md and embed-server fix not in diff,,yes,no
+oomol/oo-indiegogo@1.0.0->1.0.2,phase1_round06,1,version number bump only,modified,"SKILL.md: version ""1.0.0"" -> ""1.0.2""; changelog lists features with no matching diff",,generic,no
+athola/nm-archetypes-architecture-paradigm-hexagonal@1.8.2->1.8.3,phase1_round06,1,no author change,,no files changed,,generic,yes
+searchworld/okx-sentiment-tracker@1.3.9->1.4.0,phase1_round06,1,dependency version or source changed,modified,SKILL.md: `@okx_ai/okx-trade-cli@1.3.9` -> `@1.4.0`; changelog-claimed command mapping docs not in diff,,yes,no
+oomol/oo-accredible-certificates@1.0.1->1.0.3,phase1_round06,1,version number bump only,modified,"SKILL.md: version ""1.0.1"" -> ""1.0.3""; changelog lists features with no matching diff",,generic,no
+tylerdotai/permission-vending-machine@1.0.4->1.1.0,phase1_round06,1,new scripts added,added,"src/pvm/setup_wizard.py (+471): interactive wizard, service manager setup",,no,no
+tylerdotai/permission-vending-machine@1.0.4->1.1.0,phase1_round06,2,dependency added,added,pyproject.toml: `questionary>=2.0.0`,,no,no
+tylerdotai/permission-vending-machine@1.0.4->1.1.0,phase1_round06,3,setup instructions changed,modified,README.md: `pip install -e . && pvm init` recommended,,no,no
+chriscox/docs-sync@1.0.2->1.0.3,phase1_round06,1,no author change,,no files changed,,no,yes
+shivamanupadi/otterkit-tunnel@1.2.0->1.2.1,phase1_round06,1,CLI commands or arguments changed,removed,SKILL.md: `--standby` flag removed,,no,no
+shivamanupadi/otterkit-tunnel@1.2.0->1.2.1,phase1_round06,2,new capability added,added,SKILL.md: `--email` inbox for endpoints,,no,no
+shivamanupadi/otterkit-tunnel@1.2.0->1.2.1,phase1_round06,3,formatting-only changes,modified,SKILL.md: metadata quote style,,no,no
+leoyeai/myclaw-backup@1.6.2->1.7.0,phase1_round06,1,script logic extended,added,scripts/restore.sh: writes `.restore-complete.json` flag,,no,no
+leoyeai/myclaw-backup@1.6.2->1.7.0,phase1_round06,2,workflow instructions expanded,added,"SKILL.md: agent checks flag on heartbeat, sends report in user's language from USER.md, deletes flag",,no,no
+xueyetianya/bash-themes@1.0.4->1.0.5,phase1_round06,1,new scripts added,added,scripts/script.sh (+101): generic workflow tool with local data log,,generic,no
+xueyetianya/bash-themes@1.0.4->1.0.5,phase1_round06,2,metadata field added,added,"SKILL.md: `version`, `author`",,generic,no
+chrischall/gemini-mcp@2.1.0->2.1.1,phase1_round06,1,no author change,,no files changed; changelog claims skill-card.md removed,,no,yes
+kooui/aesthetic-scorer@1.4.5->1.4.6,phase1_round06,1,script logic extended,added,scripts/comprehensive_score.py: dynamic weights from NIMA std and divergence penalty,,no,no
+kooui/aesthetic-scorer@1.4.5->1.4.6,phase1_round06,2,underlying engine or library replaced,modified,"scripts/score_improved_predictor.py, score_nima.py: CLIP+MLP and MobileNet/Keras backbones (trimmed)",,no,no
+kooui/aesthetic-scorer@1.4.5->1.4.6,phase1_round06,3,hardcoded local paths or addresses added,added,"scripts/score_improved_predictor.py: ""F:/software/skill/aesthetic-scorer/models/...""",,no,no
+kooui/aesthetic-scorer@1.4.5->1.4.6,phase1_round06,4,documentation content expanded,modified,SKILL.md: dynamic weight logic documented,,no,no
+oomol/oo-hub-planner@1.0.0->1.0.2,phase1_round06,1,version number bump only,modified,"SKILL.md: version ""1.0.0"" -> ""1.0.2""; changelog lists features with no matching diff",,generic,no
+hexavi8/smart-learner@1.0.0->1.0.1,phase1_round06,1,permissions declared in metadata,added,SKILL.md: `file_access: read/write: smart-learner/...`,,no,no
+hexavi8/smart-learner@1.0.0->1.0.1,phase1_round06,2,metadata field added,added,"SKILL.md: `homepage`, `trigger_language: auto-detect`",,no,no
+hexavi8/smart-learner@1.0.0->1.0.1,phase1_round06,3,personal data collection reduced,removed,SKILL.md: no longer reads user background from OpenClaw config at init (trimmed),,no,no
+hexavi8/smart-learner@1.0.0->1.0.1,phase1_round06,4,description rewritten,modified,"SKILL.md: ""passively senses knowledge growth within active learning sessions""",,no,no
+ckchzh/bookshelf@1.0.0->1.0.1,phase1_round06,1,safety or privacy claims added,added,"SKILL.md: ""All data stays local... No API keys required... Works offline""; changelog-claimed flag removal not in diff",,yes,no
+ckchzh/bookshelf@1.0.0->1.0.1,phase1_round06,2,documentation content expanded,added,"SKILL.md: ""How It Works"", ""Tips""",,yes,no
+salomonhenao/veritier-fact-checking@2.1.1->2.1.2,phase1_round06,1,requirements declared in metadata,added,"SKILL.md: `optional_env: VERITIER_TEST_KEY, VERITIER_WEBHOOK_SECRET`",,no,no
+salomonhenao/veritier-fact-checking@2.1.1->2.1.2,phase1_round06,2,env var usage removed,removed,"javascript/mcp/mcp_test.mjs: `VERITIER_API_URL` override removed, URL hardcoded ""never sent to any other domain""",,no,no
+samledger67-dotcom/kpi-alert-system@99.0.1->98.0.0,phase1_round06,1,no author change,,no files changed,,generic,yes
+ericsantos/messaging@0.14.2->0.14.3,phase1_round06,1,documentation content expanded,modified,"SKILL.md, references/api.md: error catalog, agent ID contract, claim auto-join",,no,no
+endgegnerbert-tech/muninn@2.3.1->2.3.7,phase1_round06,1,dependency version or source changed,modified,SKILL.md: install `muninn-core` version 2.3.1 -> 2.3.7,,yes,no
+endgegnerbert-tech/muninn@2.3.1->2.3.7,phase1_round06,2,description rewritten,modified,SKILL.md: description mentions amnesia fix; changelog-claimed code fixes not in diff,,yes,no
+chrischall/zola-mcp@1.4.2->1.4.3,phase1_round06,1,no author change,,no files changed; changelog claims skill-card.md removed,,no,yes
+coolhackboy/poyo-seedream-4-5@1.0.0->1.0.1,phase1_round06,1,metadata field added,modified,SKILL.md: homepage -> `https://poyo.ai/models/seedream-4-5-api`,,no,no
+coolhackboy/poyo-seedream-4-5@1.0.0->1.0.1,phase1_round06,2,documentation content expanded,added,"SKILL.md: ""## PoYo Links"" model, docs, API key page",,no,no
+vishalgojha/india-location-normalizer@1.0.0->1.0.1,phase1_round06,1,bundled data file updated,modified,"references/india-location-aliases-v1.json (+93): Khar, Bandra aliases",,no,no
+vishalgojha/india-location-normalizer@1.0.0->1.0.1,phase1_round06,2,documentation content expanded,added,SKILL.md: Mumbai shorthand example,,no,no
+earlvanze/oauth-coder-bridge@1.0.0->1.1.0,phase1_round06,1,main script rewritten,added,"scripts/oauth-coder-bridge.py (+445/-110): threaded server, health/metrics endpoints (trimmed)",hardened,no,no
+earlvanze/oauth-coder-bridge@1.0.0->1.1.0,phase1_round06,2,rate limiting added,added,scripts/oauth-coder-bridge.py: rate limiting (trimmed),hardened,no,no
+earlvanze/oauth-coder-bridge@1.0.0->1.1.0,phase1_round06,3,input validation added,added,"scripts/oauth-coder-bridge.py: `MAX_REQUEST_SIZE`, `MAX_PROMPT_LENGTH`, JSON depth validation",hardened,no,no
+earlvanze/oauth-coder-bridge@1.0.0->1.1.0,phase1_round06,4,new env vars introduced,added,"scripts/oauth-coder-bridge.py: OAUTH_CODER_BRIDGE_PORT, _HOST, _MAX_SIZE, OAUTH_CODER_BIN",,no,no
+kirbyingithub/hiq-cortex@1.2.3->1.2.4,phase1_round06,1,description rewritten,modified,"SKILL.md, package.json: ""40,000+"" -> ""600,000+ LCA datasets""",,no,no
+whooshinglander/feelslikeclaude@1.0.0->1.0.1,phase1_round06,1,workflow instructions expanded,added,"SKILL.md: ""For published skills, tools, or sites, default to full delivery: local change, GitHub update... confirm it is live""",,no,no
+whooshinglander/feelslikeclaude@1.0.0->1.0.1,phase1_round06,2,documentation content expanded,added,README.md: best-results settings and publishing expectation,,no,no
+dtsola/xiaoyaoclaw-beautify-github-readme@1.0.5->1.0.6,phase1_round06,1,capability removed,removed,references/showcase-contribution.md deleted; SKILL.md showcase PR workflow removed,,no,no
+dtsola/xiaoyaoclaw-beautify-github-readme@1.0.5->1.0.6,phase1_round06,2,config files removed,removed,agents/openai.yaml deleted,,no,no
+dtsola/xiaoyaoclaw-beautify-github-readme@1.0.5->1.0.6,phase1_round06,3,safety or privacy claims added,added,"SKILL.md: ""never submits finished work to any showcase... does not fork repositories, push branches, or open pull requests""",,no,no
+silbosu/vdoob@1.3.5->2.0.0,phase1_round06,1,documentation restructured,modified,SKILL.md (+903/-206): TOML/script hybrid format (trimmed),,no,no
+silbosu/vdoob@1.3.5->2.0.0,phase1_round06,2,workflow instructions expanded,added,SKILL.md: auto-registration and local thinking-pattern storage `~/.vdoob/thinkings/` (trimmed),,no,no
+silbosu/vdoob@1.3.5->2.0.0,phase1_round06,3,description rewritten,modified,"SKILL.md: ""Humans ask questions, Lobster answers, earns money for its owner""",,no,no
+simmer/polymarket-elon-tweets@1.3.2->1.3.3,phase1_round06,1,error handling added,added,elon_tweets.py: auto_redeem failure now logged instead of silent `pass`; resolved positions skipped,,no,no
+harry5556/chainstream-defi@1.1.6->1.1.7,phase1_round06,1,pricing changed,added,"shared/x402-payment.md: ""Trial Plans (Free Trial)"" nano/micro auto-granted on login",,no,no
+harry5556/chainstream-defi@1.1.6->1.1.7,phase1_round06,2,workflow instructions expanded,modified,shared/x402-payment.md: check wallet balance and plan status before asking payment method,,no,no
+jaredforreal/glm-image-gen@1.0.3->1.0.4,phase1_round06,1,requirements removed from metadata,removed,SKILL.md: `bins: - python` removed,,no,no
+aaron-he-zhu/message-house-builder@17.0.0->18.0.0,phase1_round06,1,doc link or path format changed,modified,SKILL.md: `seo-geo/build/content-writer` -> `seo-geo/implement/content-writer`; changelog-claimed skill-card.md removal not in diff,,no,no
+nickflach/kannaka-memory@1.1.0->1.1.1,phase1_round06,1,requirements declared in metadata,added,"SKILL.md: bins classify, cross-modal-dream; env RADIO_PORT, EYE_PORT",,no,no
+nickflach/kannaka-memory@1.1.0->1.1.1,phase1_round06,2,new capability added,added,"SKILL.md/README.md: constellation orchestration of kannaka, radio, eye services",,no,no
+nickflach/kannaka-memory@1.1.0->1.1.1,phase1_round06,3,safety or privacy claims added,added,"references/dolt.md: ""sensitive memory content is automatically protected during DoltHub operations""",,no,no
+dnsdoctor/dns-doctor@1.7.1->1.7.2,phase1_round06,1,autonomous payment flow added,added,"SKILL.md: ""Past the free limit: pay per call (x402)... $0.01 per call, USDC on Base""",,no,no
+dnsdoctor/dns-doctor@1.7.1->1.7.2,phase1_round06,2,description rewritten,modified,SKILL.md: description adds bulk scanning and x402 lane,,no,no
+dnsdoctor/dns-doctor@1.7.1->1.7.2,phase1_round06,3,documentation content expanded,modified,SKILL.md: DMARC enforcement step corrected (trimmed),,no,no
+ijaack/evalanche@1.7.6->1.7.7,phase1_round06,1,no author change,,no files changed; changelog claims pm_sell slippage checks and tests,,yes,yes
+xueyetianya/orders@3.4.0->3.4.1,phase1_round06,1,no author change,,"no files changed; changelog claims description, homepage, security fix",,yes,yes
+baofeng-tech/aisa-twitter-post-engage@1.0.2->1.0.3,phase1_round06,1,description rewritten,modified,"SKILL.md: ""post-launch follow-through"" -> ""Search X/Twitter profiles, tweets, trends...""",,no,no
+baofeng-tech/aisa-twitter-post-engage@1.0.2->1.0.3,phase1_round06,2,env var usage removed,removed,scripts/twitter_client.py: TWITTER_RELAY_BASE_URL/TIMEOUT parsing removed,,no,no
+baofeng-tech/aisa-twitter-post-engage@1.0.2->1.0.3,phase1_round06,3,requirements removed from metadata,removed,"SKILL.md: `optionalEnv: TWITTER_RELAY_BASE_URL, TWITTER_RELAY_TIMEOUT` removed",,no,no
+baofeng-tech/aisa-twitter-post-engage@1.0.2->1.0.3,phase1_round06,4,API endpoint or service URL changed,modified,scripts/twitter_oauth_client.py: base `.../apis/v1/twitter` -> `.../apis/v1`,,no,no
+baofeng-tech/aisa-twitter-post-engage@1.0.2->1.0.3,phase1_round06,5,metadata field added,added,"SKILL.md: `homepage`, `source`",,no,no
+andreasnlarsen/whoop-cli@0.1.3->0.1.4,phase1_round06,1,description rewritten,modified,"SKILL.md: ""Companion skill for @andreasnlarsen/whoop-cli...""",,no,no
+oomol/oo-crisp@1.0.0->1.0.1,phase1_round06,1,metadata field added,added,SKILL.md: `icon` URL; version 1.0.0 -> 1.0.1; changelog-claimed `send_text_message` not in diff,,yes,no
+qryma888/qryma-search@1.1.6->1.1.7,phase1_round06,1,formatting-only changes,removed,SKILL.md: English/Chinese sub-headings removed,,no,no
+atomicmail/atomicmail@0.3.12->0.3.13,phase1_round06,1,documentation content expanded,modified,"lib/shared/help/topics/cron.md, cron.js: Hermes skill blueprint for hourly inbox polling",,generic,no
+atomicmail/atomicmail@0.3.12->0.3.13,phase1_round06,2,script logic extended,added,"lib/esm/lib/core/read-npm-package-readme.js, help-content/index.js: MCP runtime reads package README",,generic,no
+atomicmail/atomicmail@0.3.12->0.3.13,phase1_round06,3,credential handling instructions changed,modified,"cron.js: default credentials dir `~/.hermes/atomicmail`, `ATOMIC_MAIL_CREDENTIALS_DIR`",,generic,no
+atomicmail/atomicmail@0.3.12->0.3.13,phase1_round06,4,documentation files added,added,lib/shared/skill/SKILL.template.md (+202),,generic,no
+atomicmail/atomicmail@0.3.12->0.3.13,phase1_round06,5,package manifest added,added,lib/shared/skill/manifest.json (+89),,generic,no
+ckchzh/azuredatastudio@2.3.3->2.3.4,phase1_round06,1,no author change,,"no files changed; changelog claims ""Quality upgrade""",,generic,yes
+lucioliu/relic-soul-chip@0.1.4->0.1.5,phase1_round06,1,no author change,,"no files changed; changelog claims anchor, self-evolution, sync changes",,yes,yes
+athola/nm-hookify-rule-catalog@1.9.14->1.9.16,phase1_round07,1,no author change,,no files changed,,generic,yes
+vassiliylakhonin/nonprofit-rbm-logic-model@1.0.13->1.0.14,phase1_round07,1,description rewritten,modified,"SKILL.md: description reworded ""Build donor-ready nonprofit proposal packages...""",,no,no
+jeminay/demo-slap@0.1.2->0.1.3,phase1_round07,1,hardcoded local paths or addresses removed,removed,scripts/demo_slap_watchdog.sh: `/root/.openclaw/...` paths and fixed `JOB_ID` removed,security wording cleanup,no,no
+jeminay/demo-slap@0.1.2->0.1.3,phase1_round07,2,new env vars introduced,added,scripts/demo_slap_watchdog.sh: `DEMO_SLAP_WATCHDOG_JOB_ID`,,no,no
+jeminay/demo-slap@0.1.2->0.1.3,phase1_round07,3,requirements removed from metadata,removed,SKILL.md: `LEETIFY_API_KEY` removed from requires env,security wording cleanup,no,no
+jeminay/demo-slap@0.1.2->0.1.3,phase1_round07,4,default behavior narrowed,modified,"SKILL.md: watchdog cron ""only when... benefits""; reuse existing instead of creating new",,no,no
+oomol/oo-opsgenie@1.0.2->1.0.3,phase1_round07,1,description rewritten,modified,"SKILL.md: ""reading, creating, and updating"" -> ""... and deleting data""",,generic,no
+oomol/oo-opsgenie@1.0.2->1.0.3,phase1_round07,2,action risk tags changed,modified,"SKILL.md: `acknowledge_alert` tagged `[write]`, `close_alert` `[write]` -> `[destructive]`",,generic,no
+aaigotchi/pet-me-master@2.0.2->2.1.0,phase1_round07,1,new scripts added,added,scripts/schedule-dynamic-check.sh (+45): queries chain and schedules next check,,no,no
+aaigotchi/pet-me-master@2.0.2->2.1.0,phase1_round07,2,new external service integrated,added,scripts/check-and-remind.sh: direct `curl https://api.telegram.org/bot.../sendMessage`,,no,no
+aaigotchi/pet-me-master@2.0.2->2.1.0,phase1_round07,3,credential read from other app config,added,scripts/check-and-remind.sh: `TELEGRAM_BOT_TOKEN=$(grep ... ~/.openclaw/openclaw.json ...)`,,no,no
+aaigotchi/pet-me-master@2.0.2->2.1.0,phase1_round07,4,hardcoded local paths or addresses added,added,"scripts/check-and-remind.sh: `TELEGRAM_CHAT_ID=""322059822""`",,no,no
+aaigotchi/pet-me-master@2.0.2->2.1.0,phase1_round07,5,package manifest added,added,clawhub.json (+42),,no,no
+aaigotchi/pet-me-master@2.0.2->2.1.0,phase1_round07,6,changelog file updated,modified,CHANGELOG.md 2.1.0 entry,,no,no
+openagentar/agentar@1.0.3->1.0.4,phase1_round07,1,description rewritten,modified,"SKILL.md: ""delegate tasks to Agentar platform agents""",,no,no
+openagentar/agentar@1.0.3->1.0.4,phase1_round07,2,documentation content expanded,added,"SKILL.md: built-in agents office-agent, image-agent, video-agent listed",,no,no
+scavio-ai/walmart-product-data@1.0.0->1.0.1,phase1_round07,1,names or identifiers renamed,modified,SKILL.md: name `scavio-walmart` -> `walmart-product-data`,,no,no
+scavio-ai/walmart-product-data@1.0.0->1.0.1,phase1_round07,2,setup instructions changed,added,"SKILL.md: ""If you do not have a key yet"" self-serve signup steps",,no,no
+scavio-ai/walmart-product-data@1.0.0->1.0.1,phase1_round07,3,pricing changed,added,"SKILL.md: 50 free credits, 402 `billing_url` top-up, 2,500 credits for $25",,no,no
+scavio-ai/walmart-product-data@1.0.0->1.0.1,phase1_round07,4,tracking parameters added to links,modified,SKILL.md: signup link with `utm_source=clawhub`,,no,no
+g9pedro/clawvault@1.11.3->1.11.4,phase1_round07,1,requirements declared in metadata,added,"SKILL.md: optional env CLAWVAULT_PATH, GEMINI_API_KEY in metadata",addresses ClawHub MEDIUM confidence security concern,no,no
+g9pedro/clawvault@1.11.3->1.11.4,phase1_round07,2,access scope disclosure expanded,added,"SKILL.md: ""## Hook Behavior"": events handled, network calls, `child_process.execSync`",addresses ClawHub MEDIUM confidence security concern,no,no
+g9pedro/clawvault@1.11.3->1.11.4,phase1_round07,3,safety or privacy claims added,added,"SKILL.md: ""Does NOT phone home, collect analytics...""",addresses ClawHub MEDIUM confidence security concern,no,no
+heygen-com/hyperframes-creative@1.0.8->1.0.9,phase1_round07,1,diff unavailable,,"diff_status not ok (previous and this version not found); changelog only: ""Synced from 7d21cc9 (main)""",,generic,no
+zgissing/vibbit-skills@1.0.7->1.0.8,phase1_round07,1,documentation translated,modified,SKILL.md (+153/-153): Chinese description and docs translated to English (trimmed),,no,no
+oomol/oo-googlemeet@1.0.0->1.0.2,phase1_round07,1,version number bump only,modified,"SKILL.md: version ""1.0.0"" -> ""1.0.2""; changelog lists features with no matching diff",,generic,no
+hellojixian/agent4-io@1.0.27->1.0.28,phase1_round07,1,workflow instructions expanded,added,"SKILL.md: ""Mandatory tool calls: the trigger must live in description""; never script fake return values; changelog-claimed create_skill lint warnings not in diff",a mandatory tool call was silently skipped in production,yes,no
+dlazyai/dlazy-ppt-to-video@1.0.16->1.0.17,phase1_round07,1,no author change,,no files changed,,generic,yes
+floogles/ai-travel-agent@1.0.1->1.0.2,phase1_round07,1,workflow instructions expanded,modified,SKILL.md: Mode C checks any installed calendar skill instead of google-calendar only; falls back to asking,,no,no
+jonathanjing/glass2claw@1.2.0->1.3.0,phase1_round07,1,requirements removed from metadata,removed,"SKILL.md: `""channels"": [""whatsapp"", ""discord""]` removed",,no,no
+jonathanjing/glass2claw@1.2.0->1.3.0,phase1_round07,2,description rewritten,modified,"SKILL.md: ""A logic-only protocol to route life-capture images into Notion""",,no,no
+jonathanjing/glass2claw@1.2.0->1.3.0,phase1_round07,3,least-privilege guidance removed,removed,"SKILL.md: ""Least Privilege: Only grant your Notion Integration access to the specific databases"" removed",,no,no
+jonathanjing/glass2claw@1.2.0->1.3.0,phase1_round07,4,risk warnings softened,removed,"SKILL.md: ""Use a Private Discord Server"" (mandatory) -> ""We recommend using private servers""",,no,no
+0x7466/bw-cli@1.9.0->1.1.1,phase1_round07,1,workflow instructions expanded,modified,"SKILL.md: unlock-first auth flow, login only if unlock fails",reduces unnecessary API calls,no,no
+hayespeter/preflyte@1.2.1->1.2.2,phase1_round07,1,description rewritten,modified,"SKILL.md: ""Evidence-based market data for AI agents deploying capital in DeFi""",,no,no
+cyberforexblockchain/nexus-summarize@1.1.0->2.1.0,phase1_round07,1,new payment method support added,added,"SKILL.md: XRP, RLUSD, xrpl chain, AP2 mandates",,no,no
+cyberforexblockchain/nexus-summarize@1.1.0->2.1.0,phase1_round07,2,new external service integrated,added,SKILL.md: `ap2_config`/`xrpl_config` at ai-service-hub-15.emergent.host,,no,no
+giorgallidis/clawcrm@1.0.6->1.0.7,phase1_round07,1,metadata field removed,removed,SKILL.md: embedded `changelog:` list removed from frontmatter,,no,no
+giorgallidis/clawcrm@1.0.6->1.0.7,phase1_round07,2,API endpoint or service URL changed,modified,SKILL.md: url `https://clawcrm.ai` -> `https://readycrm.netlify.app`,,no,no
+giorgallidis/clawcrm@1.0.6->1.0.7,phase1_round07,3,documentation condensed,removed,SKILL.md (+39/-176) (trimmed),,no,no
+peturgeorgievv/postfast@1.12.1->1.13.0,phase1_round07,1,version number bump only,modified,SKILL.md: version 1.12.1 -> 1.13.0; changelog-claimed analytics fields and metadata not in diff,,yes,no
+zai-org/glmv-pdf-to-web@1.0.0->1.0.1,phase1_round07,1,requirements removed from metadata,removed,SKILL.md: `requires.bins: python` removed,,no,no
+zyom45/moldium@1.0.0->1.0.1,phase1_round07,1,documentation content expanded,added,skill.md: device_public_key must be unique; 409 DUPLICATE_DEVICE_KEY; delete response,,no,no
+zyom45/moldium@1.0.0->1.0.1,phase1_round07,2,example content changed,modified,"skill.md: `language` removed from example, stale_threshold 86400 -> 1920",,no,no
+depinhq/proposal@1.0.0->2.0.0,phase1_round07,1,documentation files added,added,"README.md, examples.md",,no,no
+depinhq/proposal@1.0.0->2.0.0,phase1_round07,2,package manifest added,added,skill.json (+46),,no,no
+ckchzh/budgetly@1.0.4->1.0.5,phase1_round07,1,no author change,,no files changed,,generic,yes
+byungkyu/whatsapp-business@1.2.2->1.2.3,phase1_round07,1,filesystem safety checks added,added,"SKILL.md: upload examples use `umask 077`, `mktemp`, `trap rm` instead of `/tmp/upload.body`",predictable shared /tmp path could be pre-created by another user and keep a copy of the upload,no,no
+adamludwin/here-now@1.4.0->1.5.0,phase1_round07,1,documentation content expanded,added,"SKILL.md, references/REFERENCE.md: file structure guidance; subdirectory index.html served",,no,no
+muselinn/discord-interactive@1.0.0->1.1.0,phase1_round07,1,content moved to reference files,modified,SKILL.md (+41/-112): details moved to references/*.md,,no,no
+muselinn/discord-interactive@1.0.0->1.1.0,phase1_round07,2,documentation files added,added,"references/components.md, examples.md, handling.md",,no,no
+muselinn/discord-interactive@1.0.0->1.1.0,phase1_round07,3,documentation translated,modified,SKILL.md: Chinese text -> English,,no,no
+muselinn/discord-interactive@1.0.0->1.1.0,phase1_round07,4,metadata field added,modified,SKILL.md: homepage -> `https://github.com/openclaw/openclaw`,,no,no
+agentpmt/minecraft-custom-mod-builder@1.0.1->1.0.2,phase1_round07,1,autonomous payment flow added,added,"SKILL.md/schema.md: ""x402 action routes are enabled"" with action URL; previously ""not enabled""",,generic,no
+agentpmt/minecraft-custom-mod-builder@1.0.1->1.0.2,phase1_round07,2,pricing changed,modified,schema.md: price 25 -> 15 credits,,generic,no
+agentpmt/minecraft-custom-mod-builder@1.0.1->1.0.2,phase1_round07,3,dependency added,added,SKILL.md: install companion skill `agentpmt-no-account-agentaddress-x402`,,generic,no
+agentpmt/minecraft-custom-mod-builder@1.0.1->1.0.2,phase1_round07,4,default or config value changed,modified,schema.md: `allow_experimental_bedrock_features` false -> true in example,,generic,no
+surlebeat/conference-intern@1.0.0->1.1.0,phase1_round07,1,script logic extended,added,scripts/common.sh (+212): `cli_register_event()` browser-based registration,,no,no
+surlebeat/conference-intern@1.0.0->1.1.0,phase1_round07,2,script logic removed,removed,scripts/discover.sh: per-URL RSVP validation skipped,slow URL validation,no,no
+surlebeat/conference-intern@1.0.0->1.1.0,phase1_round07,3,default or config value changed,modified,scripts/register.sh DELAY 5 -> 15; curate.sh timeout 120 -> 300,,no,no
+surlebeat/conference-intern@1.0.0->1.1.0,phase1_round07,4,prompt templates changed,added,templates/register-field-match-prompt.md (+31),,no,no
+ssidharhubble/openclaw-listing-bot@1.0.5->1.0.6,phase1_round07,1,version number bump only,modified,SKILL.md: version 1.0.5 -> 1.0.6,,no,no
+haiyangchenbj/tcms-planner@1.1.5->1.1.6,phase1_round07,1,tags changed,modified,SKILL.md: read_when trigger phrases narrowed to multi-word expressions,,no,no
+googlarz/proactive-claw@1.2.16->1.2.17,phase1_round07,1,credential env var renamed,modified,SKILL.md: `GOOGLE_OAUTH_CREDENTIALS_JSON` -> `GOOGLE_CREDENTIALS_JSON`,,no,no
+googlarz/proactive-claw@1.2.16->1.2.17,phase1_round07,2,description rewritten,modified,SKILL.md: shortened description,,no,no
+googlarz/proactive-claw@1.2.16->1.2.17,phase1_round07,3,safety claims or disclosures removed,removed,"SKILL.md: description no longer says it runs setup.sh (pip installs, OAuth flow) and optional daemon",,no,no
+ranasalalali/daily-strava-roast@0.1.3->0.2.0,phase1_round07,1,new capability added,added,"src/daily_strava_roast/cli.py: context, prompt, preview, generate commands; roast memory state (trimmed)",,no,no
+ranasalalali/daily-strava-roast@0.1.3->0.2.0,phase1_round07,2,new scripts added,added,"src/daily_strava_roast/context_builder.py, generator.py, prompt_builder.py, writer.py",,no,no
+ranasalalali/daily-strava-roast@0.1.3->0.2.0,phase1_round07,3,tests or eval cases added,added,tests/test_*.py (5 files),,no,no
+ranasalalali/daily-strava-roast@0.1.3->0.2.0,phase1_round07,4,new env vars introduced,added,"cli.py: DAILY_STRAVA_ROAST_MODEL_RUNNER, DAILY_STRAVA_ROAST_MODEL",,no,no
+ranasalalali/daily-strava-roast@0.1.3->0.2.0,phase1_round07,5,documentation files added,added,docs/V2.md (+93),,no,no
+zhaoxiasan/nvidia-sdxl@1.0.0->1.0.1,phase1_round07,1,package manifest added,added,tools.yaml (+4): tool definition,,no,no
+liquiditytech/ltp-rapidx-config@1.0.6->1.0.7,phase1_round07,1,version field added to metadata,added,SKILL.md: `version: 1.0.7`,,no,no
+liquiditytech/ltp-rapidx-config@1.0.6->1.0.7,phase1_round07,2,setup instructions changed,added,"SKILL.md: ""## Upgrade Existing Installation"", `npm install -g @liquiditytech/rapidx-cli@latest`",,no,no
+xor777/magicpay@0.4.43->0.4.55,phase1_round07,1,workflow instructions expanded,modified,"SKILL.md, references/memory.md (+258/-61): memory footprint and saved billing roles in checkout (trimmed)",,generic,no
+xor777/magicpay@0.4.43->0.4.55,phase1_round07,2,safety check made optional,removed,"SKILL.md: `check_merchant` on every candidate (""skip avoid"") -> ""optionally to compare candidates; inconclusive probes are advisory""",,generic,no
+stayingapi/booking-com-hotels@1.0.0->1.1.0,phase1_round07,1,documentation content expanded,added,"SKILL.md: platform x endpoint support matrix, known limitations",,no,no
+stayingapi/booking-com-hotels@1.0.0->1.1.0,phase1_round07,2,setup instructions changed,modified,references/auth-setup.md: sandbox vs live key steps; changelog-claimed skill-card.md removal not in diff,,no,no
+ant-1984/create-task@0.1.0->0.1.1,phase1_round07,1,new payment method support added,added,SKILL.md: tasks on Base with ETH and USDC,,no,no
+ant-1984/create-task@0.1.0->0.1.1,phase1_round07,2,CLI commands or arguments changed,modified,SKILL.md: `--token` chain:token syntax; verification `AI_AUTO`/`PLATFORM` -> `THIRD_PARTY`,,no,no
+dlazyai/dlazy-image-replicate@1.3.18->1.3.19,phase1_round07,1,no author change,,no files changed,,generic,yes
+terry3838/sprintx-openclaw-handoff@0.1.2->0.1.3,phase1_round07,1,requirements removed from metadata,removed,"SKILL.md: `env: SX_ACCESS_TOKEN, SX_API_URL` removed",tighten metadata to match real requirements,no,no
+terry3838/sprintx-openclaw-handoff@0.1.2->0.1.3,phase1_round07,2,documentation files added,added,"README.ko.md, README.zh.md (+189 each)",,no,no
+terry3838/sprintx-openclaw-handoff@0.1.2->0.1.3,phase1_round07,3,tests removed,removed,scripts/check-skill.mjs: checks requiring env declarations removed,,no,no
+terry3838/sprintx-openclaw-handoff@0.1.2->0.1.3,phase1_round07,4,changelog file updated,modified,CHANGELOG.md 0.1.3 entry,,no,no
+vmining/kiro-creator-monitor-daily-brief@1.0.0->1.0.1,phase1_round07,1,new capability added,added,scripts/daily_brief.py: persistent user-added sources (`--add-source-type`),,no,no
+vmining/kiro-creator-monitor-daily-brief@1.0.0->1.0.1,phase1_round07,2,requirements removed from metadata,removed,"SKILL.md: TELEGRAM_*, SLACK_WEBHOOK_URL, SMTP_* removed from required env",,no,no
+vmining/kiro-creator-monitor-daily-brief@1.0.0->1.0.1,phase1_round07,3,example files added,added,"examples/fixed_sources.json, user_sources.template.json",,no,no
+vmining/kiro-creator-monitor-daily-brief@1.0.0->1.0.1,phase1_round07,4,script logic extended,added,scripts/install_and_init.py: copies user_sources template,,no,no
+rockbenben/md-web@1.0.0->1.0.1,phase1_round07,1,plaintext credential storage removed,removed,upload.js/SKILL.md: access_key/secret_key no longer written to config.json,secrets are no longer stored on disk,no,no
+rockbenben/md-web@1.0.0->1.0.1,phase1_round07,2,new env vars introduced,added,"upload.js: MD_WEB_ACCESS_KEY, MD_WEB_SECRET_KEY",,no,no
+rockbenben/md-web@1.0.0->1.0.1,phase1_round07,3,requirements declared in metadata,added,"SKILL.md: requires env MD_WEB_ACCESS_KEY, MD_WEB_SECRET_KEY",,no,no
+rockbenben/md-web@1.0.0->1.0.1,phase1_round07,4,example or template files removed,removed,config.example.json deleted,,no,no
+dlazyai/dlazy-vidu-audio-clone@1.3.5->1.3.6,phase1_round07,1,formatting-only changes,modified,"SKILL.md, SKILL-cn.md: description quoted; changelog-claimed display name restore not in diff",,yes,no
+lean-zhouchao/cli-anything-zc@0.1.1->0.1.2,phase1_round07,1,no author change,,no files changed,,generic,yes
+luigi08001/lead-scoring@1.1.0->1.2.0,phase1_round07,1,requirements declared in metadata,added,"SKILL.md: requires env HUBSPOT_ACCESS_TOKEN, primaryCredential",,no,no
+xueyetianya/devops-bash-tools@2.0.3->2.0.4,phase1_round07,1,no author change,,no files changed; changelog claims description fix,,yes,yes
+davida-ps/clawsec-suite@0.1.5->0.1.6,phase1_round07,1,access scope disclosure expanded,added,"SKILL.md ""Operational Notes"" side effects; setup scripts print ""Preflight review"" before installing hook/cron",,generic,no
+davida-ps/clawsec-suite@0.1.5->0.1.6,phase1_round07,2,requirements declared in metadata,added,"SKILL.md: bins node, npx, openclaw, unzip added",,generic,no
+davida-ps/clawsec-suite@0.1.5->0.1.6,phase1_round07,3,safety check made optional,removed,skill.json: advisory feed signature `required: true` -> `false` (trimmed),,generic,no
+davida-ps/clawsec-suite@0.1.5->0.1.6,phase1_round07,4,tests or eval cases added,added,test/setup_disclosure.test.mjs (+183),,generic,no
+athola/nm-attune-project-specification@1.9.17->1.9.19,phase1_round07,1,no author change,,no files changed,,generic,yes
+xueyetianya/keyvault@2.0.0->2.0.1,phase1_round07,1,description rewritten,modified,"SKILL.md: description -> ""Powered by BytesAgain""",,generic,no
+xueyetianya/keyvault@2.0.0->2.0.1,phase1_round07,2,main script rewritten,modified,scripts/script.sh (+250/-309): key vault tool replaced by reference tool (trimmed),,generic,no
+xueyetianya/keyvault@2.0.0->2.0.1,phase1_round07,3,local logging removed,removed,scripts/script.sh: DATA_DIR history.log `_log()` removed,,generic,no
+byungkyu/github-api@1.0.5->1.0.6,phase1_round07,1,user confirmation required before actions,added,"SKILL.md: write approval now lists confirm target, verify connection ID, state reversibility",,no,no
+byungkyu/github-api@1.0.5->1.0.6,phase1_round07,2,irreversible action warning added,added,"SKILL.md: ""Irreversible / high-risk operations"" list (delete repos, force-push, merge)",,no,no
+byungkyu/github-api@1.0.5->1.0.6,phase1_round07,3,operational rules added,added,"SKILL.md: ""Only operate on repositories the user explicitly names""; no extra OAuth scopes",,no,no
+christianteohx/apple-calctl@1.0.7->1.0.8,phase1_round08,1,setup instructions changed,modified,"SKILL.md: ""Install (Homebrew):"" -> ""Homebrew (recommended):""",,no,no
+youngpietro/beatclaw@1.46.0->1.47.0,phase1_round08,1,default or config value changed,modified,SKILL.md: default model `V5` -> `V6`; `V5_5` retired; version header 1.46.0 -> 1.47.0 (trimmed),,no,no
+youngpietro/beatclaw@1.46.0->1.47.0,phase1_round08,2,documentation content expanded,modified,SKILL.md: provider notes on V6 support and `model_override`; changelog-claimed skill-card.md removal not in diff,,no,no
+oomol/oo-ticketmaster@1.0.3->1.0.4,phase1_round08,1,description rewritten,modified,"SKILL.md: ""searching and reading data"" -> ""reading, creating, and updating data""",,generic,no
+oomol/oo-ticketmaster@1.0.3->1.0.4,phase1_round08,2,action risk tags changed,added,SKILL.md: `execute_season_ticketing_command` tagged `[write]`,,generic,no
+zmtucker/drivethru-operations@0.4.0->0.5.0,phase1_round08,1,documentation content expanded,added,"references/field_reference.md: `print_decals_status`, `art_status` fields; changelog-claimed skill-card.md removal not in diff",,yes,no
+znsyhandao/mathematical-audit-skills@3.5.2->3.5.3,phase1_round08,1,security scan report added,added,"BANDIT_REPORT.md, bandit_report.json: ""Total Issues: 0""",addresses ClawHub feedback about self-declared security guarantees,yes,no
+znsyhandao/mathematical-audit-skills@3.5.2->3.5.3,phase1_round08,2,safety or privacy claims added,added,"SKILL.md: ""How to Verify Security"" grep checks; ""This confirms the skill is read-only, offline, and safe""; changelog-claimed verify_security.py and VERIFICATION_GUIDE.md not in diff",addresses ClawHub feedback about self-declared security guarantees,yes,no
+znsyhandao/mathematical-audit-skills@3.5.2->3.5.3,phase1_round08,3,changelog file updated,modified,"CHANGELOG.md, RELEASE_NOTES.md 3.5.3",,yes,no
+drodecker/dcc-docker-container-control@0.1.0->1.0.1,phase1_round08,1,files renamed or moved,modified,scripts/docker-container-control (-311) -> docker-container-control.txt (+311),,no,no
+drodecker/dcc-docker-container-control@0.1.0->1.0.1,phase1_round08,2,config files removed,removed,agents/openai.yaml deleted,,no,no
+drodecker/dcc-docker-container-control@0.1.0->1.0.1,phase1_round08,3,workflow instructions reduced,removed,"SKILL.md: ""If the Docker server is unknown or ambiguous, ask the user"" and other rules replaced by a fast path (trimmed)",,no,no
+drodecker/dcc-docker-container-control@0.1.0->1.0.1,phase1_round08,4,description rewritten,modified,"SKILL.md: ""Fast manual CI for Docker Compose apps""",,no,no
+drodecker/dcc-docker-container-control@0.1.0->1.0.1,phase1_round08,5,metadata field added,added,"SKILL.md: `homepage`, `emoji`",,no,no
+lrningslo/arithym-io-arithym@1.0.1->1.0.2,phase1_round08,1,requirements declared in metadata,added,SKILL.md: env ARITHYM_API_KEY required,,no,no
+lrningslo/arithym-io-arithym@1.0.1->1.0.2,phase1_round08,2,documentation content expanded,added,SKILL.md: expanded use cases and examples (trimmed),,no,no
+thierrypdamiba/content-claw@3.3.0->3.3.1,phase1_round08,1,capability removed,removed,"references/publish.md and scripts/schedule.py deleted: Reddit/X publishing, engagement tracking, scheduled runs",,no,no
+thierrypdamiba/content-claw@3.3.0->3.3.1,phase1_round08,2,external service integration removed,removed,scripts/browser.py: Driver.dev cloud browser `https://api.driver.dev/v1/browser/session` removed,,no,no
+thierrypdamiba/content-claw@3.3.0->3.3.1,phase1_round08,3,env var usage removed,removed,scripts/env.py: `DRIVER_API_KEY` removed from ALLOWED_KEYS,,no,no
+thierrypdamiba/content-claw@3.3.0->3.3.1,phase1_round08,4,credential handling instructions changed,removed,"scripts/browser.py, references/topics.md: cookie files `creds/reddit-cookies.json` no longer loaded",,no,no
+officialdelta/gmail-secretary@1.0.9->1.0.10,phase1_round08,1,personal data file added,modified,"references/voice.md: sample replies with a named person's school, email signatures and admissions mail",,no,no
+yanzhanglee/personal-genomics-analysis@1.0.0->1.0.1,phase1_round08,1,description rewritten,modified,SKILL.md: shorter description,,no,no
+yanzhanglee/personal-genomics-analysis@1.0.0->1.0.1,phase1_round08,2,safety or privacy claims added,added,"SKILL.md: ""Runs locally and keeps raw genetic data on the user's machine""",,no,no
+xllgreen/chinese-medicine-10edition@1.0.0->1.0.1,phase1_round08,1,files renamed or moved,modified,300 files: pinyin/Chinese sub-skill folders renamed to English names (trimmed),,no,no
+xllgreen/chinese-medicine-10edition@1.0.0->1.0.1,phase1_round08,2,documentation translated,modified,*/SKILL.md: Chinese headings and names -> English,,no,no
+xllgreen/chinese-medicine-10edition@1.0.0->1.0.1,phase1_round08,3,new sub-skill added,added,"e.g. allergic-rhinitis-differentiation/SKILL.md, tongue-diagnosis-differentiation/SKILL.md (trimmed)",,no,no
+xllgreen/chinese-medicine-10edition@1.0.0->1.0.1,phase1_round08,4,documentation files added,added,"README_FR.md, README_JP.md, README_RU.md expanded",,no,no
+xllgreen/chinese-medicine-10edition@1.0.0->1.0.1,phase1_round08,5,tags changed,added,*/SKILL.md: `tags:` lists added,,no,no
+xerg/xerg@0.31.0->0.32.0,phase1_round08,1,operational rules added,added,"SKILL.md: ""Report monetary before/after values only when comparison.spendComparisonAvailable is explicitly true""",,no,no
+xerg/xerg@0.31.0->0.32.0,phase1_round08,2,documentation content expanded,modified,"SKILL.md, README.md: parent-to-child delegation paths",,no,no
+securityqq/vargai@2.0.2->2.0.3,phase1_round08,1,diff unavailable,,"diff_status not ok (previous and this version not found); changelog only: ""Auto-published from vargHQ/skills@35a5fc51""",,generic,no
+russidan-nadee/gmail-daily-briefing@1.0.0->1.1.0,phase1_round08,1,frontmatter metadata added,added,"SKILL.md: frontmatter name, description, requires bins python, files token.json",,no,no
+russidan-nadee/gmail-daily-briefing@1.0.0->1.1.0,phase1_round08,2,content moved to reference files,modified,agent/instructions.md (+63): commands and auth setup moved out of SKILL.md,,no,no
+russidan-nadee/gmail-daily-briefing@1.0.0->1.1.0,phase1_round08,3,setup instructions changed,added,"SKILL.md: ""## Installation Via ClawHub (recommended)""",,no,no
+cinience/alicloud-ai-recommend-airec@1.0.2->1.0.3,phase1_round08,1,description rewritten,modified,SKILL.md: description reworded,,generic,no
+cinience/alicloud-ai-recommend-airec@1.0.2->1.0.3,phase1_round08,2,version field added to metadata,added,SKILL.md: `version: 1.0.0`,,generic,no
+cinience/alicloud-ai-recommend-airec@1.0.2->1.0.3,phase1_round08,3,least-privilege guidance added,added,"SKILL.md: ""Configure least-privilege Alibaba Cloud credentials""",,generic,no
+cinience/alicloud-ai-recommend-airec@1.0.2->1.0.3,phase1_round08,4,user confirmation required before actions,added,"SKILL.md: ""If region is unclear, ask the user before running mutating operations""",,generic,no
+cinience/alicloud-ai-recommend-airec@1.0.2->1.0.3,phase1_round08,5,workflow instructions expanded,added,SKILL.md: validation step (`py_compile`) and evidence output folder,,generic,no
+ayakolin/agent-autonomy-kit-zh@1.0.1->1.0.2,phase1_round08,1,no author change,,no files changed,,no,yes
+kaicianflone/consensus-publish-guard@1.1.8->1.1.9,phase1_round08,1,dependency version or source changed,modified,package.json: `consensus-guard-core` `^1.1.4` -> `file:../consensus-guard-core` (local sibling checkout),,no,no
+kaicianflone/consensus-publish-guard@1.1.8->1.1.9,phase1_round08,2,dependency removed,removed,"package-lock.json: `consensus-persona-generator`, `@consensus-tools` dependencies removed (trimmed)",,no,no
+kaicianflone/consensus-publish-guard@1.1.8->1.1.9,phase1_round08,3,requirements declared in metadata,added,"SKILL.md: env CONSENSUS_STATE_FILE, CONSENSUS_STATE_ROOT",,no,no
+kaicianflone/consensus-publish-guard@1.1.8->1.1.9,phase1_round08,4,setup instructions changed,added,"SKILL.md: ""## Install assumptions"" sibling checkout + `npm i`",,no,no
+alex-tradequo/whatsapp-automation-a2a@2.16.0->2.16.1,phase1_round08,1,description rewritten,modified,"SKILL.md: name/description ""WhatsApp Business Suite — AI Leads, Channels, Campaigns & 32 MCP Tools""",,no,no
+alex-tradequo/whatsapp-automation-a2a@2.16.0->2.16.1,phase1_round08,2,safety claims or disclosures removed,removed,"SKILL.md: ""Documentation-only... zero executables, zero install scripts, zero local file writes"" removed from description",,no,no
+alex-tradequo/whatsapp-automation-a2a@2.16.0->2.16.1,phase1_round08,3,new API endpoints documented,added,SKILL.md: channel broadcast and scheduled post endpoints,,no,no
+alex-tradequo/whatsapp-automation-a2a@2.16.0->2.16.1,phase1_round08,4,tags changed,modified,"package.json: keywords channels, broadcasting, newsletter",,no,no
+zw008/vmware-privateai@1.0.2->1.0.3,phase1_round08,1,no author change,,no files changed; changelog claims second-round fixes and raised vmware-policy floor,,yes,yes
+gladego/index1@2.0.1->2.0.3,phase1_round08,1,description rewritten,modified,"SKILL.md: ""AI memory system for coding agents""",,no,no
+gladego/index1@2.0.1->2.0.3,phase1_round08,2,CLI commands or arguments changed,modified,"SKILL.md: MCP tools `docs_search`... -> `recall`, `learn`, `read`...",,no,no
+gladego/index1@2.0.1->2.0.3,phase1_round08,3,new capability added,added,"SKILL.md: cognition memory, built-in ONNX embedding, `index1 setup`",,no,no
+gladego/index1@2.0.1->2.0.3,phase1_round08,4,tags changed,modified,"SKILL.md: tags memory, cognitive, coding-agent",,no,no
+oomol/oo-paymo@1.0.0->1.0.2,phase1_round08,1,version number bump only,modified,"SKILL.md: version ""1.0.0"" -> ""1.0.2""; changelog lists features with no matching diff",,generic,no
+bytesagain1/quickfind@2.0.0->2.0.1,phase1_round08,1,description rewritten,modified,"SKILL.md: description -> ""Powered by BytesAgain""",,generic,no
+bytesagain1/quickfind@2.0.0->2.0.1,phase1_round08,2,main script rewritten,modified,scripts/script.sh (+250/-309): productivity tool replaced by reference tool (trimmed),,generic,no
+bytesagain1/quickfind@2.0.0->2.0.1,phase1_round08,3,local logging removed,removed,scripts/script.sh: DATA_DIR history.log `_log()` removed,,generic,no
+mirni/greenhelix-bundle-api-tutorials@1.2.0->1.3.0,phase1_round08,1,requirements removed from metadata,removed,SKILL.md: `SSH_DEPLOY_KEY` removed from `credentials` list,,no,no
+getlighty/getlighty-clawroam@2.0.0->2.1.0,phase1_round08,1,new capability added,added,cloud-api-worker/src/index.ts: per-profile sync-rules GET/PUT endpoints; schema.sql `sync_rules` table,,no,no
+getlighty/getlighty-clawroam@2.0.0->2.1.0,phase1_round08,2,script logic extended,added,providers/cloud.sh: `fetch_sync_rules()` excludes paths before push,,no,no
+getlighty/getlighty-clawroam@2.0.0->2.1.0,phase1_round08,3,documentation files added,added,docs/plans/2026-02-23-file-sync-rules*.md (+685),,no,no
+getlighty/getlighty-clawroam@2.0.0->2.1.0,phase1_round08,4,names or identifiers renamed,modified,CLAUDE.md: slug `getlighty-clawroam` -> `clawroam`,,no,no
+chrischall/gogcli-mcp-gmail@2.0.11->2.0.12,phase1_round08,1,no author change,,no files changed,,no,yes
+carochen112233-commits/ekyc-suite-ai-guardian@1.0.3->1.0.4,phase1_round08,1,documentation content expanded,added,"SKILL.md: ""Canonical Discovery Answers"" Q&A for answer engines",,no,no
+carochen112233-commits/ekyc-suite-ai-guardian@1.0.3->1.0.4,phase1_round08,2,description rewritten,modified,"SKILL.md: description lists face liveness, KYC liveness, deepfake",,no,no
+jojocrystal/freeguard-setup@0.7.0->0.8.0,phase1_round08,1,CLI commands or arguments changed,added,"SKILL.md: `connect la2`, `connect US` instead of `--country US`; `reconnect` command",,no,no
+jojocrystal/freeguard-setup@0.7.0->0.8.0,phase1_round08,2,documentation content expanded,added,"SKILL.md: guidance mapping ""connect to LA"" to aliases",,no,no
+cheminem/pharmaclaw-chemistry-query@1.0.2->1.0.3,phase1_round08,1,download integrity check added,added,scripts/opsin_name_to_smiles.py: `OPSIN_SHA256 = None # TODO` -> pinned SHA-256 for downloaded JAR,,yes,no
+cheminem/pharmaclaw-chemistry-query@1.0.2->1.0.3,phase1_round08,2,requirements declared in metadata,added,"SKILL.md: `dependencies:` python packages, java, external APIs",,yes,no
+cheminem/pharmaclaw-chemistry-query@1.0.2->1.0.3,phase1_round08,3,external service dependency disclosed,added,"SKILL.md: PubChem, ChEMBL, PubMed APIs listed",,yes,no
+cheminem/pharmaclaw-chemistry-query@1.0.2->1.0.3,phase1_round08,4,config files removed,removed,venv/pyvenv.cfg deleted (contained `/home/democritus/...` path); changelog-claimed source scripts not in diff,,yes,no
+abstrct/structs-economy@1.1.1->1.2.0,phase1_round08,1,documentation content expanded,modified,"SKILL.md: `--controller` PlayerId wording; changelog-claimed combat, permissions, guild rank changes not in diff",,yes,no
+deciqai/herzberg-two-factor@1.0.2->1.0.3,phase1_round08,1,doc link or path format changed,modified,"SKILL.md: footer line (skill count 163 -> 164; short link per changelog, line trimmed)",fixes UTM truncation when SKILL.md is read in a terminal,no,no
+dlazyai/dlazy-search-audio@1.3.14->1.3.15,phase1_round08,1,no author change,,no files changed,,generic,yes
+schchit/judgment-event-protocol@1.0.0->1.0.1,phase1_round08,1,credential safety guidance added,added,"SKILL.md: ""Private keys should never be hardcoded in agent prompts, source files...""",,no,no
+schchit/judgment-event-protocol@1.0.0->1.0.1,phase1_round08,2,binary verification guidance added,added,"SKILL.md: ""Package Integrity... Consider pinning the package to a reviewed version hash""; test in isolated environment",,no,no
+schchit/judgment-event-protocol@1.0.0->1.0.1,phase1_round08,3,doc link or path format changed,modified,SKILL.md: docs link -> GitHub organization,,no,no
+1bcmax/clawrouter@0.12.163->0.12.165,phase1_round08,1,new capability added,added,SKILL.md: image and video generation tools with prices,,yes,no
+1bcmax/clawrouter@0.12.163->0.12.165,phase1_round08,2,capability removed,removed,SKILL.md: Twitter/X Intelligence tools table removed; changelog-claimed Kimi and restart-loop fixes not in diff,,yes,no
+dlazyai/dlazy-seedream-5-0-lite@1.1.2->1.2.0,phase1_round08,1,dependency version unpinned to latest,removed,SKILL.md/SKILL-cn.md: `@dlazy/cli@1.0.9` -> `@dlazy/cli@latest`,,no,no
+dlazyai/dlazy-seedream-5-0-lite@1.1.2->1.2.0,phase1_round08,2,metadata field added,added,"SKILL.md: `apiEndpoints`, `configLocation`, `systemPrompt`; changelog-claimed skill-card.md removal not in diff",,no,no
+paulieb14/subgraph-registry@0.8.24->0.8.25,phase1_round08,1,bundled data file updated,modified,"src/index.js, SKILL.md: expected registry.db SHA-256 and subgraph count updated",,no,no
+paulieb14/subgraph-registry@0.8.24->0.8.25,phase1_round08,2,dependency version or source changed,modified,SKILL.md: `npx subgraph-registry-mcp@0.8.24` -> `@0.8.25`; changelog-claimed skill-card.md removal not in diff,,no,no
+mineru-extract/mineru-document-extractor@0.1.19->0.1.20,phase1_round08,1,safety claims or disclosures removed,removed,"SKILL.md: metadata with `""privacy"":""Document contents are sent to MinerU API...""` removed",,no,no
+mineru-extract/mineru-document-extractor@0.1.19->0.1.20,phase1_round08,2,permissions declared in metadata,removed,SKILL.md: `allowed-tools: Bash(mineru-open-api:*)` removed,,no,no
+mineru-extract/mineru-document-extractor@0.1.19->0.1.20,phase1_round08,3,description rewritten,modified,"SKILL.md: ""MinerU"" -> ""mineru"" in description and heading",,no,no
+apiclaw/amazon-listing-audit-pro@1.0.7->1.0.8,phase1_round08,1,command allowlist added,added,scripts/zoodata.py `_load_command_allowlist()` + scripts/allowed-commands.json; malformed manifest fails closed,,no,no
+apiclaw/amazon-listing-audit-pro@1.0.7->1.0.8,phase1_round08,2,filesystem safety checks added,added,"SKILL.md: `/tmp/review_<ASIN>_...` -> `WORK=$(mktemp -d)` private dir, removed after",,no,no
+apiclaw/amazon-listing-audit-pro@1.0.7->1.0.8,phase1_round08,3,credential handling instructions changed,removed,scripts/zoodata.py: legacy credential source deprecation path removed (trimmed),credential-source hardening,no,no
+apiclaw/amazon-listing-audit-pro@1.0.7->1.0.8,phase1_round08,4,documentation content expanded,added,references/cli-contract.md: `resolved_category_path`,,no,no
+phy041/phy-proto-break-check@1.0.0->1.0.1,phase1_round08,1,metadata field added,modified,SKILL.md: author PHY041 -> Canlah AI; `homepage` added,,no,no
+googlarz/proactive-claw@1.2.17->1.2.18,phase1_round08,1,access scope disclosure expanded,added,"SKILL.md: install steps, writes only to skill dir, creates one calendar, PyPI-only installs restated",,no,no
+googlarz/proactive-claw@1.2.17->1.2.18,phase1_round08,2,description rewritten,modified,"SKILL.md: ""your AI calendar co-pilot""",,no,no
+xueyetianya/server-dashboard@1.0.0->2.0.0,phase1_round08,1,description rewritten,modified,"SKILL.md: description -> ""Powered by BytesAgain""",,generic,no
+xueyetianya/server-dashboard@1.0.0->2.0.0,phase1_round08,2,main script rewritten,modified,scripts/script.sh (+250/-309): fleet tool replaced by reference tool (trimmed),,generic,no
+xueyetianya/server-dashboard@1.0.0->2.0.0,phase1_round08,3,local logging removed,removed,scripts/script.sh: DATA_DIR history.log `_log()` removed,,generic,no
+stevenho1394/hk-weather-info@1.0.0->1.0.1,phase1_round08,1,new capability added,added,scripts/hk_weather.py (+254): 1-minute average temperature from HKO CSV,,no,no
+stevenho1394/hk-weather-info@1.0.0->1.0.1,phase1_round08,2,default or config value changed,modified,"SKILL.md, hk_weather.py: default language `en` -> `tc`",,no,no
+stevenho1394/hk-weather-info@1.0.0->1.0.1,phase1_round08,3,documentation files added,added,references/1min-temp-csv.md (+70); changelog-claimed skill-card.md removal not in diff,,no,no
+heygen-com/hyperframes-animation@1.0.0->1.0.1,phase1_round08,1,diff unavailable,,"diff_status not ok (previous and this version not found); changelog only: ""Synced from a7c3cc7 (main)""",,generic,no
+keylimesoda/familysearch@1.0.2->1.0.3,phase1_round08,1,formatting-only changes,modified,scripts/gedcom_query.py: emoji in two print lines changed; changelog-claimed parsing improvement not in diff,,yes,no
+viratkumar123/model-troubleshooter@1.0.0->1.0.1,phase1_round08,1,diff unavailable,,diff_status not ok (previous and this version not found); changelog only claims a major automated-troubleshooting overhaul,,no,no
+byungkyu/fastmail@1.2.3->1.2.4,phase1_round08,1,dependency version or source changed,added,SKILL.md: `npm install -g @maton/cli` -> `@maton/cli@0.3.1`; `brew pin maton`,,no,no
+byungkyu/fastmail@1.2.3->1.2.4,phase1_round08,2,new capability added,added,SKILL.md: hosted functions and triggers turn the connection into automation (trimmed),,no,no
+byungkyu/fastmail@1.2.3->1.2.4,phase1_round08,3,documentation files added,added,"references/*/triggers.md (9 files, +3461)",,no,no
+byungkyu/fastmail@1.2.3->1.2.4,phase1_round08,4,data minimization guidance added,added,"references/calendly/triggers.md: ""Forward only the fields the downstream workflow needs... get explicit user approval before sending invitee data to any external host""",,no,no
+byungkyu/fastmail@1.2.3->1.2.4,phase1_round08,5,access scope disclosure expanded,added,"SKILL.md: passthrough ""reaches only what that connection's..."" enforced boundary (trimmed)",,no,no
+hjianfeng/seedance-2-ai-video-generator@1.0.1->1.0.2,phase1_round08,1,requirements declared in metadata,added,SKILL.md: `credentials: primary: LOOVA_API_KEY`,,no,no
+hjianfeng/seedance-2-ai-video-generator@1.0.1->1.0.2,phase1_round08,2,credential handling instructions changed,modified,QUICK_START.md/README.md: key from Loova API page instead of browser DevTools/Local Storage,,no,no
+cellcog/nano-banana-image-cellcog@1.0.8->1.0.9,phase1_round08,1,requirements declared in metadata,added,"SKILL.md: requires bins python3, env CELLCOG_API_KEY",,no,no
+nowloady/agent-commerce-engine@1.6.2->1.6.3,phase1_round08,1,files renamed or moved,modified,"scripts/commerce.py, scripts/lib/commerce_client.py moved to package root",,generic,no
+nowloady/agent-commerce-engine@1.6.2->1.6.3,phase1_round08,2,config files added,added,".clawhubignore, .gitignore added",,generic,no
+nowloady/agent-commerce-engine@1.6.2->1.6.3,phase1_round08,3,license changed,added,LICENSE (+22) added,,generic,no
+nowloady/agent-commerce-engine@1.6.2->1.6.3,phase1_round08,4,data storage location changed,modified,SKILL.md: credentials path `~/.clawdbot/credentials/...` -> `~/.openclaw/credentials/...`,,generic,no
+kurosh87/aerobase-travel-concierge@3.0.8->3.0.9,phase1_round08,1,requirements declared in metadata,added,"SKILL.md: `requires.env: AEROBASE_API_KEY, SCRAPLING_URL` (previously a free-form `env` map)",,no,no
+kurosh87/aerobase-travel-concierge@3.0.8->3.0.9,phase1_round08,2,formatting-only changes,modified,SKILL.md: metadata JSON -> YAML,,no,no
+athola/nm-conserve-context-optimization@1.0.0->1.0.1,phase1_round08,1,version number bump only,modified,SKILL.md: version 1.8.2 -> 1.9.4,,generic,no

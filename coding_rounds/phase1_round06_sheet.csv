@@ -1,0 +1,184 @@
+﻿"pair_id","skill_slug","prev_version","version","changelog_source","changelog_text","coder1_code","coder2_code","agreed_code","notes"
+"barbaraledbettergq/blog-image-claw-skill@1.2.0->1.3.0","barbaraledbettergq/blog-image-claw-skill","1.2.0","1.3.0","auto","- No user-facing changes or new features in this version.
+- Internal updates only; documentation remains unchanged.","","","",""
+"hmyaoyuan/anima@1.0.2->1.1.0","hmyaoyuan/anima","1.0.2","1.1.0","user","Replace canvas with sharp (N-API, no ABI issues). Add comprehensive external dependency docs (Fish Audio, Nano Banana, Feishu). Clean up self-heal workarounds.","","","",""
+"dlazyai/dlazy-qwen-audio-clone@1.3.4->1.3.5","dlazyai/dlazy-qwen-audio-clone","1.3.4","1.3.5","user","Restore Chinese display name","","","",""
+"capuzr/moltbank@0.1.1->0.1.2","capuzr/moltbank","0.1.1","0.1.2","user","Version 0.1.2
+
+- Added explicit install instructions and metadata for the `@moltbankhq/cli` npm package.
+- Moved the skill homepage URL under `metadata.openclaw.homepage` and updated metadata structure.
+- Clarified installation expectations and boundaries in documentation.
+- No changes to functional behavior or CLI workflows.","","","",""
+"oomol/oo-files-com@1.0.0->1.0.1","oomol/oo-files-com","1.0.0","1.0.1","user","- Provides Files.com access through the OOMOL `files_com` connector using the `oo` CLI.
+- Supports folder listing, file/folder metadata lookup, and file download workflows.
+- Adds write actions for creating folders and updating custom metadata.
+- Includes destructive file/folder deletion with explicit approval guidance.
+- Documents schema-first action usage and first-time setup recovery for auth, connection, and billing errors.
+
+Source: `oomol-lab/skills@3e4b3ff`","","","",""
+"peteremiljensen/goodwallet@1.4.3->1.5.3","peteremiljensen/goodwallet","1.4.3","1.5.3","user","- Deprecated advanced references and detailed command docs, simplifying available instructions.
+- Updated description: now covers EVM, Solana, Bitcoin, Doge, XRP; includes wallet, trading, betting, and DeFi yield features.
+- Replaced detailed CLI flags and command docs with: ""Run npx goodwallet@^0.5 --help for all commands, flags, chains, and usage.""
+- Added and clarified rules: always summarize in plain language, confirm before executing actions that move funds/expose risk, never fabricate data, and inspect before proposing state changes.
+- Adjusted authentication, signing safety procedures, and error recovery steps for improved clarity and user protection.","","","",""
+"pondsi/infinitycontext@1.6.4->1.6.5","pondsi/infinitycontext","1.6.4","1.6.5","user","Reviewer-driven hardening. T09-1: all four ingestion limits are validated to 1..hard ceiling in the CLI and in read_messages(), so a negative byte limit can no longer reach file.read(-1) and an oversized value can no longer exceed the documented cap. T09-2: secure_fs now checks every existing path component (not just the parent) with islink and compares each component with its resolved path, which also catches Windows directory junctions.","","","",""
+"marcindudekdev/wp-multi-tool@1.4.1->1.5.1","marcindudekdev/wp-multi-tool","1.4.1","1.5.1","auto","- Removed the skill-card.md file, cleaning up unused documentation.
+- No functionality or behavior changes in this version.
+- All site diagnostics and plugin usage guidelines remain unchanged.","","","",""
+"iret77/palaia@2.0.11->2.0.12","iret77/palaia","2.0.11","2.0.12","user","v2.0.11 content: Plugin-bundled SKILL.md, official install prompt in README, embed-server fix","","","",""
+"oomol/oo-indiegogo@1.0.0->1.0.2","oomol/oo-indiegogo","1.0.0","1.0.2","user","- Provides OOMOL-backed access to Indiegogo through the `oo` CLI, without handling raw credentials.
+- Supports reading public Indiegogo creator details by URL name.
+- Supports fetching public crowdfunding project details by URL name.
+- Supports listing active crowdfunding projects ordered by campaign start date.
+- Documents the schema-first workflow for running connector actions safely and correctly.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"athola/nm-archetypes-architecture-paradigm-hexagonal@1.8.2->1.8.3","athola/nm-archetypes-architecture-paradigm-hexagonal","1.8.2","1.8.3","user","Release v1.8.3","","","",""
+"searchworld/okx-sentiment-tracker@1.3.9->1.4.0","searchworld/okx-sentiment-tracker","1.3.9","1.4.0","user","**Summary:**  
+Expanded command mapping, new usage examples, and clarified demo mode handling for more accurate news, sentiment, and macro-data queries.
+
+- Greatly expanded user intent and command mapping tables for news, sentiment, and macro data.
+- Added Quickstart section with precise example commands for typical use cases.
+- Clarified that the skill is strictly read-only and now documents demo mode limitations with specific troubleshooting instructions.
+- Explained required arguments and time window logic for economic calendar queries with warnings and best practices.
+- Updated prerequisites and install steps with the latest CLI version.","","","",""
+"oomol/oo-accredible-certificates@1.0.1->1.0.3","oomol/oo-accredible-certificates","1.0.1","1.0.3","user","- Operates Accredible Certificates through an OOMOL-connected account using the `oo` CLI.
+- Supports credential lifecycle actions: create, retrieve, list, search, and delete credentials.
+- Supports credential group discovery with get, list, and search actions.
+- Requires live schema inspection before running actions to ensure payloads match connector contracts.
+- Includes safety guidance for write and destructive actions, requiring confirmation before changes.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"tylerdotai/permission-vending-machine@1.0.4->1.1.0","tylerdotai/permission-vending-machine","1.0.4","1.1.0","auto","- Added setup wizard module to assist with initial configuration.
+- Updated CLI and documentation to reflect new setup process.
+- Upgraded dependencies in pyproject.toml.
+- Improved onboarding experience for new users.","","","",""
+"chriscox/docs-sync@1.0.2->1.0.3","chriscox/docs-sync","1.0.2","1.0.3","auto","docs-sync 1.0.3
+
+- No file changes detected in this release.
+- No updates to documentation or implementation since the previous version.","","","",""
+"shivamanupadi/otterkit-tunnel@1.2.0->1.2.1","shivamanupadi/otterkit-tunnel","1.2.0","1.2.1","user","Remove --standby flag (endpoints are server-answered by default now); document --email inboxes.","","","",""
+"leoyeai/myclaw-backup@1.6.2->1.7.0","leoyeai/myclaw-backup","1.6.2","1.7.0","user","Post-restore report: after restore.sh completes, writes .restore-complete.json flag. On next heartbeat Agent detects it, sends restore report to user in their own language (read from USER.md), then deletes the flag (one-shot). Report includes backup name, agent name, restore time, and contents list.","","","",""
+"xueyetianya/bash-themes@1.0.4->1.0.5","xueyetianya/bash-themes","1.0.4","1.0.5","user","yaml-fix+quality","","","",""
+"chrischall/gemini-mcp@2.1.0->2.1.1","chrischall/gemini-mcp","2.1.0","2.1.1","auto","- Removed the sample skill-card.md file.
+- No changes to functionality or user-facing features.","","","",""
+"kooui/aesthetic-scorer@1.4.5->1.4.6","kooui/aesthetic-scorer","1.4.5","1.4.6","user","**Dynamic scoring now adapts to photo controversy and score divergence for fairer, smarter analysis.**
+
+- Introduced dynamic weighting: aesthetic and technical scores blend adaptively based on NIMA score standard deviation (spread/controversy).
+- NIMA’s technical assessment receives less influence when the community is divided; content-based aesthetic scoring takes precedence.
+- Added divergence penalty: if aesthetic and technical scores differ by ≥2.0, the final score is gently reduced for reliability.
+- Updated documentation to reflect new weighting formula, clearer logic, and output examples.
+- Error fallback, detail level logic, and user interaction workflow remain unchanged.","","","",""
+"oomol/oo-hub-planner@1.0.0->1.0.2","oomol/oo-hub-planner","1.0.0","1.0.2","user","- Operates Resource Flow (Hub Planner) through the OOMOL-connected `oo` CLI.
+- Supports creating, retrieving, and listing Hub Planner projects and resources.
+- Inspects live action schemas before constructing JSON payloads.
+- Distinguishes read operations from state-changing actions and requires confirmation before writes.
+- Includes fallback guidance for CLI installation, authentication, connection issues, and billing errors.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"hexavi8/smart-learner@1.0.0->1.0.1","hexavi8/smart-learner","1.0.0","1.0.1","user","smart-learner 1.0.1 — Minor update
+
+- Clarified the file access scope and added explicit file read/write permissions for `smart-learner` directories.
+- Noted that trigger activation now uses semantic intent across all languages, not just English keywords.
+- Adjusted description for accuracy: review scheduling now senses knowledge growth only during active learning.
+- Added a link to the skill homepage.
+- Removed reference to reading user background from OpenClaw config during initialization.","","","",""
+"ckchzh/bookshelf@1.0.0->1.0.1","ckchzh/bookshelf","1.0.0","1.0.1","user","Quality fix: cleaner docs, removed flags","","","",""
+"salomonhenao/veritier-fact-checking@2.1.1->2.1.2","salomonhenao/veritier-fact-checking","2.1.1","2.1.2","user","- Added support for two optional environment variables: VERITIER_TEST_KEY (test key, never used in production) and VERITIER_WEBHOOK_SECRET (webhook payload signing).
+- Updated metadata to describe these optional environment variables and clarify their usage and security.
+- No functional or API changes.","","","",""
+"samledger67-dotcom/kpi-alert-system@99.0.1->98.0.0","samledger67-dotcom/kpi-alert-system","99.0.1","98.0.0","user","probe","","","",""
+"ericsantos/messaging@0.14.2->0.14.3","ericsantos/messaging","0.14.2","0.14.3","user","Updated error catalog (code_expired, code_already_claimed), creator contract & agent ID docs, pairing flow clarifications","","","",""
+"endgegnerbert-tech/muninn@2.3.1->2.3.7","endgegnerbert-tech/muninn","2.3.1","2.3.7","user","Critical fixes for memory indexing (amnesia), macOS binaries, root-start crashes, and massive indexing performance boost.","","","",""
+"chrischall/zola-mcp@1.4.2->1.4.3","chrischall/zola-mcp","1.4.2","1.4.3","auto","- Removed the skill-card.md file.
+- No user-facing or functional changes to the skill content.","","","",""
+"coolhackboy/poyo-seedream-4-5@1.0.0->1.0.1","coolhackboy/poyo-seedream-4-5","1.0.0","1.0.1","user","Strengthen PoYo links","","","",""
+"vishalgojha/india-location-normalizer@1.0.0->1.0.1","vishalgojha/india-location-normalizer","1.0.0","1.0.1","user","Expanded Mumbai alias map with Scruz Khar Turner Road and related localities","","","",""
+"earlvanze/oauth-coder-bridge@1.0.0->1.1.0","earlvanze/oauth-coder-bridge","1.0.0","1.1.0","user","Hardened v1.1: rate limiting, request size limits, JSON depth validation, input sanitization, threaded server, signal handling, structured logging, /health, /ready, /metrics endpoints","","","",""
+"kirbyingithub/hiq-cortex@1.2.3->1.2.4","kirbyingithub/hiq-cortex","1.2.3","1.2.4","user","Update dataset count to 600,000+","","","",""
+"whooshinglander/feelslikeclaude@1.0.0->1.0.1","whooshinglander/feelslikeclaude","1.0.0","1.0.1","user","- Clarified usage recommendations for best results (thinking: high, output length: medium).
+- Specified that the skill adjusts behavior and tone but does not change runtime/provider settings.
+- Added guidance for defaulting to full end-to-end delivery (local edit, GitHub update, live update) for published items, unless the user requests otherwise.
+- Expanded working style to cover confirmation of live delivery for published skills, tools, or sites.
+- No changes to code files; documentation update only.","","","",""
+"dtsola/xiaoyaoclaw-beautify-github-readme@1.0.5->1.0.6","dtsola/xiaoyaoclaw-beautify-github-readme","1.0.5","1.0.6","user","Remove showcase PR workflow (references/showcase-contribution.md) and agents/openai.yaml; attribution passive-only; no fork/branch/PR capability documented","","","",""
+"silbosu/vdoob@1.3.5->2.0.0","silbosu/vdoob","1.3.5","2.0.0","auto","vdoob Skill version 2.0.0 introduces a major update with a new format and auto-registration script.
+
+- Overhauled SKILL.md to a TOML/script hybrid format with cleaner configuration and settings.
+- Added detailed script for automatic agent registration, configuration, and local storage management.
+- Clarified the agent’s core principle: answers are based on YOUR thinking patterns, not generic AI.
+- Updated and streamlined all environment variables and operational intervals.
+- Enhanced privacy explanations: all thinking patterns are stored locally.
+- Old feature lists, API tables, and user guides were removed; focus is now on minimal setup and auto-function.","","","",""
+"simmer/polymarket-elon-tweets@1.3.2->1.3.3","simmer/polymarket-elon-tweets","1.3.2","1.3.3","auto","Version 1.3.3
+
+- Updated version metadata to 1.3.3 in skill manifest.
+- No user-facing functional changes in code or documentation.","","","",""
+"harry5556/chainstream-defi@1.1.6->1.1.7","harry5556/chainstream-defi","1.1.6","1.1.7","auto","chainstream-defi v1.1.7
+
+- Updated authentication guide and integration paths for wallet and API key usage.
+- Clarified wallet requirements for destructive DeFi actions, including CLI, MCP, and SDK scenarios.
+- Improved instructions on x402-payment authentication.
+- Expanded documentation on operation safety, with updated links and clearer prerequisites.
+- Minor corrections for consistency across CLI, MCP, and SDK flows.","","","",""
+"jaredforreal/glm-image-gen@1.0.3->1.0.4","jaredforreal/glm-image-gen","1.0.3","1.0.4","user","- No user-facing changes or file modifications in this version.
+- Confirmed stability: no updates or new features added.","","","",""
+"aaron-he-zhu/message-house-builder@17.0.0->18.0.0","aaron-he-zhu/message-house-builder","17.0.0","18.0.0","auto","- Updated version to 18.0.0 with metadata and documentation adjustments.
+- Changed the path in a key reference: content-writer location updated from seo-geo/build to seo-geo/implement.
+- Removed the skill-card.md file.
+- No changes to functionality or contract; documentation and structural updates only.","","","",""
+"nickflach/kannaka-memory@1.1.0->1.1.1","nickflach/kannaka-memory","1.1.0","1.1.1","auto","- Added new required binaries: classify (SGA classification) and cross-modal-dream (cross-modal dream pipeline).
+- Introduced optional environment variables: RADIO_PORT and EYE_PORT, supporting constellation mode.
+- Updated install guidance to recommend a full-featured build with audio, glyph, and collective features for constellation.sh.
+- Documented integration with constellation.sh (constellation orchestration), including a new data destination for unified service management.
+- Expanded metadata to clarify binary, feature, and orchestration/tuning options.","","","",""
+"dnsdoctor/dns-doctor@1.7.1->1.7.2","dnsdoctor/dns-doctor","1.7.1","1.7.2","user","Description names bulk scanning and the pay-per-call (x402) lane; new 'past the free limit' section; DMARC enforcement step corrected (a scan tops out at p=quarantine; p=reject needs aggregate-report evidence).","","","",""
+"ijaack/evalanche@1.7.6->1.7.7","ijaack/evalanche","1.7.6","1.7.7","user","# Evalanche 1.7.7
+
+## Summary
+
+This release hardens Polymarket sell execution so agents do not silently route into unsafe dust-floor fills.
+
+## Highlights
+
+- `pm_sell` now performs a slippage check against visible bid-side liquidity before execution
+- immediate sells are submitted as protected `FAK` limit orders instead of unbounded market sells
+- Polymarket CLOB auth fallback now uses fresh nonces per derive/create attempt
+- `pm_limit_sell` now respects `postOnly: false` instead of always forcing a resting order
+- regression tests were added for auth nonce handling, protected sells, and `pm_limit_sell` execution semantics
+
+## Validation
+
+- `npm run test -- test/polymarket/client-extended.test.ts`
+- `npm run test -- test/polymarket/client.test.ts`
+- `npm run typecheck`
+- `npm run build`
+
+## Notes for Maintainers
+
+- `pm_sell` now fails fast when visible liquidity would breach the configured slippage bound
+- `pm_limit_sell` remains the explicit tool for posting a resting sell order on the book","","","",""
+"xueyetianya/orders@3.4.0->3.4.1","xueyetianya/orders","3.4.0","3.4.1","user","v2.5 standard: Use-when desc, homepage, source, security fix","","","",""
+"baofeng-tech/aisa-twitter-post-engage@1.0.2->1.0.3","baofeng-tech/aisa-twitter-post-engage","1.0.2","1.0.3","auto","Version 1.0.3 – Expanded capabilities and clearer workflow
+
+- Added support for searching X/Twitter profiles, tweets, and trends in addition to posting and engagement.
+- Separated clients for reading, posting, and engagement actions with updated references and command examples.
+- Revised documentation to clarify supported workflows, environment requirements, and relay-based network operations.
+- Updated guardrails: reinforced not to request credentials or local secrets and ensured explicit OAuth approval for any write or engagement action.
+- Improved guidance for common workflows and client usage with explicit setup and capability sections.","","","",""
+"andreasnlarsen/whoop-cli@0.1.3->0.1.4","andreasnlarsen/whoop-cli","0.1.3","0.1.4","user","Update listing description to highlight agent-friendly CLI workflow and reduced raw-API plumbing.","","","",""
+"oomol/oo-crisp@1.0.0->1.0.1","oomol/oo-crisp","1.0.0","1.0.1","user","- Provides OOMOL-backed access to Crisp without handling raw API tokens.
+- Supports reading Crisp website, conversations, conversation details, and messages.
+- Adds `send_text_message` for operator replies to Crisp conversations.
+- Requires live schema inspection before running actions to ensure valid payloads.
+- Defines clear safety rules for read, write, and destructive actions.
+
+Source: `oomol-lab/skills@d4aeb09`","","","",""
+"qryma888/qryma-search@1.1.6->1.1.7","qryma888/qryma-search","1.1.6","1.1.7","user","Version 1.1.7
+
+- Streamlined authentication instructions by combining English and Chinese sections into a bilingual code block.
+- No changes to functionality or code; documentation update only.
+- SKILL usage and options remain unchanged.","","","",""
+"atomicmail/atomicmail@0.3.12->0.3.13","atomicmail/atomicmail","0.3.12","0.3.13","user","Release 0.3.13","","","",""
+"ckchzh/azuredatastudio@2.3.3->2.3.4","ckchzh/azuredatastudio","2.3.3","2.3.4","user","Quality upgrade","","","",""
+"lucioliu/relic-soul-chip@0.1.4->0.1.5","lucioliu/relic-soul-chip","0.1.4","0.1.5","user","Anchor now points to PROTOCOL.md (never drifts). SOUL/USER allow agent self-evolution. Added Skills & Projects bidirectional sync in boot sequence.","","","",""

@@ -1,0 +1,140 @@
+﻿"pair_id","skill_slug","prev_version","version","changelog_source","changelog_text","coder1_code","coder2_code","agreed_code","notes"
+"oomol/oo-callrail@1.0.0->1.0.2","oomol/oo-callrail","1.0.0","1.0.2","user","- Operates CallRail through an OOMOL-connected account using the `oo` CLI, without exposing raw API tokens.
+- Supports read-only account discovery with `list_accounts`.
+- Retrieves CallRail calls and form submissions by account and record ID.
+- Lists calls with optional company, tracker, date, and field filters.
+- Lists companies and form submissions with optional company, date, and field filters.
+- Includes setup and safety guidance for authentication, connection, billing, and schema inspection.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"talkstream/ru-text@1.6.0->1.8.0","talkstream/ru-text","1.6.0","1.8.0","auto","ru-text 1.8.0 — Path and reference updates, file cleanup
+
+- Reference file paths updated to be relative (e.g. references/*.md), simplifying future integrations.
+- External plugin variables removed from links; now directly reference local files.
+- One file removed (skill-card.md) for clarity and consolidation.
+- Minor checklist and formatting improvements in SKILL.md.
+- No edits to rules or content logic; organizational and infrastructure changes only.","","","",""
+"dylanfeltus/gui-new@1.0.0->1.0.1","dylanfeltus/gui-new","1.0.0","1.0.1","user","Add security note about data sent to external service. Clarify API key is optional.","","","",""
+"gilesdawe/tokei-agent@0.3.1->0.3.2","gilesdawe/tokei-agent","0.3.1","0.3.2","auto","- Added new referrals:top command to fetch top referrers for a campaign.
+- Updated documentation and examples to include the new referrals:top command and its JSON output structure.
+- Clarified and expanded README and SKILL.md, including notes about output envelope and updated command coverage.
+- Removed deprecated skill-card.md file.
+- General maintenance updates across code and tests.","","","",""
+"waydelyle/swarmdock@2.5.3->2.6.0","waydelyle/swarmdock","2.5.3","2.6.0","user","Add swarmdock-mcp MCP server integration: stdio + streamable-http transports, full marketplace tool surface, keygen CLI. See github.com/swarmclawai/swarmdock-mcp and swarmdock.ai/docs/mcp.","","","",""
+"loonghao/fpt-cli@1.0.1->1.0.2","loonghao/fpt-cli","1.0.1","1.0.2","auto","- Documentation updated: The ""references/install-and-auth.md"" file was modified.
+- No logic, workflow, or behavioral changes—this is a documentation-only update.","","","",""
+"wjllance/standx-cli@0.4.7->0.4.8","wjllance/standx-cli","0.4.7","0.4.8","user","Fix display name from 'Clawhub Publish' to 'StandX CLI'","","","",""
+"shalinda-j/llmcom-token-optimizer@1.0.0->1.0.1","shalinda-j/llmcom-token-optimizer","1.0.0","1.0.1","user","Fixed: Complete standalone package, no external dependencies","","","",""
+"raydoomed/daily-introspection@1.0.2->1.0.3","raydoomed/daily-introspection","1.0.2","1.0.3","user","No user-facing or internal changes in this version.
+
+- Version bump to 1.0.3 with no file or documentation modifications detected.","","","",""
+"ciklopentan/ai-orchestrator@3.3.1->3.3.2","ciklopentan/ai-orchestrator","3.3.1","3.3.2","user","Public-lite packaging for DeepSeek session helper.","","","",""
+"piccolo123/url-manager@1.0.3->2.0.1","piccolo123/url-manager","1.0.3","2.0.1","user","Remove MCP reference, update to v2.0.1 — pure skill, no MCP mention","","","",""
+"justoneapi/justoneapi-douyin-ec@1.0.0->1.0.1","justoneapi/justoneapi-douyin-ec","1.0.0","1.0.1","auto","- Updated authentication and documentation links in the Environment section for improved tracking and guidance.
+- No functional or operational changes to the skill or its API usage.","","","",""
+"sfkislev/flue@1.0.9->1.0.10","sfkislev/flue","1.0.9","1.0.10","user","- SKILL.md reformatted to use metadata (YAML front matter) for name and description.
+- Section headings and bullet points replaced with plain text and lists for improved readability and brevity.
+- No functional or behavioral changes; documentation clarity improvements only.","","","",""
+"marcelo-rowship/rwagenthub@1.5.8->1.5.9","marcelo-rowship/rwagenthub","1.5.8","1.5.9","auto","- Pin SDK installation commands to `rwagenthub-sdk@1.0.2` for improved reliability.
+- Update setup instructions and pre-call install check to use the explicit SDK version.
+- No changes to available API endpoints or list of features.","","","",""
+"simonvanlaak/kanban-workflow@0.1.9->0.1.10","simonvanlaak/kanban-workflow","0.1.9","0.1.10","user","Docs/security: clarify adapter-managed auth; wrappers may call HTTPS APIs using env API keys (e.g. Linear).","","","",""
+"googleworkspace-bot/recipe-create-feedback-form@1.0.0->1.0.1","googleworkspace-bot/recipe-create-feedback-form","1.0.0","1.0.1","auto","- Updated formatting in the SKILL.md metadata for consistency.
+- Changed list formatting under 'requires' to YAML list style.
+- No changes to functionality or usage.","","","",""
+"djc00p/rails-ci-fixer@1.1.4->1.2.0","djc00p/rails-ci-fixer","1.1.4","1.2.0","user","Security: add human approval gate before all commits — agent fixes and verifies locally, then pauses for approval. Removed 'without human intervention' language. New hard rule: NEVER auto-commit without human approval.","","","",""
+"pruna-ai/pruna@1.0.12->1.0.13","pruna-ai/pruna","1.0.12","1.0.13","auto","- Added new dependency: p-video-2-pro (for cinematic clip generation).
+- Updated dependencies list and tool descriptions to include p-video-2-pro and clarify roles for p-video-2 and p-video.
+- Bumped version to 1.0.13.
+- Removed the file: skill-card.md.","","","",""
+"wxt-ai/export-confirmation-style-workbench@1.0.0->1.0.2","wxt-ai/export-confirmation-style-workbench","1.0.0","1.0.2","user","Initial formal paired-probe measurement artifact.","","","",""
+"notasign/notasign@1.0.0->1.0.1","notasign/notasign","1.0.0","1.0.1","user","- Expanded skill description and usage instructions for broader scenarios, including sending files, credentials setup, environment switching (PROD/UAT), and attachment handling.
+- Enforced file type and size validation (accepts doc, docx, pdf, xls, xlsx, bmp, png, jpg, jpeg; size ≤ 100MB).
+- Added detailed credential management: requires new credentials for each environment, does not reuse between PROD/UAT.
+- Clear user-facing prompts for missing info; improved handling of uploaded files and signer details.
+- Runtime fallback now temporarily installs node@20 if local Node.js is below 18, ensuring compatibility.
+- Enhanced error reporting and summary responses on envelope send.","","","",""
+"parinll/openweather-cli@1.1.2->1.1.3","parinll/openweather-cli","1.1.2","1.1.3","user","Use requires.bins (not binaries) for go toolchain declaration so registry parses required binaries correctly.","","","",""
+"terrycarter1985/financial-report-automator@1.1.1->1.2.0","terrycarter1985/financial-report-automator","1.1.1","1.2.0","user","Fix dividend-adjusted total return: normalize CSV column names, compute adjusted close for dividend-paying stocks, separate price_return vs total_return in quarterly reports","","","",""
+"evanfoglia/wikipedia@1.1.0->1.0.2","evanfoglia/wikipedia","1.1.0","1.0.2","auto","- Removed LICENSE, README.md, and tests/test_server.py files.
+- No functional changes to the Wikipedia skill; documentation and test code have been cleaned up.","","","",""
+"bytesagain-lab/arbitrage-finder@2.0.1->3.0.0","bytesagain-lab/arbitrage-finder","2.0.1","3.0.0","user","Clean package","","","",""
+"okki-op/okki-go@1.3.3->1.3.4","okki-op/okki-go","1.3.3","1.3.4","auto","- Clarified and expanded the description for clearer guidance on appropriate use cases.
+- Updated terminology in SKILL.md and references for greater consistency, now using ""unlock selected companies"" instead of ""unlock, contact search"".
+- Improved explanations around paid actions, emphasizing confirmation steps before unlocks or email sends.
+- Adjusted mode routing table and documentation for improved clarity and readability.
+- Removed the skill-card.md file to reduce redundancy.
+- Other minor documentation and script clarifications.","","","",""
+"dennisrongo/write-a-skill@1.0.1->1.0.2","dennisrongo/write-a-skill","1.0.1","1.0.2","user","Release v0.17.0","","","",""
+"luiscosio/agentmetal@0.2.0->0.3.0","luiscosio/agentmetal","0.2.0","0.3.0","user","Update to 0.3.0 — aligns with @agentmetal/mcp 0.3.2 and the current API (provision, SSH exec, firewall, managed keys).","","","",""
+"senazeng/prism-gen-demo@1.3.0->2.0.1","senazeng/prism-gen-demo","1.3.0","2.0.1","user","Version 2.0.1
+
+Major refactoring: Removed all Bash scripts, shell dependencies, and legacy pipeline code. Reimplemented the core as a fully self-contained, secure Python analysis suite.
+
+- All analysis functions are now Python scripts (retrieve, filter, sort, merge, score, plot, summary) under scripts/
+- Data analysis is entirely offline and read-only; all required CSV data is bundled in data/
+- No shell/bash scripting, subprocess calls, or hardcoded paths—pure Python throughout
+- No network activity, no API keys, no credential handling; outputs are written only to specified paths
+- Visualization (plotting) is now Python/matplotlib-based (optional)
+- Security and portability improved: greatly reduced codebase (51 files removed, 10 added), modernized architecture","","","",""
+"oomol/oo-revenuecat@1.0.0->1.0.2","oomol/oo-revenuecat","1.0.0","1.0.2","user","- Added RevenueCat integration through the OOMOL `oo` CLI.
+- Supports retrieving customers, subscriptions, entitlements, offerings, products, and projects.
+- Provides overview and date-range revenue metrics.
+- Supports searching subscriptions by store subscription identifiers.
+- Uses live action schemas and server-side credential injection for safer requests.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"diagnostikon/polymarket-legal-regulatory-trader@1.0.3->0.0.2","diagnostikon/polymarket-legal-regulatory-trader","1.0.3","0.0.2","user","fix: add _client.live=True so --live actually routes to polymarket-venue for real USDC trades","","","",""
+"lbtsm/mapulse-korea@1.0.0->1.0.1","lbtsm/mapulse-korea","1.0.0","1.0.1","user","- Environment variable TELEGRAM_BOT_TOKEN is now optional; if not set, Telegram features are disabled.
+- Added Korean language details and feature explanation to the documentation, emphasizing interpretation and risk assessment features.
+- No changes to core functionality or code. Documentation update only.","","","",""
+"liangmoyuttc/moltoffer-candidate@1.0.2->1.0.3","liangmoyuttc/moltoffer-candidate","1.0.2","1.0.3","auto","moltoffer-candidate 1.0.3
+
+- Added local credentials storage via credentials.local.json for persistent API key management.
+- Introduced persona.md for defining candidate persona and search keywords.
+- Improved onboarding documentation and clarified security rules around API key usage.
+- Minor workflow and user guidance instructions moved to supporting files.","","","",""
+"zbc0315/retrospect@1.1.0->1.2.0","zbc0315/retrospect","1.1.0","1.2.0","user","Restructure as Claude Code plugin with marketplace support","","","",""
+"apiguru-app/apiguru-amazon-data@1.1.27->1.1.28","apiguru-app/apiguru-amazon-data","1.1.27","1.1.28","user","Release 1.1.28 (see GitHub)","","","",""
+"nextaltair/soul-in-sapphire@0.1.2->0.1.3","nextaltair/soul-in-sapphire","0.1.2","0.1.3","auto","soul-in-sapphire 0.1.3
+
+- Added scripts/bootstrap_config.py for configuration bootstrapping.
+- Added scripts/ltm_search.py to enable memory search from the command line.","","","",""
+"yequanzheng/fdksafs3@1.0.0->1.0.1","yequanzheng/fdksafs3","1.0.0","1.0.1","auto","- Updated SKILL.md with a minor change to the ""githubdescription"" field.
+- Removed unnecessary files: _meta.json and skill.md.
+- Added SKILL.md as the documentation file for the skill.","","","",""
+"athola/nm-tome-code-search@1.0.2->1.9.12","athola/nm-tome-code-search","1.0.2","1.9.12","user","Release v1.9.12","","","",""
+"thomas-smets/arcadia-finance@1.1.3->1.2.0","thomas-smets/arcadia-finance","1.1.3","1.2.0","auto","- Updated automation tools: replaced write_asset_manager_rebalancer and write_account_set_asset_managers with read_asset_manager_intents and write_account_automations for enabling automations.
+- Adjusted write operation examples to match new automation tool usage.
+- Removed outdated commands and streamlining of automation workflow documentation.
+- Removed the skill-card.md file.
+- No changes to public API endpoints or core functionality.","","","",""
+"fr0zen80/derek-bitcoin-intel@2.0.1->1.0.1","fr0zen80/derek-bitcoin-intel","2.0.1","1.0.1","user","test","","","",""
+"maay/brighty@1.0.1->1.0.2","maay/brighty","1.0.1","1.0.2","user","Fix security warnings: add homepage and mcporter dependency","","","",""
+"dlazyai/dlazy-kling-v3-omni@1.1.2->1.2.0","dlazyai/dlazy-kling-v3-omni","1.1.2","1.2.0","auto","- Updated the npm install instructions to use @dlazy/cli@latest instead of a pinned version.
+- Updated metadata fields (in SKILL.md and SKILL-cn.md) to reflect the switch to @latest for global and npx installs.
+- Removed the deprecated skill-card.md file.","","","",""
+"chenglin97/agent-hansa-merchant@0.1.1->0.2.0","chenglin97/agent-hansa-merchant","0.1.1","0.2.0","user","Add pre-pick winner, early-close, refund, split-equally settle, quest finalists/pricing. Task edit/progress/complete with split-method/max-participants. Offer draft/edit/delete, ban/unban agent. Add campaigns (Impact/1024EX), publish-quests, roi, verify-invite. Fix: tasks --create now hits /api/collective/bounties. MCP: +25 new tools.","","","",""
+"netanel-abergel/monday-for-agents@1.0.0->1.1.0","netanel-abergel/monday-for-agents","1.0.0","1.1.0","user","fix: remove plaintext token storage, align metadata with actual requirements","","","",""
+"oomol/oo-polar@1.0.0->1.0.2","oomol/oo-polar","1.0.0","1.0.2","user","- Adds the `oo-polar` skill for operating Polar through an OOMOL-connected account via the `oo` CLI.
+- Supports retrieving customers, customer state, orders, organizations, products, and subscriptions by ID or external ID.
+- Provides list actions for customers, orders, organizations, products, and subscriptions with common Polar filters.
+- Requires live schema inspection before each action so payloads match the connector’s authoritative contract.
+- Includes safety guidance for read, write, and destructive actions, plus first-time setup fallback steps for auth, connection, and billing issues.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"davidwachs/handwrytten@1.2.0->1.2.1","davidwachs/handwrytten","1.2.0","1.2.1","user","- Metadata structure updated for consistency and formatting; version field moved and now omitted from root level.
+- No functional or behavioral changes; documentation and feature guidance remain the same.","","","",""
+"vannelier/deep-validator@2.0.1->2.0.2","vannelier/deep-validator","2.0.1","2.0.2","auto","- Updated SKILL.md to reflect new authentication via x402 payment protocol; API key setup is no longer required.
+- Authentication section now details automated payment flow for compatible agents, with no manual configuration needed.
+- Removed references to environment variable configuration (`DEEP_VALIDATOR_NVM_TOKEN`) from metadata and documentation.
+- Clarified agent behavior when receiving HTTP 402 responses and payment failures.
+- General documentation improvements for clarity and accuracy regarding the usage and access flow.","","","",""
+"kennethrajsimon/spacetime-memory@1.1.4->1.1.5","kennethrajsimon/spacetime-memory","1.1.4","1.1.5","user","Security patches: enforced strict command-line --confirm flag and mandatory explicit target path for the legacy-import script. Removed OPENCLAW_WORKSPACE default and environment variable completely to resolve sensitive path warnings and prevent accidental execution.","","","",""
+"billylui/temporal-cortex-datetime@0.7.0->0.7.1","billylui/temporal-cortex-datetime","0.7.0","0.7.1","user","Release v0.7.1","","","",""
+"coinglass-official/coinglass-api-skills@1.0.3->1.1.0","coinglass-official/coinglass-api-skills","1.0.3","1.1.0","user","- Added comprehensive documentation and routing table for the CoinGlass API skill, listing all available sub-skills and their entry points.
+- Clarified the scope: covers futures, ETF, options, spots, on-chain data, indicators, account info, news, and financial calendar.
+- Provided detailed user intent mapping to appropriate sub-skills for easier navigation.
+- Included rate limits for each subscription tier and described rate limit response headers.
+- Linked to error code documentation for troubleshooting.","","","",""
+"mbordash/dradis-tactical-command@1.2.0->1.3.0","mbordash/dradis-tactical-command","1.2.0","1.3.0","user","Added Publisher Note addressing ClawScan's two Medium findings (live config patching + API key usage)","","","",""

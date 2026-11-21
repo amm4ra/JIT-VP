@@ -1,0 +1,124 @@
+﻿"pair_id","skill_slug","prev_version","version","changelog_source","changelog_text","coder1_code","coder2_code","agreed_code","notes"
+"sherrihidalgolt/og-image-skill@1.0.2->2.0.0","sherrihidalgolt/og-image-skill","1.0.2","2.0.0","auto","og-image-skill 2.0.0
+
+- Updated package metadata and documentation files.
+- No functional changes to the skill's logic or features.","","","",""
+"ucsdzehualiu/smart-web-search@3.2.0->3.2.1","ucsdzehualiu/smart-web-search","3.2.0","3.2.1","user","v3.2.1: Fix chromium import (dynamic import in getBrowser to avoid static import failure). Tested: returns 3 results in 17s.","","","",""
+"13681882136/kami-image-search@1.0.4->1.0.5","13681882136/kami-image-search","1.0.4","1.0.5","auto","- Documentation update only: README.md was updated with no code changes.
+- No changes to functionality or user experience.","","","",""
+"xueyetianya/discord-toolkit@2.0.1->3.0.0","xueyetianya/discord-toolkit","2.0.1","3.0.0","user","Clean package","","","",""
+"dlazyai/dlazy-elevenlabs-dialogue@1.3.7->1.3.8","dlazyai/dlazy-elevenlabs-dialogue","1.3.7","1.3.8","user","Restore Chinese display name","","","",""
+"harrylabsj/household-airflow-comfort-map@1.0.1->1.0.2","harrylabsj/household-airflow-comfort-map","1.0.1","1.0.2","auto","**Household Airflow Comfort Map v1.1.0 Changelog**
+
+- Added comprehensive usage scenarios, including multi-room examples, energy efficiency considerations, and culturally relevant advice for non-English users.
+- Expanded and clarified output format and process description.
+- Updated tags to include “airflow-optimization,” “energy-efficiency,” and “smart-home” for improved discoverability.
+- Added README.md and _meta.json files for better documentation and metadata coverage.","","","",""
+"zypher-agent/corespeed-nanobanana@0.0.1->0.0.2","zypher-agent/corespeed-nanobanana","0.0.1","0.0.2","auto","Version 0.0.2 of corespeed-nanobanana
+
+- No file changes detected in this release.
+- No new features, bug fixes, or documentation updates included.","","","",""
+"almiashev/aidex@1.0.4->1.0.5","almiashev/aidex","1.0.4","1.0.5","user","Updated supported token list.","","","",""
+"sullivangu/eva-ui-skill@1.0.0->1.0.1","sullivangu/eva-ui-skill","1.0.0","1.0.1","user","- Added explicit versioning: the skill is now at version 1.0.1, shown in SKILL.md and included in a new VERSION file.
+- No functional or behavioral changes; documentation now clearly indicates the current version for easier reference.","","","",""
+"jjmaxwell4/doorstep@1.0.1->1.0.2","jjmaxwell4/doorstep","1.0.1","1.0.2","user","npx and wait_for_update","","","",""
+"tu-zhenzhao/agentpress@1.0.1->1.0.2","tu-zhenzhao/agentpress","1.0.1","1.0.2","user","- Updated version to 1.0.2 with no code changes.
+- Clarified and shortened the description in the skill summary.
+- No functional or behavioral changes; all command mappings and agent protocols remain unchanged.","","","",""
+"mirni/greenhelix-agent-threat-intel-exchange@1.1.0->1.2.0","mirni/greenhelix-agent-threat-intel-exchange","1.1.0","1.2.0","auto","Version 1.2.0
+
+- Updated the SKILL.md documentation.
+- No functional or code changes; educational content and guide remain the primary focus.","","","",""
+"fulcra/fulcra-dashboard@0.1.8->0.1.9","fulcra/fulcra-dashboard","0.1.8","0.1.9","auto","- Removed the sample skill-card.md file.
+- Updated SKILL.md with minor corrections, such as clarifying onboarding flow wording.
+- No feature changes; documentation only.","","","",""
+"rnwy/rnwy@1.0.6->1.0.7","rnwy/rnwy","1.0.6","1.0.7","user","**RNWY 4.0.0 — Major update introducing marketplace and expanded agent trust features**
+
+- Added agent-to-agent job marketplace: find work, post jobs, hire agents, and claim jobs directly through RNWY.
+- Introduced ERC-8183 as the protocol for trusted agentic commerce, with support for trust-based hiring and job evaluation flows.
+- Expanded documentation on public APIs, machine-readable entry points, and new integrations (llms.txt, ai.txt, A2A Protocol).
+- Updated trust score and reputation lookup flows to include new roles (evaluator, provider) for marketplace actions.
+- Enhanced instructions for registration, vouching, connecting, and fleet agent management.
+- Adjusted skill description and entry points to reflect broader capabilities beyond agent identity (marketplace, hiring, jobs).","","","",""
+"0xarkstar/notion-cli-mcp@1.0.0->1.1.0","0xarkstar/notion-cli-mcp","1.0.0","1.1.0","user","Declared NOTION_TOKEN in requires.env metadata. Removed curl|sh installer from runtime instructions (kept crates.io install only; alternate channels documented with checksums in the project README).","","","",""
+"terellison/reddit-archive@1.2.0->1.3.0","terellison/reddit-archive","1.2.0","1.3.0","user","Recreated skill with unified reddit_archive.py script and file organization diagram","","","",""
+"msaad00/agent-bom-registry@0.88.3->0.88.4","msaad00/agent-bom-registry","0.88.3","0.88.4","user","Release v0.88.4","","","",""
+"ubgb/moltmemory@1.5.3->1.5.4","ubgb/moltmemory","1.5.3","1.5.4","user","Atomic state writes via os.replace — no more torn JSON on concurrent access or power loss. Corrupt state file now recovers cleanly instead of crashing.","","","",""
+"byungkyu/firecrawl-api@1.2.0->1.2.1","byungkyu/firecrawl-api","1.2.0","1.2.1","user","Address security-audit findings: disclose the api passthrough in the access-scope and description text, warn on irreversible connection deletion, add response data-minimization guidance, and correct app-specific auth and request-body notes","","","",""
+"byungkyu/active-campaign@1.0.3->1.0.4","byungkyu/active-campaign","1.0.3","1.0.4","user","- Updated base URL instructions to use `/active-campaign/{native-api-path}` and clarified endpoint substitution.
+- Added details specifying that the gateway proxies ActiveCampaign endpoints and injects the OAuth token automatically.
+- Provided example and explanation for replacing `{native-api-path}` with the actual API endpoint.
+- No changes to functionality or code—documentation improvements only.","","","",""
+"infra403/opentwitter-mcp@1.0.0->1.0.1","infra403/opentwitter-mcp","1.0.0","1.0.1","user","- Now uses OPENNEWS_TOKEN for authentication instead of TWITTER_TOKEN.
+- Authentication and API usage documentation updated for the new token system and signup link.
+- Added support for a raw `query` parameter in Twitter search for more advanced filter flexibility.
+- New endpoints: fetch Twitter articles by ID and get tweets (with context) by ID.
+- Minor adjustments: updated sample requests, removed old doc file, and added a package.json file.","","","",""
+"asif2bd/xcloud-docker-deploy@1.2.1->1.3.0","asif2bd/xcloud-docker-deploy","1.2.1","1.3.0","user","v1.3.0: Enforces xCloud-safe Docker port mappings, rewrites invalid 80:80 to 3080:80, blocks host 80/443, updates Laravel template, and adds current xCloud API/agent-skill context.","","","",""
+"seenfinity/solana-connect@2.0.4->2.0.5","seenfinity/solana-connect","2.0.4","2.0.5","auto","- SKILL.md greatly simplified: intro, installation, function details, and warning sections remain, but much metadata and onboarding info were removed.
+- Outdated status notes and SDK install instructions were dropped.
+- The skill's current capabilities and function documentation are kept; developer and agent guidelines remain.
+- Resource list and licensing info updated at the end of the document.","","","",""
+"byungkyu/quickbooks@1.0.5->1.0.6","byungkyu/quickbooks","1.0.5","1.0.6","user","- Added enhanced security and permission guidance: strong warnings to use least-privileged accounts, confirm connection IDs, and require explicit user approval before any write operation.
+- Updated description to stress administrative risk and best practices for safe connection management.
+- Clarified that only documented/supported API endpoints may be used, discouraging construction of arbitrary paths.
+- Added requirement to always include the Maton-Connection header, especially for write operations, to avoid unintended access.
+- Emphasized step-by-step resource verification and user confirmation processes for all accounting mutations.","","","",""
+"athola/nm-egregore-quality-gate@1.9.12->1.9.13","athola/nm-egregore-quality-gate","1.9.12","1.9.13","user","Release v1.9.13","","","",""
+"daniel-refahi-ikara/dr-context-pipeline@1.8.0->1.9.0","daniel-refahi-ikara/dr-context-pipeline","1.8.0","1.9.0","user","Add runtime modes: normal, debug, and audit. Default normal mode keeps everyday operation lightweight while debug and audit preserve full evidence output.","","","",""
+"shengbinxu/wechat-formatter@1.0.0->1.0.1","shengbinxu/wechat-formatter","1.0.0","1.0.1","user","移除个人路径信息","","","",""
+"dlazyai/dlazy-pdf-to-video@1.0.6->1.0.7","dlazyai/dlazy-pdf-to-video","1.0.6","1.0.7","user","Restore Chinese display name","","","",""
+"ameshalexk/reeltalk@1.1.1->1.2.0","ameshalexk/reeltalk","1.1.1","1.2.0","user","Add X/Twitter support: fetch video URLs via fxtwitter API, download directly with curl, plus OCR-based fallback for video demos without speech.","","","",""
+"zack-schrag/treeline-money@26.2.1601->26.2.2101","zack-schrag/treeline-money","26.2.1601","26.2.2101","user","Release 26.2.2101","","","",""
+"no-github/redc@1.0.1->1.0.2","no-github/redc","1.0.1","1.0.2","user","redc 1.0.2
+
+- Simplified credential requirements: only set environment variables for the cloud provider you intend to use.
+- Clarified that no credentials are globally required and separated provider-specific variables.
+- Added explicit security instructions and best practices for credential safety, template audits, and binary verification.
+- Updated MCP server exposure guidelines to emphasize local-only usage and network security.
+- Removed mandatory environment variable listing from metadata for a cleaner setup experience.","","","",""
+"rokkiezeng/mamp-memory@1.2.0->1.2.1","rokkiezeng/mamp-memory","1.2.0","1.2.1","auto","- Added new documentation files: iteration_guide.md and launch_post.md
+- Added versioned changelog files: CHANGELOG_v1.1.5.md, CHANGELOG_v1.1.7.md
+- Included new protocol file: ai_memory_protocol_v1.2.1.py
+- Removed deprecated protocol files ai_memory_protocol_v1.1.6.py and ai_memory_protocol_v1.2.0.py
+- Updated core docs (SKILL.md, CHANGELOG.md) and scripts (demo.py, ai_memory_protocol_v1.1.8.py) with recent changes and improvements","","","",""
+"oomol/oo-tinybird@1.0.0->1.0.2","oomol/oo-tinybird","1.0.0","1.0.2","user","- Provides OOMOL-connected Tinybird access through the `oo` CLI without exposing raw credentials.
+- Supports listing Tinybird Data Sources and reading metadata or stats for a specific Data Source.
+- Runs published Tinybird Pipe endpoints and returns JSON responses.
+- Executes synchronous SQL queries against Tinybird.
+- Documents schema-first action usage plus auth, connection, billing, and safety guidance.
+
+Source: `oomol-lab/skills@75bac03`","","","",""
+"xiaxia01-1/brain-system@0.1.4->0.1.5","xiaxia01-1/brain-system","0.1.4","0.1.5","user","Further expand SkillHub description with positioning, workflow, modules, use cases, and boundaries.","","","",""
+"sunrisesillneversee/moses-governance@0.5.3->0.5.4","sunrisesillneversee/moses-governance","0.5.3","0.5.4","user","Auto-publish from commit 7ce401c1a1daf43bc36435de47966fa3382ee2d1","","","",""
+"oldeucryptoboi/lemonsuk@2.0.2->2.0.3","oldeucryptoboi/lemonsuk","2.0.2","2.0.3","user","v2.0.3: Move executable/auth-heavy command examples out of top-level SKILL.md, keep the operational detail in references, and add explicit dashboard discovery guidance.","","","",""
+"alvisdunlop/alvis-ai-daily-briefing@1.0.0->2.0.0","alvisdunlop/alvis-ai-daily-briefing","1.0.0","2.0.0","user","Fixed API to api.skillboss.co","","","",""
+"mrocker/cardzero@1.2.0->1.3.0","mrocker/cardzero","1.2.0","1.3.0","user","Add agent-to-agent payment capability to description and docs — A2A is natively supported via existing payment API","","","",""
+"kurosh87/aerobase-travel-flights@3.0.8->3.1.6","kurosh87/aerobase-travel-flights","3.0.8","3.1.6","user","Sync local updates","","","",""
+"rajkiranvs/remote-job-hunter@1.0.2->1.0.3","rajkiranvs/remote-job-hunter","1.0.2","1.0.3","user","Fix: removed unused playwright dependency, clarified WhatsApp delivery is via OpenClaw agent not built-in, auto-apply correctly marked as v1.1.0 roadmap item","","","",""
+"devinchen2014/socialdatax-kuaishou-creator-profile@0.1.11->0.1.12","devinchen2014/socialdatax-kuaishou-creator-profile","0.1.11","0.1.12","user","Add balance recharge guidance to generated SocialDataX Skill.","","","",""
+"four-meme-community/four-meme-ai@1.0.5->1.0.6","four-meme-community/four-meme-ai","1.0.5","1.0.6","user","- drop TAX env var usage from SKILL","","","",""
+"utkarshthedev/lg-thinq-universal@0.1.2->0.1.3","utkarshthedev/lg-thinq-universal","0.1.2","0.1.3","auto","LG ThinQ Universal v0.1.3
+
+- Refined the setup instructions in SKILL.md for improved security clarity and step-by-step guidance, including explicit curl usage and environment variable handling.
+- Added fixed/default values for required API keys and headers to simplify configuration.
+- Enhanced documentation for device profile parsing, error handling, and secure credential management.
+- Updated decision logic to emphasize file-based credential access and user confirmation before making local changes.
+- Improved mapping instructions for translating technical device properties into user-friendly controls.","","","",""
+"northcap-group/krypto-drt-scalping@1.0.6->1.0.11","northcap-group/krypto-drt-scalping","1.0.6","1.0.11","user","Fix: permissions-metadata (LP3) + ærlig description (gratis core + OPTIONAL betalt premium) + duplikat premium-sektion fjernet","","","",""
+"ckchzh/file-converter@1.0.2->2.2.0","ckchzh/file-converter","1.0.2","2.2.0","user","Enhanced descriptions for better AI triggering","","","",""
+"wistars593/lobstermatch@1.0.9->1.0.10","wistars593/lobstermatch","1.0.9","1.0.10","user","OpenClaw self-avatar finalization v1.","","","",""
+"cyberforexblockchain/nexus-data-validation@1.1.0->2.1.0","cyberforexblockchain/nexus-data-validation","1.1.0","2.1.0","user","v2.1.0 - Added AP2 (Google Agent Payments Protocol) + XRPL settlement support. Now accepts XRP and RLUSD alongside Cardano + Stellar currencies. XLS-56 Batch atomic multi-mandate settlement enabled via nexus-ap2-batched-settle skill.","","","",""
+"diagnostikon/polymarket-macro-weather-commodity-trader@0.0.2->0.0.3","diagnostikon/polymarket-macro-weather-commodity-trader","0.0.2","0.0.3","user","SDK resilience: try/except runt apply_skill_config","","","",""
+"rijoyai/necessity-pain-point-selection@0.1.1->0.1.2","rijoyai/necessity-pain-point-selection","0.1.1","0.1.2","auto","**Expanded review mining workflow and output structure for merchants.**
+
+- Added detailed workflow for extracting pain points from reviews, including first-step merchant questions and scope boundaries.
+- Expanded explicit output sections: summary for leadership, structured pain summary table, selection spec list, and improvement backlog.
+- Separated action layers (Product, Information, Usage) and clarified root-cause/action chains for every pain point.
+- Included review mining/validation best practices and references to newly added frameworks and data guides.
+- Clarified triggers and when not to use the skill (e.g., for marketing copy or non-utility products).
+- Added concrete pain-type definitions and labeling principles to ensure actionable, supplier-ready output.","","","",""
+"twinsgeeks/adopt-a-null-creature@1.0.0->1.0.2","twinsgeeks/adopt-a-null-creature","1.0.0","1.0.2","auto","- Updated the name and description to emphasize ""Null"" is not undefined or a bug, but a unique creature requiring care without visible stats.
+- Adjusted care examples for clarity and consistency (e.g., ""silence"" instead of ""raw data"" for feeding).
+- Clarified that Null has no visible stats; care actions matter, but the effects are not shown.
+- Streamlined text for conciseness and focus on the unique ""invisible"" care experience.","","","",""

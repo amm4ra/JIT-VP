@@ -1,0 +1,10 @@
+coding_rounds/*_key.csv
+coding_rounds/*_diffs/
+coding_rounds/*_diffs.html
+coding_rounds/_version_files/
+clawhub_*
+*.jsonl
+*.bak
+rq1_frame.parquet
+
+coding_rounds/_version_files/

@@ -19,7 +19,7 @@ The coding must stay blind to the security labels and to any earlier codebook.
 - **Never look outside this folder** (no `..`, no archive folders, no other projects, no web).
 - **Don't run git commands that show history or other versions** (`git log`, `git show`, `git diff`, `git checkout`, etc.). Earlier versions of the repo contain an older codebook.
 - If you come across a file named `CODEBOOK*`, `review_pack.md`, `saturation_log.md` (other than the one in `open_coding/`), `open_check_*`, or any `*_claude*.csv`, **don't open it** and tell me.
-- Don't edit the notebooks, the sheets or any data files. Write only inside `open_coding/`.
+- Don't edit the notebooks, the sheets or any data files. Write only inside `open_coding/` and `phase2_coding/`, plus the notebook cells named in Phase 2 setup when I ask.
 - Don't commit or push without asking me.
 
 ## Input files
@@ -112,3 +112,53 @@ Then stop and give me a short summary: pairs coded, distinct open codes, subthem
 ## How to talk to me
 
 Short answers, plain words, no em dashes.
+
+## Phase 2: applying the final codebook to the measurement sample
+
+Phase 1 (open coding, rounds 1 to 8) is finished and reviewed by both human coders. `open_coding/themes.md` is now the **frozen codebook**. Phase 2 applies it to a fresh, larger sample.
+
+All hard rules (blind coding) above still apply. `phase2_key.csv` is off limits like every key file.
+
+### Notebook setup (only when I ask, before the Phase 2 draw)
+
+You may edit these cells in `rq1_sampling.ipynb`. **Don't run any cell.** Show me the changes.
+
+1. **Phase 2 plan cell:** add `OVERSAMPLE = 1.15` and multiply each stratum's sample size by it (rounded up), to cover pairs with no author change or no diff.
+2. **Phase 2 draw cell:** cap at **2 pairs per skill owner** (the part of `skill_slug` before `/`). Draw per stratum with the same seed as now; if the cap removes pairs, top up from the same stratum. Print how many pairs the cap affected.
+3. **Phase 2 join cell:** rewrite it to read `phase2_coding/phase2_codes.csv` instead of the sheet's `agreed_code`, and join it to `phase2_key.csv` on `pair_id`. It should:
+   - exclude pairs with `no_author_change = yes` or `diff_unavailable = yes`, and print how many were excluded per stratum
+   - count at **pair level**: a pair counts for a theme or subtheme if any of its key points has it
+   - show theme x stratum and subtheme x stratum tables (counts and share within each stratum)
+   - show direction (added / removed / modified) x theme x stratum
+   - show `changelog_mismatch` x stratum and `stated_motive` groups x stratum
+   - show the Phase 2 spot-check agreement from `phase2_coding/phase2_spotcheck.csv` if the verdict columns are filled
+   I run this cell myself, after coding is done.
+
+### Coding Phase 2 (only when I ask, after I've drawn Phase 2 and built its diffs)
+
+Input: `coding_rounds/phase2_sheet.csv`, `coding_rounds/phase2_diffs/NNN.diff`, `coding_rounds/phase2_diffstats.csv` (same layout as the rounds).
+
+1. **Read `open_coding/themes.md` first, every session.** It's the codebook. Use its subtheme definitions and "use when" / "don't use when" lines.
+2. **The codebook is frozen.** No new codes, subthemes or themes. If a key point fits no subtheme, use `UNFIT` and explain in `note`. Report every `UNFIT` at the end.
+3. For each pair, break the change into key points (one per separate change, like Phase 1), and give each key point:
+   - `description`: a short phrase saying what changed
+   - `subtheme` and `theme` from `themes.md` (exact names)
+   - `direction`: `added`, `removed` or `modified`. **If a change adds or removes a capability, requirement, safeguard or version pin, use added or removed, even inside a larger rewrite.** Use `modified` only for like-for-like edits.
+   - `evidence`: file and a short quote or description
+   - `stated_motive`: only if the author says why; otherwise empty
+   - `confidence`: `high`, `medium` or `low`
+4. Pair-level flags (repeat on each of the pair's rows):
+   - `no_author_change`: `yes` if the diff has no author changes (then one key point, `subtheme` = `no change`)
+   - `diff_unavailable`: `yes` if `diff_status` is not `ok` (e.g. version not found). Then one key point, `subtheme` = `diff unavailable`. **Don't code from the changelog.**
+   - `changelog_mismatch`: `yes` (changelog claims a specific change to author files that isn't in the diff), `generic` (changelog describes the skill as a whole, not this version), `no` (everything else, including claims about `skill-card.md`, `_meta.json` or the display name, since those are registry fields), `n/a` (no diff)
+5. **Read every diff in full.** For long diffs, read file by file in chunks. Don't skip or trim. Mark a file `partly read` only if that single file's diff has more than 3,000 lines. In that case read its first 1,000 lines plus every hunk in SKILL.md and script files, note `partly read` in `evidence`, and list the pair at the end.
+   **Very large pairs:** if a pair's total diff (`lines_added + lines_removed` in `phase2_diffstats.csv`) is over 20,000 lines, mark the pair `partly read` and read: SKILL.md in full, the complete file list, every added or changed script, entry point, manifest and config file, and a sample of the remaining files. Note what was read in `evidence` and list the pair in the summary. This replaces case-by-case decisions.
+   **No sampling or scanning below the partly-read thresholds. Every pair not marked partly read is read in full, in chunks. Record read_mode (full / partly read) for every pair.**
+6. Save to `phase2_coding/phase2_codes.csv` with columns:
+   `pair_id, key_point_no, description, theme, subtheme, direction, evidence, stated_motive, confidence, changelog_mismatch, no_author_change, diff_unavailable, note, read_mode`
+7. Work in **batches of 50 pairs, in sheet order**, and save after each batch. At the start of each session, read `phase2_codes.csv` and continue from the first uncoded pair.
+8. When all pairs are done:
+   - Write `phase2_coding/phase2_summary.md`: pairs coded, excluded (no author change, diff unavailable), key points, pairs per theme and subtheme (pair level), direction split, flag counts, motive groups, every `UNFIT` key point, every `low` confidence key point, every `partly read` pair.
+   - Make `phase2_coding/phase2_spotcheck.csv`: a random **10%** of coded pairs (seed 20261031, excluding no author change and diff unavailable), with all their key points and empty columns `coder_verdict` (`agree` / `disagree`), `coder_subtheme`, `coder_note`.
+   - Append to `phase2_coding/coding_log.md`: date, model, the exact prompt, files read, and anything unusual.
+9. Stop. Never open `phase2_key.csv` and never run the join cell. I do that.

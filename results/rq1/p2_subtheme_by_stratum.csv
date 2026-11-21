@@ -1,0 +1,17 @@
+﻿category,theme,introduced,fixed,no change,all,all (weighted)
+Documentation content,Upkeep and presentation,"29.1% [24.8%, 33.8%]","24.5% [20.5%, 29.0%]","38.5% [33.8%, 43.5%]","30.7% [28.1%, 33.4%]",35.4%
+Feature and capability scope,Functional behavior,"32.9% [28.4%, 37.7%]","20.4% [16.7%, 24.6%]","29.9% [25.6%, 34.7%]","27.7% [25.3%, 30.4%]",29.3%
+Release status and bookkeeping,Upkeep and presentation,"15.8% [12.5%, 19.8%]","16.2% [12.9%, 20.2%]","18.8% [15.2%, 23.0%]","16.9% [14.9%, 19.2%]",18.0%
+Agent behavior guardrails,Safety controls and risk communication,"17.9% [14.4%, 22.0%]","17.0% [13.6%, 21.1%]","18.0% [14.5%, 22.1%]","17.6% [15.5%, 19.9%]",17.8%
+Metadata declarations,Configuration and declared requirements,"14.8% [11.6%, 18.7%]","30.2% [25.8%, 34.9%]","13.8% [10.7%, 17.6%]","19.6% [17.4%, 22.0%]",15.9%
+Description and naming,Upkeep and presentation,"15.8% [12.5%, 19.8%]","11.6% [8.8%, 15.2%]","12.5% [9.6%, 16.2%]","13.3% [11.5%, 15.4%]",12.9%
+Safety and transparency guidance,Safety controls and risk communication,"9.7% [7.1%, 13.0%]","15.2% [12.0%, 19.1%]","11.7% [8.9%, 15.3%]","12.2% [10.4%, 14.2%]",11.8%
+Installation and dependencies,Dependencies and external reach,"16.8% [13.5%, 20.9%]","10.3% [7.7%, 13.7%]","10.4% [7.7%, 13.9%]","12.5% [10.8%, 14.6%]",11.4%
+Credentials and configuration values,Configuration and declared requirements,"12.5% [9.6%, 16.1%]","13.7% [10.6%, 17.4%]","9.4% [6.8%, 12.7%]","11.9% [10.1%, 13.8%]",10.4%
+Code implementation changes,Functional behavior,"13.5% [10.5%, 17.3%]","6.2% [4.2%, 9.0%]","9.6% [7.1%, 13.0%]","9.8% [8.2%, 11.6%]",9.8%
+Package file housekeeping,Package composition,"8.4% [6.1%, 11.6%]","7.0% [4.8%, 9.9%]","8.6% [6.2%, 11.8%]","8.0% [6.6%, 9.7%]",8.4%
+External services and endpoints,Dependencies and external reach,"9.4% [6.9%, 12.7%]","8.2% [5.9%, 11.4%]","7.3% [5.1%, 10.3%]","8.3% [6.9%, 10.1%]",7.7%
+Code-level safety checks,Safety controls and risk communication,"8.4% [6.1%, 11.6%]","10.1% [7.4%, 13.4%]","7.0% [4.9%, 10.0%]","8.5% [7.0%, 10.2%]",7.6%
+Personal data handling,Safety controls and risk communication,"4.6% [2.9%, 7.1%]","7.2% [5.0%, 10.2%]","4.7% [3.0%, 7.3%]","5.5% [4.3%, 7.0%]",5.0%
+Testing assets,Package composition,"5.4% [3.5%, 8.1%]","3.6% [2.2%, 6.0%]","4.9% [3.2%, 7.6%]","4.6% [3.6%, 6.0%]",4.9%
+Payments and monetization,Monetization,"3.6% [2.1%, 5.9%]","3.9% [2.4%, 6.3%]","4.9% [3.2%, 7.6%]","4.1% [3.1%, 5.4%]",4.6%

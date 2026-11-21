@@ -1,0 +1,9 @@
+﻿round,pairs,key_points,new_codes,codes_so_far,new_codes_pct,new_subthemes_final_codebook,no_author_change,meets_rule
+phase1_round01,50,115,79,79,1.0,15,6,False
+phase1_round02,50,107,30,109,0.27522935779816515,1,2,False
+phase1_round03,50,97,15,124,0.12096774193548387,0,8,False
+phase1_round04,50,102,10,134,0.07462686567164178,0,7,False
+phase1_round05,50,112,4,138,0.028985507246376812,0,4,True
+phase1_round06,50,104,1,139,0.007194244604316547,0,10,True
+phase1_round07,50,108,2,141,0.014184397163120567,0,7,True
+phase1_round08,50,117,3,144,0.020833333333333332,0,4,True

@@ -1,0 +1,51 @@
+﻿row,pair_id,diff_status,files_changed,lines_added,lines_removed,changed_files
+1,barbaraledbettergq/blog-image-claw-skill@1.2.0->1.3.0,ok,2,12,10,blogimageclaw.js; README.md
+2,hmyaoyuan/anima@1.0.2->1.1.0,ok,13,1025,190,SKILL.md; package-lock.json; package.json; run.js; send_debug_frame.js; src/batch_director.js; src/director.js; src/send_video_pro.js; temp/list.txt; temp/script_1770887618760.json; temp/script_1770888098189.json; temp/script_1770888257781.json; test_script.json
+3,dlazyai/dlazy-qwen-audio-clone@1.3.4->1.3.5,ok,2,2,2,SKILL.md; SKILL-cn.md
+4,capuzr/moltbank@0.1.1->0.1.2,ok,3,18,9,SKILL.md; README.md; skill.json
+5,oomol/oo-files-com@1.0.0->1.0.1,ok,1,2,1,SKILL.md
+6,peteremiljensen/goodwallet@1.4.3->1.5.3,ok,4,33,204,SKILL.md; references/advanced-signing.md; references/chains.md; references/config.md
+7,pondsi/infinitycontext@1.6.4->1.6.5,ok,8,118,31,SKILL.md; CHANGELOG.md; checksums.txt; README.md; references/architecture.md; scripts/secure_fs.py; scripts/session_to_sqlite.py; 说明.md
+8,marcindudekdev/wp-multi-tool@1.4.1->1.5.1,ok,0,0,0,
+9,iret77/palaia@2.0.11->2.0.12,ok,4,40,15,CHANGELOG.md; palaia/__init__.py; pyproject.toml; README.md
+10,oomol/oo-indiegogo@1.0.0->1.0.2,ok,1,1,1,SKILL.md
+11,athola/nm-archetypes-architecture-paradigm-hexagonal@1.8.2->1.8.3,ok,0,0,0,
+12,searchworld/okx-sentiment-tracker@1.3.9->1.4.0,ok,1,2,2,SKILL.md
+13,oomol/oo-accredible-certificates@1.0.1->1.0.3,ok,1,1,1,SKILL.md
+14,tylerdotai/permission-vending-machine@1.0.4->1.1.0,ok,4,492,12,pyproject.toml; README.md; src/pvm/cli.py; src/pvm/setup_wizard.py
+15,chriscox/docs-sync@1.0.2->1.0.3,ok,0,0,0,
+16,shivamanupadi/otterkit-tunnel@1.2.0->1.2.1,ok,1,9,10,SKILL.md
+17,leoyeai/myclaw-backup@1.6.2->1.7.0,ok,2,49,0,SKILL.md; scripts/restore.sh
+18,xueyetianya/bash-themes@1.0.4->1.0.5,ok,2,103,0,SKILL.md; scripts/script.sh
+19,chrischall/gemini-mcp@2.1.0->2.1.1,ok,0,0,0,
+20,kooui/aesthetic-scorer@1.4.5->1.4.6,ok,6,490,334,SKILL.md; config.json; README.md; scripts/comprehensive_score.py; scripts/score_improved_predictor.py; scripts/score_nima.py
+21,oomol/oo-hub-planner@1.0.0->1.0.2,ok,1,1,1,SKILL.md
+22,hexavi8/smart-learner@1.0.0->1.0.1,ok,1,48,24,SKILL.md
+23,ckchzh/bookshelf@1.0.0->1.0.1,ok,1,10,0,SKILL.md
+24,salomonhenao/veritier-fact-checking@2.1.1->2.1.2,ok,18,6,5,SKILL.md; javascript/mcp/mcp_test.mjs; javascript/quickstart/extract_text.mjs; javascript/quickstart/verify_text.mjs; javascript/use-cases/batch_verify.mjs; javascript/use-cases/disinformation_shield.mjs; javascript/use-cases/hallucination_audit.mjs; javascript/use-cases/private_references.mjs; javascript/use-cases/verify_article_url.mjs; python/quickstart/extract_text.py; python/quickstart/test_integration.py; python/quickstart/verify_text.py; python/use-cases/batch_verify.py; python/use-cases/disinformation_shield.py; python/use-cases/hallucination_audit.py; python/use-cases/private_references.py; python/use-cases/verify_article_url.py; README.md
+25,samledger67-dotcom/kpi-alert-system@99.0.1->98.0.0,ok,0,0,0,
+26,ericsantos/messaging@0.14.2->0.14.3,ok,2,27,17,SKILL.md; references/api.md
+27,endgegnerbert-tech/muninn@2.3.1->2.3.7,ok,3,6,6,SKILL.md; package-lock.json; package.json
+28,chrischall/zola-mcp@1.4.2->1.4.3,ok,0,0,0,
+29,coolhackboy/poyo-seedream-4-5@1.0.0->1.0.1,ok,1,8,2,SKILL.md
+30,vishalgojha/india-location-normalizer@1.0.0->1.0.1,ok,2,94,2,SKILL.md; references/india-location-aliases-v1.json
+31,earlvanze/oauth-coder-bridge@1.0.0->1.1.0,ok,1,445,110,scripts/oauth-coder-bridge.py
+32,kirbyingithub/hiq-cortex@1.2.3->1.2.4,ok,2,3,3,SKILL.md; package.json
+33,whooshinglander/feelslikeclaude@1.0.0->1.0.1,ok,2,24,0,SKILL.md; README.md
+34,dtsola/xiaoyaoclaw-beautify-github-readme@1.0.5->1.0.6,ok,5,8,58,SKILL.md; agents/openai.yaml; README.en.md; README.md; references/showcase-contribution.md
+35,silbosu/vdoob@1.3.5->2.0.0,ok,1,903,206,SKILL.md
+36,simmer/polymarket-elon-tweets@1.3.2->1.3.3,ok,2,6,3,SKILL.md; elon_tweets.py
+37,harry5556/chainstream-defi@1.1.6->1.1.7,ok,4,33,6,CLAUDE.md; README.project.md; shared/authentication.md; shared/x402-payment.md
+38,jaredforreal/glm-image-gen@1.0.3->1.0.4,ok,1,0,2,SKILL.md
+39,aaron-he-zhu/message-house-builder@17.0.0->18.0.0,ok,1,4,4,SKILL.md
+40,nickflach/kannaka-memory@1.1.0->1.1.1,ok,3,280,3,SKILL.md; README.md; references/dolt.md
+41,dnsdoctor/dns-doctor@1.7.1->1.7.2,ok,1,45,12,SKILL.md
+42,ijaack/evalanche@1.7.6->1.7.7,ok,0,0,0,
+43,xueyetianya/orders@3.4.0->3.4.1,ok,0,0,0,
+44,baofeng-tech/aisa-twitter-post-engage@1.0.2->1.0.3,ok,7,72,117,SKILL.md; README.md; references/engage_twitter.md; references/post_twitter.md; scripts/twitter_client.py; scripts/twitter_engagement_client.py; scripts/twitter_oauth_client.py
+45,andreasnlarsen/whoop-cli@0.1.3->0.1.4,ok,1,1,1,SKILL.md
+46,oomol/oo-crisp@1.0.0->1.0.1,ok,1,2,1,SKILL.md
+47,qryma888/qryma-search@1.1.6->1.1.7,ok,1,0,4,SKILL.md
+48,atomicmail/atomicmail@0.3.12->0.3.13,ok,14,382,26,SKILL.md; lib/esm/lib/agent/jmap/help-content/cron.d.ts; lib/esm/lib/agent/jmap/help-content/cron.js; lib/esm/lib/agent/jmap/help-content/index.d.ts; lib/esm/lib/agent/jmap/help-content/index.js; lib/esm/lib/agent/jmap/help-content/troubleshooting.d.ts; lib/esm/lib/agent/jmap/help-content/troubleshooting.js; lib/esm/lib/core/read-npm-package-readme.js; lib/esm/skill/cli.js; lib/shared/help/readme_stub.md; lib/shared/help/topics/cron.md; lib/shared/messages/errors.json; lib/shared/skill/manifest.json; lib/shared/skill/SKILL.template.md
+49,ckchzh/azuredatastudio@2.3.3->2.3.4,ok,0,0,0,
+50,lucioliu/relic-soul-chip@0.1.4->0.1.5,ok,0,0,0,

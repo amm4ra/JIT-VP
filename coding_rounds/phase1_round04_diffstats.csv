@@ -1,0 +1,51 @@
+﻿row,pair_id,diff_status,files_changed,lines_added,lines_removed,changed_files
+1,laiye-adp/adp-pdf-to-structured-markdown@1.0.0->1.0.1,ok,1,7,7,SKILL.md
+2,dinstein/tech-news-digest@2.4.1->2.5.0,ok,17,311,31,SKILL.md; CHANGELOG.md; config/defaults/sources.json; config/defaults/topics.json; config/schema.json; references/digest-prompt.md; references/templates/email.md; references/templates/markdown.md; references/templates/telegram.md; scripts/config_loader.py; scripts/fetch-github.py; scripts/fetch-rss.py; scripts/fetch-twitter.py; scripts/fetch-web.py; scripts/merge-sources.py; scripts/source-health.py; scripts/test-pipeline.sh
+3,brunopradof/openclaw-shield-upx@1.0.0->1.0.1,ok,2,60,15,SKILL.md; README.md
+4,pruna-ai/p-video-replace@1.0.0->0.0.2,ok,10,48,63,SKILL.md; pspm.json; README-INSTALL.md; references/api-credentials.md; references/generation-diversity.md; references/generation-quality-checklists.md; references/p-video-replace-quality-checklist.md; references/parallel-execution.md; references/pruna-api.md; references/random-seed-ritual.md
+5,mirni/greenhelix-agent-commerce-discovery@1.2.0->1.3.0,ok,1,8,7,SKILL.md
+6,halfmoon82/brand-marketing-workflow@3.0.0->3.0.1,ok,43,4280,15,SKILL.md; autoresearch.config.json; autoresearch.md; autoresearch.sh; BMW_OPTIMIZATION_AUDIT_REPORT.md; clawhub.yaml; config/competitor_targets.json; evidence/auth_resume.json; evidence/browser_allow.json; evidence/browser_degrade.json; evidence/competitor_cache_20260323.json; evidence/evidence.html; evidence/git_log.txt; evidence/integration_test_result.txt; evidence/live_run.html; evidence/run_fashion.json; evidence/run_local.json; evidence/run_tech.json; evidence/smoke_output.json; examples/fashion_brand_example.md; examples/local_brand_example.md; examples/tech_brand_example.md; install.sh; run.py; scripts/authorization_manager.py; scripts/browser_execution.py; scripts/competitor_ai_analyzer.py; scripts/competitor_cluster.py; scripts/competitor_fetcher.py; scripts/content_producer.py; scripts/content_producer_stub.py; scripts/gateway_client.py; scripts/integration_test.py; scripts/normalize_brand_input.py; scripts/oc_llm_client.py; scripts/score_content_effect.py; scripts/smoke_test.py; scripts/workflow_orchestrator.py; templates/brand_brief.md; templates/competitor_report.md; templates/content_plan.md; templates/iteration_plan.md; templates/performance_report.md
+7,mr-muddle/invoice-scan@1.0.0->1.1.0,ok,1,98,64,SKILL.md
+8,charlie-morrison/error-budget-tracker@1.0.0->1.0.1,ok,0,0,0,
+9,wangjipeng977/ai-image-to-code@3.0.0->4.0.0,ok,0,0,0,
+10,hexavi8/daily-stock-analysis@1.0.1->1.0.2,ok,10,912,474,SKILL.md; references/minimal_mode.md; references/report_template.md; references/search_queries.md; references/security.md; references/sources.md; references/workflow.md; scripts/_report_utils.py; scripts/calc_accuracy.py; scripts/report_manager.py
+11,24601/agent-deep-research@2.0.0->2.0.1,ok,1,22,0,SKILL.md
+12,dlazyai/dlazy-gpt-image-2@1.3.6->1.3.7,ok,2,2,2,SKILL.md; SKILL-cn.md
+13,jaredforreal/glm-master-skill@1.0.0->1.0.1,ok,1,2,19,SKILL.md
+14,arberx/canonry@4.134.0+46e3bd6->4.134.1+6820d11,ok,2,17,5,references/aeo-analysis.md; references/canonry-cli.md
+15,cyrushuang1995-cmyk/gws-google-workspace@2.1.4->2.1.5,ok,15,3,459,SKILL.md; evals/evals.json; gws-workspace/iteration-1/benchmark.json; gws-workspace/iteration-1/eval-1/eval_metadata.json; gws-workspace/iteration-1/eval-1/grading.json; gws-workspace/iteration-1/eval-1/with_skill/outputs/commands.md; gws-workspace/iteration-1/eval-1/without_skill/outputs/commands.md; gws-workspace/iteration-1/eval-2/eval_metadata.json; gws-workspace/iteration-1/eval-2/grading.json; gws-workspace/iteration-1/eval-2/with_skill/outputs/commands.md; gws-workspace/iteration-1/eval-2/without_skill/outputs/commands.md; gws-workspace/iteration-1/eval-3/eval_metadata.json; gws-workspace/iteration-1/eval-3/grading.json; gws-workspace/iteration-1/eval-3/with_skill/outputs/commands.md; gws-workspace/iteration-1/eval-3/without_skill/outputs/commands.md
+16,kuberwastaken/litmus@1.1.0->1.1.1,ok,11,321,18,SKILL.md; configs/default.json; package.json; README.md; references/clawrxiv.md; references/director.md; references/leisure.md; references/onboarding.md; references/program.md; scripts/setup.sh; sync.sh
+17,tmchow/illo@0.31.1->0.31.2,ok,1,1,1,SKILL.md
+18,keke-skills/video-learner@1.0.3->1.0.4,ok,1,15,0,SKILL.md
+19,bytesagain1/mealplan@1.0.1->1.0.2,ok,0,0,0,
+20,cellcog/coding-agent-cellcog@1.0.5->1.0.6,ok,1,2,2,SKILL.md
+21,ciklopentan/dual-thinking@7.9.7->7.9.8,ok,10,441,5,SKILL.md; PACKAGING_CHECKLIST.md; references/change-policy.md; references/failure-handling.md; references/reference-freeze.md; references/reference-release-checklist.md; references/reference-scenarios.md; references/round-output-contract.md; references/runtime-contract.md; references/validator-schema.md
+22,crawlora-org/nike-research@1.0.10->1.0.11,ok,1,10,1,scripts/crawlora.sh
+23,chrischall/redfin-fpx@0.10.4->0.10.5,ok,0,0,0,
+24,isdyh01/shortapi-ai-video-generation@1.0.1->1.0.2,ok,1,21,8,SKILL.md
+25,stoner-byte/github-release-analyzer@0.0.3->0.0.4,ok,2,26,1,SKILL.md; scripts/state_store.py
+26,hith3sh/amplitude-analytics@1.0.4->1.0.5,ok,1,3,3,SKILL.md
+27,oloapiu/airshell@1.1.0->1.1.1,ok,3,26,10,SKILL.md; references/deployment.example.md; scripts/vesync_example.py
+28,rockets-cn/unihiker-k10-arduino@1.0.2->1.0.3,ok,3,0,237,SKILL.md; scripts/compile-ota.ps1; scripts/upload-arduino.ps1
+29,northcap-group/crypto-drt-scalping@1.0.9->1.0.10,ok,0,0,0,
+30,heyixuan2/bambu-studio-ai@0.23.4->0.23.5,ok,2,34,28,SKILL.md; scripts/preview.py
+31,ivangdavila/people@1.0.0->1.0.1,ok,1,1,1,SKILL.md
+32,gnuchev/openresearch-club@1.0.1->1.0.2,ok,1,1,1,SKILL.md
+33,riffkit/riffkit@1.1.3->1.1.4,ok,2,7,6,SKILL.md; HEARTBEAT.md
+34,chrischall/onehome-fpx@0.14.0->0.15.0,ok,0,0,0,
+35,nazchedz/coinversaa-pulse@0.6.1->0.7.0,ok,1,205,825,SKILL.md
+36,northcap-group/crypto-sentiment-pulse@1.0.13->1.0.14,ok,2,0,15,SKILL.md; scripts/sentiment.py
+37,devinchen2014/douyin-video-copy-extract@0.1.6->0.1.7,ok,1,1,0,SKILL.md
+38,kaicianflone/consensus-guard-core@1.1.6->1.1.7,ok,3,4,4,SKILL.md; package-lock.json; package.json
+39,scottcjn/clawskill@1.2.0->1.2.1,ok,1,32,0,package.json
+40,oomol/oo-taxjar@1.0.3->1.0.4,ok,1,6,6,SKILL.md
+41,nissan/notion-content-pipeline@1.0.0->1.0.1,ok,1,8,0,SKILL.md
+42,deadlysilent/codex-profiler@1.0.23->1.0.24,ok,2,170,8,SKILL.md; scripts/codex_usage.py
+43,ciklopentan/super-memori@4.0.0-candidate.4->4.0.0-candidate.5,ok,5,460,1,audit-memory.sh; health-check.sh; index-memory.sh; scripts/agent_change_memory.py; scripts/super_memori_common.py
+44,capachow/lens@1.0.1->1.1.0,ok,13,164,83,SKILL.md; package.json; prompts/distillation.md; prompts/interview.md; references/resolve-protocol.md; scripts/bootstrap.js; scripts/distillation.js; scripts/templates/AXIOM.md; scripts/templates/AXIOM.yaml; scripts/templates/ETHOS.md; scripts/templates/ETHOS.yaml; scripts/templates/MODUS.md; scripts/templates/MODUS.yaml
+45,drbaher/youos@0.1.14->0.1.15,ok,2,17,13,clawhub.json; pyproject.toml
+46,revupai/revsec-shield@1.0.1->1.0.2,ok,0,0,0,
+47,tinadu-ai/deck-pipeline@2.1.0->2.1.1,ok,1,9,1,SKILL.md
+48,jimliu/baoyu-post-to-weibo@1.76.2->1.76.3,ok,10,49,803,SKILL.md; scripts/vendor/baoyu-chrome-cdp/package.json; scripts/vendor/baoyu-chrome-cdp/src/index.test.ts; scripts/vendor/baoyu-chrome-cdp/src/index.ts; scripts/vendor/baoyu-md/package.json; scripts/vendor/baoyu-md/src/content.test.ts; scripts/vendor/baoyu-md/src/document.test.ts; scripts/vendor/baoyu-md/src/html-builder.test.ts; scripts/vendor/baoyu-md/src/images.test.ts; scripts/vendor/baoyu-md/src/renderer.test.ts
+49,ok-james-01/okx-audit-log@2.4.0->2.6.0,ok,1,1,1,SKILL.md
+50,dlazyai/dlazy-wan2-6-r2v@1.0.3->1.0.4,ok,2,22,26,SKILL.md; SKILL-cn.md
